@@ -1,0 +1,3 @@
+joblib==0.12.2
+beautifulsoup4==4.6.3
+mechanize==0.3.6
