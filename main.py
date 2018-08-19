@@ -81,9 +81,13 @@ def get_times(prof_name):
     with open('data.pkl', 'rb') as f:
         data = pickle.load(f)
 
+    details = {prof_name: []}
+
     for prof in data:
-        if prof.name == prof_name:
-            return prof.status()
+        if prof.name.lower() == prof_name.lower():
+            details[prof_name].append(prof.status())
+
+    return details
 
 def populate_data():
     # Browser
