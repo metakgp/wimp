@@ -47,9 +47,7 @@ def parse_html(dep):
     html = soup.find_all('table')[4]
 
     table_data = [[cell.text for cell in row("td")] for row in BeautifulSoup(str(html), 'lxml')("tr")]
-    table_data = table_data[2:]
-
-    table_data = [row for row in table_data if len(row) == 7]
+    table_data = [row for row in table_data[2:] if len(row) == 7]
     td = []
 
     for row in table_data:
@@ -73,7 +71,7 @@ def get_dep():
         deps = f.read().split('\n')
 
     results = Parallel(n_jobs=len(deps), verbose=1, backend="threading")(map(delayed(parse_html), deps))
-    results = [result for result in results if result is not None]
+    results = (result for result in results if result is not None)
 
     return results
 
@@ -114,7 +112,7 @@ def populate_data():
     br.set_debug_redirects(True)
     br.set_debug_responses(True)
 
-    br.addheaders = [ ( 'User-agent', 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0' ), ('Cookie','JSESSIONID=%s' % cookie)]
+    br.addheaders = [('User-agent', 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0'), ('Cookie','JSESSIONID=%s' % cookie)]
 
     results = get_dep()
 
