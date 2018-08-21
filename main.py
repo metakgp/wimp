@@ -24,7 +24,39 @@ class Prof(object):
         for slot in self.slots:
             times.append(get_time(slot))
 
-        return [times, self.venues]
+        return [[time for time in times if time], self.venues]
+
+
+# CaseInsensitiveDict class inherited from dict
+class CaseInsensitiveDict(dict):
+
+    """Basic case insensitive dict with strings only keys."""
+
+    proxy = {}
+
+    def __init__(self, data):
+        self.proxy = dict((k.lower(), k) for k in data)
+        for k in data:
+            self[k] = data[k]
+
+    def __contains__(self, k):
+        return k.lower() in self.proxy
+
+    def __delitem__(self, k):
+        key = self.proxy[k.lower()]
+        super(CaseInsensitiveDict, self).__delitem__(key)
+        del self.proxy[k.lower()]
+
+    def __getitem__(self, k):
+        key = self.proxy[k.lower()]
+        return super(CaseInsensitiveDict, self).__getitem__(key)
+
+    def get(self, k, default=None):
+        return self[k] if k in self else default
+
+    def __setitem__(self, k, v):
+        super(CaseInsensitiveDict, self).__setitem__(k, v)
+        self.proxy[k.lower()] = k
 
 
 # Get time from slot
@@ -48,7 +80,7 @@ def parse_html(dep):
 
     table_data = [[cell.text for cell in row("td")] for row in BeautifulSoup(str(html), 'lxml')("tr")]
     table_data = [row for row in table_data[2:] if len(row) == 7]
-    td = []
+    td = CaseInsensitiveDict({})
 
     for row in table_data:
         prof_names = row[2].split(',')
@@ -56,12 +88,15 @@ def parse_html(dep):
         venues = row[6].split(',')
 
         for prof_name in prof_names:
-            td.append(Prof(prof_name, slots, venues))
+            if prof_name not in td:
+                td[prof_name] = [Prof(prof_name, slots, venues).status()]
 
-    table_data = td
+            else:
+                td[prof_name].append(Prof(prof_name, slots, venues).status())
 
-    if len(table_data):
-        return table_data
+
+    if len(td):
+        return td
 
     else:
         print('No records found for %s' % dep)
@@ -71,21 +106,19 @@ def get_dep():
         deps = f.read().split('\n')
 
     results = Parallel(n_jobs=len(deps), verbose=1, backend="threading")(map(delayed(parse_html), deps))
-    results = (result for result in results if result is not None)
+    results = [result for result in results if result]
+    _results = CaseInsensitiveDict({})
 
-    return results
+    for result in results:
+        _results.update(result)
+
+    return _results
 
 def get_times(prof_name):
-    with open('data.pkl', 'rb') as f:
-        data = pickle.load(f)
+    with open('data.json', 'rb') as f:
+        data = CaseInsensitiveDict(json.load(f))
 
-    details = {prof_name: []}
-
-    for prof in data:
-        if prof.name.lower() == prof_name.lower():
-            details[prof_name].append(prof.status())
-
-    return details
+    return data[prof_name]
 
 def populate_data():
     # Browser
@@ -116,14 +149,14 @@ def populate_data():
 
     results = get_dep()
 
-    with open('data.pkl', 'wb') as f:
-        for result in results:
-            pickle.dump(result, f, pickle.HIGHEST_PROTOCOL)
+    with open('data.json', 'wb') as f:
+        json.dump(results, f)
 
 def main():
     populate_data()
 
 if __name__ == '__main__':
-    main()
+    # Run main to populate data
+    #main()
 
-    print(get_times('Somnath Ghosh')) # Test run
+    print(get_times('debdoot Sheet')) # Test run
