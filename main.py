@@ -6,30 +6,13 @@ from joblib import Parallel, delayed
 import mechanize
 import cookielib
 import json
-import pickle
 import os
+import itertools
 
 cookie = os.getenv('JSESSIONID')
 
-# Professor class
-class Prof(object):
-    def __init__(self, name, slots, venues):
-        self.name = name
-        self.slots = slots
-        self.venues = venues
-
-    def status(self):
-        times = []
-
-        for slot in self.slots:
-            times.append(get_time(slot))
-
-        return [[time for time in times if time], self.venues]
-
-
 # CaseInsensitiveDict class inherited from dict
 class CaseInsensitiveDict(dict):
-
     """Basic case insensitive dict with strings only keys."""
 
     proxy = {}
@@ -84,15 +67,16 @@ def parse_html(dep):
 
     for row in table_data:
         prof_names = row[2].split(',')
-        slots = row[5].split(',')
+        slots = [slot.replace(' ', '') for slot in row[5].split(',')]
         venues = row[6].split(',')
 
         for prof_name in prof_names:
-            if prof_name not in td:
-                td[prof_name] = [Prof(prof_name, slots, venues).status()]
+            for slot in slots:
+                if prof_name not in td:
+                    td[prof_name] = [[get_time(slot), venues]]
 
-            else:
-                td[prof_name].append(Prof(prof_name, slots, venues).status())
+                else:
+                    td[prof_name].append([get_time(slot), venues])
 
 
     if len(td):
@@ -118,7 +102,13 @@ def get_times(prof_name):
     with open('data.json', 'rb') as f:
         data = CaseInsensitiveDict(json.load(f))
 
-    return data[prof_name]
+    result = data[prof_name]
+
+    if result:
+        result.sort()
+        result = list(result for result, _ in itertools.groupby(result))
+
+    return result
 
 def populate_data():
     # Browser
