@@ -109,6 +109,19 @@ def get_times(prof_name):
         result = list(result for result, _ in itertools.groupby(result))
 
     return result
+    
+def get_table(details):
+    tb = {}
+
+    for i in range(5):
+        for j in range(9):
+            tb.update({'%d%d' % (i,j): []})
+
+    for times, venues in details:
+        for time in times:
+            tb[time] = venues
+
+    return tb
 
 def populate_data():
     # Browser
@@ -121,7 +134,7 @@ def populate_data():
 
     # Browser options
     br.set_handle_equiv(True)
-    #br.set_handle_gzip( True )
+    #br.set_handle_gzip(True)
     br.set_handle_redirect(True)
     br.set_handle_referer(True)
     br.set_handle_robots(False)
@@ -149,4 +162,6 @@ if __name__ == '__main__':
     # Run main to populate data
     #main()
 
-    print(get_times('debdoot Sheet')) # Test run
+    # Test run
+    print(get_times('debdoot Sheet'))
+    print(get_table(get_times('debdoot Sheet')))
