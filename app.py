@@ -1,7 +1,6 @@
 #-*- coding: utf-8 -*-
 
 from flask import Flask, render_template, request
-from wtforms import TextField, Form
 from main import get_table, get_times
 import json
 import os
