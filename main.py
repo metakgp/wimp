@@ -9,7 +9,6 @@ import json
 import os
 import itertools
 
-cookie = os.getenv('JSESSIONID')
 path = os.path.abspath(os.path.dirname(__file__))
 
 # CaseInsensitiveDict class inherited from dict
@@ -51,6 +50,8 @@ def get_time(slot):
                 return line.split()[1:]
 
 def parse_html(dep):
+    cookie = os.getenv('JSESSIONID')
+
     # Authenticate
     try:
         r = br.open('https://erp.iitkgp.ac.in/Acad/timetable_track.jsp?action=second&dept=%s' % dep)
