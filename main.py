@@ -50,8 +50,6 @@ def get_time(slot):
                 return line.split()[1:]
 
 def parse_html(dep):
-    cookie = os.getenv('JSESSIONID')
-
     # Authenticate
     try:
         r = br.open('https://erp.iitkgp.ac.in/Acad/timetable_track.jsp?action=second&dept=%s' % dep)
@@ -126,6 +124,8 @@ def get_table(details):
     return tb
 
 def populate_data():
+    cookie = os.getenv('JSESSIONID')
+
     # Browser
     global br
     br = mechanize.Browser()
@@ -162,7 +162,7 @@ def main():
 
 if __name__ == '__main__':
     # Run main to populate data
-    #main()
+    main()
 
     # Test run
     print(get_table(get_times('Jitendra kumar')))
