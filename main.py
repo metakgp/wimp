@@ -10,6 +10,7 @@ import os
 import itertools
 
 cookie = os.getenv('JSESSIONID')
+path = os.path.abspath(os.path.dirname(__file__))
 
 # CaseInsensitiveDict class inherited from dict
 class CaseInsensitiveDict(dict):
@@ -44,7 +45,7 @@ class CaseInsensitiveDict(dict):
 
 # Get time from slot
 def get_time(slot):
-    with open('slots.1') as f:
+    with open(os.path.join(path, 'data/slots.1')) as f:
         for line in f:
             if line.startswith(slot):
                 return line.split()[1:]
@@ -86,7 +87,7 @@ def parse_html(dep):
         print('No records found for %s' % dep)
 
 def get_dep():
-    with open('deps.4') as f:
+    with open(os.path.join(path, 'data/deps.4')) as f:
         deps = f.read().split('\n')
 
     results = Parallel(n_jobs=len(deps), verbose=1, backend="threading")(map(delayed(parse_html), deps))
@@ -99,7 +100,7 @@ def get_dep():
     return _results
 
 def get_times(prof_name):
-    with open('data.json', 'rb') as f:
+    with open(os.path.join(path, 'data/data.json'), 'rb') as f:
         data = CaseInsensitiveDict(json.load(f))
 
     result = data[prof_name]
@@ -109,7 +110,7 @@ def get_times(prof_name):
         result = list(result for result, _ in itertools.groupby(result))
 
     return result
-    
+
 def get_table(details):
     tb = {}
 
@@ -152,7 +153,7 @@ def populate_data():
 
     results = get_dep()
 
-    with open('data.json', 'wb') as f:
+    with open(os.path.join(path, 'data/data.json'), 'wb') as f:
         json.dump(results, f)
 
 def main():
@@ -163,5 +164,4 @@ if __name__ == '__main__':
     #main()
 
     # Test run
-    print(get_times('debdoot Sheet'))
-    print(get_table(get_times('debdoot Sheet')))
+    print(get_table(get_times('Jitendra kumar')))

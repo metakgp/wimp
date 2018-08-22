@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel=stylesheet type=text/css href=./static/style.css>
+        <title> WIMP - Where Is My Prof? </title>
+    </head>
+
+    <body>
+        <img src="{{url_for('static', filename='doodle.png')}}" id=doodle>
+        <form action="{{ url_for('result')  }}" method="post" id="search">
+            <input list="profs" name="prof" placeholder="Who are you looking for?">
+            <datalist id="profs">
+                {% for prof in profs  %}
+                <option value="{{ prof }}">
+                {% endfor  %}
+            </datalist>
+        </form>
+    </body>
+</html>
