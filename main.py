@@ -162,7 +162,7 @@ def main():
 
 if __name__ == '__main__':
     # Run main to populate data
-    main()
+    #main()
 
     # Test run
     print(get_table(get_times('Jitendra kumar')))
