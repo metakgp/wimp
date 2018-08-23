@@ -26,9 +26,14 @@ def result():
             row.append('')
 
     for item in data:
+        tb[int(item[0])][int(item[1])+1] = ""
         for venue in data[item]:
             if venue != '0':
-                tb[int(item[0])][int(item[1])+1] = venue
+                tb[int(item[0])][int(item[1])+1] =tb[int(item[0])][int(item[1])+1]   + venue + " | "
+        
+        tb[int(item[0])][int(item[1])+1] = ( tb[int(item[0])][int(item[1])+1] ) [:-2]
+    #print("\n\n\n")
+    #print(tb)
 
     return render_template('result.html', name=prof, data=tb, times=times)
 
