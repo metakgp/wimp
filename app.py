@@ -28,7 +28,9 @@ def result():
     for item in data:
         for venue in data[item]:
             if venue != '0':
-                tb[int(item[0])][int(item[1])+1] = venue
+                tb[int(item[0])][int(item[1])+1] +=  venue + " | "
+        
+        tb[int(item[0])][int(item[1])+1] = tb[int(item[0])][int(item[1])+1][:-2]
 
     return render_template('result.html', name=prof, data=tb, times=times)
 
