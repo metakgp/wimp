@@ -20,3 +20,8 @@ $ python2.7 app.py # Locate your browser to the local address
 PRs are most welcome!
 
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+
+
+## Maintainer
+
+[Navaneeth Suresh](https://github.com/themousepotato) (@themousepotato on [metakgp Slack](https://slack.metakgp.org).)
