@@ -72,3 +72,13 @@ h1 {
   padding: 0 0 0 0;
   font-weight: 100;
 }
+
+.footer {
+  position: fixed !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  text-align: center;
+  color: #444;
+  font-size: 32px;
+}
