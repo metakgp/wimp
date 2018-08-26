@@ -66,7 +66,7 @@ def parse_html(dep):
     td = CaseInsensitiveDict({})
 
     for row in table_data:
-        prof_names = row[2].split(',')
+        prof_names = [name.title() for name in row[2].split(',')]
         slots = [slot.replace(' ', '') for slot in row[5].split(',')]
         venues = row[6].split(',')
 
