@@ -15,7 +15,7 @@ with open(os.path.join(path, 'data/data.json')) as f:
 
 def fetch_results(prof):
     tb = [['Monday'], ['Tuesday'], ['Wednesday'], ['Thursday'], ['Friday']]
-    times = ['', '8 AM - 9 AM', '9 AM - 10 AM', '10 AM - 11 AM', '11 AM - 12 AM', '12 PM - 1 PM', '2 PM - 3 PM', '3 PM - 4PM', '4 PM - 5 PM', '5 PM - 6 PM']
+    times = ['', '8 AM', '9 AM', '10 AM', '11 AM', '12 PM', '2 PM', '3 PM', '4 PM', '5 PM']
 
     data = get_table(get_times(prof))
 

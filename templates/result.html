@@ -16,21 +16,26 @@
                     {{name}}
                 </h3>
             </div>
-            <table class="table table-striped table-bordered table-hover">
-                <tr>
-                    {% for time in times %}
-                    <td> {{time}} </td>
+            <table class="table table-striped table-bordered table-hover
+            text-center">
+                <thead class="thead-light">
+                    <tr>
+                        {% for time in times %}
+                        <th class="col-md-1"> {{time}} </th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in data %}
+                    <tr>
+                        {% for col in row %}
+                        <td class="col-md-1">
+                            {{col}}
+                        </td>
+                        {% endfor %}
+                    </tr>
                     {% endfor %}
-                </tr>
-                {% for row in data %}
-                <tr>
-                    {% for col in row %}
-                    <td>
-                        {{col}}
-                    </td>
-                    {% endfor %}
-                </tr>
-                {% endfor %}
+                </tbody>
             </table>
         </div>
     </body>
