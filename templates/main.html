@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel=stylesheet type=text/css href=./static/style.css>
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">
         <title> WIMP - Where Is My Prof? </title>
     </head>
 
@@ -17,25 +20,25 @@
         </form>
 
         {% if name %}
-            <p>
-            {{name}}
-            </p>
-            <table>
-                <tr>
-                    {% for time in times %}
-                    <td> {{time}} </td>
-                    {% endfor %}
-                </tr>
-                    {% for row in data %}
-                    <tr>
-                        {% for col in row %}
-                        <td>
-                        {{col}}
-                        </td>
-                        {% endfor %}
-                    </tr>
-                    {% endfor %}
-            </table>
+        <p>
+        {{name}}
+        </p>
+        <table>
+            <tr>
+                {% for time in times %}
+                <td> {{time}} </td>
+                {% endfor %}
+            </tr>
+            {% for row in data %}
+            <tr>
+                {% for col in row %}
+                <td>
+                    {{col}}
+                </td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </table>
         {% endif %}
 
         <script>
@@ -46,5 +49,50 @@
                 searchForm.submit();
             });
         </script>
+        <div class="container" style="margin-top:5px">
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="text-center display-2">
+                        Where Is My Prof?
+                    </h1>
+                    <img src="{{url_for('static', filename='doodle.png')}}"
+                         style="width: 100%">
+                    <br>
+                    <p>
+                    Start entering a professor's name in the text box. Select the professor
+                    from the list. The result will show the weekly timetable of the
+                    professor!
+                    </p>
+                    <form action="{{ url_for('result')  }}"
+                          method="post"
+                          id="search"
+                          class="text-center">
+                        <input list="profs" name="prof"
+                                            placeholder="Who are you looking for?"
+                                            class="form-control">
+                        <input type="submit" value="Get timetable"
+                                             style="margin-top:20p"
+                                             class="btn btn-md btn-primary">
+
+                        <datalist id="profs">
+                            {% for prof in profs  %}
+                            <option value="{{ prof }}">
+                            {% endfor  %}
+                        </datalist>
+                    </form>
+                    <div class="text-center">
+                        <p>
+                        Contribute to this project on
+                        <a href="https://github.com/metakgp/wimp"
+                           target="_blank">
+                            GitHub
+                        </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                </div>
     </body>
 </html>
