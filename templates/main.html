@@ -7,13 +7,44 @@
 
     <body>
         <img src="{{url_for('static', filename='doodle.png')}}" id=doodle>
-        <form action="{{ url_for('result')  }}" method="post" id="search">
-            <input list="profs" name="prof" placeholder="Who are you looking for?">
+        <form action="/" method="post" id="search">
+            <input list="profs" name="prof" id="prof" placeholder="Who are you looking for?">
             <datalist id="profs">
                 {% for prof in profs  %}
                 <option value="{{ prof }}">
                 {% endfor  %}
             </datalist>
         </form>
+
+        {% if name %}
+            <p>
+            {{name}}
+            </p>
+            <table>
+                <tr>
+                    {% for time in times %}
+                    <td> {{time}} </td>
+                    {% endfor %}
+                </tr>
+                    {% for row in data %}
+                    <tr>
+                        {% for col in row %}
+                        <td>
+                        {{col}}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+            </table>
+        {% endif %}
+
+        <script>
+            var searchForm = document.getElementById("search");
+            var searchInput = document.getElementById("prof");
+
+            searchInput.addEventListener("change", function(){
+                searchForm.submit();
+            });
+        </script>
     </body>
 </html>
