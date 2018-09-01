@@ -9,15 +9,6 @@ body {
   padding: 20px;
 }
 
-#search {
-  display:inline;
-}
-
-#doodle {
-  margin-top: 7%;
-  width: 50%;
-}
-
 input[list] {
   background: #eee;
   padding:10px;
