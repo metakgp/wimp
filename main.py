@@ -118,6 +118,7 @@ def get_table(details):
             tb.update({'%d%d' % (i,j): []})
 
     for times, venues in details:
+        venues = set(v.strip() for v in venues)
         for time in times:
             tb[time] = venues
 
