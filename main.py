@@ -11,6 +11,9 @@ import itertools
 
 path = os.path.abspath(os.path.dirname(__file__))
 
+DEPT_KEY = 'dept'
+TIMETABLE_KEY = 'timetable'
+
 # CaseInsensitiveDict class inherited from dict
 class CaseInsensitiveDict(dict):
     """Basic case insensitive dict with strings only keys."""
@@ -73,10 +76,11 @@ def parse_html(dep):
         for prof_name in prof_names:
             for slot in slots:
                 if prof_name not in td:
-                    td[prof_name] = [[get_time(slot), venues]]
+                    td[prof_name] = { }
+                    td[prof_name][DEPT_KEY] = dep
+                    td[prof_name][TIMETABLE_KEY] = [ ]
 
-                else:
-                    td[prof_name].append([get_time(slot), venues])
+                td[prof_name][TIMETABLE_KEY].append([get_time(slot), venues])
 
 
     if len(td):
@@ -102,11 +106,27 @@ def get_times(prof_name):
     with open(os.path.join(path, 'data/data.json'), 'rb') as f:
         data = CaseInsensitiveDict(json.load(f))
 
-    result = data[prof_name]
+    result = [ ]
 
-    if result:
-        result.sort()
-        result = list(result for result, _ in itertools.groupby(result))
+    if prof_name in data.keys():
+
+        result = data[prof_name][TIMETABLE_KEY]
+
+        if result:
+            result.sort()
+            result = list(result for result, _ in itertools.groupby(result))
+
+    return result
+
+def get_dept(prof_name):
+    with open(os.path.join(path, 'data/data.json'), 'rb') as f:
+        data = CaseInsensitiveDict(json.load(f))
+
+    result = ""
+
+    if prof_name in data.keys():
+
+        result = data[prof_name][DEPT_KEY]
 
     return result
 
