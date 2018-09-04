@@ -1,0 +1,30 @@
+<html>
+<head>
+    <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Prof not found </title>
+</head>
+
+<body>
+<div style="margin-top: 10%;" class="container text-center">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="error-template">
+                <h1> Oops!</h1>
+                <h2> 404 Not Found</h2>
+                <div class="error-details">
+                    Sorry, we're unable to find the prof that you've searched! Either the prof doesn't exist or ERP does not contain the data.
+                </div>
+                <div class="error-actions">
+                    <a href="{{ url_for('main') }}" style="margin-top:20px;" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
+                        Take Me Home </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

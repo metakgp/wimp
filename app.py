@@ -1,6 +1,6 @@
 #-*- coding: utf-8 -*-
 
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, abort
 from main import get_table, get_times
 import json
 import os
@@ -17,7 +17,11 @@ def fetch_results(prof):
     tb = [['Monday'], ['Tuesday'], ['Wednesday'], ['Thursday'], ['Friday']]
     times = ['', '8 AM', '9 AM', '10 AM', '11 AM', '12 PM', '2 PM', '3 PM', '4 PM', '5 PM']
 
-    data = get_table(get_times(prof))
+    try:
+        data = get_table(get_times(prof))
+        
+    except KeyError:
+        abort(404)
 
     for row in tb:
         for i in range(9):
@@ -38,6 +42,10 @@ def result():
     tb, times = fetch_results(prof)
     return render_template('main.html', name=prof, data=tb, times=times, profs=profs)
 
+@app.errorhandler(404)         
+def prof_not_found(error):
+    return render_template('404.html'), 404
+
 @app.route('/', methods=['GET'])
 def main():
     prof = request.args.get('prof')
@@ -45,7 +53,8 @@ def main():
         tb, times = fetch_results(prof)
         return render_template('main.html', name=prof, data=tb, times=times, profs=profs)
     else:
-        return render_template('main.html', profs=profs)       
+        return render_template('main.html', profs=profs)      
+
 
 if __name__ == '__main__':
     app.run(debug=True)
