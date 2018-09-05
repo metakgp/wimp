@@ -108,13 +108,17 @@ def get_times(prof_name):
 
     result = [ ]
 
-    if prof_name in data.keys():
+    try:
 
         result = data[prof_name][TIMETABLE_KEY]
 
         if result:
             result.sort()
             result = list(result for result, _ in itertools.groupby(result))
+
+    except:
+
+        pass
 
     return result
 
@@ -124,9 +128,13 @@ def get_dept(prof_name):
 
     result = ""
 
-    if prof_name in data.keys():
+    try:
 
         result = data[prof_name][DEPT_KEY]
+
+    except:
+
+        pass
 
     return result
 
