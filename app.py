@@ -17,8 +17,13 @@ def fetch_results(prof):
     tb = [['Monday'], ['Tuesday'], ['Wednesday'], ['Thursday'], ['Friday']]
     times = ['', '8 AM', '9 AM', '10 AM', '11 AM', '12 PM', '2 PM', '3 PM', '4 PM', '5 PM']
 
-    data = get_table(get_times(prof))
+    slot_data = get_times(prof)
     dept = get_dept(prof)
+
+    if len(slot_data) == 0 and len(dept) == 0:
+        abort(404)
+
+    data = get_table(slot_data)
 
     for row in tb:
         for i in range(9):
@@ -32,6 +37,10 @@ def fetch_results(prof):
         tb[int(item[0])][int(item[1])+1] = tb[int(item[0])][int(item[1])+1][:-2]
 
     return [tb, times, dept]
+
+@app.errorhandler(404)
+def prof_not_found(error):
+        return render_template('404.html'), 404
 
 @app.route('/', methods=['POST'])
 def result():
