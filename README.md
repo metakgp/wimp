@@ -9,6 +9,7 @@ Alwin is a wimpy kid. What? Is he lazy? Not at all! He always asks me, 'Where is
 
 ## Development
 ### Host machine
+
 ```
 $ git clone https://github.com/themousepotato/wimp.git
 $ cd wimp
@@ -18,6 +19,7 @@ $ python2.7 app.py # Locate your browser to the local address
 ```
 
 ### Docker container
+
 ```
 $ git clone https://github.com/themousepotato/wimp.git
 $ cd wimp
@@ -25,7 +27,18 @@ $ docker build -t wimp .
 $ docker run -p 8888:5000 wimp
 ```
 
+### Pretty printing `data.json`
+
+You can use any JSON utility that is installed on your computer.
+[`jq`](https://stedolan.github.io/jq/) is recommended.
+
+```sh
+$ jq '' data/data.json > data/data2.json
+$ mv data/data2.json data/data.json
+```
+
 ## Contributions
+
 PRs are most welcome!
 
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
