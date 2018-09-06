@@ -9,9 +9,11 @@ app = Flask(__name__)
 
 path = os.path.abspath(os.path.dirname(__file__))
 
+
 with open(os.path.join(path, 'data/data.json')) as f:
     profs = list(set(json.load(f).keys()))
     profs.sort()
+
 
 def fetch_results(prof):
     tb = [['Monday'], ['Tuesday'], ['Wednesday'], ['Thursday'], ['Friday']]
@@ -31,16 +33,20 @@ def fetch_results(prof):
 
     for item in data:
         for venue in data[item]:
-            if venue != '0':
-                tb[int(item[0])][int(item[1])+1] +=  venue + " | "
+            if venue == '0':
+                venue = 'In Dept'
+
+            tb[int(item[0])][int(item[1])+1] +=  venue + " | "
         
         tb[int(item[0])][int(item[1])+1] = tb[int(item[0])][int(item[1])+1][:-2]
 
     return [tb, times, dept]
 
+
 @app.errorhandler(404)
 def prof_not_found(error):
         return render_template('404.html'), 404
+
 
 @app.route('/', methods=['POST'])
 def result():
@@ -48,16 +54,20 @@ def result():
     tb, times, dept = fetch_results(prof)
     return render_template('main.html', name=prof, data=tb, times=times, profs=profs, dept=dept)
 
+
 @app.errorhandler(404)         
 def prof_not_found(error):
     return render_template('404.html'), 404
 
+
 @app.route('/', methods=['GET'])
 def main():
     prof = request.args.get('prof')
+
     if prof:
         tb, times, dept = fetch_results(prof)
         return render_template('main.html', name=prof, data=tb, times=times, profs=profs, dept=dept)
+
     else:
         return render_template('main.html', profs=profs)      
 
