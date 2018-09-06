@@ -71,7 +71,7 @@ def parse_html(dep):
     for row in table_data:
         prof_names = [name.title() for name in row[2].split(',')]
         slots = [slot.replace(' ', '') for slot in row[5].split(',')]
-        venues = row[6].split(',')
+        venues = [venue.replace('Deptt.', 'Dept') for venue in row[6].split(',')]
 
         for prof_name in prof_names:
             for slot in slots:
