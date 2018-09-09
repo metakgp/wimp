@@ -37,6 +37,9 @@ $ jq '' data/data.json > data/data2.json
 $ mv data/data2.json data/data.json
 ```
 
+## Wiki
+We've a list of FAQ [here](https://github.com/metakgp/wimp/wiki/FAQ). If you've any queries, find the answer from there. If your question is not there, add it by yourself. We would love to answer.
+
 ## Contributions
 
 PRs are most welcome!
