@@ -1,7 +1,7 @@
 #-*- coding: utf-8 -*-
 
 from flask import Flask, render_template, request, abort
-from main import get_table, get_times, get_dept
+from main import get_table, get_times, get_dept, correct_spelling
 import json
 import os
 
@@ -17,6 +17,7 @@ def fetch_results(prof):
     tb = [['Monday'], ['Tuesday'], ['Wednesday'], ['Thursday'], ['Friday']]
     times = ['', '8 AM', '9 AM', '10 AM', '11 AM', '12 PM', '2 PM', '3 PM', '4 PM', '5 PM']
 
+    prof = correct_spelling(prof)
     slot_data = get_times(prof)
     dept = get_dept(prof)
 
@@ -36,7 +37,7 @@ def fetch_results(prof):
         
         tb[int(item[0])][int(item[1])+1] = tb[int(item[0])][int(item[1])+1][:-2]
 
-    return [tb, times, dept]
+    return [tb, times, dept, prof.title()]
 
 @app.errorhandler(404)
 def prof_not_found(error):
@@ -45,7 +46,7 @@ def prof_not_found(error):
 @app.route('/', methods=['POST'])
 def result():
     prof = request.form['prof']
-    tb, times, dept = fetch_results(prof)
+    tb, times, dept, prof = fetch_results(prof)
     return render_template('main.html', name=prof, data=tb, times=times, profs=profs, dept=dept)
 
 @app.errorhandler(404)         
@@ -56,7 +57,7 @@ def prof_not_found(error):
 def main():
     prof = request.args.get('prof')
     if prof:
-        tb, times, dept = fetch_results(prof)
+        tb, times, dept, prof = fetch_results(prof)
         return render_template('main.html', name=prof, data=tb, times=times, profs=profs, dept=dept)
     else:
         return render_template('main.html', profs=profs)      
