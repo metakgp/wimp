@@ -21,12 +21,17 @@
 
         <style>
 
-        .venue:nth-child(even) {
-            background: #e1e1e1;
+        .venue {
+            border-bottom: 1px solid #DEE2E6;
+            padding: 10px;
         }
 
         .venue:nth-last-child(1) {
-            margin-bottom: -12px;
+            border-bottom: 0;
+        }
+        
+        .venue:only-child {
+            border: 0;
         }
 
         </style>
@@ -86,7 +91,7 @@
                         {% for row in data %}
                         <tr>
                             {% for col in row %}
-                            <td class="col-md-1" style="padding-left:0; padding-right: 0;">
+                            <td class="col-md-1" style="padding: 0;">
                                 {% for venue in col %}
                                 <div class="venue">
                                     {{ venue }}
