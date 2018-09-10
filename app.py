@@ -16,7 +16,7 @@ with open(os.path.join(path, 'data/data.json')) as f:
 
 
 def fetch_results(prof):
-    tb = [['Monday'], ['Tuesday'], ['Wednesday'], ['Thursday'], ['Friday']]
+    tb = [[['Monday']], [['Tuesday']], [['Wednesday']], [['Thursday']], [['Friday']]]
     times = ['', '8 AM', '9 AM', '10 AM', '11 AM', '12 PM', '2 PM', '3 PM', '4 PM', '5 PM']
 
     prof = correct_spelling(prof)
@@ -30,17 +30,15 @@ def fetch_results(prof):
 
     for row in tb:
         for i in range(9):
-            row.append('')
+            row.append([])
 
     for item in data:
         for venue in data[item]:
             if venue == '0':
                 venue = 'In Dept'
 
-            tb[int(item[0])][int(item[1])+1] +=  venue + " | "
+            tb[int(item[0])][int(item[1])+1].append(venue)
         
-        tb[int(item[0])][int(item[1])+1] = tb[int(item[0])][int(item[1])+1][:-2]
-
     return [tb, times, dept, prof.title()]
 
 

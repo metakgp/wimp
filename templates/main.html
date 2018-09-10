@@ -18,6 +18,18 @@
               crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> WIMP - Where Is My Prof? </title>
+
+        <style>
+
+        .venue:nth-child(even) {
+            background: #e1e1e1;
+        }
+
+        .venue:nth-last-child(1) {
+            margin-bottom: -12px;
+        }
+
+        </style>
     </head>
 
     <body>
@@ -74,8 +86,12 @@
                         {% for row in data %}
                         <tr>
                             {% for col in row %}
-                            <td class="col-md-1">
-                                {{col}}
+                            <td class="col-md-1" style="padding-left:0; padding-right: 0;">
+                                {% for venue in col %}
+                                <div class="venue">
+                                    {{ venue }}
+                                </div>
+                                {% endfor %}
                             </td>
                             {% endfor %}
                         </tr>
