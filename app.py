@@ -42,11 +42,6 @@ def fetch_results(prof):
     return [tb, times, dept, prof.title()]
 
 
-@app.errorhandler(404)
-def prof_not_found(error):
-        return render_template('404.html'), 404
-
-
 @app.route('/', methods=['POST'])
 def result():
     prof = request.form['prof']
