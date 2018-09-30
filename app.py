@@ -1,7 +1,7 @@
 #-*- coding: utf-8 -*-
 
 from flask import Flask, render_template, request, abort
-from main import get_table, get_times, get_dept, correct_spelling
+from main import get_table, get_times, get_attr, correct_spelling
 import json
 import os
 
@@ -21,7 +21,8 @@ def fetch_results(prof):
 
     prof = correct_spelling(prof)
     slot_data = get_times(prof)
-    dept = get_dept(prof)
+    dept = get_attr(prof, 'dept')
+    website = get_attr(prof, 'website')
 
     if len(slot_data) == 0 and len(dept) == 0:
         abort(404)
@@ -39,14 +40,14 @@ def fetch_results(prof):
 
             tb[int(item[0])][int(item[1])+1].append(venue)
         
-    return [tb, times, dept, prof.title()]
+    return [tb, times, dept, website, prof.title()]
 
 
 @app.route('/', methods=['POST'])
 def result():
     prof = request.form['prof']
-    tb, times, dept, prof = fetch_results(prof)
-    return render_template('main.html', name=prof, data=tb, times=times, profs=profs, dept=dept)
+    tb, times, dept, website, prof = fetch_results(prof)
+    return render_template('main.html', name=prof, website=website, data=tb, times=times, profs=profs, dept=dept)
 
 
 @app.errorhandler(404)         

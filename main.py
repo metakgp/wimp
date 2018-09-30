@@ -2,96 +2,26 @@
 #-*- coding: utf-8 -*-
 
 from bs4 import BeautifulSoup
-from joblib import Parallel, delayed
+from classes import *
 import mechanize
 import cookielib
-import json
-import os
 import itertools
-import collections
+import requests
+import json
+import re
+import os
 
 path = os.path.abspath(os.path.dirname(__file__))
-profs_dict = {}
+
 with open(os.path.join(path, 'data/data.json'), 'rb') as f:
-    profs_dict = json.load(f)
+    profs_dict =  CaseInsensitiveDict(json.load(f))
 
 DEPT_KEY = 'dept'
+WEBSITE_KEY = 'website'
 TIMETABLE_KEY = 'timetable'
-
-# CaseInsensitiveDict class inherited from dict
-class CaseInsensitiveDict(dict):
-    """Basic case insensitive dict with strings only keys."""
-
-    proxy = {}
-
-    def __init__(self, data):
-        self.proxy = dict((k.lower(), k) for k in data)
-        for k in data:
-            self[k] = data[k]
-
-    def __contains__(self, k):
-        return k.lower() in self.proxy
-
-    def __delitem__(self, k):
-        key = self.proxy[k.lower()]
-        super(CaseInsensitiveDict, self).__delitem__(key)
-        del self.proxy[k.lower()]
-
-    def __getitem__(self, k):
-        key = self.proxy[k.lower()]
-        return super(CaseInsensitiveDict, self).__getitem__(key)
-
-    def get(self, k, default=None):
-        return self[k] if k in self else default
-
-    def __setitem__(self, k, v):
-        super(CaseInsensitiveDict, self).__setitem__(k, v)
-        self.proxy[k.lower()] = k
-
-class SpellingCorrector():
-    """
-        Spelling Corrector in Python 3; see http://norvig.com/spell-correct.html
-        Copyright (c) 2007-2016 Peter Norvig
-        MIT license: www.opensource.org/licenses/mit-license.php
-    """
-    word_list = []
-    WORDS = collections.Counter([])
-
-    def __init__(self, words):
-        self.word_list = [t.lower() for t in words]
-        self.WORDS = collections.Counter(self.word_list)
-
-    def P(self, word, N=sum(WORDS.values())):
-        "Probability of `word`."
-        if N == 0:
-            return 0
-        return self.WORDS[word] / N
-
-    def correction(self, word):
-        "Most probable spelling correction for word."
-        return max(self.candidates(word), key=self.P)
-
-    def candidates(self, word):
-        "Generate possible spelling corrections for word."
-        return (self.known([word]) or self.known(self.edits1(word)) or self.known(self.edits2(word)) or [word])
-
-    def known(self, words):
-        "The subset of `words` that appear in the dictionary of WORDS."
-        return set(w for w in words if w in self.WORDS)
-
-    def edits1(self, word):
-        "All edits that are one edit away from `word`."
-        letters    = 'abcdefghijklmnopqrstuvwxyz'
-        splits     = [(word[:i], word[i:])    for i in range(len(word) + 1)]
-        deletes    = [L + R[1:]               for L, R in splits if R]
-        transposes = [L + R[1] + R[0] + R[2:] for L, R in splits if len(R)>1]
-        replaces   = [L + c + R[1:]           for L, R in splits if R for c in letters]
-        inserts    = [L + c + R               for L, R in splits for c in letters]
-        return set(deletes + transposes + replaces + inserts)
-
-    def edits2(self, word):
-        "All edits that are two edits away from `word`."
-        return (e2 for e1 in self.edits1(word) for e2 in self.edits1(e1))
+KGP_WEBSITE_URL = 'http://www.iitkgp.ac.in/'
+DEPT_FETCH_URL = 'http://www.iitkgp.ac.in/facultylist?processOn=onload&colName=&searchContent=&_=1538283022101'
+TIMETABLE_FETCH_URL = 'https://erp.iitkgp.ac.in/Acad/timetable_track.jsp?action=second&dept=%s'
 
 # Get time from slot
 def get_time(slot):
@@ -100,11 +30,15 @@ def get_time(slot):
             if line.startswith(slot):
                 return line.split()[1:]
 
+
 def parse_html(dep):
-    # Authenticate
+    # Get prof timetable
     try:
-        r = br.open('https://erp.iitkgp.ac.in/Acad/timetable_track.jsp?action=second&dept=%s' % dep)
+
+        r = br.open(TIMETABLE_FETCH_URL % dep)
+
     except:
+
         print("Can't fetch %s" % dep)
         return
 
@@ -114,7 +48,36 @@ def parse_html(dep):
 
     table_data = [[cell.text for cell in row("td")] for row in BeautifulSoup(str(html), 'lxml')("tr")]
     table_data = [row for row in table_data[2:] if len(row) == 7]
-    td = CaseInsensitiveDict({})
+
+    # Get prof department
+    """
+    Note:
+
+    If a prof teaches subjects from other departments,
+    it's not a good idea to add directly from the table.
+    Instead, we try to find it from IIT KGP website. If
+    not found, we'll add it from out data of the subject.
+
+    """
+    dept_resp = requests.get(DEPT_FETCH_URL)
+    dept_raw_data = json.loads(dept_resp.content)['data']
+    dept_data = CaseInsensitiveDict({})
+
+    for prof in dept_raw_data:
+        name = re.findall(r'>(.+?)<', prof['faculty'])[0]
+        name = name.replace('  ', '')
+        dept = prof['dept_code']
+
+        soup = BeautifulSoup(prof['faculty'], 'lxml')
+
+        for tag in soup.findAll('a', href=True):
+            href = tag['href']
+
+            website = KGP_WEBSITE_URL + href
+
+            dept_data[name] = { 'dept' : dept,
+                                'website' : website }
+
 
     for row in table_data:
         prof_names = [name.title() for name in row[2].split(',')]
@@ -123,32 +86,30 @@ def parse_html(dep):
 
         for prof_name in prof_names:
             for slot in slots:
-                if prof_name not in td:
-                    td[prof_name] = { }
-                    td[prof_name][DEPT_KEY] = dep
-                    td[prof_name][TIMETABLE_KEY] = [ ]
+                if prof_name not in profs_dict:
+                    profs_dict[prof_name] = { }
 
-                td[prof_name][TIMETABLE_KEY].append([get_time(slot), venues])
+                    try:
+
+                        profs_dict[prof_name][DEPT_KEY] = dept_data[prof_name][DEPT_KEY]
+                        profs_dict[prof_name][WEBSITE_KEY] = dept_data[prof_name][WEBSITE_KEY]
+
+                    except KeyError:
+
+                        profs_dict[prof_name][DEPT_KEY] = dep
+                        profs_dict[prof_name][WEBSITE_KEY] = '#'
+
+                    profs_dict[prof_name][TIMETABLE_KEY] = [ ]
+
+                profs_dict[prof_name][TIMETABLE_KEY].append([get_time(slot), venues])
 
 
-    if len(td):
-        return td
+    if len(profs_dict):
+        return profs_dict
 
     else:
         print('No records found for %s' % dep)
 
-def get_dep():
-    with open(os.path.join(path, 'data/deps.4')) as f:
-        deps = f.read().split('\n')
-
-    results = Parallel(n_jobs=len(deps), verbose=1, backend="threading")(map(delayed(parse_html), deps))
-    results = [result for result in results if result]
-    _results = CaseInsensitiveDict({})
-
-    for result in results:
-        _results.update(result)
-
-    return _results
 
 def get_times(prof_name):
     data = CaseInsensitiveDict(profs_dict)
@@ -168,21 +129,25 @@ def get_times(prof_name):
 
     return result
 
+
 def correct_spelling(prof_name):
     prof_names = profs_dict.keys()
+
     if prof_name not in prof_names:
         corrector = SpellingCorrector(prof_names)
+
         return corrector.correction(prof_name)
 
     return prof_name
 
-def get_dept(prof_name):
+
+def get_attr(prof_name, key):
     data = CaseInsensitiveDict(profs_dict)
     result = ""
 
     try:
 
-        result = data[prof_name][DEPT_KEY]
+        result = data[prof_name][key]
 
     except:
 
@@ -190,8 +155,9 @@ def get_dept(prof_name):
 
     return result
 
+
 def get_table(details):
-    tb = {}
+    tb = { }
 
     for i in range(5):
         for j in range(9):
@@ -199,10 +165,12 @@ def get_table(details):
 
     for times, venues in details:
         venues = set(v.strip() for v in venues)
+
         for time in times:
             tb[time] = venues
 
     return tb
+
 
 def populate_data():
     cookie = os.getenv('JSESSIONID')
@@ -233,10 +201,14 @@ def populate_data():
 
     br.addheaders = [('User-agent', 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0'), ('Cookie','JSESSIONID=%s' % cookie)]
 
-    results = get_dep()
+    with open(os.path.join(path, 'data/deps.4')) as f:
+        deps = f.read().split('\n')
+
+    for dep in deps:
+        parse_html(dep)
 
     with open(os.path.join(path, 'data/data.json'), 'wb') as f:
-        json.dump(results, f)
+        json.dump(profs_dict, f)
 
 def main():
     populate_data()
