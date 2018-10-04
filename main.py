@@ -3,8 +3,8 @@
 
 from bs4 import BeautifulSoup
 from classes import *
-import mechanize
-import cookielib
+from robobrowser import RoboBrowser
+# import cookielib
 import itertools
 import requests
 import json
@@ -35,16 +35,16 @@ def parse_html(dep):
     # Get prof timetable
     try:
 
-        r = br.open(TIMETABLE_FETCH_URL % dep)
-
+        br.open(TIMETABLE_FETCH_URL % dep)
+        # print(br.response.content)
+        html = br.response.content
+        soup = BeautifulSoup(html, 'lxml')
+        html = soup.find_all('table')[4]
+        print("Fetched for %s" % dep)
     except:
 
         print("Can't fetch %s" % dep)
         return
-
-    html = r.read()
-    soup = BeautifulSoup(html, 'lxml')
-    html = soup.find_all('table')[4]
 
     table_data = [[cell.text for cell in row("td")] for row in BeautifulSoup(str(html), 'lxml')("tr")]
     table_data = [row for row in table_data[2:] if len(row) == 7]
@@ -173,33 +173,37 @@ def get_table(details):
 
 
 def populate_data():
-    cookie = os.getenv('JSESSIONID')
+    cookie = {
+        "JSESSIONID": os.getenv('JSESSIONID')
+    }
 
     # Browser
     global br
-    br = mechanize.Browser()
+    br = RoboBrowser(history=True,
+                     user_agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0',
+                     parser='lxml'
+                     )
 
     # Enable cookie support
-    cj = cookielib.LWPCookieJar()
-    br.set_cookiejar(cj)
+    # cj = cookielib.LWPCookieJar()
+    # br.set_cookiejar(cj)
+    br.session.cookies.update(cookie)
 
     # Browser options
-    br.set_handle_equiv(True)
-    #br.set_handle_gzip(True)
-    br.set_handle_redirect(True)
-    br.set_handle_referer(True)
-    br.set_handle_robots(False)
-    br.set_proxies({})
+    # br.set_handle_equiv(True)
+    # #br.set_handle_gzip(True)
+    # br.set_handle_redirect(True)
+    # br.set_handle_referer(True)
+    # br.set_handle_robots(False)
+    # br.set_proxies({})
 
     # Follows refresh 0 but not hangs on refresh > 0
-    br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time = 1)
+    # br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time = 1)
 
     # Debugging messages
-    br.set_debug_http(True)
-    br.set_debug_redirects(True)
-    br.set_debug_responses(True)
-
-    br.addheaders = [('User-agent', 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0'), ('Cookie','JSESSIONID=%s' % cookie)]
+    # br.set_debug_http(True)
+    # br.set_debug_redirects(True)
+    # br.set_debug_responses(True)
 
     with open(os.path.join(path, 'data/deps.4')) as f:
         deps = f.read().split('\n')
