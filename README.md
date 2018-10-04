@@ -27,9 +27,10 @@ Alwin is a wimpy kid. What? Is he lazy? Not at all! He always asks me, 'Where is
 ```
 $ git clone https://github.com/themousepotato/wimp.git
 $ cd wimp
-$ sudo pip2 install -r requirements.txt
-$ python2.7 main.py # To populate data, you must have set JSESSIONID env variable
-$ python2.7 app.py # Locate your browser to the local address
+$ sudo pip3 install pipenv
+$ pipenv --three && pipenv shell # loads .env file variables
+$ python main.py # To populate data
+$ python app.py # Locate your browser to the local address
 ```
 
 ### Docker container
