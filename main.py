@@ -4,7 +4,6 @@
 from bs4 import BeautifulSoup
 from classes import *
 from robobrowser import RoboBrowser
-# import cookielib
 import itertools
 import requests
 import json
@@ -184,26 +183,8 @@ def populate_data():
                      parser='lxml'
                      )
 
-    # Enable cookie support
-    # cj = cookielib.LWPCookieJar()
-    # br.set_cookiejar(cj)
+    # Update cookie
     br.session.cookies.update(cookie)
-
-    # Browser options
-    # br.set_handle_equiv(True)
-    # #br.set_handle_gzip(True)
-    # br.set_handle_redirect(True)
-    # br.set_handle_referer(True)
-    # br.set_handle_robots(False)
-    # br.set_proxies({})
-
-    # Follows refresh 0 but not hangs on refresh > 0
-    # br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time = 1)
-
-    # Debugging messages
-    # br.set_debug_http(True)
-    # br.set_debug_redirects(True)
-    # br.set_debug_responses(True)
 
     with open(os.path.join(path, 'data/deps.4')) as f:
         deps = f.read().split('\n')
@@ -211,11 +192,13 @@ def populate_data():
     for dep in deps:
         parse_html(dep)
 
-    with open(os.path.join(path, 'data/data.json'), 'wb') as f:
+    with open(os.path.join(path, 'data/data.json'), 'w') as f:
         json.dump(profs_dict, f)
+
 
 def main():
     populate_data()
+
 
 if __name__ == '__main__':
     # Run main to populate data
