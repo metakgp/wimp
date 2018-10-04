@@ -58,7 +58,7 @@
                           method="post"
                           id="search"
                           class="text-center">
-                        <input list="profs" name="prof"
+                        <input id="proflist" list="profs" name="prof"
                                             placeholder="Who are you looking for?"
                                             class="form-control">
                         <input type="submit" value="Get timetable"
@@ -113,6 +113,18 @@
                         searchForm.submit();
                     });
                 </script>
+		<script src="{{url_for('static', filename='js/jquery-1.8.2.min.js')}}"></script>
+	<script src="{{url_for('static', filename='js/modernizr.custom.95508.js')}}"></script>
+	<script>
+		// Safari reports success of list attribute, so doing ghetto detection instead
+		yepnope({
+		  test : (!Modernizr.input.list || (parseInt($.browser.version) > 400)),
+		  yep : [
+		      "{{url_for('static', filename='js/jquery.relevant-dropdown.js')}}",
+			"{{url_for('static', filename='js/load-fallbacks.js')}}"
+		  ]
+		});
+	</script>
             </div>
             <div class="row">
                 <div class="col-md-12 text-center">
