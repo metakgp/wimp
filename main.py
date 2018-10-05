@@ -1,20 +1,25 @@
-#!/usr/bin/python2.7
+#!/usr/bin/python3.6
 #-*- coding: utf-8 -*-
 
 from bs4 import BeautifulSoup
 from classes import *
-import mechanize
-import cookielib
+from robobrowser import RoboBrowser
 import itertools
 import requests
 import json
 import re
 import os
+import sys
 
 path = os.path.abspath(os.path.dirname(__file__))
 
-with open(os.path.join(path, 'data/data.json'), 'rb') as f:
-    profs_dict =  CaseInsensitiveDict(json.load(f))
+try:
+
+    with open(os.path.join(path, 'data/data.json'), 'r') as f:
+        profs_dict =  CaseInsensitiveDict(json.load(f))
+
+except FileNotFoundError:
+    profs_dict = CaseInsensitiveDict({})
 
 DEPT_KEY = 'dept'
 WEBSITE_KEY = 'website'
@@ -35,16 +40,16 @@ def parse_html(dep):
     # Get prof timetable
     try:
 
-        r = br.open(TIMETABLE_FETCH_URL % dep)
-
-    except:
-
+        br.open(TIMETABLE_FETCH_URL % dep)
+        # print(br.response.content)
+        html = br.response.content
+        soup = BeautifulSoup(html, 'lxml')
+        html = soup.find_all('table')[4]
+        print("Fetched for %s" % dep)
+    except Exception as err:
         print("Can't fetch %s" % dep)
+        print(err)
         return
-
-    html = r.read()
-    soup = BeautifulSoup(html, 'lxml')
-    html = soup.find_all('table')[4]
 
     table_data = [[cell.text for cell in row("td")] for row in BeautifulSoup(str(html), 'lxml')("tr")]
     table_data = [row for row in table_data[2:] if len(row) == 7]
@@ -173,33 +178,23 @@ def get_table(details):
 
 
 def populate_data():
-    cookie = os.getenv('JSESSIONID')
+    if not os.getenv('JSESSIONID'):
+        print("ERROR: Please set environment variable JSESSIONID!")
+        sys.exit(1)
+
+    cookie = {
+        "JSESSIONID": os.getenv('JSESSIONID')
+    }
 
     # Browser
     global br
-    br = mechanize.Browser()
+    br = RoboBrowser(history=True,
+                     user_agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0',
+                     parser='lxml'
+                     )
 
-    # Enable cookie support
-    cj = cookielib.LWPCookieJar()
-    br.set_cookiejar(cj)
-
-    # Browser options
-    br.set_handle_equiv(True)
-    #br.set_handle_gzip(True)
-    br.set_handle_redirect(True)
-    br.set_handle_referer(True)
-    br.set_handle_robots(False)
-    br.set_proxies({})
-
-    # Follows refresh 0 but not hangs on refresh > 0
-    br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time = 1)
-
-    # Debugging messages
-    br.set_debug_http(True)
-    br.set_debug_redirects(True)
-    br.set_debug_responses(True)
-
-    br.addheaders = [('User-agent', 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0'), ('Cookie','JSESSIONID=%s' % cookie)]
+    # Update cookie
+    br.session.cookies.update(cookie)
 
     with open(os.path.join(path, 'data/deps.4')) as f:
         deps = f.read().split('\n')
@@ -207,11 +202,13 @@ def populate_data():
     for dep in deps:
         parse_html(dep)
 
-    with open(os.path.join(path, 'data/data.json'), 'wb') as f:
+    with open(os.path.join(path, 'data/data.json'), 'w') as f:
         json.dump(profs_dict, f)
+
 
 def main():
     populate_data()
+
 
 if __name__ == '__main__':
     # Run main to populate data
