@@ -1,4 +1,4 @@
-#!/usr/bin/python2.7
+#!/usr/bin/python3.6
 #-*- coding: utf-8 -*-
 
 from bs4 import BeautifulSoup
@@ -13,8 +13,13 @@ import sys
 
 path = os.path.abspath(os.path.dirname(__file__))
 
-with open(os.path.join(path, 'data/data.json'), 'rb') as f:
-    profs_dict =  CaseInsensitiveDict(json.load(f))
+try:
+
+    with open(os.path.join(path, 'data/data.json'), 'r') as f:
+        profs_dict =  CaseInsensitiveDict(json.load(f))
+
+except FileNotFoundError:
+    profs_dict = CaseInsensitiveDict({})
 
 DEPT_KEY = 'dept'
 WEBSITE_KEY = 'website'
@@ -173,7 +178,6 @@ def get_table(details):
 
 
 def populate_data():
-
     if not os.getenv('JSESSIONID'):
         print("ERROR: Please set environment variable JSESSIONID!")
         sys.exit(1)

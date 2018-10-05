@@ -28,7 +28,7 @@ Alwin is a wimpy kid. What? Is he lazy? Not at all! He always asks me, 'Where is
 $ git clone https://github.com/themousepotato/wimp.git
 $ cd wimp
 $ sudo pip3 install pipenv
-$ pipenv --three && pipenv install && pipenv shell # loads .env file variables
+$ pipenv --three && pipenv install && pipenv shell # loads .env file variables, install dependencies
 $ python main.py # To populate data
 $ python app.py # Locate your browser to the local address
 ```
