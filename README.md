@@ -1,4 +1,4 @@
-![Compatibility](https://img.shields.io/badge/compatible%20with-python2.7x-blue.svg)
+![Compatibility](https://img.shields.io/badge/compatible%20with-python3.6.x-blue.svg)
 # WIMP - Where Is My Prof?
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)

@@ -1,5 +1,5 @@
 # Base image
-FROM python:2.7-onbuild
+FROM python:3.6-onbuild
 
 MAINTAINER navaneeths1998@gmail.com
 
