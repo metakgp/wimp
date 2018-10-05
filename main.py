@@ -9,6 +9,7 @@ import requests
 import json
 import re
 import os
+import sys
 
 path = os.path.abspath(os.path.dirname(__file__))
 
@@ -40,9 +41,9 @@ def parse_html(dep):
         soup = BeautifulSoup(html, 'lxml')
         html = soup.find_all('table')[4]
         print("Fetched for %s" % dep)
-    except:
-
+    except Exception as err:
         print("Can't fetch %s" % dep)
+        print(err)
         return
 
     table_data = [[cell.text for cell in row("td")] for row in BeautifulSoup(str(html), 'lxml')("tr")]
@@ -172,6 +173,11 @@ def get_table(details):
 
 
 def populate_data():
+
+    if not os.getenv('JSESSIONID'):
+        print("ERROR: Please set environment variable JSESSIONID!")
+        sys.exit(1)
+
     cookie = {
         "JSESSIONID": os.getenv('JSESSIONID')
     }
