@@ -22,6 +22,7 @@ except FileNotFoundError:
 
 DEPT_KEY = 'dept'
 WEBSITE_KEY = 'website'
+TIMETABLE_KEY = 'timetable'
 KGP_WEBSITE_URL = 'http://www.iitkgp.ac.in/'
 DEPT_FETCH_URL = 'http://www.iitkgp.ac.in/facultylist?processOn=onload&colName=&searchContent=&_=1538283022101'
 TIMETABLE_FETCH_URL = 'https://erp.iitkgp.ac.in/Acad/timetable_track.jsp?action=second&dept=%s'
