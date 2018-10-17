@@ -62,8 +62,8 @@ def main():
     prof = request.args.get('prof')
 
     if prof:
-        tb, times, dept, prof = fetch_results(prof)
-        return render_template('main.html', name=prof, data=tb, times=times, profs=profs, dept=dept)
+        tb, times, dept, website, prof = fetch_results(prof)
+        return render_template('main.html', name=prof, website=website, data=tb, times=times, profs=profs, dept=dept, error=False)
 
     else:
         return render_template('main.html', profs=profs)      
