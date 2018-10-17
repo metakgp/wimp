@@ -48,12 +48,13 @@ def fetch_results(prof):
 def result():
     prof = request.form['prof']
     tb, times, dept, website, prof = fetch_results(prof)
-    return render_template('main.html', name=prof, website=website, data=tb, times=times, profs=profs, dept=dept)
+    return render_template('main.html', name=prof, website=website, data=tb, times=times, profs=profs, dept=dept, error=False)
 
 
 @app.errorhandler(404)         
 def prof_not_found(error):
-    return render_template('404.html'), 404
+    prof = request.form['prof']
+    return render_template('main.html', error=True, name=prof), 404
 
 
 @app.route('/', methods=['GET'])
