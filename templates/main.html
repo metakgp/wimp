@@ -54,29 +54,19 @@
                     from the list. The result will show the weekly timetable of the
                     professor!
                     </p>
-                    <form action="{{ url_for('result')  }}"
-                          method="post"
-                          id="search"
-                          class="text-center">
-                        {% if name %}
-                            <input list="profs" name="prof"
-                                                placeholder="Who are you looking for?"
-                                                class="form-control" id="prof_query" value="{{name}}">
-                        {% else %}
-                            <input list="profs" name="prof"
-                                                placeholder="Who are you looking for?"
-                                                class="form-control" id="prof_query">
-                        {% endif %}
-                        <input type="submit" value="Get timetable"
-                                             style="margin-top:20px;margin-bottom:10px"
-                                             class="btn btn-md btn-primary">
-
-                        <datalist id="profs">
-                            {% for prof in profs  %}
-                            <option value="{{ prof }}">
-                            {% endfor  %}
-                        </datalist>
-                    </form>
+                    {% if name %}
+                        <input name="prof"  autocomplete="off"
+                                            placeholder="Who are you looking for?"
+                                            class="form-control" id="prof_query" value="{{name}}">
+                    {% else %}
+                        <input name="prof"  autocomplete="off"
+                                            placeholder="Who are you looking for?"
+                                            class="form-control" id="prof_query">
+                    {% endif %}
+                    <div id="suggestions">
+                        <ul class="list-group">
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-md-2">
                 </div>
@@ -176,5 +166,13 @@
                 </div>
             </div>
         </div>
+
+
+        <script src="{{url_for('static', filename='scripts/autocomplete.js')}}"></script>
+        <script>
+            var datalist = [{% for prof in profs %} '{{prof}}', {% endfor %}];        
+            var worker = new Worker("{{url_for('static', filename='scripts/worker.js')}}");
+            autocomplete(datalist, worker);
+        </script>
     </body>
 </html>
