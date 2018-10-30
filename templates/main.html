@@ -129,14 +129,6 @@
                 {% endif %}
 
                 <script>
-                    var searchForm = document.getElementById("search");
-                    var searchInput = document.getElementById("prof");
-
-                    searchInput.addEventListener("change", function(){
-                        searchForm.submit();
-                    });
-                </script>
-                <script>
                     var fullLink = window.location.href;
                     var splitLink = fullLink.split('=');
                     if (splitLink.length>1) {
@@ -144,7 +136,6 @@
                         var inputBox = document.getElementById("prof_query");
                         inputBox.value=searchQuery;
                         inputBox.focus();
-                        document.getElementById("search").submit();
                     }
                 </script>
             </div>
