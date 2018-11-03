@@ -2,8 +2,16 @@
 #-*- coding: utf-8 -*-
 
 import collections
+import requests
+import re
+
+
+TIMETABLE_FETCH_URL = 'https://hercules-10496.herokuapp.com/api/v1/faculty/timetable?name={name}&dept={dept}'
+PROFESSOR_FETCH_URL = 'https://hercules-10496.herokuapp.com/api/v1/faculty/info/all'
+
 
 # CaseInsensitiveDict class inherited from dict
+# Also returns '' on KeyError
 class CaseInsensitiveDict(dict):
     """Basic case insensitive dict with strings only keys."""
 
@@ -27,8 +35,15 @@ class CaseInsensitiveDict(dict):
 
 
     def __getitem__(self, k):
-        key = self.proxy[k.lower()]
-        return super(CaseInsensitiveDict, self).__getitem__(key)
+        try:
+
+            key = self.proxy[k.lower()]
+            return super(CaseInsensitiveDict, self).__getitem__(key)
+
+
+        except KeyError:
+
+            return ''
 
 
     def get(self, k, default=None):
@@ -96,3 +111,34 @@ class SpellingCorrector():
         "All edits that are two edits away from `word`."
 
         return (e2 for e1 in self.edits1(word) for e2 in self.edits1(e1))
+
+
+class Professor(object):
+    def __init__(self, name, dept):
+        self.name = name
+        self.dept = dept
+
+
+
+class TimeTable(object):
+    def __init__(self, prof):
+        self.prof = prof
+
+    
+    def __repr__(self):
+        r = requests.get(TIMETABLE_FETCH_URL.format(name=self.prof.name, dept=self.prof.dept))
+        raw_data = r.json()
+        data = {}
+        days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+
+        for day in days:
+            for slot in raw_data[day]:
+                i = str(days.index(day))
+                j = int(re.findall(r'\d+', slot['slot']['time']['time'])[0])
+                j = j - 8 if j > 5 else j + 3
+                j = str(j)
+
+                rooms = slot['rooms']
+                data[i+j] = rooms
+
+        return str(data)
