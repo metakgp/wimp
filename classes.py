@@ -5,11 +5,6 @@ import collections
 import requests
 import re
 
-
-TIMETABLE_FETCH_URL = 'https://hercules-10496.herokuapp.com/api/v1/faculty/timetable?name={name}&dept={dept}'
-PROFESSOR_FETCH_URL = 'https://hercules-10496.herokuapp.com/api/v1/faculty/info/all'
-
-
 # CaseInsensitiveDict class inherited from dict
 # Also returns '' on KeyError
 class CaseInsensitiveDict(dict):
@@ -113,12 +108,77 @@ class SpellingCorrector():
         return (e2 for e1 in self.edits1(word) for e2 in self.edits1(e1))
 
 
-class Professor(object):
-    def __init__(self, name, dept):
-        self.name = name
-        self.dept = dept
+class Department:
+    """Represents a department"""
+    def __init__(self, **kwargs):
+        self.name = kwargs.get("name")
+        self.code = kwargs.get("code")
+    
+    def __str__(self):
+        return "Department(name={0}, code={1})".format(self.name, self.code)
 
+class FacultyMember:
+    """Represents a faculty member"""
+    def __init__(self, **kwargs):
+        self.name = kwargs.get("name")
+        self.department = Department(**kwargs.get("department"))
+        self.designation = kwargs.get("designation")
 
+    def __str__(self):
+        return "FacultyMember(name={0}, department={1}, designation={2})".format(self.name, self.department, self.designation)
+
+class Subject:
+    """Represents a subject"""
+    def __init__(self, **kwargs):
+        self.course = Course(**kwargs.get("course"))
+        self.slot = Slot(**kwargs.get("slot"))
+        self.rooms = kwargs.get("rooms")
+    
+    def __str__(self):
+        return "Subject(course={0}, slot={1}, rooms={2})".format(self.course, self.slot, self.rooms)
+
+class Course:
+    "Represents a course"
+    def __init__(self, **kwargs):
+        self.name = kwargs.get("name")
+        self.code = kwargs.get("code")
+        self.credits = kwargs.get("credits")
+    
+    def __str__(self):
+        return "Course(name={0}, code={1}, credits={2})".format(self.name, self.code, self.credits)
+
+class Slot:
+    "Represents a slot"
+    def __init__(self, **kwargs):
+        self.time = Time(**kwargs.get("time"))
+        self.slot = kwargs.get("slot")
+    
+    def __str__(self):
+        return "Slot(time={0}, slot={1})".format(self.time, self.slot)
+
+class Time:
+    """Represents an academic time slot"""
+    def __init__(self, **kwargs):
+        self.day = kwargs.get("day")
+        self.time = kwargs.get("time")
+
+    def __str__(self):
+        return "Time(day={0}, time={1})".format(self.day, self.time)
+
+class TT(dict):
+    "Represents a weekly timetable"
+    days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+    def __init__(self, **kwargs):
+        for day in self.days:
+            self[day] = kwargs.get(day, list())
+
+    def __str__(self):
+        r = ''
+        for day, schedule in self.items():
+            for s in schedule: 
+                r += "{0}: {1}\n".format(day, s)
+
+        return r
 
 class TimeTable(object):
     def __init__(self, prof):
@@ -137,7 +197,6 @@ class TimeTable(object):
                 j = int(re.findall(r'\d+', slot['slot']['time']['time'])[0])
                 j = j - 8 if j > 5 else j + 3
                 j = str(j)
-
                 rooms = slot['rooms']
                 data[i+j] = rooms
 
