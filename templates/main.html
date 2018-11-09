@@ -85,11 +85,11 @@
                             </tr>
                         </thead>
                         <tbody>
-                            {% for row in data %}
+                            {% for day in timetable %}
                             <tr>
-                                {% for col in row %}
+                                {% for subject in timetable[day] %}
                                 <td class="col-md-1" style="padding: 0;">
-                                    {% for venue in col %}
+                                    {% for venue in subject.rooms %}
                                     <div class="venue">
                                         {{ venue }}
                                     </div>

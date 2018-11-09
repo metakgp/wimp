@@ -2,7 +2,8 @@
 #-*- coding: utf-8 -*-
 
 from flask import Flask, render_template, request, abort
-from main import get_table, get_times, get_attr, correct_spelling
+from main import fetch_faculty_timetable
+from classes import FacultyMember, Department, TT, Subject
 import json
 import os
 
@@ -62,8 +63,13 @@ def main():
     prof = request.args.get('prof')
 
     if prof:
-        tb, times, dept, website, prof = fetch_results(prof)
-        return render_template('main.html', name=prof, website=website, data=tb, times=times, profs=profs, dept=dept, error=False)
+        #tb, times, dept, website, prof = fetch_results(prof)
+        times = ['', '8 AM', '9 AM', '10 AM', '11 AM', '12 PM', '2 PM', '3 PM', '4 PM', '5 PM']
+
+        fm = FacultyMember(name="Pratima Panigrahi", department={"name":"Mathematics", "code":"MA"})
+        timetable = fetch_faculty_timetable(fm)
+
+        return render_template('main.html', name=prof, website='', timetable=timetable, times=times, profs=profs, dept='<dept>', error=False)
 
     else:
         return render_template('main.html', profs=profs)      
