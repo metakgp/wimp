@@ -1,5 +1,5 @@
-#!/usr/bin/python3.6
-#-*- coding: utf-8 -*-
+# !/usr/bin/python3.6
+# -*- coding: utf-8 -*-
 
 from bs4 import BeautifulSoup
 from classes import *
@@ -16,7 +16,7 @@ path = os.path.abspath(os.path.dirname(__file__))
 try:
 
     with open(os.path.join(path, 'data/data.json'), 'r') as f:
-        profs_dict =  CaseInsensitiveDict(json.load(f))
+        profs_dict = CaseInsensitiveDict(json.load(f))
 
 except FileNotFoundError:
     profs_dict = CaseInsensitiveDict({})
@@ -28,8 +28,10 @@ KGP_WEBSITE_URL = 'http://www.iitkgp.ac.in/'
 DEPT_FETCH_URL = 'http://www.iitkgp.ac.in/facultylist?processOn=onload&colName=&searchContent=&_=1538283022101'
 TIMETABLE_FETCH_URL = 'https://erp.iitkgp.ac.in/Acad/timetable_track.jsp?action=second&dept=%s'
 
-# Get time from slot
+
 def get_time(slot):
+    # Obtains time for each slot from 'data/slots.1' file
+
     with open(os.path.join(path, 'data/slots.1')) as f:
         for line in f:
             if line.startswith(slot):
@@ -53,6 +55,10 @@ def parse_html(dep):
 
     table_data = [[cell.text for cell in row("td")] for row in BeautifulSoup(str(html), 'lxml')("tr")]
     table_data = [row for row in table_data[2:] if len(row) == 7]
+
+    # Test code for writing data obtained to, uncomment when want to test
+    with open('data/table_test', 'w') as f:
+        f.write(str(table_data))
 
     # Get prof department
     """
@@ -80,9 +86,10 @@ def parse_html(dep):
 
             website = KGP_WEBSITE_URL + href
 
-            dept_data[name] = { 'dept' : dept,
-                                'website' : website }
-
+            dept_data[name] = {'dept': dept,
+                               'website': website}
+            with open('data/dept_data', 'w') as f:
+                json.dump(dept_data, f)
 
     for row in table_data:
         prof_names = [name.title() for name in row[2].split(',')]
@@ -90,9 +97,10 @@ def parse_html(dep):
         venues = [venue.replace('Deptt.', 'Dept') for venue in row[6].split(',')]
 
         for prof_name in prof_names:
+            # print(prof_name)
             for slot in slots:
                 if prof_name not in profs_dict:
-                    profs_dict[prof_name] = { }
+                    profs_dict[prof_name] = {}
 
                     try:
 
@@ -104,12 +112,13 @@ def parse_html(dep):
                         profs_dict[prof_name][DEPT_KEY] = dep
                         profs_dict[prof_name][WEBSITE_KEY] = '#'
 
-                    profs_dict[prof_name][TIMETABLE_KEY] = [ ]
+                    profs_dict[prof_name][TIMETABLE_KEY] = []
 
                 profs_dict[prof_name][TIMETABLE_KEY].append([get_time(slot), venues])
 
-
     if len(profs_dict):
+        # with open('data/test_prof', 'w') as f:
+        #     json.dump(profs_dict, f)
         return profs_dict
 
     else:
@@ -118,7 +127,7 @@ def parse_html(dep):
 
 def get_times(prof_name):
     data = CaseInsensitiveDict(profs_dict)
-    result = [ ]
+    result = []
 
     try:
 
@@ -162,11 +171,11 @@ def get_attr(prof_name, key):
 
 
 def get_table(details):
-    tb = { }
+    tb = {}
 
     for i in range(5):
         for j in range(9):
-            tb.update({'%d%d' % (i,j): []})
+            tb.update({'%d%d' % (i, j): []})
 
     for times, venues in details:
         venues = set(v.strip() for v in venues)
@@ -177,7 +186,7 @@ def get_table(details):
     return tb
 
 
-def populate_data():
+def populate_data(specific_dep=None):
     if not os.getenv('JSESSIONID'):
         print("ERROR: Please set environment variable JSESSIONID!")
         sys.exit(1)
@@ -198,21 +207,28 @@ def populate_data():
 
     with open(os.path.join(path, 'data/deps.4')) as f:
         deps = f.read().split('\n')
-
-    for dep in deps:
-        parse_html(dep)
+    # parse_html('EC')
+    if specific_dep is None:
+        for dep in deps:
+            parse_html(dep)
+    else:
+        parse_html(specific_dep)
 
     with open(os.path.join(path, 'data/data.json'), 'w') as f:
         json.dump(profs_dict, f)
 
 
 def main():
-    populate_data()
+    dep = None
+    dep = str(input('''Is there a specific dep which you want to enter (write dep code),leaving this will update for all deps:\n'''))
+    if dep == "":
+        dep = None
+    populate_data(dep)
 
 
 if __name__ == '__main__':
     # Run main to populate data
     main()
 
-    # Test run
-    print(get_table(get_times('Jitendra kumar')))
+    # Test run, uncomment if you want to test one output
+    # print(get_table(get_times('Jitendra kumar')))
