@@ -1,10 +1,13 @@
-#!/usr/bin/python3.6
-#-*- coding: utf-8 -*-
+# !/usr/bin/python3.6
+# -*- coding: utf-8 -*-
 
-from flask import Flask, render_template, request, abort
-from main import get_table, get_times, get_attr, correct_spelling
 import json
 import os
+
+from flask import Flask, abort, render_template, request
+from werkzeug.exceptions import BadRequest
+
+from main import correct_spelling, get_attr, get_table, get_times
 
 app = Flask(__name__)
 
@@ -40,7 +43,7 @@ def fetch_results(prof):
                 venue = 'In Dept'
 
             tb[int(item[0])][int(item[1])+1].append(venue)
-        
+
     return [tb, times, dept, website, prof.title()]
 
 
@@ -51,9 +54,11 @@ def result():
     return render_template('main.html', name=prof, website=website, data=tb, times=times, profs=profs, dept=dept, error=False)
 
 
-@app.errorhandler(404)         
+@app.errorhandler(404)
 def prof_not_found(error):
-    prof = request.form['prof']
+    form = dict(request.form)
+    if form.get('prof') is None:
+        raise BadRequest()
     return render_template('main.html', error=True, name=prof), 404
 
 
