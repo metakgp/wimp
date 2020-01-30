@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from bs4 import BeautifulSoup
-from classes import *
+from classes import CaseInsensitiveDict, SpellingCorrector
 from robobrowser import RoboBrowser
 import itertools
 import requests
@@ -92,10 +92,13 @@ def parse_html(dep):
                 json.dump(dept_data, f)
 
     for row in table_data:
+        # print(row)
         prof_names = [name.title() for name in row[2].split(',')]
         slots = [slot.replace(' ', '') for slot in row[5].split(',')]
         venues = [venue.replace('Deptt.', 'Dept') for venue in row[6].split(',')]
+        course_codes = [course_code for course_code in row[0].split(',')]
 
+        # print(course_codes)
         for prof_name in prof_names:
             # print(prof_name)
             for slot in slots:
@@ -114,10 +117,11 @@ def parse_html(dep):
 
                     profs_dict[prof_name][TIMETABLE_KEY] = []
 
-                profs_dict[prof_name][TIMETABLE_KEY].append([get_time(slot), venues])
+                # print([get_time(slot), venues, course_codes])
+                profs_dict[prof_name][TIMETABLE_KEY].append([get_time(slot), venues, course_codes])
 
     if len(profs_dict):
-        # with open('data/test_prof', 'w') as f:
+        # with open('data/test_prof.json', 'w') as f:
         #     json.dump(profs_dict, f)
         return profs_dict
 
@@ -177,12 +181,14 @@ def get_table(details):
         for j in range(9):
             tb.update({'%d%d' % (i, j): []})
 
-    for times, venues in details:
+    for times, venues, course_code in details:
         venues = set(v.strip() for v in venues)
+        course_code = set(c.strip() for c in course_code)
 
         for time in times:
-            tb[time] = venues
-
+            tb[time] = [venues, course_code]
+            # print("Now it is", time, venues)
+    # print(tb)
     return tb
 
 
