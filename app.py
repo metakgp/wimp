@@ -31,16 +31,22 @@ def fetch_results(prof):
     if len(slot_data) == 0 and len(dept) == 0:
         abort(404)
 
+    print(slot_data)
     data = get_table(slot_data)
+    # print("Data is")
+    # print(data)
 
     for row in tb:
         for i in range(9):
             row.append([])
 
     for item in data:
-        for venue in data[item]:
-            if venue == '0':
-                venue = 'In Dept'
+        # print("data is ", data[item])
+        for element in data[item]:
+            for venue in element:
+                # print("venue is ", venue)
+                if venue == '0':
+                    venue = 'In Dept'
 
             tb[int(item[0])][int(item[1])+1].append(venue)
 
