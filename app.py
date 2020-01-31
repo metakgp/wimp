@@ -41,15 +41,14 @@ def fetch_results(prof):
             row.append([])
 
     for item in data:
-        # print("data is ", data[item])
+        print("data is ", data[item])
         for element in data[item]:
             for venue in element:
-                # print("venue is ", venue)
+                print("venue is ", venue)
                 if venue == '0':
                     venue = 'In Dept'
-
-            tb[int(item[0])][int(item[1])+1].append(venue)
-
+                tb[int(item[0])][int(item[1])+1].append(venue)
+    # print(tb)
     return [tb, times, dept, website, prof.title()]
 
 
@@ -64,7 +63,9 @@ def result():
 def prof_not_found(error):
     form = dict(request.form)
     if form.get('prof') is None:
-        raise BadRequest()
+        # raise BadRequest()
+        print('Empty')
+        prof = ''
     return render_template('main.html', error=True, name=prof), 404
 
 
