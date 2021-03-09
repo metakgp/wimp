@@ -3,7 +3,11 @@
 
 from bs4 import BeautifulSoup
 from classes import *
+
+import werkzeug
+werkzeug.cached_property = werkzeug.utils.cached_property
 from robobrowser import RoboBrowser
+
 import itertools
 import requests
 import json
