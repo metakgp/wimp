@@ -33,12 +33,16 @@
         .venue:only-child {
             border: 0;
         }
+        
+        .list-group {
+            list-style: none;
+        }
 
         </style>
     </head>
 
     <body>
-        <div class="container" style="margin-top:5px">
+        <div class="container" style="margin-top:20px">
             <div class="row">
                 <div class="col-md-2">
                 </div>
@@ -64,7 +68,7 @@
                                             class="form-control" id="prof_query">
                     {% endif %}
                     <div id="suggestions">
-                        <ul class="list-group">
+                        <ul id="list" class="list-group">
                         </ul>
                     </div>
                 </div>
@@ -139,20 +143,14 @@
                     }
                 </script>
             </div>
-            <div class="row">
+            <div class="footer">
                 <div class="col-md-12 text-center">
                     <p>
                     Contribute to this project on
-                    <a href="https://github.com/metakgp/wimp"
-                       target="_blank">
-                        GitHub
-                    </a>
-		    | Powered by
-		    <a href="https://metakgp.github.io/"
-		       target="_blank">
-			MetaKGP
-		    </a>
-		    with <span style="font-size:150%;color:red;">&hearts;</span>
+                    <a href="https://github.com/metakgp/wimp" target="_blank">GitHub</a>
+		            | Powered by
+                    <a href="https://metakgp.github.io/" target="_blank">MetaKGP</a>
+                    with <span style="font-size:150%;color:red;">&hearts;</span>
                     </p>
                 </div>
             </div>
