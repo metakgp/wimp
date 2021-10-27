@@ -48,6 +48,10 @@ function autocomplete(datalist, worker) {
         var maininput = document.getElementById('prof_query');  // targets the input, which triggers the functions populating the list
         document.onkeydown = function(e) { // listen to keyboard events
             switch (e.keyCode) {
+            case 27: // if the esc key is pressed
+                prof_query.value = ""; // erase the current query
+                suggestions.querySelector('ul').innerHTML = ""; //removes the suggestions from earlier query
+                break;
             case 38: // if the UP key is pressed
                 if (document.activeElement == (maininput || first)) { break; } // stop the script if the focus is on the input or first element
                 else { document.activeElement.parentNode.previousSibling.firstChild.focus(); } // select the element before the current, and focus it
@@ -55,11 +59,6 @@ function autocomplete(datalist, worker) {
             case 40: // if the DOWN key is pressed
                 if (document.activeElement == maininput) { first.firstChild.focus(); } // if the currently focused element is the main input --> focus the first <li>
                 else { document.activeElement.parentNode.nextSibling.firstChild.focus(); } // target the currently focused element -> <a>, go up a node -> <li>, select the next node, go down a node and focus it
-                break;
-            case 27: // if the esc key is pressed
-                console.log("ESC is pressed");
-                prof_query.value = ""; // erase the current query
-                suggestions.querySelector('ul').innerHTML = ""; //removes the suggestions from earlier query
                 break;
             } 
         }
