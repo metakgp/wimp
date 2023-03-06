@@ -1,5 +1,5 @@
 #!/usr/bin/python3.6
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 import json
 import os
@@ -14,19 +14,30 @@ app = Flask(__name__)
 path = os.path.abspath(os.path.dirname(__file__))
 
 
-with open(os.path.join(path, 'data/data.json')) as f:
+with open(os.path.join(path, "data/data.json")) as f:
     profs = list(set(json.load(f).keys()))
     profs.sort()
 
 
 def fetch_results(prof):
-    tb = [[['Monday']], [['Tuesday']], [['Wednesday']], [['Thursday']], [['Friday']]]
-    times = ['', '8 AM', '9 AM', '10 AM', '11 AM', '12 PM', '2 PM', '3 PM', '4 PM', '5 PM']
+    tb = [[["Monday"]], [["Tuesday"]], [["Wednesday"]], [["Thursday"]], [["Friday"]]]
+    times = [
+        "",
+        "8 AM",
+        "9 AM",
+        "10 AM",
+        "11 AM",
+        "12 PM",
+        "2 PM",
+        "3 PM",
+        "4 PM",
+        "5 PM",
+    ]
 
     prof = correct_spelling(prof)
     slot_data = get_times(prof)
-    dept = get_attr(prof, 'dept')
-    website = get_attr(prof, 'website')
+    dept = get_attr(prof, "dept")
+    website = get_attr(prof, "website")
 
     if len(slot_data) == 0 and len(dept) == 0:
         abort(404)
@@ -39,40 +50,60 @@ def fetch_results(prof):
 
     for item in data:
         for venue in data[item]:
-            if venue == '0':
-                venue = 'In Dept'
+            if venue == "0":
+                venue = "In Dept"
 
-            tb[int(item[0])][int(item[1])+1].append(venue)
+            tb[int(item[0])][int(item[1]) + 1].append(venue)
 
     return [tb, times, dept, website, prof.title()]
 
 
-@app.route('/', methods=['POST'])
+@app.route("/", methods=["POST"])
 def result():
-    prof = request.form['prof']
+    prof = request.form["prof"]
     tb, times, dept, website, prof = fetch_results(prof)
-    return render_template('main.html', name=prof, website=website, data=tb, times=times, profs=profs, dept=dept, error=False)
+    return render_template(
+        "main.html",
+        name=prof,
+        website=website,
+        data=tb,
+        times=times,
+        profs=profs,
+        dept=dept,
+        error=False,
+    )
 
 
 @app.errorhandler(404)
 def prof_not_found(error):
     form = dict(request.form)
-    if form.get('prof') is None:
+    if form.get("prof") is None and request.path != "/favicon.ico":
         raise BadRequest()
-    return render_template('main.html', error=True, name=prof), 404
+    
+    prof = form.get("prof")
+    return render_template("main.html", error=True, name=prof), 404
 
 
-@app.route('/', methods=['GET'])
+@app.route("/", methods=["GET"])
 def main():
-    prof = request.args.get('prof')
+    prof = request.args.get("prof")
 
     if prof:
         tb, times, dept, website, prof = fetch_results(prof)
-        return render_template('main.html', name=prof, website=website, data=tb, times=times, profs=profs, dept=dept, error=False)
+        return render_template(
+            "main.html",
+            name=prof,
+            website=website,
+            data=tb,
+            times=times,
+            profs=profs,
+            dept=dept,
+            error=False,
+        )
 
     else:
-        return render_template('main.html', profs=profs)      
+        return render_template("main.html", profs=profs)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run()
