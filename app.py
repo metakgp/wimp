@@ -77,8 +77,10 @@ def result():
 @app.errorhandler(404)
 def prof_not_found(error):
     form = dict(request.form)
-    if form.get("prof") is None:
+    if form.get("prof") is None and request.path != "/favicon.ico":
         raise BadRequest()
+    
+    prof = form.get("prof")
     return render_template("main.html", error=True, name=prof), 404
 
 
