@@ -2,3 +2,9 @@
 .env.template
 LICENSE
 README.md
+AUTHORS
+Dockerfile
+Pipfile
+Pipfile.lock
+Procfile
+runtime.txt
