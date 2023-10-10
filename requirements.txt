@@ -15,3 +15,4 @@ robobrowser==0.5.3
 six==1.16.0
 urllib3==1.24.3
 Werkzeug==2.2.3
+python-dotenv==1.0.0

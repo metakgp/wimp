@@ -16,6 +16,10 @@ import re
 import os
 import sys
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 path = os.path.abspath(os.path.dirname(__file__))
 
 try:
