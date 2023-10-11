@@ -32,8 +32,7 @@ except FileNotFoundError:
 DEPT_KEY = "dept"
 WEBSITE_KEY = "website"
 TIMETABLE_KEY = "timetable"
-KGP_WEBSITE_URL = "http://www.iitkgp.ac.in/"
-DEPT_FETCH_URL = "http://www.iitkgp.ac.in/facultylist?processOn=onload&colName=&searchContent=&_=1538283022101"
+DEPT_FETCH_URL = "https://www.iitkgp.ac.in/Departments/fetchAllFacListByDept"
 TIMETABLE_FETCH_URL = (
     "https://erp.iitkgp.ac.in/Acad/timetable_track.jsp?action=second&dept=%s"
 )
@@ -82,23 +81,20 @@ def parse_html(dep):
     not found, we'll add it from out data of the subject.
 
     """
-    dept_resp = requests.get(DEPT_FETCH_URL)
-    dept_raw_data = json.loads(dept_resp.content)["data"]
+    dept_resp = requests.post(DEPT_FETCH_URL,data={'lang':'en'})
+    dept_raw_data = json.loads(dept_resp.content)["aaData"]
     dept_data = CaseInsensitiveDict({})
 
     for prof in dept_raw_data:
-        name = re.findall(r">(.+?)<", prof["faculty"])[0]
+        name = re.findall(r">(.+?)<", prof["empname"])[0]
         name = name.replace("  ", "")
-        dept = prof["dept_code"]
+        dept = re.findall(r"department\/(..)",prof["empname"])[0]
 
-        soup = BeautifulSoup(prof["faculty"], "lxml")
-
-        for tag in soup.findAll("a", href=True):
+        soup = BeautifulSoup(prof["empname"], "lxml")
+        
+        for tag in soup.find_all("a", href=True):
             href = tag["href"]
-
-            website = KGP_WEBSITE_URL + href
-
-            dept_data[name] = {"dept": dept, "website": website}
+            dept_data[name] = {"dept": dept, "website": href}
             with open("data/dept_data", "w") as f:
                 json.dump(dept_data, f)
 
@@ -220,8 +216,8 @@ def populate_data(specific_dep=None):
     else:
         parse_html(specific_dep)
 
-    with open(os.path.join(path, "data/data.json"), "w") as f:
-        json.dump(profs_dict, f)
+    # with open(os.path.join(path, "data/data.json"), "w") as f:
+    #     json.dump(profs_dict, f)
 
 
 def main():
