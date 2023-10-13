@@ -1,2953 +1,3711 @@
 {
-  "Budhaditya Mukherjee": {
+  "mm-bmukherjee": {
+    "name": "Budhaditya Mukherjee",
     "dept": "MM",
     "website": "https://www.iitkgp.ac.in/department/MM/faculty/mm-bmukherjee"
   },
-  "Nishant Chakravorty": {
+  "mm-nishant": {
+    "name": "Nishant Chakravorty",
     "dept": "MM",
     "website": "https://www.iitkgp.ac.in/department/MM/faculty/mm-nishant"
   },
-  "Gayatri Mukherjee": {
+  "mm-gayatri.mukherjee": {
+    "name": "Gayatri Mukherjee",
     "dept": "MM",
     "website": "https://www.iitkgp.ac.in/department/MM/faculty/mm-gayatri.mukherjee"
   },
-  "Koel Chaudhury": {
+  "mm-koel": {
+    "name": "Koel Chaudhury",
     "dept": "MM",
     "website": "https://www.iitkgp.ac.in/department/MM/faculty/mm-koel"
   },
-  "Santanu Dhara": {
+  "mm-sdhara": {
+    "name": "Santanu Dhara",
     "dept": "MM",
     "website": "https://www.iitkgp.ac.in/department/MM/faculty/mm-sdhara"
   },
-  "Soumen Das": {
+  "mm-sou": {
+    "name": "Soumen Das",
     "dept": "MM",
     "website": "https://www.iitkgp.ac.in/department/MM/faculty/mm-sou"
   },
-  "Manjunatha Mahadevappa": {
+  "mm-mmaha2": {
+    "name": "Manjunatha Mahadevappa",
     "dept": "MM",
     "website": "https://www.iitkgp.ac.in/department/MM/faculty/mm-mmaha2"
   },
-  "Subhamoy Mandal": {
+  "mm-smandal": {
+    "name": "Subhamoy Mandal",
     "dept": "MM",
     "website": "https://www.iitkgp.ac.in/department/MM/faculty/mm-smandal"
   },
-  "Praphulla Chandra Shukla": {
+  "mm-pcshukla": {
+    "name": "Praphulla Chandra Shukla",
     "dept": "MM",
     "website": "https://www.iitkgp.ac.in/department/MM/faculty/mm-pcshukla"
   },
-  "Sangeeta Das Bhattacharya": {
+  "mm-sangeeta": {
+    "name": "Sangeeta Das Bhattacharya",
     "dept": "MM",
     "website": "https://www.iitkgp.ac.in/department/MM/faculty/mm-sangeeta"
   },
-  "Mahitosh Mandal": {
+  "mm-mahitosh": {
+    "name": "Mahitosh Mandal",
     "dept": "MM",
     "website": "https://www.iitkgp.ac.in/department/MM/faculty/mm-mahitosh"
   },
-  "Gorachand Dutta": {
+  "mm-g.dutta": {
+    "name": "Gorachand Dutta",
     "dept": "MM",
     "website": "https://www.iitkgp.ac.in/department/MM/faculty/mm-g.dutta"
   },
-  "Debashree Guha Adhya": {
+  "mm-debashree_smst": {
+    "name": "Debashree Guha Adhya",
     "dept": "MM",
     "website": "https://www.iitkgp.ac.in/department/MM/faculty/mm-debashree_smst"
   },
-  "Marc J. Madou": {
+  "mm-NEsrUDJJcWxLZDlSUHowNmthWjJHQT09": {
+    "name": "Marc J. Madou",
     "dept": "MM",
     "website": "https://www.iitkgp.ac.in/department/MM/faculty/mm-NEsrUDJJcWxLZDlSUHowNmthWjJHQT09"
   },
-  "Indrajit Dube": {
+  "ip-indrajit": {
+    "name": "Indrajit Dube",
     "dept": "IP",
     "website": "https://www.iitkgp.ac.in/department/IP/faculty/ip-indrajit"
   },
-  "Prakash Sharma": {
+  "ip-prakash": {
+    "name": "Prakash Sharma",
     "dept": "IP",
     "website": "https://www.iitkgp.ac.in/department/IP/faculty/ip-prakash"
   },
-  "Padmavati Manchikanti": {
+  "ip-mpadma": {
+    "name": "Padmavati Manchikanti",
     "dept": "IP",
     "website": "https://www.iitkgp.ac.in/department/IP/faculty/ip-mpadma"
   },
-  "Arindam Basu": {
-    "dept": "GG",
-    "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-abasu"
+  "ip-arindam": {
+    "name": "Arindam Basu",
+    "dept": "IP",
+    "website": "https://www.iitkgp.ac.in/department/IP/faculty/ip-arindam"
   },
-  "Balraj Kaur Sidhu": {
+  "ip-bksidhu": {
+    "name": "Balraj Kaur Sidhu",
     "dept": "IP",
     "website": "https://www.iitkgp.ac.in/department/IP/faculty/ip-bksidhu"
   },
-  "S R Subramanian": {
+  "ip-subramanian": {
+    "name": "S R Subramanian",
     "dept": "IP",
     "website": "https://www.iitkgp.ac.in/department/IP/faculty/ip-subramanian"
   },
-  "Gouri Ashok Gargate": {
+  "ip-gouri": {
+    "name": "Gouri Ashok Gargate",
     "dept": "IP",
     "website": "https://www.iitkgp.ac.in/department/IP/faculty/ip-gouri"
   },
-  "Shakti Deb": {
+  "ip-MzRjdkJBc2ZCTTNFL1pwYnpTU21SZz09": {
+    "name": "Shakti Deb",
     "dept": "IP",
     "website": "https://www.iitkgp.ac.in/department/IP/faculty/ip-MzRjdkJBc2ZCTTNFL1pwYnpTU21SZz09"
   },
-  "Shreya Matilal": {
+  "ip-shreya": {
+    "name": "Shreya Matilal",
     "dept": "IP",
     "website": "https://www.iitkgp.ac.in/department/IP/faculty/ip-shreya"
   },
-  "Dipa Dube": {
+  "ip-dipadube": {
+    "name": "Dipa Dube",
     "dept": "IP",
     "website": "https://www.iitkgp.ac.in/department/IP/faculty/ip-dipadube"
   },
-  "Shuvro Prosun Sarker": {
+  "ip-shuvro": {
+    "name": "Shuvro Prosun Sarker",
     "dept": "IP",
     "website": "https://www.iitkgp.ac.in/department/IP/faculty/ip-shuvro"
   },
-  "Raju K D": {
+  "ip-kdraju": {
+    "name": "Raju K D",
     "dept": "IP",
     "website": "https://www.iitkgp.ac.in/department/IP/faculty/ip-kdraju"
   },
-  "Uday Shankar": {
+  "ip-uday": {
+    "name": "Uday Shankar",
     "dept": "IP",
     "website": "https://www.iitkgp.ac.in/department/IP/faculty/ip-uday"
   },
-  "Narendran Thiruthy": {
+  "ip-narendran": {
+    "name": "Narendran Thiruthy",
     "dept": "IP",
     "website": "https://www.iitkgp.ac.in/department/IP/faculty/ip-narendran"
   },
-  "Niharika Sahoo Bhattacharya": {
+  "ip-niharika": {
+    "name": "Niharika Sahoo Bhattacharya",
     "dept": "IP",
     "website": "https://www.iitkgp.ac.in/department/IP/faculty/ip-niharika"
   },
-  "Anuradha Choudry": {
+  "hs-anuradha.sanskrit": {
+    "name": "Anuradha Choudry",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-anuradha.sanskrit"
   },
-  "Vijai Nath Giri": {
+  "hs-vng": {
+    "name": "Vijai Nath Giri",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-vng"
   },
-  "Vikas Thakur": {
+  "hs-thakurv": {
+    "name": "Vikas Thakur",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-thakurv"
   },
-  "Somdatta Bhattacharya": {
+  "hs-somdatta": {
+    "name": "Somdatta Bhattacharya",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-somdatta"
   },
-  "Krittika Banerjee": {
+  "hs-S0dtdGNKYXV5SWR1d0JUY3I5bnR6Zz09": {
+    "name": "Krittika Banerjee",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-S0dtdGNKYXV5SWR1d0JUY3I5bnR6Zz09"
   },
-  "Kishor Goswami": {
+  "hs-kishor": {
+    "name": "Kishor Goswami",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-kishor"
   },
-  "Dripto Bakshi": {
+  "hs-dripto": {
+    "name": "Dripto Bakshi",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-dripto"
   },
-  "Amrita Sen": {
+  "hs-amrita.sen": {
+    "name": "Amrita Sen",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-amrita.sen"
   },
-  "Binita Tiwari": {
+  "hs-binita": {
+    "name": "Binita Tiwari",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-binita"
   },
-  "Pulak Mishra": {
+  "hs-pmishra": {
+    "name": "Pulak Mishra",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-pmishra"
   },
-  "Bornini Lahiri": {
+  "hs-bornini": {
+    "name": "Bornini Lahiri",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-bornini"
   },
-  "Mukkamala Kameshwar Rao": {
+  "hs-mkrao": {
+    "name": "Mukkamala Kameshwar Rao",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-mkrao"
   },
-  "Anway Mukhopadhyay": {
+  "hs-anway": {
+    "name": "Anway Mukhopadhyay",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-anway"
   },
-  "Anwesha Aditya": {
+  "hs-anwesha": {
+    "name": "Anwesha Aditya",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-anwesha"
   },
-  "Kailash Bihari Lal Srivastava": {
+  "hs-kbls": {
+    "name": "Kailash Bihari Lal Srivastava",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-kbls"
   },
-  "Seema Singh": {
+  "hs-seema": {
+    "name": "Seema Singh",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-seema"
   },
-  "Rabindra Kumar Pradhan": {
+  "hs-rkpradhan": {
+    "name": "Rabindra Kumar Pradhan",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-rkpradhan"
   },
-  "Archana Patnaik": {
+  "hs-archana": {
+    "name": "Archana Patnaik",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-archana"
   },
-  "Mahima Raina": {
+  "hs-mahima": {
+    "name": "Mahima Raina",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-mahima"
   },
-  "Narayan Chandra Nayak": {
+  "hs-ncnayak": {
+    "name": "Narayan Chandra Nayak",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-ncnayak"
   },
-  "Bhagirath Behera": {
+  "hs-bhagirath": {
+    "name": "Bhagirath Behera",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-bhagirath"
   },
-  "Jitendra Mahakud": {
+  "hs-jmahakud": {
+    "name": "Jitendra Mahakud",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-jmahakud"
   },
-  "Rishabh Rai": {
+  "hs-rishabh": {
+    "name": "Rishabh Rai",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-rishabh"
   },
-  "Suhita Chopra Chatterjee": {
+  "hs-suhita": {
+    "name": "Suhita Chopra Chatterjee",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-suhita"
   },
-  "Bimal Kishore Sahoo": {
+  "hs-bks": {
+    "name": "Bimal Kishore Sahoo",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-bks"
   },
-  "Inder Sekhar Yadav": {
+  "hs-yadavis": {
+    "name": "Inder Sekhar Yadav",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-yadavis"
   },
-  "Jenia Mukherjee": {
+  "hs-jenia": {
+    "name": "Jenia Mukherjee",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-jenia"
   },
-  "Prantik Bagchi": {
+  "hs-prantik": {
+    "name": "Prantik Bagchi",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-prantik"
   },
-  "Siddhartha Chattopadhyay": {
+  "hs-siddhartha": {
+    "name": "Siddhartha Chattopadhyay",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-siddhartha"
   },
-  "Gourishankar S Hiremath": {
+  "hs-gshiremath": {
+    "name": "Gourishankar S Hiremath",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-gshiremath"
   },
-  "H S Komalesha": {
+  "hs-komalesha": {
+    "name": "H S Komalesha",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-komalesha"
   },
-  "Sunandan Ghosh": {
+  "hs-sunandan": {
+    "name": "Sunandan Ghosh",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-sunandan"
   },
-  "Saswat Samay Das": {
+  "hs-ssd": {
+    "name": "Saswat Samay Das",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-ssd"
   },
-  "Mantu Kumar Mahalik": {
+  "hs-mkm": {
+    "name": "Mantu Kumar Mahalik",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-mkm"
   },
-  "Dripta Piplai (Mondal)": {
+  "hs-dripta": {
+    "name": "Dripta Piplai (Mondal)",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-dripta"
   },
-  "Priyadarshi Patnaik": {
+  "hs-bapi": {
+    "name": "Priyadarshi Patnaik",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-bapi"
   },
-  "Rima Bhattacharya": {
+  "hs-rima": {
+    "name": "Rima Bhattacharya",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-rima"
   },
-  "Anubhab Pattanayak": {
+  "hs-anubhab": {
+    "name": "Anubhab Pattanayak",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-anubhab"
   },
-  "Anjali Roy": {
+  "hs-anjali": {
+    "name": "Anjali Roy",
     "dept": "HS",
     "website": "https://www.iitkgp.ac.in/department/HS/faculty/hs-anjali"
   },
-  "Abhijit Guha": {
+  "me-a.guha": {
+    "name": "Abhijit Guha",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-a.guha"
   },
-  "Dilip Kumar Pratihar": {
+  "me-dkpra": {
+    "name": "Dilip Kumar Pratihar",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-dkpra"
   },
-  "Rajaram Lakkaraju": {
+  "me-rlakkaraju": {
+    "name": "Rajaram Lakkaraju",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-rlakkaraju"
   },
-  "Arun Kumar Samantaray": {
+  "me-samantaray": {
+    "name": "Arun Kumar Samantaray",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-samantaray"
   },
-  "Goutam Chakraborty": {
+  "me-goutam": {
+    "name": "Goutam Chakraborty",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-goutam"
   },
-  "Purbarun Dhar": {
+  "me-purbarun": {
+    "name": "Purbarun Dhar",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-purbarun"
   },
-  "Sanjay Gupta": {
+  "me-sangupta": {
+    "name": "Sanjay Gupta",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-sangupta"
   },
-  "Manab Kumar Das": {
+  "me-manab": {
+    "name": "Manab Kumar Das",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-manab"
   },
-  "Atul Jain": {
+  "me-atuljain": {
+    "name": "Atul Jain",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-atuljain"
   },
-  "Kingshook Bhattacharyya": {
+  "me-king": {
+    "name": "Kingshook Bhattacharyya",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-king"
   },
-  "Subhransu Roy": {
+  "me-suroy": {
+    "name": "Subhransu Roy",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-suroy"
   },
-  "Prasanta Kumar Das": {
+  "me-pkd": {
+    "name": "Prasanta Kumar Das",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-pkd"
   },
-  "Ranjan Bhattacharyya": {
+  "me-rbmail": {
+    "name": "Ranjan Bhattacharyya",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-rbmail"
   },
-  "Sushanta Kumar Panda": {
+  "me-sushanta.panda": {
+    "name": "Sushanta Kumar Panda",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-sushanta.panda"
   },
-  "Archana Arbind": {
+  "me-archana.arbind": {
+    "name": "Archana Arbind",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-archana.arbind"
   },
-  "Nilanjan Das Chakladar": {
+  "me-ndaschakladar": {
+    "name": "Nilanjan Das Chakladar",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-ndaschakladar"
   },
-  "Soumitra Paul": {
+  "me-spaul": {
+    "name": "Soumitra Paul",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-spaul"
   },
-  "Amiya Ranjan Mohanty": {
+  "me-amohanty": {
+    "name": "Amiya Ranjan Mohanty",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-amohanty"
   },
-  "Aditya Bandopadhyay": {
+  "me-aditya": {
+    "name": "Aditya Bandopadhyay",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-aditya"
   },
-  "Mihir Sarangi": {
+  "me-smihir": {
+    "name": "Mihir Sarangi",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-smihir"
   },
-  "Korak Sarkar": {
+  "me-koraksarkar": {
+    "name": "Korak Sarkar",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-koraksarkar"
   },
-  "Mahendra Reddy Vanteru": {
+  "me-mahendra": {
+    "name": "Mahendra Reddy Vanteru",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-mahendra"
   },
-  "Anandaroop Bhattacharya": {
+  "me-anandaroop": {
+    "name": "Anandaroop Bhattacharya",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-anandaroop"
   },
-  "Sourav Mitra": {
+  "me-sourav": {
+    "name": "Sourav Mitra",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-sourav"
   },
-  "Jeevanjyoti Chakraborty": {
+  "me-jeevan": {
+    "name": "Jeevanjyoti Chakraborty",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-jeevan"
   },
-  "Sandipan Ghosh Moulic": {
+  "me-moulic": {
+    "name": "Sandipan Ghosh Moulic",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-moulic"
   },
-  "Ajay Muljibhai Sidpara": {
+  "me-ajaymsidpara": {
+    "name": "Ajay Muljibhai Sidpara",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-ajaymsidpara"
   },
-  "Suman Chakraborty": {
+  "me-suman": {
+    "name": "Suman Chakraborty",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-suman"
   },
-  "Partha Pratim Bandyopadhyay": {
+  "me-ppb": {
+    "name": "Partha Pratim Bandyopadhyay",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-ppb"
   },
-  "Chirag Deepak Kalelkar": {
+  "me-kalelkar": {
+    "name": "Chirag Deepak Kalelkar",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-kalelkar"
   },
-  "Biswajit Bharat": {
+  "me-biswajitb": {
+    "name": "Biswajit Bharat",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-biswajitb"
   },
-  "Cheruvu Siva Kumar": {
+  "me-kumar": {
+    "name": "Cheruvu Siva Kumar",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-kumar"
   },
-  "Venkata Naga Vamsi Munagala": {
+  "me-vamsi": {
+    "name": "Venkata Naga Vamsi Munagala",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-vamsi"
   },
-  "Somnath Roy": {
+  "me-somnath.roy": {
+    "name": "Somnath Roy",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-somnath.roy"
   },
-  "Surjya Kanta Pal": {
+  "me-skpal": {
+    "name": "Surjya Kanta Pal",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-skpal"
   },
-  "Maddali Ramgopal": {
+  "me-ramg": {
+    "name": "Maddali Ramgopal",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-ramg"
   },
-  "Partha Saha": {
+  "me-psaha": {
+    "name": "Partha Saha",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-psaha"
   },
-  "Poonam Sundriyal": {
+  "me-psundriyal": {
+    "name": "Poonam Sundriyal",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-psundriyal"
   },
-  "Anirvan Dasgupta": {
+  "me-anir": {
+    "name": "Anirvan Dasgupta",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-anir"
   },
-  "Vikranth Racherla": {
+  "me-vikranth.racherla": {
+    "name": "Vikranth Racherla",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-vikranth.racherla"
   },
-  "Sankha Deb": {
+  "me-sankha.deb": {
+    "name": "Sankha Deb",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-sankha.deb"
   },
-  "Dhananjay Kumar Srivastava": {
+  "me-srivastava": {
+    "name": "Dhananjay Kumar Srivastava",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-srivastava"
   },
-  "Manas Chandra Ray": {
+  "me-mcray": {
+    "name": "Manas Chandra Ray",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-mcray"
   },
-  "Siddharth Tamang": {
+  "me-stamang": {
+    "name": "Siddharth Tamang",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-stamang"
   },
-  "Sati Nath Bhattacharyya": {
+  "me-snb": {
+    "name": "Sati Nath Bhattacharyya",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-snb"
   },
-  "Sukanta Kumar Dash": {
+  "me-sdash": {
+    "name": "Sukanta Kumar Dash",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-sdash"
   },
-  "Asimava Roy Choudhury": {
+  "me-archie": {
+    "name": "Asimava Roy Choudhury",
     "dept": "ME",
     "website": "https://www.iitkgp.ac.in/department/ME/faculty/me-archie"
   },
-  "Anirban Bhattacharyya": {
+  "na-ab": {
+    "name": "Anirban Bhattacharyya",
     "dept": "NA",
     "website": "https://www.iitkgp.ac.in/department/NA/faculty/na-ab"
   },
-  "Hari V Warrior": {
+  "na-warrior": {
+    "name": "Hari V Warrior",
     "dept": "NA",
     "website": "https://www.iitkgp.ac.in/department/NA/faculty/na-warrior"
   },
-  "Swapnadip De Chowdhury": {
+  "na-sdip": {
+    "name": "Swapnadip De Chowdhury",
     "dept": "NA",
     "website": "https://www.iitkgp.ac.in/department/NA/faculty/na-sdip"
   },
-  "Debabrata Sen": {
+  "na-deb": {
+    "name": "Debabrata Sen",
     "dept": "NA",
     "website": "https://www.iitkgp.ac.in/department/NA/faculty/na-deb"
   },
-  "Ritwik Ghoshal": {
+  "na-ritwik": {
+    "name": "Ritwik Ghoshal",
     "dept": "NA",
     "website": "https://www.iitkgp.ac.in/department/NA/faculty/na-ritwik"
   },
-  "Ranadev Datta": {
+  "na-ranadev": {
+    "name": "Ranadev Datta",
     "dept": "NA",
     "website": "https://www.iitkgp.ac.in/department/NA/faculty/na-ranadev"
   },
-  "Om Prakash Sha": {
+  "na-ops": {
+    "name": "Om Prakash Sha",
     "dept": "NA",
     "website": "https://www.iitkgp.ac.in/department/NA/faculty/na-ops"
   },
-  "Prasad Kumar Bhaskaran": {
+  "na-pkbhaskaran": {
+    "name": "Prasad Kumar Bhaskaran",
     "dept": "NA",
     "website": "https://www.iitkgp.ac.in/department/NA/faculty/na-pkbhaskaran"
   },
-  "Vishwanath Nagarajan": {
+  "na-vishwanath_n": {
+    "name": "Vishwanath Nagarajan",
     "dept": "NA",
     "website": "https://www.iitkgp.ac.in/department/NA/faculty/na-vishwanath_n"
   },
-  "Arunjyoti Sarkar": {
+  "na-arun": {
+    "name": "Arunjyoti Sarkar",
     "dept": "NA",
     "website": "https://www.iitkgp.ac.in/department/NA/faculty/na-arun"
   },
-  "Kiran Vijayan": {
+  "na-kiran.vijayan": {
+    "name": "Kiran Vijayan",
     "dept": "NA",
     "website": "https://www.iitkgp.ac.in/department/NA/faculty/na-kiran.vijayan"
   },
-  "Trilochan Sahoo": {
+  "na-tsahoo": {
+    "name": "Trilochan Sahoo",
     "dept": "NA",
     "website": "https://www.iitkgp.ac.in/department/NA/faculty/na-tsahoo"
   },
-  "Soumyadip Choudhury": {
+  "rt-soumyadip.choudhury": {
+    "name": "Soumyadip Choudhury",
     "dept": "RT",
     "website": "https://www.iitkgp.ac.in/department/RT/faculty/rt-soumyadip.choudhury"
   },
-  "Kinsuk Naskar": {
+  "rt-knaskar": {
+    "name": "Kinsuk Naskar",
     "dept": "RT",
     "website": "https://www.iitkgp.ac.in/department/RT/faculty/rt-knaskar"
   },
-  "Nikhil Kumar Singha": {
+  "rt-nks": {
+    "name": "Nikhil Kumar Singha",
     "dept": "RT",
     "website": "https://www.iitkgp.ac.in/department/RT/faculty/rt-nks"
   },
-  "Santanu Chattopadhyay": {
-    "dept": "EC",
-    "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-santanu"
+  "rt-santanu": {
+    "name": "Santanu Chattopadhyay",
+    "dept": "RT",
+    "website": "https://www.iitkgp.ac.in/department/RT/faculty/rt-santanu"
   },
-  "Titash Mondal": {
+  "rt-titash": {
+    "name": "Titash Mondal",
     "dept": "RT",
     "website": "https://www.iitkgp.ac.in/department/RT/faculty/rt-titash"
   },
-  "Narayan Chandra Das": {
+  "rt-ncdas": {
+    "name": "Narayan Chandra Das",
     "dept": "RT",
     "website": "https://www.iitkgp.ac.in/department/RT/faculty/rt-ncdas"
   },
-  "MythravaruniPullela": {
+  "rt-pmvaruni": {
+    "name": "MythravaruniPullela",
     "dept": "RT",
     "website": "https://www.iitkgp.ac.in/department/RT/faculty/rt-pmvaruni"
   },
-  "Pawan Goyal": {
+  "cs-pawang": {
+    "name": "Pawan Goyal",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-pawang"
   },
-  "Saptarshi Ghosh": {
+  "cs-saptarshi": {
+    "name": "Saptarshi Ghosh",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-saptarshi"
   },
-  "Sudeshna Kolay": {
+  "cs-skolay": {
+    "name": "Sudeshna Kolay",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-skolay"
   },
-  "Somindu Chaya Ramanna": {
+  "cs-somindu": {
+    "name": "Somindu Chaya Ramanna",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-somindu"
   },
-  "Abhijit Das": {
-    "dept": "BS",
-    "website": "https://www.iitkgp.ac.in/department/BS/faculty/bs-abhijit.das"
+  "cs-abhij": {
+    "name": "Abhijit Das",
+    "dept": "CS",
+    "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
   },
-  "Debasis Samanta": {
+  "cs-dsamanta": {
+    "name": "Debasis Samanta",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-dsamanta"
   },
-  "Sandip Chakraborty": {
+  "cs-sandipc": {
+    "name": "Sandip Chakraborty",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-sandipc"
   },
-  "Sarani Bhattacharya": {
+  "cs-sarani": {
+    "name": "Sarani Bhattacharya",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-sarani"
   },
-  "Satrajit Ghosh": {
+  "cs-satrajit": {
+    "name": "Satrajit Ghosh",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-satrajit"
   },
-  "Sudip Misra": {
+  "cs-smisra": {
+    "name": "Sudip Misra",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-smisra"
   },
-  "Ayan Chaudhury": {
+  "cs-ayanc": {
+    "name": "Ayan Chaudhury",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-ayanc"
   },
-  "Rajat Subhra Chakraborty": {
+  "cs-rschakraborty": {
+    "name": "Rajat Subhra Chakraborty",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-rschakraborty"
   },
-  "Rajib Mall": {
+  "cs-rajib": {
+    "name": "Rajib Mall",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-rajib"
   },
-  "Pralay Mitra": {
+  "cs-pralay": {
+    "name": "Pralay Mitra",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-pralay"
   },
-  "Soumya Kanti Ghosh": {
+  "cs-skg": {
+    "name": "Soumya Kanti Ghosh",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-skg"
   },
-  "Arobinda Gupta": {
+  "cs-agupta": {
+    "name": "Arobinda Gupta",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-agupta"
   },
-  "Chittaranjan Mandal": {
+  "cs-chitta": {
+    "name": "Chittaranjan Mandal",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-chitta"
   },
-  "Mainack Mondal": {
+  "cs-mainack": {
+    "name": "Mainack Mondal",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-mainack"
   },
-  "Pabitra Mitra": {
+  "cs-pabitra": {
+    "name": "Pabitra Mitra",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-pabitra"
   },
-  "Somak Aditya": {
+  "cs-saditya": {
+    "name": "Somak Aditya",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-saditya"
   },
-  "Swagato Sanyal": {
+  "cs-swagato": {
+    "name": "Swagato Sanyal",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-swagato"
   },
-  "Niloy Ganguly": {
+  "cs-niloy": {
+    "name": "Niloy Ganguly",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-niloy"
   },
-  "Sudeshna Sarkar": {
+  "cs-sudeshna": {
+    "name": "Sudeshna Sarkar",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-sudeshna"
   },
-  "Dipanwita Roy Chowdhury": {
+  "cs-drc": {
+    "name": "Dipanwita Roy Chowdhury",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-drc"
   },
-  "Sourangshu Bhattacharya": {
+  "cs-sourangshu": {
+    "name": "Sourangshu Bhattacharya",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-sourangshu"
   },
-  "Animesh Mukherjee": {
+  "cs-animeshm": {
+    "name": "Animesh Mukherjee",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-animeshm"
   },
-  "Partha Pratim Chakrabarti": {
+  "cs-ppchak": {
+    "name": "Partha Pratim Chakrabarti",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-ppchak"
   },
-  "Indranil Sengupta": {
+  "cs-isg": {
+    "name": "Indranil Sengupta",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-isg"
   },
-  "Partha Bhowmick": {
+  "cs-pb": {
+    "name": "Partha Bhowmick",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-pb"
   },
-  "Jayanta Mukhopadhyay": {
+  "cs-jay": {
+    "name": "Jayanta Mukhopadhyay",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-jay"
   },
-  "Aritra Hazra": {
+  "cs-aritrah": {
+    "name": "Aritra Hazra",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-aritrah"
   },
-  "Sudebkumar Prasant Pal": {
+  "cs-spp": {
+    "name": "Sudebkumar Prasant Pal",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-spp"
   },
-  "Palash Dey": {
+  "cs-Uzk1dDNzV05TVkk0RVVKaXdocm5hZz09": {
+    "name": "Palash Dey",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-Uzk1dDNzV05TVkk0RVVKaXdocm5hZz09"
   },
-  "Shamik Sural": {
+  "cs-shamik": {
+    "name": "Shamik Sural",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-shamik"
   },
-  "Debdeep Mukhopadhyay": {
+  "cs-debdeep": {
+    "name": "Debdeep Mukhopadhyay",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-debdeep"
   },
-  "Abir Das": {
+  "cs-abir": {
+    "name": "Abir Das",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abir"
   },
-  "Partha Pratim Das": {
+  "cs-ppd": {
+    "name": "Partha Pratim Das",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-ppd"
   },
-  "Bivas Mitra": {
+  "cs-bivas": {
+    "name": "Bivas Mitra",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-bivas"
   },
-  "Krothapalli Sreenivasa Rao": {
+  "cs-ksrao": {
+    "name": "Krothapalli Sreenivasa Rao",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-ksrao"
   },
-  "Soumyajit Dey": {
+  "cs-soumya": {
+    "name": "Soumyajit Dey",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-soumya"
   },
-  "Pallab Dasgupta": {
+  "cs-pallab": {
+    "name": "Pallab Dasgupta",
     "dept": "CS",
     "website": "https://www.iitkgp.ac.in/department/CS/faculty/cs-pallab"
   },
-  "Arijita Banerjee": {
+  "sh-anZFUDhqNlZKTU5WdlhZOS8xNmtJZz09": {
+    "name": "Arijita Banerjee",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-anZFUDhqNlZKTU5WdlhZOS8xNmtJZz09"
   },
-  "Aritri Bir": {
+  "sh-aritri": {
+    "name": "Aritri Bir",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-aritri"
   },
-  "Payal Arvind Kasat": {
+  "sh-Y3dORWRGWGV1Z21pZ1VIbGdBVDN5dz09": {
+    "name": "Payal Arvind Kasat",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-Y3dORWRGWGV1Z21pZ1VIbGdBVDN5dz09"
   },
-  "Mrinal Kumar Acharya": {
+  "sh-S0MwRlQvUXJQWGlLMkxLVzlEdlFBZz09": {
+    "name": "Mrinal Kumar Acharya",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-S0MwRlQvUXJQWGlLMkxLVzlEdlFBZz09"
   },
-  "Barnali Ghosh": {
+  "sh-barnaligdoc": {
+    "name": "Barnali Ghosh",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-barnaligdoc"
   },
-  "Arijit Dey": {
+  "sh-arijit06": {
+    "name": "Arijit Dey",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-arijit06"
   },
-  "Chaitanya Mittal": {
+  "sh-chaitanyasog": {
+    "name": "Chaitanya Mittal",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-chaitanyasog"
   },
-  "Roshan Andleeb": {
+  "sh-roshan.anesth": {
+    "name": "Roshan Andleeb",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-roshan.anesth"
   },
-  "Nabarun Karmakar": {
+  "sh-drnabarun": {
+    "name": "Nabarun Karmakar",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-drnabarun"
   },
-  "Arindam Ghosh": {
+  "sh-arindam": {
+    "name": "Arindam Ghosh",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-arindam"
   },
-  "Shirin Dasgupta": {
+  "sh-shirin": {
+    "name": "Shirin Dasgupta",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-shirin"
   },
-  "Manjunatha S": {
+  "sh-WmhFS0lIV3QvbVloYzdHSllnTE5PZz09": {
+    "name": "Manjunatha S",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-WmhFS0lIV3QvbVloYzdHSllnTE5PZz09"
   },
-  "Subhra Banerjee": {
+  "sh-doc.subhra": {
+    "name": "Subhra Banerjee",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-doc.subhra"
   },
-  "Soumi Kundu": {
+  "sh-soumi.kundu": {
+    "name": "Soumi Kundu",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-soumi.kundu"
   },
-  "Deepika .": {
+  "sh-deepika": {
+    "name": "Deepika .",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-deepika"
   },
-  "Sourav Pal": {
+  "sh-UmpXelpRMjA5MFZFS05ndmYrQytlZz09": {
+    "name": "Sourav Pal",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-UmpXelpRMjA5MFZFS05ndmYrQytlZz09"
   },
-  "Parmeshwar Satpathy": {
+  "sh-bGFBU0x3eEJCVnhlUEsrQU1RNjZ3UT09": {
+    "name": "Parmeshwar Satpathy",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-bGFBU0x3eEJCVnhlUEsrQU1RNjZ3UT09"
   },
-  "Sweety Suman Jha": {
+  "sh-REtncUJEckg0NnA4MjkvS0N4SVVOZz09": {
+    "name": "Sweety Suman Jha",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-REtncUJEckg0NnA4MjkvS0N4SVVOZz09"
   },
-  "Satya Prasad V": {
+  "sh-eEZxdkJMRlF6VHlFbVZjRHliUU9xdz09": {
+    "name": "Satya Prasad V",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-eEZxdkJMRlF6VHlFbVZjRHliUU9xdz09"
   },
-  "Arista Lahiri": {
+  "sh-L1ZPaDRMRGhWaFRjRjFFYzRjbVl3UT09": {
+    "name": "Arista Lahiri",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-L1ZPaDRMRGhWaFRjRjFFYzRjbVl3UT09"
   },
-  "Sumana Samanta": {
+  "sh-sumana": {
+    "name": "Sumana Samanta",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-sumana"
   },
-  "Parama Banerjee": {
+  "sh-param_biochem": {
+    "name": "Parama Banerjee",
     "dept": "SH",
     "website": "https://www.iitkgp.ac.in/department/SH/faculty/sh-param_biochem"
   },
-  "Monalisa Sarma": {
+  "re-monalisa": {
+    "name": "Monalisa Sarma",
     "dept": "RE",
     "website": "https://www.iitkgp.ac.in/department/RE/faculty/re-monalisa"
   },
-  "Sanjay Kumar Chaturvedi": {
+  "re-skcrec": {
+    "name": "Sanjay Kumar Chaturvedi",
     "dept": "RE",
     "website": "https://www.iitkgp.ac.in/department/RE/faculty/re-skcrec"
   },
-  "Neeraj Kumar Goyal": {
+  "re-ngoyal": {
+    "name": "Neeraj Kumar Goyal",
     "dept": "RE",
     "website": "https://www.iitkgp.ac.in/department/RE/faculty/re-ngoyal"
   },
-  "V N Achutha Naikan": {
+  "re-naikan": {
+    "name": "V N Achutha Naikan",
     "dept": "RE",
     "website": "https://www.iitkgp.ac.in/department/RE/faculty/re-naikan"
   },
-  "Heeralal Gargama": {
+  "re-heeralalgargama": {
+    "name": "Heeralal Gargama",
     "dept": "RE",
     "website": "https://www.iitkgp.ac.in/department/RE/faculty/re-heeralalgargama"
   },
-  "Indranil Hazra": {
+  "re-ihazra": {
+    "name": "Indranil Hazra",
     "dept": "RE",
     "website": "https://www.iitkgp.ac.in/department/RE/faculty/re-ihazra"
   },
-  "Rajiv Nandan Rai": {
+  "re-rnrai": {
+    "name": "Rajiv Nandan Rai",
     "dept": "RE",
     "website": "https://www.iitkgp.ac.in/department/RE/faculty/re-rnrai"
   },
-  "Arnab Roy": {
+  "ae-arnab": {
+    "name": "Arnab Roy",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-arnab"
   },
-  "Amardip Ghosh": {
+  "ae-amardip.ghosh": {
+    "name": "Amardip Ghosh",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-amardip.ghosh"
   },
-  "Mrinal Kaushik": {
+  "ae-mkaushik": {
+    "name": "Mrinal Kaushik",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-mkaushik"
   },
-  "Suresh Chandra Pradhan": {
+  "ae-scp": {
+    "name": "Suresh Chandra Pradhan",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-scp"
   },
-  "Manoranjan Sinha": {
+  "ae-masinha": {
+    "name": "Manoranjan Sinha",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-masinha"
   },
-  "Manas Kumar Laha": {
+  "ae-mlaha": {
+    "name": "Manas Kumar Laha",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-mlaha"
   },
-  "Akshay Prakash": {
+  "ae-ap": {
+    "name": "Akshay Prakash",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-ap"
   },
-  "Mohammed Rabius Sunny": {
+  "ae-sunny": {
+    "name": "Mohammed Rabius Sunny",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-sunny"
   },
-  "Mira Mitra": {
+  "ae-mira": {
+    "name": "Mira Mitra",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-mira"
   },
-  "Sandeep Saha": {
+  "ae-ssaha": {
+    "name": "Sandeep Saha",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-ssaha"
   },
-  "Dipak Kumar Maiti": {
+  "ae-dkmaiti": {
+    "name": "Dipak Kumar Maiti",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-dkmaiti"
   },
-  "Susmita Bhattacharyya": {
+  "ae-susmita": {
+    "name": "Susmita Bhattacharyya",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-susmita"
   },
-  "Srinibas Karmakar": {
+  "ae-skarmakar": {
+    "name": "Srinibas Karmakar",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-skarmakar"
   },
-  "Somnath Ghosh": {
+  "ae-sghosh": {
+    "name": "Somnath Ghosh",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-sghosh"
   },
-  "Ratan Joarder": {
+  "ae-jratan": {
+    "name": "Ratan Joarder",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-jratan"
   },
-  "Sikha Hota": {
+  "ae-sikhahota": {
+    "name": "Sikha Hota",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-sikhahota"
   },
-  "Anup Ghosh": {
+  "ae-anup": {
+    "name": "Anup Ghosh",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-anup"
   },
-  "Naba Kumar Peyada": {
+  "ae-nkpeyada": {
+    "name": "Naba Kumar Peyada",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-nkpeyada"
   },
-  "Prasun Jana": {
+  "ae-prasun": {
+    "name": "Prasun Jana",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-prasun"
   },
-  "Kalyan Prasad Sinhamahapatra": {
+  "ae-kalyanps": {
+    "name": "Kalyan Prasad Sinhamahapatra",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-kalyanps"
   },
-  "Bhrigu Nath Singh": {
+  "ae-bnsingh": {
+    "name": "Bhrigu Nath Singh",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-bnsingh"
   },
-  "Sunil Manohar Dash": {
+  "ae-smdash": {
+    "name": "Sunil Manohar Dash",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-smdash"
   },
-  "Chetankumar Sureshbhai Mistry": {
+  "ae-csmistry": {
+    "name": "Chetankumar Sureshbhai Mistry",
     "dept": "AE",
     "website": "https://www.iitkgp.ac.in/department/AE/faculty/ae-csmistry"
   },
-  "Ayantika Chatterjee": {
+  "at-ayantika": {
+    "name": "Ayantika Chatterjee",
     "dept": "AT",
     "website": "https://www.iitkgp.ac.in/department/AT/faculty/at-ayantika"
   },
-  "Kaushal Kumar Bhagat": {
+  "at-kkntnu": {
+    "name": "Kaushal Kumar Bhagat",
     "dept": "AT",
     "website": "https://www.iitkgp.ac.in/department/AT/faculty/at-kkntnu"
   },
-  "Shyamal Kumar Das Mandal": {
+  "at-sdasmandal": {
+    "name": "Shyamal Kumar Das Mandal",
     "dept": "AT",
     "website": "https://www.iitkgp.ac.in/department/AT/faculty/at-sdasmandal"
   },
-  "Arnab Sarkar": {
+  "at-arnab": {
+    "name": "Arnab Sarkar",
     "dept": "AT",
     "website": "https://www.iitkgp.ac.in/department/AT/faculty/at-arnab"
   },
-  "Banibrata Mukherjee": {
+  "at-banibratam": {
+    "name": "Banibrata Mukherjee",
     "dept": "AT",
     "website": "https://www.iitkgp.ac.in/department/AT/faculty/at-banibratam"
   },
-  "Prasun Mishra": {
+  "at-prasun.mishra": {
+    "name": "Prasun Mishra",
     "dept": "AT",
     "website": "https://www.iitkgp.ac.in/department/AT/faculty/at-prasun.mishra"
   },
-  "Somnath Sengupta": {
+  "at-sengupta.s": {
+    "name": "Somnath Sengupta",
     "dept": "AT",
     "website": "https://www.iitkgp.ac.in/department/AT/faculty/at-sengupta.s"
   },
-  "Syamsundar De": {
+  "at-syamsundarde": {
+    "name": "Syamsundar De",
     "dept": "AT",
     "website": "https://www.iitkgp.ac.in/department/AT/faculty/at-syamsundarde"
   },
-  "Sandeep Kumar Reddy": {
+  "cd-skreddy": {
+    "name": "Sandeep Kumar Reddy",
     "dept": "CD",
     "website": "https://www.iitkgp.ac.in/department/CD/faculty/cd-skreddy"
   },
-  "Swarup Kumar Panda": {
+  "ma-spanda": {
+    "name": "Swarup Kumar Panda",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-spanda"
   },
-  "Chandal Nahak": {
+  "ma-cnahak": {
+    "name": "Chandal Nahak",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-cnahak"
   },
-  "Apurba Das": {
+  "ma-apurbadas348": {
+    "name": "Apurba Das",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-apurbadas348"
   },
-  "Mithun Bhowmik": {
+  "ma-mithun": {
+    "name": "Mithun Bhowmik",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-mithun"
   },
-  "Arindam Banerjee": {
+  "ma-123.arindam": {
+    "name": "Arindam Banerjee",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-123.arindam"
   },
-  "Buddhananda Banerjee": {
+  "ma-bbanerjee": {
+    "name": "Buddhananda Banerjee",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-bbanerjee"
   },
-  "G P Raja Sekhar": {
+  "ma-rajas": {
+    "name": "G P Raja Sekhar",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-rajas"
   },
-  "Bodhayan Roy": {
+  "ma-broy": {
+    "name": "Bodhayan Roy",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-broy"
   },
-  "Pratima Panigrahi": {
+  "ma-pratima": {
+    "name": "Pratima Panigrahi",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-pratima"
   },
-  "T Raja Sekhar": {
+  "ma-trajasekhar": {
+    "name": "T Raja Sekhar",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-trajasekhar"
   },
-  "Hari Shankar Mahato": {
+  "ma-hsmahato": {
+    "name": "Hari Shankar Mahato",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-hsmahato"
   },
-  "Mousumi Mandal": {
+  "ma-mousumi": {
+    "name": "Mousumi Mandal",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-mousumi"
   },
-  "Bappaditya Bhowmik": {
+  "ma-bappaditya": {
+    "name": "Bappaditya Bhowmik",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-bappaditya"
   },
-  "Asish Ganguly": {
+  "ma-aganguly": {
+    "name": "Asish Ganguly",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-aganguly"
   },
-  "Ramakrishna Nanduri": {
+  "ma-nanduri": {
+    "name": "Ramakrishna Nanduri",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-nanduri"
   },
-  "Somesh Kumar": {
+  "ma-smsh": {
+    "name": "Somesh Kumar",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-smsh"
   },
-  "Nitin Gupta": {
+  "ma-nitin.gupta": {
+    "name": "Nitin Gupta",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-nitin.gupta"
   },
-  "Soumyarup Banerjee": {
+  "ma-soumyarup": {
+    "name": "Soumyarup Banerjee",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-soumyarup"
   },
-  "Prateep Chakraborty": {
+  "ma-prateep": {
+    "name": "Prateep Chakraborty",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-prateep"
   },
-  "Rupanwita Gayen": {
+  "ma-rupanwita": {
+    "name": "Rupanwita Gayen",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-rupanwita"
   },
-  "Pawan Kumar": {
+  "ma-pawan": {
+    "name": "Pawan Kumar",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-pawan"
   },
-  "Naveen Kumar Garg": {
+  "ma-gargnk": {
+    "name": "Naveen Kumar Garg",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-gargnk"
   },
-  "Rajesh Kannan": {
+  "ma-rajeshkannan": {
+    "name": "Rajesh Kannan",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-rajeshkannan"
   },
-  "Geetanjali Panda": {
+  "ma-geetanjali": {
+    "name": "Geetanjali Panda",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-geetanjali"
   },
-  "Adrijit Goswami": {
+  "ma-goswami": {
+    "name": "Adrijit Goswami",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-goswami"
   },
-  "Ratna Dutta": {
+  "ma-ratna": {
+    "name": "Ratna Dutta",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-ratna"
   },
-  "Gnaneshwar Nelakanti": {
+  "ma-gnanesh": {
+    "name": "Gnaneshwar Nelakanti",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-gnanesh"
   },
-  "Koeli Ghoshal": {
+  "ma-koeli": {
+    "name": "Koeli Ghoshal",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-koeli"
   },
-  "Dipankar Ghosh": {
+  "ma-dipankar": {
+    "name": "Dipankar Ghosh",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-dipankar"
   },
-  "Sourav Mukhopadhyay": {
+  "ma-sourav": {
+    "name": "Sourav Mukhopadhyay",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-sourav"
   },
-  "Debapriya Biswas": {
+  "ma-priya": {
+    "name": "Debapriya Biswas",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-priya"
   },
-  "Debjani Chakraborty": {
+  "ma-debjani": {
+    "name": "Debjani Chakraborty",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-debjani"
   },
-  "Kamalakshya Mahatab": {
+  "ma-kamalakshya": {
+    "name": "Kamalakshya Mahatab",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-kamalakshya"
   },
-  "Husney Parvez Sarwar": {
+  "ma-parvez": {
+    "name": "Husney Parvez Sarwar",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-parvez"
   },
-  "Swanand Ravindra Khare": {
+  "ma-srkhare": {
+    "name": "Swanand Ravindra Khare",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-srkhare"
   },
-  "Rajni Kant Pandey": {
+  "ma-rkp": {
+    "name": "Rajni Kant Pandey",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-rkp"
   },
-  "Soumitra Ghara": {
+  "ma-soumitra": {
+    "name": "Soumitra Ghara",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-soumitra"
   },
-  "P V S N Murthy": {
+  "ma-pvsnm": {
+    "name": "P V S N Murthy",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-pvsnm"
   },
-  "Somnath Bhattacharyya": {
+  "ma-somnath": {
+    "name": "Somnath Bhattacharyya",
     "dept": "MA",
     "website": "https://www.iitkgp.ac.in/department/MA/faculty/ma-somnath"
   },
-  "Basab Chakraborty": {
+  "rj-basab": {
+    "name": "Basab Chakraborty",
     "dept": "RJ",
     "website": "https://www.iitkgp.ac.in/department/RJ/faculty/rj-basab"
   },
-  "Titas Bhattacharjee (Rudra)": {
+  "rj-titas": {
+    "name": "Titas Bhattacharjee (Rudra)",
     "dept": "RJ",
     "website": "https://www.iitkgp.ac.in/department/RJ/faculty/rj-titas"
   },
-  "Manoj Kumar Mondal": {
+  "rj-manoj": {
+    "name": "Manoj Kumar Mondal",
     "dept": "RJ",
     "website": "https://www.iitkgp.ac.in/department/RJ/faculty/rj-manoj"
   },
-  "Mamoni Banerjee": {
+  "rj-mamoni": {
+    "name": "Mamoni Banerjee",
     "dept": "RJ",
     "website": "https://www.iitkgp.ac.in/department/RJ/faculty/rj-mamoni"
   },
-  "Ram Babu Roy": {
+  "rj-rambabu": {
+    "name": "Ram Babu Roy",
     "dept": "RJ",
     "website": "https://www.iitkgp.ac.in/department/RJ/faculty/rj-rambabu"
   },
-  "Mrigank Sharad": {
+  "rj-mrigank": {
+    "name": "Mrigank Sharad",
     "dept": "RJ",
     "website": "https://www.iitkgp.ac.in/department/RJ/faculty/rj-mrigank"
   },
-  "Bhaskar Bhowmick": {
+  "rj-bhaskar": {
+    "name": "Bhaskar Bhowmick",
     "dept": "RJ",
     "website": "https://www.iitkgp.ac.in/department/RJ/faculty/rj-bhaskar"
   },
-  "Prabha Bhola": {
+  "rj-prabha": {
+    "name": "Prabha Bhola",
     "dept": "RJ",
     "website": "https://www.iitkgp.ac.in/department/RJ/faculty/rj-prabha"
   },
-  "Pranab Kumar Dan": {
+  "rj-pkdan": {
+    "name": "Pranab Kumar Dan",
     "dept": "RJ",
     "website": "https://www.iitkgp.ac.in/department/RJ/faculty/rj-pkdan"
   },
-  "Sridhar Sahoo": {
+  "ag-dFRlSCtodEc2SFJubWlyRC9yQUxVZz09": {
+    "name": "Sridhar Sahoo",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-dFRlSCtodEc2SFJubWlyRC9yQUxVZz09"
   },
-  "Abir Chakravorty": {
+  "ag-abir.28kh": {
+    "name": "Abir Chakravorty",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-abir.28kh"
   },
-  "Narendra Singh Raghuwanshi": {
+  "ag-nsr": {
+    "name": "Narendra Singh Raghuwanshi",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-nsr"
   },
-  "Adinpunya Mitra": {
+  "ag-adin": {
+    "name": "Adinpunya Mitra",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-adin"
   },
-  "Chandranath Chatterjee": {
+  "ag-cchatterjee": {
+    "name": "Chandranath Chatterjee",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-cchatterjee"
   },
-  "Jayraj P": {
+  "ag-jayrajp": {
+    "name": "Jayraj P",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-jayrajp"
   },
-  "Punyadarshini Punam Tripathy": {
+  "ag-punam": {
+    "name": "Punyadarshini Punam Tripathy",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-punam"
   },
-  "Amey Pathak": {
+  "ag-amey": {
+    "name": "Amey Pathak",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-amey"
   },
-  "Somsubhra Chakraborty": {
+  "ag-somsubhra": {
+    "name": "Somsubhra Chakraborty",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-somsubhra"
   },
-  "Poulomi Ganguli": {
+  "ag-pganguli": {
+    "name": "Poulomi Ganguli",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-pganguli"
   },
-  "Kanishka Bhunia": {
+  "ag-kanishka": {
+    "name": "Kanishka Bhunia",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-kanishka"
   },
-  "Rajendra Singh": {
+  "ag-rsingh": {
+    "name": "Rajendra Singh",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-rsingh"
   },
-  "Ashok Mishra": {
+  "ag-amishra": {
+    "name": "Ashok Mishra",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-amishra"
   },
-  "Jayeeta Mitra": {
+  "ag-jayeeta.mitra": {
+    "name": "Jayeeta Mitra",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-jayeeta.mitra"
   },
-  "Subhadip Dey": {
+  "ag-sdey23": {
+    "name": "Subhadip Dey",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-sdey23"
   },
-  "Dibyendu Kamilya": {
+  "ag-dibyendu": {
+    "name": "Dibyendu Kamilya",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-dibyendu"
   },
-  "Gourav Dhar Bhowmick": {
+  "ag-gourav": {
+    "name": "Gourav Dhar Bhowmick",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-gourav"
   },
-  "Damodhara Rao Mailapalli": {
+  "ag-mailapalli": {
+    "name": "Damodhara Rao Mailapalli",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-mailapalli"
   },
-  "Nirupama Mallick": {
+  "ag-nm": {
+    "name": "Nirupama Mallick",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-nm"
   },
-  "P Srinivasa Rao": {
+  "ag-psrao": {
+    "name": "P Srinivasa Rao",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-psrao"
   },
-  "Hari Niwas Mishra": {
+  "ag-hnm": {
+    "name": "Hari Niwas Mishra",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-hnm"
   },
-  "Virendra Kumar Tewari": {
+  "ag-vktfeb": {
+    "name": "Virendra Kumar Tewari",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-vktfeb"
   },
-  "Praveen Kumar Sappati": {
+  "ag-pks": {
+    "name": "Praveen Kumar Sappati",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-pks"
   },
-  "Prem Prakash Srivastav": {
+  "ag-pps": {
+    "name": "Prem Prakash Srivastav",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-pps"
   },
-  "Joydeep Banerjee": {
+  "ag-joydeep": {
+    "name": "Joydeep Banerjee",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-joydeep"
   },
-  "Peeyush Soni": {
+  "ag-soni": {
+    "name": "Peeyush Soni",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-soni"
   },
-  "Dillip Kumar Swain": {
+  "ag-swain": {
+    "name": "Dillip Kumar Swain",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-swain"
   },
-  "Hifjur Raheman": {
+  "ag-hifjur": {
+    "name": "Hifjur Raheman",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-hifjur"
   },
-  "Brajesh Kumar Panda": {
+  "ag-bkp": {
+    "name": "Brajesh Kumar Panda",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-bkp"
   },
-  "Madan Kumar Jha": {
+  "ag-madan": {
+    "name": "Madan Kumar Jha",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-madan"
   },
-  "Bhabani Sankar Das": {
+  "ag-bsdas": {
+    "name": "Bhabani Sankar Das",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-bsdas"
   },
-  "Bhupendra M Ghodki": {
+  "ag-bmg": {
+    "name": "Bhupendra M Ghodki",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-bmg"
   },
-  "Ronit Mandal": {
+  "ag-rm": {
+    "name": "Ronit Mandal",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-rm"
   },
-  "Prithwiraj Dey": {
+  "ag-prithwi": {
+    "name": "Prithwiraj Dey",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-prithwi"
   },
-  "Rajendra Machavaram": {
+  "ag-rajendra": {
+    "name": "Rajendra Machavaram",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-rajendra"
   },
-  "Rintu Banerjee": {
+  "ag-rb": {
+    "name": "Rintu Banerjee",
     "dept": "AG",
     "website": "https://www.iitkgp.ac.in/department/AG/faculty/ag-rb"
   },
-  "Piyush Kumar Singh": {
+  "rd-psingh": {
+    "name": "Piyush Kumar Singh",
     "dept": "RD",
     "website": "https://www.iitkgp.ac.in/department/RD/faculty/rd-psingh"
   },
-  "Somnath Ghosal": {
+  "rd-somnath": {
+    "name": "Somnath Ghosal",
     "dept": "RD",
     "website": "https://www.iitkgp.ac.in/department/RD/faculty/rd-somnath"
   },
-  "Mahesh Mohan M R": {
+  "ai-mahesh.mohan": {
+    "name": "Mahesh Mohan M R",
     "dept": "AI",
     "website": "https://www.iitkgp.ac.in/department/AI/faculty/ai-mahesh.mohan"
   },
-  "Prabhat Kumar Mishra": {
+  "ai-V05rakc5UFoweWhDK2ZBMzQ0TUFwZz09": {
+    "name": "Prabhat Kumar Mishra",
     "dept": "AI",
     "website": "https://www.iitkgp.ac.in/department/AI/faculty/ai-V05rakc5UFoweWhDK2ZBMzQ0TUFwZz09"
   },
-  "Adway Mitra": {
+  "ai-adway": {
+    "name": "Adway Mitra",
     "dept": "AI",
     "website": "https://www.iitkgp.ac.in/department/AI/faculty/ai-adway"
   },
-  "Koustav Rudra": {
+  "ai-krudra": {
+    "name": "Koustav Rudra",
     "dept": "AI",
     "website": "https://www.iitkgp.ac.in/department/AI/faculty/ai-krudra"
   },
-  "Somdyuti Paul": {
+  "ai-UUR3QmFpc2cwdkFWMnBWc2pJMmo4Zz09": {
+    "name": "Somdyuti Paul",
     "dept": "AI",
     "website": "https://www.iitkgp.ac.in/department/AI/faculty/ai-UUR3QmFpc2cwdkFWMnBWc2pJMmo4Zz09"
   },
-  "Mahesh K": {
+  "ks-mahesh": {
+    "name": "Mahesh K",
     "dept": "KS",
     "website": "https://www.iitkgp.ac.in/department/KS/faculty/ks-mahesh"
   },
-  "Jayashree Aanand Gajjam": {
+  "ks-jayashree": {
+    "name": "Jayashree Aanand Gajjam",
     "dept": "KS",
     "website": "https://www.iitkgp.ac.in/department/KS/faculty/ks-jayashree"
   },
-  "Dipesh Vinod Katira": {
+  "ks-dipesh": {
+    "name": "Dipesh Vinod Katira",
     "dept": "KS",
     "website": "https://www.iitkgp.ac.in/department/KS/faculty/ks-dipesh"
   },
-  "Richa Chopra": {
+  "ks-richachopra": {
+    "name": "Richa Chopra",
     "dept": "KS",
     "website": "https://www.iitkgp.ac.in/department/KS/faculty/ks-richachopra"
   },
-  "Debarati Sen": {
+  "gs-debarati": {
+    "name": "Debarati Sen",
     "dept": "GS",
     "website": "https://www.iitkgp.ac.in/department/GS/faculty/gs-debarati"
   },
-  "Suvra Sekhar Das": {
+  "gs-suvra": {
+    "name": "Suvra Sekhar Das",
     "dept": "GS",
     "website": "https://www.iitkgp.ac.in/department/GS/faculty/gs-suvra"
   },
-  "Jiaul Hoque Paik": {
+  "gs-jiaul": {
+    "name": "Jiaul Hoque Paik",
     "dept": "GS",
     "website": "https://www.iitkgp.ac.in/department/GS/faculty/gs-jiaul"
   },
-  "Aneek Adhya": {
+  "gs-aneek": {
+    "name": "Aneek Adhya",
     "dept": "GS",
     "website": "https://www.iitkgp.ac.in/department/GS/faculty/gs-aneek"
   },
-  "Amit Kumar Dutta": {
+  "gs-amitdutta": {
+    "name": "Amit Kumar Dutta",
     "dept": "GS",
     "website": "https://www.iitkgp.ac.in/department/GS/faculty/gs-amitdutta"
   },
-  "Plaban Kumar Bhowmick": {
+  "gs-plaban": {
+    "name": "Plaban Kumar Bhowmick",
     "dept": "GS",
     "website": "https://www.iitkgp.ac.in/department/GS/faculty/gs-plaban"
   },
-  "Saswat Chakrabarti": {
+  "gs-saswat": {
+    "name": "Saswat Chakrabarti",
     "dept": "GS",
     "website": "https://www.iitkgp.ac.in/department/GS/faculty/gs-saswat"
   },
-  "Goutam Das": {
+  "gs-gdas": {
+    "name": "Goutam Das",
     "dept": "GS",
     "website": "https://www.iitkgp.ac.in/department/GS/faculty/gs-gdas"
   },
-  "Bibhuti Bhusan Mandal": {
+  "mi-bbmandal": {
+    "name": "Bibhuti Bhusan Mandal",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-bbmandal"
   },
-  "Debasis Deb": {
+  "mi-deb": {
+    "name": "Debasis Deb",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-deb"
   },
-  "Khanindra Pathak": {
+  "mi-khanindra": {
+    "name": "Khanindra Pathak",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-khanindra"
   },
-  "S Suryanarayana Bhamidipati": {
+  "mi-bssastry": {
+    "name": "S Suryanarayana Bhamidipati",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-bssastry"
   },
-  "Islavath Sreenivasa Rao": {
+  "mi-islavathsreenivas": {
+    "name": "Islavath Sreenivasa Rao",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-islavathsreenivas"
   },
-  "Aditya Kumar Patra": {
+  "mi-akpatra": {
+    "name": "Aditya Kumar Patra",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-akpatra"
   },
-  "Biswajit Samanta": {
+  "mi-samantab": {
+    "name": "Biswajit Samanta",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-samantab"
   },
-  "Abhiram Kumar Verma": {
+  "mi-akverma": {
+    "name": "Abhiram Kumar Verma",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-akverma"
   },
-  "Sunita Mishra": {
+  "mi-smishra": {
+    "name": "Sunita Mishra",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-smishra"
   },
-  "Ketan Arora": {
+  "mi-ketanarora": {
+    "name": "Ketan Arora",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-ketanarora"
   },
-  "Rakesh Kumar": {
+  "mi-rkumar": {
+    "name": "Rakesh Kumar",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-rkumar"
   },
-  "Arun Kumar Majumder": {
+  "mi-akm": {
+    "name": "Arun Kumar Majumder",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-akm"
   },
-  "Debashish Chakravarty": {
+  "mi-dc": {
+    "name": "Debashish Chakravarty",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-dc"
   },
-  "Basanta Kumar Prusty": {
+  "mi-bkprusty": {
+    "name": "Basanta Kumar Prusty",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-bkprusty"
   },
-  "Jayanta Bhattacharya": {
+  "mi-jayantab": {
+    "name": "Jayanta Bhattacharya",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-jayantab"
   },
-  "Karanam Uma Maheshwar Rao": {
+  "mi-umr": {
+    "name": "Karanam Uma Maheshwar Rao",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-umr"
   },
-  "Kaushik Dey": {
+  "mi-kausdey": {
+    "name": "Kaushik Dey",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-kausdey"
   },
-  "Shantanu Kumar Patel": {
+  "mi-shantanu.patel": {
+    "name": "Shantanu Kumar Patel",
     "dept": "MI",
     "website": "https://www.iitkgp.ac.in/department/MI/faculty/mi-shantanu.patel"
   },
-  "Barnali Nag": {
+  "bm-barnali.nag": {
+    "name": "Barnali Nag",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-barnali.nag"
   },
-  "Susmita Mukhopadhyay": {
+  "bm-susmita": {
+    "name": "Susmita Mukhopadhyay",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-susmita"
   },
-  "Abhijeet Chandra": {
+  "bm-abhijeet": {
+    "name": "Abhijeet Chandra",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-abhijeet"
   },
-  "Rudra Prakash Pradhan": {
+  "bm-rudrap": {
+    "name": "Rudra Prakash Pradhan",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-rudrap"
   },
-  "Sushil Punia": {
+  "bm-spunia": {
+    "name": "Sushil Punia",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-spunia"
   },
-  "Parama Barai": {
+  "bm-parama": {
+    "name": "Parama Barai",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-parama"
   },
-  "M Vimala Rani": {
+  "bm-vimala": {
+    "name": "M Vimala Rani",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-vimala"
   },
-  "Sanjib Chowdhury": {
+  "bm-sanjib": {
+    "name": "Sanjib Chowdhury",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-sanjib"
   },
-  "Surojit Mookherjee": {
+  "bm-surojit": {
+    "name": "Surojit Mookherjee",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-surojit"
   },
-  "Biswarup Ghosh": {
+  "bm-biswarup": {
+    "name": "Biswarup Ghosh",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-biswarup"
   },
-  "Sangeeta Sahney": {
+  "bm-sahney": {
+    "name": "Sangeeta Sahney",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-sahney"
   },
-  "Vinay Yadav": {
+  "bm-vinay": {
+    "name": "Vinay Yadav",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-vinay"
   },
-  "Aradhna Malik": {
+  "bm-amalik": {
+    "name": "Aradhna Malik",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-amalik"
   },
-  "Sujoy Bhattacharya": {
+  "bm-sujoybtc": {
+    "name": "Sujoy Bhattacharya",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-sujoybtc"
   },
-  "Srabanti Mukherjee": {
+  "bm-srabanti": {
+    "name": "Srabanti Mukherjee",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-srabanti"
   },
-  "Prabina Rajib": {
+  "bm-prabina": {
+    "name": "Prabina Rajib",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-prabina"
   },
-  "Ajay Kumar Mishra": {
+  "bm-akmishra": {
+    "name": "Ajay Kumar Mishra",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-akmishra"
   },
-  "Saini Das": {
+  "bm-saini": {
+    "name": "Saini Das",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-saini"
   },
-  "Arun Kumar Misra": {
+  "bm-arunmisra": {
+    "name": "Arun Kumar Misra",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-arunmisra"
   },
-  "Anupam Ghosh": {
+  "bm-anupam": {
+    "name": "Anupam Ghosh",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-anupam"
   },
-  "Chandra Sekhar Mishra": {
+  "bm-csmishra": {
+    "name": "Chandra Sekhar Mishra",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-csmishra"
   },
-  "Biplab Datta": {
+  "bm-bd": {
+    "name": "Biplab Datta",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-bd"
   },
-  "Tutan Ahmed": {
+  "bm-tutan": {
+    "name": "Tutan Ahmed",
     "dept": "BM",
     "website": "https://www.iitkgp.ac.in/department/BM/faculty/bm-tutan"
   },
-  "Sandeep D Kulkarni": {
+  "de-sandeep.kulkarni": {
+    "name": "Sandeep D Kulkarni",
     "dept": "DE",
     "website": "https://www.iitkgp.ac.in/department/DE/faculty/de-sandeep.kulkarni"
   },
-  "Vishnu Chandrasekharan Nair": {
+  "de-vishnuc": {
+    "name": "Vishnu Chandrasekharan Nair",
     "dept": "DE",
     "website": "https://www.iitkgp.ac.in/department/DE/faculty/de-vishnuc"
   },
-  "Aditya Vyas": {
+  "de-aditya11": {
+    "name": "Aditya Vyas",
     "dept": "DE",
     "website": "https://www.iitkgp.ac.in/department/DE/faculty/de-aditya11"
   },
-  "Ankur Roy": {
+  "de-ankur": {
+    "name": "Ankur Roy",
     "dept": "DE",
     "website": "https://www.iitkgp.ac.in/department/DE/faculty/de-ankur"
   },
-  "Chirodeep Bakli": {
+  "es-chirodeep": {
+    "name": "Chirodeep Bakli",
     "dept": "ES",
     "website": "https://www.iitkgp.ac.in/department/ES/faculty/es-chirodeep"
   },
-  "Sreeraj Puravankara": {
+  "es-sreeraj": {
+    "name": "Sreeraj Puravankara",
     "dept": "ES",
     "website": "https://www.iitkgp.ac.in/department/ES/faculty/es-sreeraj"
   },
-  "Amit Ghosh": {
+  "es-amitghosh": {
+    "name": "Amit Ghosh",
     "dept": "ES",
     "website": "https://www.iitkgp.ac.in/department/ES/faculty/es-amitghosh"
   },
-  "Trilok Singh": {
+  "es-trilok": {
+    "name": "Trilok Singh",
     "dept": "ES",
     "website": "https://www.iitkgp.ac.in/department/ES/faculty/es-trilok"
   },
-  "Parthasarathi Ghosh": {
+  "cr-psghosh": {
+    "name": "Parthasarathi Ghosh",
     "dept": "CR",
     "website": "https://www.iitkgp.ac.in/department/CR/faculty/cr-psghosh"
   },
-  "Abhay Singh Gour": {
+  "cr-abhay": {
+    "name": "Abhay Singh Gour",
     "dept": "CR",
     "website": "https://www.iitkgp.ac.in/department/CR/faculty/cr-abhay"
   },
-  "Pavitra Sandilya": {
+  "cr-pavit": {
+    "name": "Pavitra Sandilya",
     "dept": "CR",
     "website": "https://www.iitkgp.ac.in/department/CR/faculty/cr-pavit"
   },
-  "Tapas Kumar Nandi": {
+  "cr-tkn_cryo": {
+    "name": "Tapas Kumar Nandi",
     "dept": "CR",
     "website": "https://www.iitkgp.ac.in/department/CR/faculty/cr-tkn_cryo"
   },
-  "Tripti Sekhar Datta": {
+  "cr-tsdatta": {
+    "name": "Tripti Sekhar Datta",
     "dept": "CR",
     "website": "https://www.iitkgp.ac.in/department/CR/faculty/cr-tsdatta"
   },
-  "Indranil Ghosh": {
+  "cr-indranil": {
+    "name": "Indranil Ghosh",
     "dept": "CR",
     "website": "https://www.iitkgp.ac.in/department/CR/faculty/cr-indranil"
   },
-  "VenimadhavAdyam": {
+  "cr-venimadhav": {
+    "name": "VenimadhavAdyam",
     "dept": "CR",
     "website": "https://www.iitkgp.ac.in/department/CR/faculty/cr-venimadhav"
   },
-  "Parag Arvind Deshpande": {
+  "ch-parag": {
+    "name": "Parag Arvind Deshpande",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-parag"
   },
-  "Bhim Charan Meikap": {
+  "ch-bcmeikap": {
+    "name": "Bhim Charan Meikap",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-bcmeikap"
   },
-  "Sonali Sengupta": {
+  "ch-sonalis": {
+    "name": "Sonali Sengupta",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-sonalis"
   },
-  "SwatiNeogi": {
+  "ch-swati": {
+    "name": "SwatiNeogi",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-swati"
   },
-  "Manish Kaushal": {
+  "ch-mkaushal": {
+    "name": "Manish Kaushal",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-mkaushal"
   },
-  "Rabibrata Mukherjee": {
+  "ch-rabibrata": {
+    "name": "Rabibrata Mukherjee",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-rabibrata"
   },
-  "Jayanta Chakraborty": {
+  "ch-jayanta": {
+    "name": "Jayanta Chakraborty",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-jayanta"
   },
-  "Narayan Chandra Pradhan": {
+  "ch-ncp": {
+    "name": "Narayan Chandra Pradhan",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-ncp"
   },
-  "Suverna Trivedi": {
+  "ch-strivedi": {
+    "name": "Suverna Trivedi",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-strivedi"
   },
-  "Gargi Das": {
+  "ch-gargi": {
+    "name": "Gargi Das",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-gargi"
   },
-  "Monojit Chakraborty": {
+  "ch-monojit": {
+    "name": "Monojit Chakraborty",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-monojit"
   },
-  "Sourav Mondal": {
+  "ch-smondal": {
+    "name": "Sourav Mondal",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-smondal"
   },
-  "Sudipto Chakraborty": {
+  "ch-sc": {
+    "name": "Sudipto Chakraborty",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-sc"
   },
-  "Amar Nath Samanta": {
+  "ch-amar": {
+    "name": "Amar Nath Samanta",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-amar"
   },
-  "Arnab Atta": {
+  "ch-arnab": {
+    "name": "Arnab Atta",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-arnab"
   },
-  "Amiya Kumar Jana": {
+  "ch-akjana": {
+    "name": "Amiya Kumar Jana",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-akjana"
   },
-  "Debasis Sarkar": {
+  "ch-dsarkar": {
+    "name": "Debasis Sarkar",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-dsarkar"
   },
-  "Bhaskar Bhaduri": {
+  "ch-bhaskar": {
+    "name": "Bhaskar Bhaduri",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-bhaskar"
   },
-  "Sunando Dasgupta": {
+  "ch-sunando": {
+    "name": "Sunando Dasgupta",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-sunando"
   },
-  "Sirshendu De": {
+  "ch-sde": {
+    "name": "Sirshendu De",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-sde"
   },
-  "Ananta Kumar Sarkar": {
+  "ch-ananta": {
+    "name": "Ananta Kumar Sarkar",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-ananta"
   },
-  "Harikrishnan G": {
+  "ch-hari": {
+    "name": "Harikrishnan G",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-hari"
   },
-  "Somenath Ganguly": {
+  "ch-snganguly": {
+    "name": "Somenath Ganguly",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-snganguly"
   },
-  "Koustuv Ray": {
+  "ch-koustuv": {
+    "name": "Koustuv Ray",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-koustuv"
   },
-  "Swambabu Varanasi": {
+  "ch-swambabu": {
+    "name": "Swambabu Varanasi",
     "dept": "CH",
     "website": "https://www.iitkgp.ac.in/department/CH/faculty/ch-swambabu"
   },
-  "Sitikantha Dhurjati Das": {
+  "ph-sitikantha.das": {
+    "name": "Sitikantha Dhurjati Das",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-sitikantha.das"
   },
-  "Prasanta Kumar Datta": {
+  "ph-pkdatta": {
+    "name": "Prasanta Kumar Datta",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-pkdatta"
   },
-  "Sajal Dhara": {
+  "ph-sajaldhara": {
+    "name": "Sajal Dhara",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-sajaldhara"
   },
-  "Samudra Roy": {
+  "ph-samudra.roy": {
+    "name": "Samudra Roy",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-samudra.roy"
   },
-  "Kannabiran Seshasayanan": {
+  "ph-kannabiran.s": {
+    "name": "Kannabiran Seshasayanan",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-kannabiran.s"
   },
-  "Partha Roy Chaudhuri": {
+  "ph-roycp": {
+    "name": "Partha Roy Chaudhuri",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-roycp"
   },
-  "Tapan Kumar Nath": {
+  "ph-tnath": {
+    "name": "Tapan Kumar Nath",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-tnath"
   },
-  "Pintu Patra": {
+  "ph-pintupatra": {
+    "name": "Pintu Patra",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-pintupatra"
   },
-  "Somnath Bharadwaj": {
+  "ph-somnath": {
+    "name": "Somnath Bharadwaj",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-somnath"
   },
-  "Sayan Kar": {
+  "ph-sayan": {
+    "name": "Sayan Kar",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-sayan"
   },
-  "Amal Kumar Das": {
+  "ph-amal": {
+    "name": "Amal Kumar Das",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-amal"
   },
-  "Ajay Kumar Singh": {
+  "ph-singh": {
+    "name": "Ajay Kumar Singh",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-singh"
   },
-  "Sugata Pratik Khastgir": {
+  "ph-pratik": {
+    "name": "Sugata Pratik Khastgir",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-pratik"
   },
-  "Poornachandra Sekhar Burada": {
+  "ph-psburada": {
+    "name": "Poornachandra Sekhar Burada",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-psburada"
   },
-  "Shivakiran B N Bhaktha": {
+  "ph-kiranbhaktha": {
+    "name": "Shivakiran B N Bhaktha",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-kiranbhaktha"
   },
-  "Sanjeev Kumar Srivastava": {
+  "ph-sanjeev": {
+    "name": "Sanjeev Kumar Srivastava",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-sanjeev"
   },
-  "Debamalya Banerjee": {
+  "ph-debamalya": {
+    "name": "Debamalya Banerjee",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-debamalya"
   },
-  "Saikat Das": {
+  "ph-saikat": {
+    "name": "Saikat Das",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-saikat"
   },
-  "Tirtha Sankar Ray": {
+  "ph-tsray": {
+    "name": "Tirtha Sankar Ray",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-tsray"
   },
-  "Sonjoy Majumder": {
+  "ph-sonjoym": {
+    "name": "Sonjoy Majumder",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-sonjoym"
   },
-  "Sandipan Sengupta": {
+  "ph-sandipan": {
+    "name": "Sandipan Sengupta",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-sandipan"
   },
-  "Debraj Choudhury": {
+  "ph-debraj": {
+    "name": "Debraj Choudhury",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-debraj"
   },
-  "Krishna Kumar": {
+  "ph-kumar": {
+    "name": "Krishna Kumar",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-kumar"
   },
-  "Arghya Taraphder": {
+  "ph-arghya": {
+    "name": "Arghya Taraphder",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-arghya"
   },
-  "Jyotirmoy Bhattacharya": {
+  "ph-jyoti": {
+    "name": "Jyotirmoy Bhattacharya",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-jyoti"
   },
-  "Kamal Lochan Panigrahi": {
+  "ph-panigrahi": {
+    "name": "Kamal Lochan Panigrahi",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-panigrahi"
   },
-  "Tamoghna Das": {
+  "ph-tamoghna": {
+    "name": "Tamoghna Das",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-tamoghna"
   },
-  "Amreesh Chandra": {
+  "ph-achandra": {
+    "name": "Amreesh Chandra",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-achandra"
   },
-  "Maruthi Manoj Brundavanam": {
+  "ph-bmmanoj": {
+    "name": "Maruthi Manoj Brundavanam",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-bmmanoj"
   },
-  "Vishwanath Shukla": {
+  "ph-vishwanath.shukla": {
+    "name": "Vishwanath Shukla",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-vishwanath.shukla"
   },
-  "Samit Kumar Ray": {
+  "ph-physkr": {
+    "name": "Samit Kumar Ray",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-physkr"
   },
-  "Pragya Shukla": {
+  "ph-shukla": {
+    "name": "Pragya Shukla",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-shukla"
   },
-  "Anushree Roy": {
+  "ph-anushree": {
+    "name": "Anushree Roy",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-anushree"
   },
-  "Amar Nath Gupta": {
+  "ph-ang": {
+    "name": "Amar Nath Gupta",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-ang"
   },
-  "Achintya Dhar": {
+  "ph-adhar": {
+    "name": "Achintya Dhar",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-adhar"
   },
-  "Dipak Kumar Goswami": {
+  "ph-dipak": {
+    "name": "Dipak Kumar Goswami",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-dipak"
   },
-  "Sudhansu Sekhar Mandal": {
+  "ph-sudhansu": {
+    "name": "Sudhansu Sekhar Mandal",
     "dept": "PH",
     "website": "https://www.iitkgp.ac.in/department/PH/faculty/ph-sudhansu"
   },
-  "Arijit De": {
+  "ec-arijit": {
+    "name": "Arijit De",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-arijit"
   },
-  "Basudev Lahiri": {
+  "ec-blahiri": {
+    "name": "Basudev Lahiri",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-blahiri"
   },
-  "Indrajit Chakrabarti": {
+  "ec-indrajit": {
+    "name": "Indrajit Chakrabarti",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-indrajit"
   },
-  "Sarang Pendharker": {
+  "ec-sarang": {
+    "name": "Sarang Pendharker",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-sarang"
   },
-  "Bratin Ghosh": {
+  "ec-bghosh": {
+    "name": "Bratin Ghosh",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-bghosh"
   },
-  "Amitalok Jayant Budkuley": {
+  "ec-amitalok": {
+    "name": "Amitalok Jayant Budkuley",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-amitalok"
   },
-  "Debashis Sen": {
+  "ec-dsen": {
+    "name": "Debashis Sen",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-dsen"
   },
-  "Anindya Sundar Dhar": {
+  "ec-asd": {
+    "name": "Anindya Sundar Dhar",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-asd"
   },
-  "Jithin R": {
+  "ec-jithin": {
+    "name": "Jithin R",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-jithin"
   },
-  "Prasanta Kumar Guha": {
+  "ec-pkguha": {
+    "name": "Prasanta Kumar Guha",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-pkguha"
   },
-  "Chetna Singhal": {
+  "ec-chetna": {
+    "name": "Chetna Singhal",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-chetna"
   },
-  "Prabir Kumar Biswas": {
+  "ec-pkb": {
+    "name": "Prabir Kumar Biswas",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-pkb"
   },
-  "Saumik Bhattacharya": {
+  "ec-saumik": {
+    "name": "Saumik Bhattacharya",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-saumik"
   },
-  "Tarun Kanti Bhattacharyya": {
+  "ec-tkb": {
+    "name": "Tarun Kanti Bhattacharyya",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-tkb"
   },
-  "Raja Datta": {
+  "ec-rajadatta": {
+    "name": "Raja Datta",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-rajadatta"
   },
-  "Aniket Singha": {
+  "ec-santanu": {
+    "name": "Santanu Chattopadhyay",
+    "dept": "EC",
+    "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-santanu"
+  },
+  "ec-aniket": {
+    "name": "Aniket Singha",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-aniket"
   },
-  "Pechetti Sasi Vinay": {
+  "ec-vinay": {
+    "name": "Pechetti Sasi Vinay",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-vinay"
   },
-  "Ratnam Varada Raja Kumar": {
+  "ec-rkumar": {
+    "name": "Ratnam Varada Raja Kumar",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-rkumar"
   },
-  "Amitabha Bhattacharya": {
+  "ec-amitabha": {
+    "name": "Amitabha Bhattacharya",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-amitabha"
   },
-  "Rajat Roy": {
+  "ec-rajatroy": {
+    "name": "Rajat Roy",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-rajatroy"
   },
-  "Subhadip Mukherjee": {
+  "ec-smukherjee": {
+    "name": "Subhadip Mukherjee",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-smukherjee"
   },
-  "Pradip Mandal": {
+  "ec-pradip": {
+    "name": "Pradip Mandal",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-pradip"
   },
-  "Sudipta Mukhopadhyay": {
+  "ec-smukho": {
+    "name": "Sudipta Mukhopadhyay",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-smukho"
   },
-  "Shailendra Kumar Varshney": {
+  "ec-skvarshney": {
+    "name": "Shailendra Kumar Varshney",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-skvarshney"
   },
-  "Vivek Dixit": {
+  "ec-vdixit": {
+    "name": "Vivek Dixit",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-vdixit"
   },
-  "Mrinal Kanti Mandal": {
+  "ec-mkmandal": {
+    "name": "Mrinal Kanti Mandal",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-mkmandal"
   },
-  "Mrityunjoy Chakraborty": {
+  "ec-mrityun": {
+    "name": "Mrityunjoy Chakraborty",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-mrityun"
   },
-  "Sudipta Mahapatra": {
+  "ec-sudipta": {
+    "name": "Sudipta Mahapatra",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-sudipta"
   },
-  "Gourab Dutta": {
+  "ec-gdutta": {
+    "name": "Gourab Dutta",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-gdutta"
   },
-  "Ritwik Kumar Layek": {
+  "ec-ritwik": {
+    "name": "Ritwik Kumar Layek",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-ritwik"
   },
-  "Goutam Saha": {
+  "ec-gsaha": {
+    "name": "Goutam Saha",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-gsaha"
   },
-  "Rajarshi Roy": {
+  "ec-royr": {
+    "name": "Rajarshi Roy",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-royr"
   },
-  "Sharba Bandyopadhyay": {
+  "ec-sharba": {
+    "name": "Sharba Bandyopadhyay",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-sharba"
   },
-  "Kapil Debnath": {
+  "ec-k.debnath": {
+    "name": "Kapil Debnath",
     "dept": "EC",
     "website": "https://www.iitkgp.ac.in/department/EC/faculty/ec-k.debnath"
   },
-  "Indrani Sen": {
+  "mt-indrani.sen": {
+    "name": "Indrani Sen",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-indrani.sen"
   },
-  "Abhishek Sarkar": {
+  "mt-Z1FKaWNJY3E1VEF3cFdTRllFejZ1Zz09": {
+    "name": "Abhishek Sarkar",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-Z1FKaWNJY3E1VEF3cFdTRllFejZ1Zz09"
   },
-  "Manas Paliwal": {
+  "mt-ekNDWEQ1VUVmUG4wOHFiWmlEU2lxdz09": {
+    "name": "Manas Paliwal",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-ekNDWEQ1VUVmUG4wOHFiWmlEU2lxdz09"
   },
-  "Karabi Das": {
+  "mt-karabi": {
+    "name": "Karabi Das",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-karabi"
   },
-  "Amlan Dutta": {
+  "mt-amlan.dutta": {
+    "name": "Amlan Dutta",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-amlan.dutta"
   },
-  "Rahul Mitra": {
+  "mt-rahul": {
+    "name": "Rahul Mitra",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-rahul"
   },
-  "Tapas Laha": {
+  "mt-laha": {
+    "name": "Tapas Laha",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-laha"
   },
-  "Chenna Rao Borra": {
+  "mt-chenna.borra": {
+    "name": "Chenna Rao Borra",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-chenna.borra"
   },
-  "Sankha Mukherjee": {
+  "mt-sankha": {
+    "name": "Sankha Mukherjee",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-sankha"
   },
-  "Sujoy Kumar Kar": {
+  "mt-sujoy.kar": {
+    "name": "Sujoy Kumar Kar",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-sujoy.kar"
   },
-  "Shampa Aich": {
+  "mt-saich": {
+    "name": "Shampa Aich",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-saich"
   },
-  "Jayanta Das": {
+  "mt-j.das": {
+    "name": "Jayanta Das",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-j.das"
   },
-  "Mangal Roy": {
+  "mt-mroy": {
+    "name": "Mangal Roy",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-mroy"
   },
-  "Chandra Sekhar Tiwary": {
+  "mt-chandra.tiwary": {
+    "name": "Chandra Sekhar Tiwary",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-chandra.tiwary"
   },
-  "Tapas Kumar Bandyopadhyay": {
+  "mt-tapas": {
+    "name": "Tapas Kumar Bandyopadhyay",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-tapas"
   },
-  "Somjeet Biswas": {
+  "mt-somjeetbiswas": {
+    "name": "Somjeet Biswas",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-somjeetbiswas"
   },
-  "Siddhartha Roy": {
+  "mt-siddhartha": {
+    "name": "Siddhartha Roy",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-siddhartha"
   },
-  "Debalay Chakrabarti": {
+  "mt-debalay": {
+    "name": "Debalay Chakrabarti",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-debalay"
   },
-  "Siddhartha Das": {
+  "mt-sdas": {
+    "name": "Siddhartha Das",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-sdas"
   },
-  "Jyotsna Dutta Majumdar": {
+  "mt-jyotsna": {
+    "name": "Jyotsna Dutta Majumdar",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-jyotsna"
   },
-  "Gunda Naga Sri Harsha": {
+  "mt-MmRDMS9ZTWpZWlAxUGxKWW9DNnNMdz09": {
+    "name": "Gunda Naga Sri Harsha",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-MmRDMS9ZTWpZWlAxUGxKWW9DNnNMdz09"
   },
-  "Tarun Kumar Kundu": {
+  "mt-tkkundu": {
+    "name": "Tarun Kumar Kundu",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-tkkundu"
   },
-  "Koushik Biswas": {
+  "mt-k_biswas": {
+    "name": "Koushik Biswas",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-k_biswas"
   },
-  "Indranil Manna": {
+  "mt-imanna": {
+    "name": "Indranil Manna",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-imanna"
   },
-  "Anuj Bisht": {
+  "mt-a1VpaU11VEdTVUhvRjdRTGYrRitPQT09": {
+    "name": "Anuj Bisht",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-a1VpaU11VEdTVUhvRjdRTGYrRitPQT09"
   },
-  "Sumantra Mandal": {
+  "mt-sumantra.mandal": {
+    "name": "Sumantra Mandal",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-sumantra.mandal"
   },
-  "Shiv Brat Singh": {
+  "mt-sbs22": {
+    "name": "Shiv Brat Singh",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-sbs22"
   },
-  "Gour Gopal Roy": {
+  "mt-ggroy": {
+    "name": "Gour Gopal Roy",
     "dept": "MT",
     "website": "https://www.iitkgp.ac.in/department/MT/faculty/mt-ggroy"
   },
-  "Indranath Chakraborty": {
+  "nt-indranath": {
+    "name": "Indranath Chakraborty",
     "dept": "NT",
     "website": "https://www.iitkgp.ac.in/department/NT/faculty/nt-indranath"
   },
-  "Shivendu Ranjan": {
+  "nt-shivendu": {
+    "name": "Shivendu Ranjan",
     "dept": "NT",
     "website": "https://www.iitkgp.ac.in/department/NT/faculty/nt-shivendu"
   },
-  "Bhabagrahi Sahoo": {
+  "wm-bsahoo": {
+    "name": "Bhabagrahi Sahoo",
     "dept": "WM",
     "website": "https://www.iitkgp.ac.in/department/WM/faculty/wm-bsahoo"
   },
-  "Partha Sarathi Ghosal": {
+  "wm-psghosal": {
+    "name": "Partha Sarathi Ghosal",
     "dept": "WM",
     "website": "https://www.iitkgp.ac.in/department/WM/faculty/wm-psghosal"
   },
-  "Manoj Kumar Tiwari": {
-    "dept": "IM",
-    "website": "https://www.iitkgp.ac.in/department/IM/faculty/im-mktiwari9"
+  "wm-mktiwari": {
+    "name": "Manoj Kumar Tiwari",
+    "dept": "WM",
+    "website": "https://www.iitkgp.ac.in/department/WM/faculty/wm-mktiwari"
   },
-  "Renji Remesan": {
+  "wm-renji.remesan": {
+    "name": "Renji Remesan",
     "dept": "WM",
     "website": "https://www.iitkgp.ac.in/department/WM/faculty/wm-renji.remesan"
   },
-  "Achanta Naga Venkata Satyanarayana": {
+  "cl-anvsatya": {
+    "name": "Achanta Naga Venkata Satyanarayana",
     "dept": "CL",
     "website": "https://www.iitkgp.ac.in/department/CL/faculty/cl-anvsatya"
   },
-  "Parthasarathi Chakraborty": {
+  "cl-pchak": {
+    "name": "Parthasarathi Chakraborty",
     "dept": "CL",
     "website": "https://www.iitkgp.ac.in/department/CL/faculty/cl-pchak"
   },
-  "C Shaji": {
+  "cl-cshaji": {
+    "name": "C Shaji",
     "dept": "CL",
     "website": "https://www.iitkgp.ac.in/department/CL/faculty/cl-cshaji"
   },
-  "Nairita Pal": {
+  "cl-nairita.pal": {
+    "name": "Nairita Pal",
     "dept": "CL",
     "website": "https://www.iitkgp.ac.in/department/CL/faculty/cl-nairita.pal"
   },
-  "Jayanarayanan Kuttippurath": {
+  "cl-jayan": {
+    "name": "Jayanarayanan Kuttippurath",
     "dept": "CL",
     "website": "https://www.iitkgp.ac.in/department/CL/faculty/cl-jayan"
   },
-  "Rashmi Rekha Nayak": {
+  "cl-rashmi": {
+    "name": "Rashmi Rekha Nayak",
     "dept": "CL",
     "website": "https://www.iitkgp.ac.in/department/CL/faculty/cl-rashmi"
   },
-  "Mihir Kumar Dash": {
+  "cl-mihir": {
+    "name": "Mihir Kumar Dash",
     "dept": "CL",
     "website": "https://www.iitkgp.ac.in/department/CL/faculty/cl-mihir"
   },
-  "Arun Chakraborty": {
+  "cl-arunc": {
+    "name": "Arun Chakraborty",
     "dept": "CL",
     "website": "https://www.iitkgp.ac.in/department/CL/faculty/cl-arunc"
   },
-  "Abhishek Kumar Rai": {
+  "cl-abhishek": {
+    "name": "Abhishek Kumar Rai",
     "dept": "CL",
     "website": "https://www.iitkgp.ac.in/department/CL/faculty/cl-abhishek"
   },
-  "Mukunda Dev Behera": {
+  "cl-mdbehera": {
+    "name": "Mukunda Dev Behera",
     "dept": "CL",
     "website": "https://www.iitkgp.ac.in/department/CL/faculty/cl-mdbehera"
   },
-  "Pranab Deb": {
+  "cl-pranab": {
+    "name": "Pranab Deb",
     "dept": "CL",
     "website": "https://www.iitkgp.ac.in/department/CL/faculty/cl-pranab"
   },
-  "Abhishek Sharma": {
+  "im-abhishek": {
+    "name": "Abhishek Sharma",
     "dept": "IM",
     "website": "https://www.iitkgp.ac.in/department/IM/faculty/im-abhishek"
   },
-  "Sayak Roychowdhury": {
+  "im-sroychowdhury": {
+    "name": "Sayak Roychowdhury",
     "dept": "IM",
     "website": "https://www.iitkgp.ac.in/department/IM/faculty/im-sroychowdhury"
   },
-  "Sri Krishna Kumar": {
+  "im-srikrishna": {
+    "name": "Sri Krishna Kumar",
     "dept": "IM",
     "website": "https://www.iitkgp.ac.in/department/IM/faculty/im-srikrishna"
   },
-  "Mamata Jenamani": {
+  "im-mj": {
+    "name": "Mamata Jenamani",
     "dept": "IM",
     "website": "https://www.iitkgp.ac.in/department/IM/faculty/im-mj"
   },
-  "Jitendra Kumar Jha": {
+  "im-jkjha": {
+    "name": "Jitendra Kumar Jha",
     "dept": "IM",
     "website": "https://www.iitkgp.ac.in/department/IM/faculty/im-jkjha"
   },
-  "Akhilesh Kumar": {
+  "im-akumar": {
+    "name": "Akhilesh Kumar",
     "dept": "IM",
     "website": "https://www.iitkgp.ac.in/department/IM/faculty/im-akumar"
   },
-  "Goutam Sen": {
+  "im-gsen": {
+    "name": "Goutam Sen",
     "dept": "IM",
     "website": "https://www.iitkgp.ac.in/department/IM/faculty/im-gsen"
   },
-  "Pradip Kumar Ray": {
+  "im-pkr": {
+    "name": "Pradip Kumar Ray",
     "dept": "IM",
     "website": "https://www.iitkgp.ac.in/department/IM/faculty/im-pkr"
   },
-  "Jhareswar Maiti": {
+  "im-jmaiti": {
+    "name": "Jhareswar Maiti",
     "dept": "IM",
     "website": "https://www.iitkgp.ac.in/department/IM/faculty/im-jmaiti"
   },
-  "Balagopal G Menon": {
+  "im-bgmenon": {
+    "name": "Balagopal G Menon",
     "dept": "IM",
     "website": "https://www.iitkgp.ac.in/department/IM/faculty/im-bgmenon"
   },
-  "Sarada Prasad Sarmah": {
+  "im-spsarmah": {
+    "name": "Sarada Prasad Sarmah",
     "dept": "IM",
     "website": "https://www.iitkgp.ac.in/department/IM/faculty/im-spsarmah"
   },
-  "Biswajit Mahanty": {
+  "im-bm": {
+    "name": "Biswajit Mahanty",
     "dept": "IM",
     "website": "https://www.iitkgp.ac.in/department/IM/faculty/im-bm"
   },
-  "Anand Jacob Abraham": {
+  "im-anandabraham": {
+    "name": "Anand Jacob Abraham",
     "dept": "IM",
     "website": "https://www.iitkgp.ac.in/department/IM/faculty/im-anandabraham"
   },
-  "Biswajit Mishra": {
+  "im-mktiwari9": {
+    "name": "Manoj Kumar Tiwari",
+    "dept": "IM",
+    "website": "https://www.iitkgp.ac.in/department/IM/faculty/im-mktiwari9"
+  },
+  "gg-bmgg": {
+    "name": "Biswajit Mishra",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-bmgg"
   },
-  "Sanghamitra Ray": {
+  "gg-sray": {
+    "name": "Sanghamitra Ray",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-sray"
   },
-  "Sudha Agrahari": {
+  "gg-sudha": {
+    "name": "Sudha Agrahari",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-sudha"
   },
-  "Ravikant Vadlamani": {
+  "gg-vravikant": {
+    "name": "Ravikant Vadlamani",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-vravikant"
   },
-  "Dip Kumar Singha": {
+  "gg-dipks21": {
+    "name": "Dip Kumar Singha",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-dipks21"
   },
-  "Anil Kumar Gupta": {
+  "gg-anilg": {
+    "name": "Anil Kumar Gupta",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-anilg"
   },
-  "Arun Singh": {
+  "gg-arun": {
+    "name": "Arun Singh",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-arun"
   },
-  "Subhasish Tripathy": {
+  "gg-stripathy": {
+    "name": "Subhasish Tripathy",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-stripathy"
   },
-  "Shubhabrata Paul": {
+  "gg-spaul": {
+    "name": "Shubhabrata Paul",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-spaul"
   },
-  "Melinda Kumar Bera": {
+  "gg-melinda": {
+    "name": "Melinda Kumar Bera",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-melinda"
   },
-  "Manish Atmaprakash Mamtani": {
+  "gg-mamtani": {
+    "name": "Manish Atmaprakash Mamtani",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-mamtani"
   },
-  "Santanu Kumar Bhowmik": {
+  "gg-santanu": {
+    "name": "Santanu Kumar Bhowmik",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-santanu"
   },
-  "William Kumar Mohanty": {
+  "gg-wkmohanty": {
+    "name": "William Kumar Mohanty",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-wkmohanty"
   },
-  "Sujoy Kanti Ghosh": {
+  "gg-sujoy.ghosh": {
+    "name": "Sujoy Kanti Ghosh",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-sujoy.ghosh"
   },
-  "Dewashish Upadhyay": {
+  "gg-abasu": {
+    "name": "Arindam Basu",
+    "dept": "GG",
+    "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-abasu"
+  },
+  "gg-dewashish": {
+    "name": "Dewashish Upadhyay",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-dewashish"
   },
-  "Sankar Kumar Nath": {
+  "gg-nath": {
+    "name": "Sankar Kumar Nath",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-nath"
   },
-  "Mruganka Kumar Panigrahi": {
+  "gg-mkp": {
+    "name": "Mruganka Kumar Panigrahi",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-mkp"
   },
-  "Saibal Gupta": {
+  "gg-saibl": {
+    "name": "Saibal Gupta",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-saibl"
   },
-  "Probal Sengupta": {
+  "gg-probal": {
+    "name": "Probal Sengupta",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-probal"
   },
-  "Shashi Prakash Sharma": {
+  "gg-spsharma": {
+    "name": "Shashi Prakash Sharma",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-spsharma"
   },
-  "Sabyasachi Maiti": {
+  "gg-maiti": {
+    "name": "Sabyasachi Maiti",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-maiti"
   },
-  "Kamal Lochan Pruseth": {
+  "gg-pruseth": {
+    "name": "Kamal Lochan Pruseth",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-pruseth"
   },
-  "Abhijit Mukherjee": {
+  "gg-abhijit": {
+    "name": "Abhijit Mukherjee",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-abhijit"
   },
-  "Chandrani Singh": {
+  "gg-chandrani": {
+    "name": "Chandrani Singh",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-chandrani"
   },
-  "Paresh Nath Singha Roy": {
+  "gg-pareshsr": {
+    "name": "Paresh Nath Singha Roy",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-pareshsr"
   },
-  "Anindya Sarkar": {
+  "gg-anindya": {
+    "name": "Anindya Sarkar",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-anindya"
   },
-  "Debashish Sengupta": {
+  "gg-dsgg": {
+    "name": "Debashish Sengupta",
     "dept": "GG",
     "website": "https://www.iitkgp.ac.in/department/GG/faculty/gg-dsgg"
   },
-  "Ajoy Chakrabarty": {
+  "af-QmpvdnRGK2s4dE1heHNSVmFMQnBVZz09": {
+    "name": "Ajoy Chakrabarty",
     "dept": "AF",
     "website": "https://www.iitkgp.ac.in/department/AF/faculty/af-QmpvdnRGK2s4dE1heHNSVmFMQnBVZz09"
   },
-  "Manish Pandey": {
+  "ce-cWFtVUs4b3F1K1JEUENsVUszZ3htZz09": {
+    "name": "Manish Pandey",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-cWFtVUs4b3F1K1JEUENsVUszZ3htZz09"
   },
-  "Kusam Sudhakar Reddy": {
+  "ce-ksreddy": {
+    "name": "Kusam Sudhakar Reddy",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-ksreddy"
   },
-  "Kranthi Kumar Kuna": {
+  "ce-kranthi": {
+    "name": "Kranthi Kumar Kuna",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-kranthi"
   },
-  "Paramita Bhattacharya": {
+  "ce-paramita": {
+    "name": "Paramita Bhattacharya",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-paramita"
   },
-  "Abhishek Ghosh Dastider": {
+  "ce-RGZaTWxkMVcvL09FcUUwWWovWitCUT09": {
+    "name": "Abhishek Ghosh Dastider",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-RGZaTWxkMVcvL09FcUUwWWovWitCUT09"
   },
-  "Debasis Roy": {
+  "ce-debasis": {
+    "name": "Debasis Roy",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-debasis"
   },
-  "Bhargab Maitra": {
+  "ce-bhargab": {
+    "name": "Bhargab Maitra",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-bhargab"
   },
-  "Sujit Kumar Dash": {
+  "ce-sujit": {
+    "name": "Sujit Kumar Dash",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-sujit"
   },
-  "Anirban Dhar": {
+  "ce-anirban": {
+    "name": "Anirban Dhar",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-anirban"
   },
-  "Nirjhar Dhang": {
+  "ce-nirjhar": {
+    "name": "Nirjhar Dhang",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-nirjhar"
   },
-  "Sushanta Chakraborty": {
+  "ce-sushanta": {
+    "name": "Sushanta Chakraborty",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-sushanta"
   },
-  "Dhrubajyoti Sen": {
+  "ce-djsen": {
+    "name": "Dhrubajyoti Sen",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-djsen"
   },
-  "Troyee Tanu Dutta": {
+  "ce-WnlrRG90UGxUeC9NQlp6elBIcTBEZz09": {
+    "name": "Troyee Tanu Dutta",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-WnlrRG90UGxUeC9NQlp6elBIcTBEZz09"
   },
-  "Aritra Chatterjee": {
+  "ce-aritra": {
+    "name": "Aritra Chatterjee",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-aritra"
   },
-  "Brajesh Kumar Dubey": {
+  "ce-bkdubey": {
+    "name": "Brajesh Kumar Dubey",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-bkdubey"
   },
-  "Arghya Deb": {
+  "ce-arghya": {
+    "name": "Arghya Deb",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-arghya"
   },
-  "Mohammad Saud Afzal": {
+  "ce-saud": {
+    "name": "Mohammad Saud Afzal",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-saud"
   },
-  "Pavithra Parthasarathy": {
+  "ce-pavithra": {
+    "name": "Pavithra Parthasarathy",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-pavithra"
   },
-  "Damodar Maity": {
+  "ce-dmaity": {
+    "name": "Damodar Maity",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-dmaity"
   },
-  "Ashok Kumar Gupta": {
+  "ce-agupta": {
+    "name": "Ashok Kumar Gupta",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-agupta"
   },
-  "Sudha Goel": {
+  "ce-sudhagoel": {
+    "name": "Sudha Goel",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-sudhagoel"
   },
-  "Makarand Madhao Ghangrekar": {
+  "ce-ghangrekar": {
+    "name": "Makarand Madhao Ghangrekar",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-ghangrekar"
   },
-  "M Amaranatha Reddy": {
+  "ce-manreddy": {
+    "name": "M Amaranatha Reddy",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-manreddy"
   },
-  "Puneet Kumar Patra": {
+  "ce-puneet.patra": {
+    "name": "Puneet Kumar Patra",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-puneet.patra"
   },
-  "Prashanth Reddy Hanmaiahgari": {
+  "ce-hpr": {
+    "name": "Prashanth Reddy Hanmaiahgari",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-hpr"
   },
-  "Rajib Maity": {
+  "ce-rajib": {
+    "name": "Rajib Maity",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-rajib"
   },
-  "Kousik Deb": {
+  "ce-kousik": {
+    "name": "Kousik Deb",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-kousik"
   },
-  "Amit Shaw": {
+  "ce-abshaw": {
+    "name": "Amit Shaw",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-abshaw"
   },
-  "Aniruddha Sengupta": {
+  "ce-sengupta": {
+    "name": "Aniruddha Sengupta",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-sengupta"
   },
-  "Lingadahally S Ramachandra": {
+  "ce-lsr": {
+    "name": "Lingadahally S Ramachandra",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-lsr"
   },
-  "Sudhir Kumar Barai": {
+  "ce-skbarai": {
+    "name": "Sudhir Kumar Barai",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-skbarai"
   },
-  "Dilip Kumar Baidya": {
+  "ce-baidya": {
+    "name": "Dilip Kumar Baidya",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-baidya"
   },
-  "Baidurya Bhattacharya": {
+  "ce-baidurya": {
+    "name": "Baidurya Bhattacharya",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-baidurya"
   },
-  "Biswanath Banerjee": {
+  "ce-biswanath": {
+    "name": "Biswanath Banerjee",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-biswanath"
   },
-  "Venkappayya R Desai": {
+  "ce-venkapd": {
+    "name": "Venkappayya R Desai",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-venkapd"
   },
-  "Shaikh Jahangir Hossain": {
+  "ce-sjh": {
+    "name": "Shaikh Jahangir Hossain",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-sjh"
   },
-  "Shubha Verma": {
+  "ce-shubha": {
+    "name": "Shubha Verma",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-shubha"
   },
-  "Madhumita Paul": {
+  "ce-madhumita": {
+    "name": "Madhumita Paul",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-madhumita"
   },
-  "Debarghya Chakraborty": {
+  "ce-debarghya": {
+    "name": "Debarghya Chakraborty",
     "dept": "CE",
     "website": "https://www.iitkgp.ac.in/department/CE/faculty/ce-debarghya"
   },
-  "Sudip Kumar Ghosh": {
+  "bt-sudip": {
+    "name": "Sudip Kumar Ghosh",
     "dept": "BT",
     "website": "https://www.iitkgp.ac.in/department/BT/faculty/bt-sudip"
   },
-  "Ramkrishna Sen": {
+  "bt-rksen": {
+    "name": "Ramkrishna Sen",
     "dept": "BT",
     "website": "https://www.iitkgp.ac.in/department/BT/faculty/bt-rksen"
   },
-  "Pinaki Sar": {
+  "bt-psar": {
+    "name": "Pinaki Sar",
     "dept": "BT",
     "website": "https://www.iitkgp.ac.in/department/BT/faculty/bt-psar"
   },
-  "Riddhiman Dhar": {
+  "bt-riddhiman.dhar": {
+    "name": "Riddhiman Dhar",
     "dept": "BT",
     "website": "https://www.iitkgp.ac.in/department/BT/faculty/bt-riddhiman.dhar"
   },
-  "Agneyo Ganguly": {
+  "bt-agneyo": {
+    "name": "Agneyo Ganguly",
     "dept": "BT",
     "website": "https://www.iitkgp.ac.in/department/BT/faculty/bt-agneyo"
   },
-  "Somdeb Bose Dasgupta": {
+  "bt-somdeb": {
+    "name": "Somdeb Bose Dasgupta",
     "dept": "BT",
     "website": "https://www.iitkgp.ac.in/department/BT/faculty/bt-somdeb"
   },
-  "Anindya Sundar Ghosh": {
+  "bt-asghosh": {
+    "name": "Anindya Sundar Ghosh",
     "dept": "BT",
     "website": "https://www.iitkgp.ac.in/department/BT/faculty/bt-asghosh"
   },
-  "Amit Kumar Das": {
+  "bt-amitk": {
+    "name": "Amit Kumar Das",
     "dept": "BT",
     "website": "https://www.iitkgp.ac.in/department/BT/faculty/bt-amitk"
   },
-  "Ranjit Prasad Bahadur": {
+  "bt-r.bahadur": {
+    "name": "Ranjit Prasad Bahadur",
     "dept": "BT",
     "website": "https://www.iitkgp.ac.in/department/BT/faculty/bt-r.bahadur"
   },
-  "Mrinal Kumar Maiti": {
+  "bt-maitimk": {
+    "name": "Mrinal Kumar Maiti",
     "dept": "BT",
     "website": "https://www.iitkgp.ac.in/department/BT/faculty/bt-maitimk"
   },
-  "Dibyendu Samanta": {
+  "bs-dibyendu.samanta": {
+    "name": "Dibyendu Samanta",
     "dept": "BS",
     "website": "https://www.iitkgp.ac.in/department/BS/faculty/bs-dibyendu.samanta"
   },
-  "Nihar Ranjan Jana": {
+  "bs-abhijit.das": {
+    "name": "Abhijit Das",
+    "dept": "BS",
+    "website": "https://www.iitkgp.ac.in/department/BS/faculty/bs-abhijit.das"
+  },
+  "bs-nihar": {
+    "name": "Nihar Ranjan Jana",
     "dept": "BS",
     "website": "https://www.iitkgp.ac.in/department/BS/faculty/bs-nihar"
   },
-  "Arindam Mondal": {
+  "bs-arindam.mondal": {
+    "name": "Arindam Mondal",
     "dept": "BS",
     "website": "https://www.iitkgp.ac.in/department/BS/faculty/bs-arindam.mondal"
   },
-  "Soumya De": {
+  "bs-somde": {
+    "name": "Soumya De",
     "dept": "BS",
     "website": "https://www.iitkgp.ac.in/department/BS/faculty/bs-somde"
   },
-  "Ritobrata Goswami": {
+  "bs-ritobrata.goswami": {
+    "name": "Ritobrata Goswami",
     "dept": "BS",
     "website": "https://www.iitkgp.ac.in/department/BS/faculty/bs-ritobrata.goswami"
   },
-  "Mainak Bose": {
+  "bs-mainak29": {
+    "name": "Mainak Bose",
     "dept": "BS",
     "website": "https://www.iitkgp.ac.in/department/BS/faculty/bs-mainak29"
   },
-  "Atasi Mohanty": {
+  "rx-atasim": {
+    "name": "Atasi Mohanty",
     "dept": "RX",
     "website": "https://www.iitkgp.ac.in/department/RX/faculty/rx-atasim"
   },
-  "Manas Kumar Mandal": {
+  "rx-NW5sSkU5WUZ6REdRM3haQThLV0xEUT09": {
+    "name": "Manas Kumar Mandal",
     "dept": "RX",
     "website": "https://www.iitkgp.ac.in/department/RX/faculty/rx-NW5sSkU5WUZ6REdRM3haQThLV0xEUT09"
   },
-  "Rajlakshmi Guha": {
+  "rx-rajg": {
+    "name": "Rajlakshmi Guha",
     "dept": "RX",
     "website": "https://www.iitkgp.ac.in/department/RX/faculty/rx-rajg"
   },
-  "Shamik Chowdhury": {
+  "ef-shamikc": {
+    "name": "Shamik Chowdhury",
     "dept": "EF",
     "website": "https://www.iitkgp.ac.in/department/EF/faculty/ef-shamikc"
   },
-  "Arup Das": {
+  "ar-arup.das": {
+    "name": "Arup Das",
     "dept": "AR",
     "website": "https://www.iitkgp.ac.in/department/AR/faculty/ar-arup.das"
   },
-  "Sumana Gupta": {
+  "ar-sumana": {
+    "name": "Sumana Gupta",
     "dept": "AR",
     "website": "https://www.iitkgp.ac.in/department/AR/faculty/ar-sumana"
   },
-  "Prashant Anand": {
+  "ar-prashantanand": {
+    "name": "Prashant Anand",
     "dept": "AR",
     "website": "https://www.iitkgp.ac.in/department/AR/faculty/ar-prashantanand"
   },
-  "Haimanti Banerji": {
+  "ar-haimanti": {
+    "name": "Haimanti Banerji",
     "dept": "AR",
     "website": "https://www.iitkgp.ac.in/department/AR/faculty/ar-haimanti"
   },
-  "Jaydip Barman": {
+  "ar-jbarman": {
+    "name": "Jaydip Barman",
     "dept": "AR",
     "website": "https://www.iitkgp.ac.in/department/AR/faculty/ar-jbarman"
   },
-  "Tarak Nath Mazumder": {
+  "ar-taraknm": {
+    "name": "Tarak Nath Mazumder",
     "dept": "AR",
     "website": "https://www.iitkgp.ac.in/department/AR/faculty/ar-taraknm"
   },
-  "Shankha Pratim Bhattacharya": {
+  "ar-spb": {
+    "name": "Shankha Pratim Bhattacharya",
     "dept": "AR",
     "website": "https://www.iitkgp.ac.in/department/AR/faculty/ar-spb"
   },
-  "Shreyas Pramod Bharule": {
+  "ar-sbharule": {
+    "name": "Shreyas Pramod Bharule",
     "dept": "AR",
     "website": "https://www.iitkgp.ac.in/department/AR/faculty/ar-sbharule"
   },
-  "Saikat Kumar Paul": {
+  "ar-skpaul": {
+    "name": "Saikat Kumar Paul",
     "dept": "AR",
     "website": "https://www.iitkgp.ac.in/department/AR/faculty/ar-skpaul"
   },
-  "Abraham George": {
+  "ar-abraham": {
+    "name": "Abraham George",
     "dept": "AR",
     "website": "https://www.iitkgp.ac.in/department/AR/faculty/ar-abraham"
   },
-  "Joy Sen": {
+  "ar-joysen": {
+    "name": "Joy Sen",
     "dept": "AR",
     "website": "https://www.iitkgp.ac.in/department/AR/faculty/ar-joysen"
   },
-  "Arjun Mukerji": {
+  "ar-arjun": {
+    "name": "Arjun Mukerji",
     "dept": "AR",
     "website": "https://www.iitkgp.ac.in/department/AR/faculty/ar-arjun"
   },
-  "Debapratim Pandit": {
+  "ar-debapratim": {
+    "name": "Debapratim Pandit",
     "dept": "AR",
     "website": "https://www.iitkgp.ac.in/department/AR/faculty/ar-debapratim"
   },
-  "Subrata Chattopadhyay": {
+  "ar-schat": {
+    "name": "Subrata Chattopadhyay",
     "dept": "AR",
     "website": "https://www.iitkgp.ac.in/department/AR/faculty/ar-schat"
   },
-  "Priyanka Dey": {
+  "ar-priyanka": {
+    "name": "Priyanka Dey",
     "dept": "AR",
     "website": "https://www.iitkgp.ac.in/department/AR/faculty/ar-priyanka"
   },
-  "Joykrishna Dey": {
+  "cy-joydey": {
+    "name": "Joykrishna Dey",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-joydey"
   },
-  "Sanjoy Bandyopadhyay": {
+  "cy-sanjoy": {
+    "name": "Sanjoy Bandyopadhyay",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-sanjoy"
   },
-  "Pradip Kumar Chakraborty": {
+  "cy-pradipc": {
+    "name": "Pradip Kumar Chakraborty",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-pradipc"
   },
-  "Sanjib Kumar Patra": {
+  "cy-skpatra": {
+    "name": "Sanjib Kumar Patra",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-skpatra"
   },
-  "Samik Nanda": {
+  "cy-snanda": {
+    "name": "Samik Nanda",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-snanda"
   },
-  "Amita (Pathak) Mahanty": {
+  "cy-ami": {
+    "name": "Amita (Pathak) Mahanty",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-ami"
   },
-  "Rajarshi Samanta": {
+  "cy-rsamanta": {
+    "name": "Rajarshi Samanta",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-rsamanta"
   },
-  "Sabyashachi Mishra": {
+  "cy-mishra": {
+    "name": "Sabyashachi Mishra",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-mishra"
   },
-  "Modhu Sudan Maji": {
+  "cy-msm": {
+    "name": "Modhu Sudan Maji",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-msm"
   },
-  "Biswarup Jash": {
+  "cy-bjash": {
+    "name": "Biswarup Jash",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-bjash"
   },
-  "Manish Bhattacharjee": {
+  "cy-mxb": {
+    "name": "Manish Bhattacharjee",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-mxb"
   },
-  "Sukanta Mandal": {
+  "cy-sukanta.mandal": {
+    "name": "Sukanta Mandal",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-sukanta.mandal"
   },
-  "Santanu Panda": {
+  "cy-spanda": {
+    "name": "Santanu Panda",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-spanda"
   },
-  "Narayan Dhuleep Pradeep Singh": {
+  "cy-ndpradeep": {
+    "name": "Narayan Dhuleep Pradeep Singh",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-ndpradeep"
   },
-  "Rajakumar Ananthakrishnan": {
+  "cy-raja": {
+    "name": "Rajakumar Ananthakrishnan",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-raja"
   },
-  "Mintu Halder": {
+  "cy-mintu": {
+    "name": "Mintu Halder",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-mintu"
   },
-  "Kiran Ramakant Gore": {
+  "cy-kiran": {
+    "name": "Kiran Ramakant Gore",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-kiran"
   },
-  "Srabani Taraphder": {
+  "cy-srabani": {
+    "name": "Srabani Taraphder",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-srabani"
   },
-  "Suman Kalyan Samanta": {
+  "cy-sksamanta": {
+    "name": "Suman Kalyan Samanta",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-sksamanta"
   },
-  "C Retna Raj": {
+  "cy-crraj": {
+    "name": "C Retna Raj",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-crraj"
   },
-  "Kumar Biradha": {
+  "cy-kbiradha": {
+    "name": "Kumar Biradha",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-kbiradha"
   },
-  "Swagata Dasgupta": {
+  "cy-swagata": {
+    "name": "Swagata Dasgupta",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-swagata"
   },
-  "Madhab Chandra Das": {
+  "cy-mcdas": {
+    "name": "Madhab Chandra Das",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-mcdas"
   },
-  "Debashis Ray": {
+  "cy-dray": {
+    "name": "Debashis Ray",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-dray"
   },
-  "Anoop Ayyappan": {
+  "cy-anoop": {
+    "name": "Anoop Ayyappan",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-anoop"
   },
-  "Ganesh Venkataraman": {
+  "cy-ganesh.v": {
+    "name": "Ganesh Venkataraman",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-ganesh.v"
   },
-  "Nilmoni Sarkar": {
+  "cy-nilmoni": {
+    "name": "Nilmoni Sarkar",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-nilmoni"
   },
-  "Partha Pratim Jana": {
+  "cy-ppj": {
+    "name": "Partha Pratim Jana",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-ppj"
   },
-  "Nirmalya Bag": {
+  "cy-nirmalya": {
+    "name": "Nirmalya Bag",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-nirmalya"
   },
-  "Ganesan Mani": {
+  "cy-gmani": {
+    "name": "Ganesan Mani",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-gmani"
   },
-  "Dibakar Dhara": {
+  "cy-dibakar": {
+    "name": "Dibakar Dhara",
     "dept": "CY",
     "website": "https://www.iitkgp.ac.in/department/CY/faculty/cy-dibakar"
   },
-  "Susanta Banerjee": {
+  "ms-susanta": {
+    "name": "Susanta Banerjee",
     "dept": "MS",
     "website": "https://www.iitkgp.ac.in/department/MS/faculty/ms-susanta"
   },
-  "Prasana Kumar Sahoo": {
+  "ms-prasana": {
+    "name": "Prasana Kumar Sahoo",
     "dept": "MS",
     "website": "https://www.iitkgp.ac.in/department/MS/faculty/ms-prasana"
   },
-  "Rajat Kumar Das": {
+  "ms-rajat": {
+    "name": "Rajat Kumar Das",
     "dept": "MS",
     "website": "https://www.iitkgp.ac.in/department/MS/faculty/ms-rajat"
   },
-  "Vidya Kochat": {
+  "ms-vidya": {
+    "name": "Vidya Kochat",
     "dept": "MS",
     "website": "https://www.iitkgp.ac.in/department/MS/faculty/ms-vidya"
   },
-  "Ayan Roy Chaudhuri": {
+  "ms-ayan": {
+    "name": "Ayan Roy Chaudhuri",
     "dept": "MS",
     "website": "https://www.iitkgp.ac.in/department/MS/faculty/ms-ayan"
   },
-  "Bhanu Bhusan Khatua": {
+  "ms-khatuabb": {
+    "name": "Bhanu Bhusan Khatua",
     "dept": "MS",
     "website": "https://www.iitkgp.ac.in/department/MS/faculty/ms-khatuabb"
   },
-  "Shibayan Roy": {
+  "ms-shibayan": {
+    "name": "Shibayan Roy",
     "dept": "MS",
     "website": "https://www.iitkgp.ac.in/department/MS/faculty/ms-shibayan"
   },
-  "Hemakesh Mohapatra": {
+  "ms-hemakesh.m": {
+    "name": "Hemakesh Mohapatra",
     "dept": "MS",
     "website": "https://www.iitkgp.ac.in/department/MS/faculty/ms-hemakesh.m"
   },
-  "Pallab Banerji": {
+  "ms-pallab": {
+    "name": "Pallab Banerji",
     "dept": "MS",
     "website": "https://www.iitkgp.ac.in/department/MS/faculty/ms-pallab"
   },
-  "Subhasish Basu Majumder": {
+  "ms-subhasish": {
+    "name": "Subhasish Basu Majumder",
     "dept": "MS",
     "website": "https://www.iitkgp.ac.in/department/MS/faculty/ms-subhasish"
   },
-  "Ahin Roy": {
+  "ms-ahinroy": {
+    "name": "Ahin Roy",
     "dept": "MS",
     "website": "https://www.iitkgp.ac.in/department/MS/faculty/ms-ahinroy"
   },
-  "Debabrata Pradhan": {
+  "ms-deb": {
+    "name": "Debabrata Pradhan",
     "dept": "MS",
     "website": "https://www.iitkgp.ac.in/department/MS/faculty/ms-deb"
   },
-  "Chacko Jacob": {
+  "ms-cjacob": {
+    "name": "Chacko Jacob",
     "dept": "MS",
     "website": "https://www.iitkgp.ac.in/department/MS/faculty/ms-cjacob"
   },
-  "Bharath Haridas Aithal": {
+  "id-bhaithal": {
+    "name": "Bharath Haridas Aithal",
     "dept": "ID",
     "website": "https://www.iitkgp.ac.in/department/ID/faculty/id-bhaithal"
   },
-  "Arkopal Kishore Goswami": {
+  "id-akgoswami": {
+    "name": "Arkopal Kishore Goswami",
     "dept": "ID",
     "website": "https://www.iitkgp.ac.in/department/ID/faculty/id-akgoswami"
   },
-  "Sharma Gajanand Santoshkumar": {
+  "id-RWxtUUhLMVJHNG5qNTBiWG4xVEVzUT09": {
+    "name": "Sharma Gajanand Santoshkumar",
     "dept": "ID",
     "website": "https://www.iitkgp.ac.in/department/ID/faculty/id-RWxtUUhLMVJHNG5qNTBiWG4xVEVzUT09"
   },
-  "Swati Maitra": {
+  "id-swati": {
+    "name": "Swati Maitra",
     "dept": "ID",
     "website": "https://www.iitkgp.ac.in/department/ID/faculty/id-swati"
   },
-  "Ankhi Banerjee": {
+  "id-ankhi": {
+    "name": "Ankhi Banerjee",
     "dept": "ID",
     "website": "https://www.iitkgp.ac.in/department/ID/faculty/id-ankhi"
   },
-  "Ashish Ranjan Hota": {
+  "ee-ahota": {
+    "name": "Ashish Ranjan Hota",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-ahota"
   },
-  "Atreyee Kundu": {
+  "ee-atreyee": {
+    "name": "Atreyee Kundu",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-atreyee"
   },
-  "Deepak Reddy Pullaguram": {
+  "ee-drpullaguram": {
+    "name": "Deepak Reddy Pullaguram",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-drpullaguram"
   },
-  "Chandan Chakraborty": {
+  "ee-cc": {
+    "name": "Chandan Chakraborty",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-cc"
   },
-  "Ashok Kumar Pradhan": {
+  "ee-akpradhan": {
+    "name": "Ashok Kumar Pradhan",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-akpradhan"
   },
-  "Pranab Kumar Dutta": {
+  "ee-pkd": {
+    "name": "Pranab Kumar Dutta",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-pkd"
   },
-  "Shambhu Sau": {
+  "ee-ssau": {
+    "name": "Shambhu Sau",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-ssau"
   },
-  "Ashis Maity": {
+  "ee-ashis": {
+    "name": "Ashis Maity",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-ashis"
   },
-  "Rajiv Ranjan Sahay": {
+  "ee-rajiv": {
+    "name": "Rajiv Ranjan Sahay",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-rajiv"
   },
-  "Gautam Poddar": {
+  "ee-gpoddar": {
+    "name": "Gautam Poddar",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-gpoddar"
   },
-  "Dheeman Chatterjee": {
+  "ee-dheemanc": {
+    "name": "Dheeman Chatterjee",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-dheemanc"
   },
-  "Amit Patra": {
+  "ee-amit": {
+    "name": "Amit Patra",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-amit"
   },
-  "Debaprasad Kastha": {
+  "ee-kastha": {
+    "name": "Debaprasad Kastha",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-kastha"
   },
-  "Souvik Chattopadhyay": {
+  "ee-souvik": {
+    "name": "Souvik Chattopadhyay",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-souvik"
   },
-  "Dipankar Debnath": {
+  "ee-ddebnath": {
+    "name": "Dipankar Debnath",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-ddebnath"
   },
-  "Debapriya Das": {
+  "ee-ddas": {
+    "name": "Debapriya Das",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-ddas"
   },
-  "Alok Kanti Deb": {
+  "ee-alokkanti": {
+    "name": "Alok Kanti Deb",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-alokkanti"
   },
-  "Anirban Mukherjee": {
+  "ee-anirban": {
+    "name": "Anirban Mukherjee",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-anirban"
   },
-  "Aurobinda Routray": {
+  "ee-aroutray": {
+    "name": "Aurobinda Routray",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-aroutray"
   },
-  "Prajit Nandi": {
+  "ee-prajit": {
+    "name": "Prajit Nandi",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-prajit"
   },
-  "Sanand Dilip Amita Athalye": {
+  "ee-sanand": {
+    "name": "Sanand Dilip Amita Athalye",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-sanand"
   },
-  "Avishek Chatterjee": {
+  "ee-avishekchatterjee": {
+    "name": "Avishek Chatterjee",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-avishekchatterjee"
   },
-  "Karabi Biswas": {
+  "ee-karabi": {
+    "name": "Karabi Biswas",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-karabi"
   },
-  "Santanu Kapat": {
+  "ee-skapat": {
+    "name": "Santanu Kapat",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-skapat"
   },
-  "Debdoot Sheet": {
+  "ee-debdoot": {
+    "name": "Debdoot Sheet",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-debdoot"
   },
-  "Saurav Pramanik": {
+  "ee-saurav.pramanik": {
+    "name": "Saurav Pramanik",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-saurav.pramanik"
   },
-  "Murali Mohan Bosukonda": {
+  "ee-mohan": {
+    "name": "Murali Mohan Bosukonda",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-mohan"
   },
-  "Siddhartha Mukhopadhyay": {
+  "ee-smukh": {
+    "name": "Siddhartha Mukhopadhyay",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-smukh"
   },
-  "N K Kishore": {
+  "ee-kishor": {
+    "name": "N K Kishore",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-kishor"
   },
-  "Suman Maiti": {
+  "ee-suman.maiti": {
+    "name": "Suman Maiti",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-suman.maiti"
   },
-  "Nirmalya Ghosh": {
+  "ee-nirmalya": {
+    "name": "Nirmalya Ghosh",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-nirmalya"
   },
-  "Debashis Mandal": {
+  "ee-debashis": {
+    "name": "Debashis Mandal",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-debashis"
   },
-  "Tanmoy Bhattacharya": {
+  "ee-btanmoy": {
+    "name": "Tanmoy Bhattacharya",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-btanmoy"
   },
-  "Prabodh Bajpai": {
+  "ee-pbajpai": {
+    "name": "Prabodh Bajpai",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-pbajpai"
   },
-  "Sourav Patra": {
+  "ee-sourav": {
+    "name": "Sourav Patra",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-sourav"
   },
-  "Arun Ghosh": {
+  "ee-arun": {
+    "name": "Arun Ghosh",
     "dept": "EE",
     "website": "https://www.iitkgp.ac.in/department/EE/faculty/ee-arun"
   },
-  "Harshad Hemantrao Shrigondekar": {
+  "se-Tzl6bmFlVE5QY0tQZmRVdklvYWxRdz09": {
+    "name": "Harshad Hemantrao Shrigondekar",
     "dept": "SE",
     "website": "https://www.iitkgp.ac.in/department/SE/faculty/se-Tzl6bmFlVE5QY0tQZmRVdklvYWxRdz09"
   },
-  "Richa Ahuja": {
+  "se-bkIyYVcvNlpnQnNUR05rOFR6TlJTUT09": {
+    "name": "Richa Ahuja",
     "dept": "SE",
     "website": "https://www.iitkgp.ac.in/department/SE/faculty/se-bkIyYVcvNlpnQnNUR05rOFR6TlJTUT09"
   }

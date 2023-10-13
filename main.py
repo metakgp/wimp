@@ -29,6 +29,7 @@ try:
 except FileNotFoundError:
     profs_dict = CaseInsensitiveDict({})
 
+NAME_KEY = "name"
 DEPT_KEY = "dept"
 WEBSITE_KEY = "website"
 TIMETABLE_KEY = "timetable"
@@ -78,7 +79,7 @@ def parse_html(dep):
     If a prof teaches subjects from other departments,
     it's not a good idea to add directly from the table.
     Instead, we try to find it from IIT KGP website. If
-    not found, we'll add it from out data of the subject.
+    not found, we'll add it from our data of the subject.
 
     """
     dept_resp = requests.post(DEPT_FETCH_URL,data={'lang':'en'})
@@ -93,35 +94,53 @@ def parse_html(dep):
         soup = BeautifulSoup(prof["empname"], "lxml")
         
         for tag in soup.find_all("a", href=True):
-            href = tag["href"]
-            dept_data[name] = {"dept": dept, "website": href}
+            website = tag["href"]
+            prof_id =  website.split("/")[-1]
+            dept_data[prof_id] = {"name":name,"dept": dept, "website": website}
             with open("data/dept_data", "w") as f:
                 json.dump(dept_data, f)
 
     for row in table_data:
         prof_names = [name.title() for name in row[2].split(",")]
         slots = [slot.replace(" ", "") for slot in row[5].split(",")]
-        venues = [venue.replace("Deptt.", "Dept") for venue in row[6].split(",")]
+        venues = [venue.replace("Instrumentaion", "Instrumentation") for venue in re.split(r"[,#]+",row[6])]
 
+        
         for prof_name in prof_names:
-            # print(prof_name)
+            """
+            Note:
+            "ERP > Academic > Timetable > Subject List with Timetable Slots" does not tell which prof 
+            is teaching the course in case of profs with the same name. So either we completely ignore
+            these courses, or assume that the prof belongs to the dept offering the course. This is not
+            the ideal implementation as there can be courses where none of these same-name profs belong
+            to the course dept. In that case the best we can do is to skip this prof for the particular course.
+            """
+            prof = {k:v for k,v in dept_data.items() if v[NAME_KEY]==prof_name}
+            # Get prof id
+            if(len(prof.keys())>1):
+                prof_id= next((k for k,v in prof.items() if v[DEPT_KEY]==dep),None)
+            else:
+                prof_id = next((k for k in prof.keys()), None)
+            if prof_id is None:
+                continue
+
             for slot in slots:
-                if prof_name not in profs_dict:
-                    profs_dict[prof_name] = {}
+                if prof_id not in profs_dict:
+                    profs_dict[prof_id] = {}
 
                     try:
-                        profs_dict[prof_name][DEPT_KEY] = dept_data[prof_name][DEPT_KEY]
-                        profs_dict[prof_name][WEBSITE_KEY] = dept_data[prof_name][
-                            WEBSITE_KEY
-                        ]
+                        profs_dict[prof_id][NAME_KEY] = dept_data[prof_id][NAME_KEY]
+                        profs_dict[prof_id][DEPT_KEY] = dept_data[prof_id][DEPT_KEY]
+                        profs_dict[prof_id][WEBSITE_KEY] = dept_data[prof_id][WEBSITE_KEY]
 
                     except KeyError:
-                        profs_dict[prof_name][DEPT_KEY] = dep
-                        profs_dict[prof_name][WEBSITE_KEY] = "#"
+                        profs_dict[prof_id][NAME_KEY] = "Bhoot"
+                        profs_dict[prof_id][DEPT_KEY] = dep
+                        profs_dict[prof_id][WEBSITE_KEY] = "#"
 
-                    profs_dict[prof_name][TIMETABLE_KEY] = []
-
-                profs_dict[prof_name][TIMETABLE_KEY].append([get_time(slot), venues])
+                    profs_dict[prof_id][TIMETABLE_KEY] = []
+                
+                profs_dict[prof_id][TIMETABLE_KEY].append([get_time(slot), venues])
 
     if len(profs_dict):
         # with open('data/test_prof', 'w') as f:
@@ -216,8 +235,8 @@ def populate_data(specific_dep=None):
     else:
         parse_html(specific_dep)
 
-    # with open(os.path.join(path, "data/data.json"), "w") as f:
-    #     json.dump(profs_dict, f)
+    with open(os.path.join(path, "data/data.json"), "w") as f:
+        json.dump(profs_dict, f)
 
 
 def main():
@@ -237,4 +256,4 @@ if __name__ == "__main__":
     main()
 
     # Test run, uncomment if you want to test one output
-    # print(get_table(get_times('Jitendra kumar')))
+    # print(get_table(get_times('Abhijit Das')))
