@@ -82,8 +82,35 @@ def parse_html(dep):
     not found, we'll add it from our data of the subject.
 
     """
-    dept_resp = requests.post(DEPT_FETCH_URL,data={'lang':'en'})
-    dept_raw_data = json.loads(dept_resp.content)["aaData"]
+    header = {
+        "Host": "www.iitkgp.ac.in",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.122 Safari/537.36",
+        "Origin": "https://www.iitkgp.ac.in",
+        "Referer": "https://www.iitkgp.ac.in/faclistbydepartment",
+        "Connection": "close"
+    }
+
+    data = (
+        "draw=2&columns%5B0%5D%5Bdata%5D=empname&columns%5B0%5D%5Bname%5D=&columns%5B0%5D%5Bsearchable%5D=true&"
+        "columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&"
+        "columns%5B1%5D%5Bdata%5D=department&columns%5B1%5D%5Bname%5D=&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&"
+        "columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=designation&"
+        "columns%5B2%5D%5Bname%5D=&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&"
+        "columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start=0&length=999999&"
+        "search%5Bvalue%5D=&search%5Bregex%5D=false&lang=en"
+    )#we can see start=0 and length=999999 at second last line of data. we can modify it according to our need.
+
+    #trying max 5 times
+    for i in range(5):
+        try:
+            dept_resp = requests.post(DEPT_FETCH_URL,headers=header, data=data)
+            dept_raw_data = json.loads(dept_resp.content)["aaData"]
+            break
+        except:
+            continue
+    
     dept_data = CaseInsensitiveDict({})
 
     for prof in dept_raw_data:
