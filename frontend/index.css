@@ -1,0 +1,12 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+h1, h2 {
+    text-align: center;
+}
+.input-group{
+    width: 50%;
+}
