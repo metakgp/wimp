@@ -1,11 +1,14 @@
 // Example user-inputted variable
 document.addEventListener('DOMContentLoaded',function(){
 
-    var urlParams = new URLSearchParams(window.location.search);
+var urlParams = new URLSearchParams(window.location.search);
 var userInput = urlParams.get('prof');
-console.log("Profs name: ",userInput);// This can come from a search bar or user input field
+
+
 fetch('data.json').then((response)=>response.json()).then(data=>{
+
 if (data.hasOwnProperty(userInput)) {
+
     // Access the corresponding data using userInput
     var userObject = data[userInput];
     const caption= window.document.querySelector("caption");
@@ -23,12 +26,8 @@ if (data.hasOwnProperty(userInput)) {
         console.log(`Entry ${index + 1}:`);
         for(let el of firstArray){
             let elementId = `${el}`
-            console.log(elementId);
             let dataatId=window.document.getElementById(elementId);
-            console.log(dataatId);
-            console.log(dataatId.outerHTML);
             let elementdata=secondArray[0];
-            console.log(elementdata);
             if(elementdata==="0"){
                 dataatId.innerHTML="In Dept.";
             }
