@@ -1,63 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WIMP - Where Is My Prof?</title>
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
-  <div class="main">
-    <div style="display: flex; flex-direction: column; align-items: center;">
-        <h1>MetaKGP - WIMP</h1>
-        <h2>Where Is My Prof?</h2>
-        <img src="./assets/doodle.png" style="width: 40%">
-    </div>
-    <div>
-        <p style="text-align: center;">Start entering a professor's name in the text box. Select the professor from the list. The result will show the weekly timetable of the professor!</p>
-    </div>
-    <div class="input-group">
-        <div class="form-outline" data-mdb-input-init>
-          <input type="search" id="prof_query" class="form-control" />
-          <label class="form-label" for="prof_query">Who are you looking for?</label>
-        </div>
-        <button type="button" class="btn btn-primary" data-mdb-ripple-init>
-          <i class="fas fa-search"></i>
-        </button>
-    </div>
-    <div id="suggestions"> <!--for suggestions-->
-      <ul class="list-group">
-      </ul>
-    </div>
-
-    <div class="row">
-      <div class="col-md-12 text-center" style="position: absolute; bottom: 40px; left: 0;">
-          <p id="footer">
-          Maintained by <a href="https://metakgp.github.io/" target="_blank">MetaKGP</a> with <span style="font-size:150%;color:red;">&hearts;</span> on<a href="https://github.com/metakgp/wimp" target="_blank"> GitHub</a>
-          </p>
-      </div>
-    </div>
-
-  </div>
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
-      <script src="./scripts/autocomplete.js"></script> 
-      <script>
-        document.addEventListener("DOMContentLoaded", () => {
-         fetch('data.json') 
-        .then(response => response.json())
-        .then(data => {
-            const datalist = Object.keys(data);
-            console.log(datalist);
-
-            var worker = new Worker("./scripts/worker.js");
-            autocomplete(datalist, worker);
-        })
-        .catch(error => console.error('Error fetching data.json:', error));
-});
-    </script>     
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./src/assets/favicon.ico"  >
+    <title>WIMP-MetaKGP</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

@@ -1,0 +1,14 @@
+.App {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+.footer{
+bottom: 0px; 
+left: 0; 
+padding-top: 1rem;
+padding-bottom: 2px; 
+width: 100%; 
+text-align: center; 
+color: black;  
+}

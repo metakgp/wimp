@@ -1,0 +1,16 @@
+.table-container{
+    width: 60%;
+    margin:auto;
+}
+
+table{
+    width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+}
