@@ -2,6 +2,14 @@ import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import Records from "../../../data/converted_data.json";
 import "./searchbar.css";
+import Fuse from "fuse.js";
+
+console.log(Fuse);
+
+const fuse = new Fuse(Records, {
+  keys: ["name", "dept", "website", "timetable"],
+  includeScore: true,
+});
 
 interface SearchBarProps {
   onSelectProfessor: (profName: string) => void; // Callback to select professor
@@ -9,14 +17,18 @@ interface SearchBarProps {
 
 const SearchBar: React.FC<SearchBarProps> = ({ onSelectProfessor }) => {
   const [input, setInput] = useState<string>("");
+  const [dropdownVisibility, setdropdownVisibility] = useState<boolean>(true);
 
   const handleChange = (input: string) => {
     setInput(input);
+    input ? setdropdownVisibility(true) : setdropdownVisibility(false);
   };
 
+  const results = fuse.search(input);
   const onSearch = (input: string) => {
     setInput(input);
     onSelectProfessor(input); // Call the parent component's onSelectProfessor
+    setdropdownVisibility(false);
   };
 
   return (
@@ -33,24 +45,19 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSelectProfessor }) => {
             />
           </div>
         </div>
-        <div className="dropdown">
-          {Records.filter((record) => {
-            const searchTerm = input.toLowerCase();
-            const name = record.name.toLowerCase();
-
-            return (
-              searchTerm && name.startsWith(searchTerm) && name !== searchTerm
-            );
-          }).map((record) => (
-            <div
-              onClick={() => onSearch(record.name)}
-              className="dropdown-row"
-              key={record.name}
-            >
-              {record.name}
-            </div>
-          ))}
-        </div>
+        {dropdownVisibility && (
+          <div className="dropdown">
+            {results.map((record) => (
+              <div
+                onClick={() => onSearch(record.item.name)}
+                className="dropdown-row"
+                key={record.item.name}
+              >
+                {record.item.name}
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </>
   );
