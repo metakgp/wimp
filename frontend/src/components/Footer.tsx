@@ -4,24 +4,25 @@ const Footer: React.FC = () => {
     <>
       <footer className="footer">
         <p>
-          Maintained by{" "}
+          Contribute to this project on{" "}
+          <a
+            target="_blank"
+            href="https://github.com/metakgp/wimp"
+            className="text-white"
+          >
+            <strong>GitHub </strong>
+          </a>
+          | Powered by{" "}
           <strong>
             <a
               target="_blank"
               href="https://metakgp.github.io/"
               className="text-white"
             >
-              <strong>MetaKGP </strong>
+              <strong> MetaKGP </strong>
             </a>
           </strong>
-          with<strong> ❤️ and &lt;/&gt; </strong>at{" "}
-          <a
-            target="_blank"
-            href="https://github.com/metakgp/gyfe"
-            className="text-white"
-          >
-            <strong>GitHub</strong>
-          </a>
+          with ❤️
         </p>
       </footer>
     </>
