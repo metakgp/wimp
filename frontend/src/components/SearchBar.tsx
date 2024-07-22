@@ -4,11 +4,8 @@ import Records from "../../../data/converted_data.json";
 import "./searchbar.css";
 import Fuse from "fuse.js";
 
-console.log(Fuse);
-
 const fuse = new Fuse(Records, {
   keys: ["name", "dept", "website", "timetable"],
-  includeScore: true,
 });
 
 interface SearchBarProps {
@@ -24,7 +21,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSelectProfessor }) => {
     input ? setdropdownVisibility(true) : setdropdownVisibility(false);
   };
 
-  const results = fuse.search(input);
+  const results = fuse.search(input).slice(0, 4);
   const onSearch = (input: string) => {
     setInput(input);
     onSelectProfessor(input); // Call the parent component's onSelectProfessor
@@ -38,6 +35,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSelectProfessor }) => {
           <div>
             <FaSearch id="search-icon" />
             <input
+              className="input"
               type="text"
               placeholder="Who are you looking for?"
               value={input}
@@ -53,7 +51,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSelectProfessor }) => {
                 className="dropdown-row"
                 key={record.item.name}
               >
-                {record.item.name}
+                {record.item.name} | {record.item.dept}
               </div>
             ))}
           </div>

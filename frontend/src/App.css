@@ -1,10 +1,9 @@
 .App {
   background-color: white;
-  width: 100vw;
-  height: 100vh;
 }
-.footer{
+.footer-text{
 bottom: 0px; 
+margin: 0 auto;
 left: 0; 
 padding-top: 1rem;
 padding-bottom: 2px; 
@@ -12,3 +11,4 @@ width: 100%;
 text-align: center; 
 color: black;  
 }
+

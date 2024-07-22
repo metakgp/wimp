@@ -80,23 +80,31 @@ function Table() {
   );
 
   return (
-    <div>
+    <div className="search-results">
       <SearchBar onSelectProfessor={selectProfessorByName} />
       {selectedProfessor && (
         <div className="table-container">
-          <h2>
+          <div className="table-caption">
             <span style={{ color: "#007BFF" }}>
               <a
                 href={`${selectedProfessor.website}`}
-                style={{ color: "inherit", textDecoration: "none" }}
+                target="_blank"
+                style={{
+                  color: "inherit",
+                  textDecoration: "none",
+                  fontWeight: "lighter",
+                  fontSize: "56px",
+                }}
               >
                 {selectedProfessor.name}
               </a>
             </span>{" "}
-            | {selectedProfessor.dept}
-          </h2>
+            <span style={{ fontWeight: "lighter", fontSize: "56px" }}>
+              | {selectedProfessor.dept}
+            </span>
+          </div>
           <table className="table">
-            <thead>
+            <thead className="thead">
               <tr>
                 <th></th>
                 {hours.map((hour, hourIndex) => (

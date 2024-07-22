@@ -1,0 +1,18 @@
+.main{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+@media(min-width:750px) and (max-width: 1500px){
+    .main{
+
+    }
+}
+
+.logo{
+    max-width: 100%;
+    height: auto;
+}
