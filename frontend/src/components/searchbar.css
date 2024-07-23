@@ -6,6 +6,7 @@ h1{
   font-size: 70px;
   font-weight: 200;
 }
+
 .input-wrapper {
   position: relative;
   color:black;
@@ -19,35 +20,17 @@ h1{
     display: flex;
     margin-bottom: 20px;
   }
+
   .search-bar-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 26%;
     width: 45%;
     margin-top: 20px;
-    margin-left: 400px;
     justify-content: center;
     align-items: center;
-  }
-
-  @media(max-width:1280px){
-    .search-bar-container {
-      width: 45%;
-      margin-top: 20px;
-      margin-left: 220px;
-      justify-content: center;
-      align-items: center;
-    }
-  }
-
-  @media(max-width:650px){
-    .search-bar-container {
-      width: 45%;
-      margin-top: 20px;
-      margin-left: 80px;
-      justify-content: center;
-      align-items: center;
-    }
-  }
-  
-  
+  }  
   .input-wrapper input {
     color: black;
     background-color: transparent;
@@ -73,8 +56,7 @@ h1{
   }
 
   .dropdown {
-    position: absolute;
-    width: 45%;
+    width: 100%;
     background-color:white;
     max-height: 250px;  
   }

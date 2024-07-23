@@ -6,13 +6,7 @@ const Body: React.FC = () => {
   return (
     <>
       <div className="main">
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-          }}
-        >
+        <div>
           <img
             src={logo}
             alt="MetaKGPlogo"

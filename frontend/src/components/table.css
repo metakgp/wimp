@@ -13,44 +13,22 @@ a:hover{
 
 .search-results{
   display: flex;
-  justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
   height: 100%
 }
+.table-container{
+  display: flex;
+  flex-direction: column;
+}
 
 .table-caption{
-  white-space: nowrap;
-  margin: 0 auto;
-  margin-left: 300px;
+  display: flex;
+  position: relative;
+  left: 19%;
+  font-weight: "lighter";
 }
-
-@media(max-width: 1100px){
-  .table-caption{
-    white-space: nowrap;
-    margin: 0 auto;
-    margin-left: 150px;
-  }
-}
-
-@media(max-width: 790px){
-  .table-caption{
-    white-space: nowrap;
-    margin: 0 auto;
-    margin-left: 50px;
-  }
-}
-
-@media(max-width: 590px){
-  .table-caption{
-    white-space: nowrap;
-    margin: 0 auto;
-    margin-left: 0px;
-  }
-}
-
-
 
 .table{
    height: 100%;
@@ -58,6 +36,7 @@ a:hover{
     border-collapse: collapse;
     margin: 0 auto;
     margin-top: 20px;
+    overflow-x: scroll;
 }
 
 .table th{

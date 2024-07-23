@@ -93,13 +93,18 @@ function Table() {
                   color: "inherit",
                   textDecoration: "none",
                   fontWeight: "lighter",
-                  fontSize: "56px",
+                  fontSize: "3.5vw",
                 }}
               >
                 {selectedProfessor.name}
               </a>
-            </span>{" "}
-            <span style={{ fontWeight: "lighter", fontSize: "56px" }}>
+            </span>
+            <span
+              style={{
+                fontWeight: "lighter",
+                fontSize: "3.5vw",
+              }}
+            >
               | {selectedProfessor.dept}
             </span>
           </div>
