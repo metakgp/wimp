@@ -1,6 +1,6 @@
 .App {
   background-color: white;
-
+  overflow: hidden;
 }
 
 .footer-text{

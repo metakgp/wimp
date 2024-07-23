@@ -36,7 +36,7 @@ a:hover{
     border-collapse: collapse;
     margin: 0 auto;
     margin-top: 20px;
-    overflow-x: scroll;
+    overflow: hidden;
 }
 
 .table th{
@@ -49,8 +49,8 @@ a:hover{
 
 .table td {
   padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
+  border: 1px solid #ddd;
+  text-align: left;
 }
 
 .table tbody tr:nth-child(odd) {
