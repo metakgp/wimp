@@ -1,7 +1,7 @@
 import { useState, useMemo, useCallback } from "react";
 import data from "../../../data/converted_data.json";
 import SearchBar from "./SearchBar";
-import "./table.css";
+import "../index.css";
 
 interface Info {
   name: string;
@@ -85,27 +85,16 @@ function Table() {
       {selectedProfessor && (
         <div className="table-container">
           <div className="table-caption">
-            <span style={{ color: "#007BFF" }}>
+            <span>
               <a
                 href={`${selectedProfessor.website}`}
                 target="_blank"
-                style={{
-                  color: "inherit",
-                  textDecoration: "none",
-                  fontWeight: "lighter",
-                  fontSize: "3.5vw",
-                }}
               >
                 {selectedProfessor.name}
               </a>
             </span>
-            <span
-              style={{
-                fontWeight: "lighter",
-                fontSize: "3.5vw",
-              }}
-            >
-              | {selectedProfessor.dept}
+            <span className="dept space">|</span>
+            <span className="dept">{selectedProfessor.dept}
             </span>
           </div>
           <table className="table">
@@ -121,7 +110,7 @@ function Table() {
               {days.map((day, dayIndex) => (
                 <tr key={dayIndex}>
                   <td>{day}</td>
-                  {hours.map((hour, hourIndex) => (
+                  {hours.map((_, hourIndex) => (
                     <td key={`${dayIndex}-${hourIndex}`}>
                       {isClassScheduled(dayIndex, hourIndex)
                         ? getClassInfo(dayIndex, hourIndex)

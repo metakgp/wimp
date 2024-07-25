@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import Records from "../../../data/converted_data.json";
-import "./searchbar.css";
+import "../index.css";
 import Fuse from "fuse.js";
 
 const fuse = new Fuse(Records, {

@@ -1,9 +1,9 @@
 import React from "react";
 import Footer from "./components/Footer";
-import "./App.css";
+import "./index.css";
 
-import Body from "./components/body";
-import Table from "./components/table";
+import Body from "./components/Body";
+import Table from "./components/Table";
 
 const App: React.FC = () => {
   return (
