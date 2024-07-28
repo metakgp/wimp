@@ -97,6 +97,7 @@ function Table() {
             <span className="dept">{selectedProfessor.dept}
             </span>
           </div>
+          <div className="time-table">
           <table className="table">
             <thead className="thead">
               <tr>
@@ -121,6 +122,7 @@ function Table() {
               ))}
             </tbody>
           </table>
+          </div>
         </div>
       )}
     </div>

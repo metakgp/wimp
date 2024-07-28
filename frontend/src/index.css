@@ -46,7 +46,7 @@ p{
     font-size: 70px;
     font-weight: 200;
   }
-  
+
   .input-wrapper {
     position: relative;
     color:black;
@@ -126,28 +126,38 @@ p{
         flex-wrap: wrap;
         width: 100%;
         height: 100%;
+        align-items: center;
       
-        .table-container{
+        .time-table{
           display: flex;
           flex-direction: column;
-      
-          .table-caption{
-            display: flex;
-            margin: 0 auto;
-            font-weight: "lighter";
-            .dept{
-              font-size: 2rem;
-            }
-            .space{
-              margin: 0 8px;
-            }
-            a{
-              font-size: 2rem;
-            }
-          }
-          
+          flex-wrap: nowrap;
+          overflow-x: scroll;
+          width: 88vw;
+          -ms-overflow-style: none;  
+          scrollbar-width: none;
         }
       }
+
+      .time-table::-webkit-scrollbar {
+        display: none;
+      }
+
+      .table-caption{
+        display: flex;
+        justify-content: center;
+        font-weight: "lighter";
+        .dept{
+          font-size: 2rem;
+        }
+        .space{
+          margin: 0 8px;
+        }
+        a{
+          font-size: 2rem;
+        }
+      }
+
       .table{
           height: 100%;
           width: 60%;
