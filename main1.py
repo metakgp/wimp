@@ -54,13 +54,18 @@ def get_time(slot):
 
 def parse_html(dep, session):
     """Parses HTML to get professor information and their timetable"""
-
+    
+    # Headers for the POST request to fetch department data
+    
     start = 0  # Start index for pagination
     length = 10  # Number of records to fetch per request
     more_pages = True  # Flag to indicate if there are more pages to fetch
     draw = 1  # Counter for pagination requests
 
     while more_pages:
+        # Payload for the POST request to fetch department data
+        
+
         # Payload for the POST request to fetch department data
         PAYLOAD = DEFAULT_PAYLOAD.copy()
         PAYLOAD['draw'] = draw
@@ -69,6 +74,7 @@ def parse_html(dep, session):
 
         # Fetch department data
         dept_resp = session.post(DEPT_FETCH_URL, headers=HEADERS, data=PAYLOAD)
+        print(dept_resp.content)
         dept_raw_data = json.loads(dept_resp.content).get("aaData", [])
 
         if not dept_raw_data:
