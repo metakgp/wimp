@@ -61,6 +61,17 @@ def parse_html(dep, session):
     draw = 1  # Counter for pagination requests
 
     while more_pages:
+
+        # Get prof department
+        """
+        Note:
+
+        If a prof teaches subjects from other departments,
+        it's not a good idea to add directly from the table.
+        Instead, we try to find it from IIT KGP website. If
+        not found, we'll add it from out data of the subject.
+
+        """
         # Payload for the POST request to fetch department data
         PAYLOAD = DEFAULT_PAYLOAD.copy()
         PAYLOAD['draw'] = draw
