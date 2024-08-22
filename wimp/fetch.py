@@ -1,11 +1,10 @@
 from typing import Optional
-from bs4 import BeautifulSoup
 import json
 import requests
 from .constants import *
 import iitkgp_erp_login.erp as erp
 
-from .parse import parse_prof_raw_data, ProfData
+from .parse import parse_prof_raw_data, ProfData, parse_department_timetable
 
 
 def get_session(creds: Optional[erp.ErpCreds] = None) -> requests.Session:
@@ -81,35 +80,16 @@ def get_profs(session: requests.Session) -> ProfsList:
     return profs_by_dept
 
 
-def get_dept_timetable(session: requests.Session, dept: str):
+def get_dept_timetable(session: requests.Session, dept_code: str):
     try:
         # Fetch timetable data
-        response = session.get(TIMETABLE_FETCH_URL % dept)
+        response = session.get(TIMETABLE_FETCH_URL % dept_code)
+        print(f"Fetched timetable for {dept_code}")
         html = response.content
-        soup = BeautifulSoup(html, "lxml")
-        html = soup.find_all("table")[4]
-        print(f"Fetched for {dept}")
+
+        return parse_department_timetable(timetable_html=html)
 
     except Exception as err:
-        print(f"Can't fetch {dept}")
+        print(f"Can't fetch {dept_code}")
         print(err)
         return []
-
-    # Parse table data from the fetched HTML
-    table_data = [
-        [cell.text for cell in row("td")]
-        for row in BeautifulSoup(str(html), "lxml")("tr")
-    ]
-    table_data = [
-        {
-            "slot": row[5].split(","),
-            "prof_name_list": row[2].split(",s"),
-            "room": row[6],
-        }
-        for row in table_data[2:]
-        if len(row) == 7
-    ]
-
-    print(table_data)
-
-    return table_data
