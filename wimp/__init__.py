@@ -1,2 +1,3 @@
-from fetch import *
-from wimp import *
+from .fetch import *
+from .parse import *
+from .constants import *
