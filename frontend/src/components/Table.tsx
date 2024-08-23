@@ -63,7 +63,7 @@ function Table() {
 
                         return (
                           <td key={`${dayIndex}-${hourIndex}`} className="tt-cell">
-                            <div className="tt-cell-content">
+                            <div className="tt-cell-content"  title={timeslotInfo.occupied ? timeslotInfo.course_name : undefined}>
                               {
                                 timeslotInfo.occupied && <>
                                   <p className="room">{timeslotInfo.rooms.length > 0 ? timeslotInfo.rooms.join(",") : 'N/A'}</p>
