@@ -28,19 +28,18 @@ def sanitize_name(name: str) -> str:
 def parse_prof_raw_data(raw_data: list) -> ProfData:
     """Parses the raw data returned by the faculty list endpoint."""
     # empname is an html anchor tag with the URL to the prof's page and the professor's name in the description
-    name_anchor: str = raw_data.get("empname", "")
+    name_anchor = BeautifulSoup(raw_data.get("empname", ""), "lxml").find("a")
     department = raw_data.get("department", "N/A")
 
     # Get the href from the empname (url to the prof's website)
-    profile_url = name_anchor.split(" ")[1].split("href=")[1]
+    profile_url = name_anchor.attrs["href"].strip()
 
     # Get department code form url
     dept_code = re.findall(r"department/(.+?)/", profile_url)[0]
 
     # Get the prof's name
-    emp_name_match = re.findall(r">(.+?)<", name_anchor)
     prof_name = sanitize_name(
-        emp_name_match[0].replace("  ", "") if emp_name_match else "Unknown"
+        name_anchor.text if name_anchor.text else "Unknown"
     )
 
     return {
