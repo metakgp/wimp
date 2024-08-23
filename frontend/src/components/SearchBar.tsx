@@ -1,30 +1,28 @@
 import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
-import Records from "../../../data/converted_data.json";
+import { findProf } from "../util/data";
 import "../index.css";
-import Fuse from "fuse.js";
 
-const fuse = new Fuse(Records, {
-  keys: ["name", "dept", "website", "timetable"],
-});
+import { IProfTimetable } from "../util/data";
 
 interface SearchBarProps {
-  onSelectProfessor: (profName: string) => void; // Callback to select professor
+  onSelectProfessor: (timetable: IProfTimetable) => void; // Callback to select professor
 }
 
 const SearchBar: React.FC<SearchBarProps> = ({ onSelectProfessor }) => {
-  const [input, setInput] = useState<string>("");
+  const [searchName, setSearchName] = useState<string>("");
+  const [displayedProfs, setDisplayedProfs] = useState<IProfTimetable[]>([]);
   const [dropdownVisibility, setdropdownVisibility] = useState<boolean>(true);
 
   const handleChange = (input: string) => {
-    setInput(input);
+    setSearchName(input);
+    setDisplayedProfs(findProf(input));
     input ? setdropdownVisibility(true) : setdropdownVisibility(false);
   };
 
-  const results = fuse.search(input).slice(0, 4);
-  const onSearch = (input: string) => {
-    setInput(input);
-    onSelectProfessor(input); // Call the parent component's onSelectProfessor
+  const onSelect = (timetable: IProfTimetable) => {
+    setSearchName(timetable.prof.name);
+    onSelectProfessor(timetable); // Call the parent component's onSelectProfessor
     setdropdownVisibility(false);
   };
 
@@ -38,20 +36,20 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSelectProfessor }) => {
               className="input"
               type="text"
               placeholder="Who are you looking for?"
-              value={input}
+              value={searchName}
               onChange={(e) => handleChange(e.target.value)}
             />
           </div>
         </div>
         {dropdownVisibility && (
           <div className="dropdown">
-            {results.map((record) => (
+            {displayedProfs.map((timetable) => (
               <div
-                onClick={() => onSearch(record.item.name)}
+                onClick={() => onSelect(timetable)}
                 className="dropdown-row"
-                key={record.item.name}
+                key={timetable.prof.profile_url}
               >
-                {record.item.name} | {record.item.dept}
+                {timetable.prof.name} | {timetable.prof.dept_code}
               </div>
             ))}
           </div>
