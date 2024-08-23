@@ -141,6 +141,7 @@ def build_prof_timetables(
     2. If the professor is unique, the course is assigned to that professor.
     3. If there are multiple professors with the same name, the course is assigned to the professor within the department offering the course.
     4. If multiple professors from the same department share a name, cry.
+    5. If the professors name has a typo (missing a character etc., yes this can happen), a fuzzy search is done and the closest name (<= 2 Levenshtein distance) is used, if there is a match.
     """
 
     # Create a map of professor's name to an array of their details (array since multiple can share a name)
