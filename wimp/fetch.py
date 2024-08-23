@@ -20,13 +20,9 @@ def get_session(creds: Optional[erp.ErpCreds] = None) -> requests.Session:
 
     return session
 
-
-ProfsList = dict[str, list[ProfData]]
-
-
-def get_profs(session: requests.Session) -> ProfsList:
+def get_profs(session: requests.Session) -> list[ProfData]:
     """Fetches a list of department-wise professors from the IITKGP Website.
-    Returns a dict where the key is the department code and the value is a list of `ProfData` dicts.
+    Returns a list of `ProfData` dicts.
     """
     """
         Note:
@@ -41,9 +37,7 @@ def get_profs(session: requests.Session) -> ProfsList:
     more_pages = True  # Flag to indicate if there are more pages to fetch
     draw = 1  # The page number to be fetched
 
-    profs_by_dept: ProfsList = {}
-    for dept_code in DEPARTMENT_CODES:
-        profs_by_dept[dept_code] = []
+    profs: list[ProfData] = []
 
     while more_pages:
         # Payload for the faculty list post request
@@ -65,19 +59,25 @@ def get_profs(session: requests.Session) -> ProfsList:
             headers=DEFAULT_REQUEST_HEADERS,
             data=payload,
         )
-        profs_data = json.loads(prof_resp.content).get("aaData", [])
+        profs_page = json.loads(prof_resp.content).get("aaData", [])
 
-        for prof_raw_data in profs_data:
-            dept_code, prof_data = parse_prof_raw_data(raw_data=prof_raw_data)
-            profs_by_dept[dept_code].append(prof_data)
+        for prof_raw_data in profs_page:
+            prof_data = parse_prof_raw_data(raw_data=prof_raw_data)
+            profs.append(prof_data)
 
-        if len(profs_data) < payload["length"]:
+        if len(profs_page) < payload["length"]:
             more_pages = False
         else:
             start += payload["length"]
             draw += 1
 
-    return profs_by_dept
+    # Keep only unique professor details. Yes, some departments/schools are twice. Don't ask why or how.
+    unique_profs: list[ProfData] = []
+    for prof in profs:
+        if prof not in unique_profs:
+            unique_profs.append(prof)
+
+    return unique_profs
 
 
 def get_dept_timetable(session: requests.Session, dept_code: str):
