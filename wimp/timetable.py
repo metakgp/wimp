@@ -1,4 +1,4 @@
-from typing import TypedDict, Literal
+from typing import TypedDict, Literal, Union
 import Levenshtein as levenshtein
 
 from .parse import get_slot_coordinates, ProfData, CourseTimetable
@@ -23,13 +23,13 @@ class ProfTimetable(TypedDict):
 class Inaccuracy(TypedDict):
     """A potential inaccuracy in the timetable due to a mistake in the ERP."""
 
-    reason: Literal["MULTINAME", "TYPO"]
+    reasons: list[Literal["MULTINAME", "TYPO"]]
     """The reason for the inaccuracy.
     - `MULTINAME`: Multiple professors have the same name.
     - `TYPO`: The name has a typo (i.e, did not match with the name in the faculty directory)
     This is a list since `TYPO` and `MULTINAME` together is theoretically possible. This is scary.
     """
-    solution: list[Literal["DEP_PRIORITY", "FUZZY_SEARCH", "SKIP"]]
+    solutions: list[Literal["DEP_PRIORITY", "FUZZY_SEARCH", "SKIP"]]
     """How the inaccuracy was accounted for (may not be correct).
     - `DEP_PRIORITY`: The course department matched with only one of the professors and was given priority.
     - `SKIP`: No reliable solution was found and was skipped.
@@ -39,7 +39,7 @@ class Inaccuracy(TypedDict):
     """
     context_course: CourseTimetable
     """The course that that has this inaccuracy."""
-    context_profs: list[ProfData]
+    context_profs: list[Union[ProfData, str]]
     """List of professors that may be related to this inaccuracy (e.g, the names of the professors matching the fuzzy search or the list of professors with the same name)."""
 
 
@@ -57,11 +57,22 @@ def build_prof_course_timetable(course_tt: CourseTimetable) -> ProfCourseTimetab
     }
 
 
-def handle_multiname(prof_teaching: str, matching_profs: list[ProfTimetable], dept_code: str, course_tt: CourseTimetable):
+def handle_multiname(
+    prof_teaching: str,
+    matching_profs: list[ProfTimetable],
+    dept_code: str,
+    course_tt: CourseTimetable,
+) -> Inaccuracy:
     """Handles the case in which multiple professors have the same name."""
     print(
         f"{len(matching_profs)} professors with the name {prof_teaching} found, giving priority to the course department {dept_code} (if possible)."
     )
+
+    inaccuracy: Inaccuracy = {
+        "reasons": ["MULTINAME"],
+        "context_course": course_tt,
+        "context_profs": [prof["prof"] for prof in matching_profs],
+    }
 
     same_dep_profs = [
         i
@@ -71,9 +82,8 @@ def handle_multiname(prof_teaching: str, matching_profs: list[ProfTimetable], de
 
     # Case 2: No profs match the department of the course. Give up.
     if len(same_dep_profs) == 0:
-        print(
-            "The course department doesn't match with any of the profs. Giving up."
-        )
+        print("The course department doesn't match with any of the profs. Giving up.")
+        inaccuracy["solutions"] = ["SKIP"]
     # Case 3: Only one prof's department matches with that of the course. Assign it but read with a grain of salt.
     # TODO: In the future, add a field of possible inaccuracies that can be displayed on the frontend.
     elif len(same_dep_profs) == 1:
@@ -83,13 +93,23 @@ def handle_multiname(prof_teaching: str, matching_profs: list[ProfTimetable], de
         matching_profs[same_dep_profs[0]]["timetable"].append(
             build_prof_course_timetable(course_tt=course_tt)
         )
+        inaccuracy["solutions"] = ["DEP_PRIORITY"]
     # Case 4: Multiple prof's department matches with that of the course. This means there are multiple professors with the same name in the same department. Give up and cry.
     else:
         print(
             f"The course department matches with {len(same_dep_profs)} profs. Giving up (and also crying)."
         )
+        inaccuracy["solutions"] = ["SKIP"]
 
-def handle_typo(prof_teaching: str, prof_map: dict[str, list[ProfTimetable]], course_tt: CourseTimetable, dept_code: str):
+    return inaccuracy
+
+
+def handle_typo(
+    prof_teaching: str,
+    prof_map: dict[str, list[ProfTimetable]],
+    course_tt: CourseTimetable,
+    dept_code: str,
+) -> Inaccuracy:
     """Handles the case where there is a typo in the professor's name."""
     print(
         f"No match found for {prof_teaching} in the faculty directory. Using fuzzy search (yes)."
@@ -98,6 +118,13 @@ def handle_typo(prof_teaching: str, prof_map: dict[str, list[ProfTimetable]], co
     # Most typos are due to missing a single character or due to writing `First Last` as `Firstlast`. Yes that last one also happens.
     # In this case use a fuzzy search (idk what I am doing at this point)
     # TODO: Again, add this as a potential inaccuracy. Also log a summary of these inaccuracies so a maintainer can take conscious decisions.
+
+    inaccuracy: Inaccuracy = {
+        "reasons": ["TYPO"],
+        "context_course": course_tt,
+        "context_profs": [prof_teaching],
+        "solutions": ["FUZZY_SEARCH"],
+    }
 
     fuzzy_matches = [
         (prof_name, levenshtein.distance(prof_name, prof_teaching))
@@ -118,6 +145,7 @@ def handle_typo(prof_teaching: str, prof_map: dict[str, list[ProfTimetable]], co
         )
 
         matching_profs = prof_map[match_name]
+        inaccuracy["context_profs"].extend([prof["prof"] for prof in matching_profs])
 
         # Case 1: Unique professor name
         if len(matching_profs) == 1:
@@ -126,14 +154,23 @@ def handle_typo(prof_teaching: str, prof_map: dict[str, list[ProfTimetable]], co
             )
         # Multiple professors with the same name (I seriously hope this doesn't happen!)
         else:
-            handle_multiname(prof_teaching, matching_profs, dept_code, course_tt)
+            inaccuracy = handle_multiname(
+                prof_teaching, matching_profs, dept_code, course_tt
+            )
+            inaccuracy["reasons"].insert(0, "TYPO")
+            inaccuracy["solutions"].insert(0, "FUZZY_SEARCH")
+            inaccuracy["context_profs"].insert(0, prof_teaching)
 
     else:
         print("No fuzzy matches found.")
+        inaccuracy["solutions"].append("SKIP")
+
+    return inaccuracy
+
 
 def build_prof_timetables(
     profs: list[ProfData], dept_timetables: dict[str, list[CourseTimetable]]
-) -> list[ProfTimetable]:
+) -> tuple[list[ProfTimetable], list[Inaccuracy]]:
     """Builds the timetables for all the professors.
 
     Since the department timetable only mentions the professor's name, there is no way to accurately know which professor teaches the course if two have the same name. To handle these cases the following logic is used:
@@ -156,6 +193,9 @@ def build_prof_timetables(
         else:
             prof_map[prof["name"]] = [prof_tt]
 
+    # List of potential inaccuracies in the timetable
+    inaccuracies: list[Inaccuracy] = []
+
     # Iterate through all courses' timetables
     for dept_code in dept_timetables:
         for course_tt in dept_timetables[dept_code]:
@@ -170,14 +210,20 @@ def build_prof_timetables(
                         )
                     # Multiple professors with the same name
                     else:
-                        handle_multiname(prof_teaching, matching_profs, dept_code, course_tt)
+                        inaccuracy = handle_multiname(
+                            prof_teaching, matching_profs, dept_code, course_tt
+                        )
+                        inaccuracies.append(inaccuracy)
 
                 else:
                     # Yes, _even this_ can happen. This is usually due to a typo. I want to cry.
-                    handle_typo(prof_teaching, prof_map, course_tt, dept_code)
+                    inaccuracy = handle_typo(
+                        prof_teaching, prof_map, course_tt, dept_code
+                    )
+                    inaccuracies.append(inaccuracy)
 
     prof_timetables: list[ProfTimetable] = []
     for prof_name in prof_map:
         prof_timetables.extend(prof_map[prof_name])
 
-    return prof_timetables
+    return prof_timetables, inaccuracies

@@ -12,9 +12,12 @@ if __name__ == "__main__":
         wimp.get_dept_timetable, [(session, code) for code in wimp.DEPARTMENT_CODES]
     )
 
-    timetables = wimp.build_prof_timetables(
+    timetables, inaccuracies = wimp.build_prof_timetables(
         profs, dept_timetables=dict(zip(wimp.DEPARTMENT_CODES, dept_timetables_list))
     )
 
     with open("data/data.json", "w") as data_file:
-        json.dump(timetables, data_file, indent=4)
+        json.dump(timetables, data_file, indent=2)
+
+    with open("data/inaccuracies.json", "w") as inaccuracy_file:
+        json.dump(inaccuracies, inaccuracy_file, indent=2)
