@@ -20,6 +20,7 @@ def get_session(creds: Optional[erp.ErpCreds] = None) -> requests.Session:
 
     return session
 
+
 def get_profs(session: requests.Session) -> list[ProfData]:
     """Fetches a list of department-wise professors from the IITKGP Website.
     Returns a list of `ProfData` dicts.
@@ -48,7 +49,7 @@ def get_profs(session: requests.Session) -> list[ProfData]:
             "order[0][column]": "0",
             "order[0][dir]": "asc",
             "start": start,
-            "length": 1000, # Fetch 1000 names at a time
+            "length": 1000,  # Fetch 1000 names at a time
             "search[value]": "",
             "search[regex]": "false",
             "lang": "en",

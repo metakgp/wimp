@@ -85,7 +85,6 @@ def handle_multiname(
         print("The course department doesn't match with any of the profs. Giving up.")
         inaccuracy["solutions"] = ["SKIP"]
     # Case 3: Only one prof's department matches with that of the course. Assign it but read with a grain of salt.
-    # TODO: In the future, add a field of possible inaccuracies that can be displayed on the frontend.
     elif len(same_dep_profs) == 1:
         print(
             "The course department matches with one of the profs'. Assigning the course to that prof."
@@ -117,7 +116,6 @@ def handle_typo(
 
     # Most typos are due to missing a single character or due to writing `First Last` as `Firstlast`. Yes that last one also happens.
     # In this case use a fuzzy search (idk what I am doing at this point)
-    # TODO: Again, add this as a potential inaccuracy. Also log a summary of these inaccuracies so a maintainer can take conscious decisions.
 
     inaccuracy: Inaccuracy = {
         "reasons": ["TYPO"],

@@ -38,9 +38,7 @@ def parse_prof_raw_data(raw_data: list) -> ProfData:
     dept_code = re.findall(r"department/(.+?)/", profile_url)[0]
 
     # Get the prof's name
-    prof_name = sanitize_name(
-        name_anchor.text if name_anchor.text else "Unknown"
-    )
+    prof_name = sanitize_name(name_anchor.text if name_anchor.text else "Unknown")
 
     return {
         "name": prof_name,
