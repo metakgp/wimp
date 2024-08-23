@@ -1,189 +1,196 @@
 .App {
-    background-color: white;
-    overflow: hidden;
-  }
-  
-  .footer-text{
-  bottom: 0px; 
+  background-color: white;
+  overflow: hidden;
+}
+
+.footer-text {
+  bottom: 0px;
   margin: 0 auto;
-  left: 0; 
+  left: 0;
   padding-top: 1rem;
-  padding-bottom: 2px; 
-  width: 100%; 
-  text-align: center; 
-  color: black;  
+  padding-bottom: 2px;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.main {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: -70px;
   }
 
-  .main{
+  .doodle {
+    width: 30%;
+    margin-top: -48px;
+  }
+}
+
+p {
+  margin: 0 auto !important;
+  text-align: center !important;
+  width: 70% !important;
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 200;
+}
+
+.input-wrapper {
+  position: relative;
+  color: black;
+  width: 100%;
+  height: 2.5rem;
+  border: none;
+  border-radius: 10px;
+  padding: 0 15px;
+  box-shadow: 0px 0px 8px #ddd;
+  background-color: white;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-bar-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0 auto;
+  width: 45%;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-wrapper input {
+  color: black;
+  background-color: transparent;
+  height: 100%;
+  font-size: 1.25rem;
+  width: 500px;
+  border: none;
+  margin-left: 10px;
+  padding-left: 15px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#search-icon {
+  position: absolute;
+  top: 50%;
+  left: 13px;
+  transform: translateY(-50%);
+  color: royalblue;
+  margin-right: 10px;
+}
+
+.dropdown {
+  width: 100%;
+  background-color: white;
+  max-height: 250px;
+}
+
+.dropdown-row {
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+  outline: none;
+}
+
+.dropdown-row:hover {
+  background-color: whitesmoke;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.search-results {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+
+  .time-table {
     display: flex;
-    margin: 0 auto;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align:center;
-    .logo{
-        max-width: 100%;
-        height: auto;
-        margin-bottom: -70px;
-    }
-    .doodle{
-        width: 40%;
-        margin-top: -48px;
-    }
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    width: 88vw;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
 
-p{
-    margin: 0 auto !important;
-    text-align: center !important;
-    width: 70% !important;
+.time-table::-webkit-scrollbar {
+  display: none;
 }
 
-*{
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+.table-caption {
+  display: flex;
+  justify-content: center;
+  font-weight: "lighter";
+
+  .dept {
+    font-size: 2rem;
   }
-  
-  h1{
-    font-size: 70px;
-    font-weight: 200;
+
+  .space {
+    margin: 0 8px;
   }
 
-  .input-wrapper {
-    position: relative;
-    color:black;
-      width: 100%;
-      height: 2.5rem;
-      border: none;
-      border-radius: 10px;
-      padding: 0 15px;
-      box-shadow: 0px 0px 8px #ddd;
-      background-color: white;
-      display: flex;
-      margin-bottom: 20px;
-    }
-  
-    .search-bar-container {
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      margin: 0 auto;
-      width: 45%;
-      margin-top: 20px;
-      justify-content: center;
-      align-items: center;
-    }  
-    .input-wrapper input {
-      color: black;
-      background-color: transparent;
-      height: 100%;
-      font-size: 1.25rem;
-      width: 500px;
-      border: none; 
-      margin-left: 10px;
-      padding-left: 15px;
-    }
-    
-    input:focus {
-      outline: none;
-    }
-    
-    #search-icon{
-    position: absolute;
-    top: 50%;
-    left: 13px;
-    transform: translateY(-50%);
-    color: royalblue;
-    margin-right: 10px; 
-    }
-  
-    .dropdown {
-      width: 100%;
-      background-color:white;
-      max-height: 250px;  
-    }
-    
-    .dropdown-row {
-      padding: 10px;
-      cursor: pointer;
-      color: black;
-      outline: none;
-    }
-    
-    .dropdown-row:hover {
-      background-color: whitesmoke;
-    }
-      
-      a{
-        color:#007BFF;
-        text-decoration: none;
-      }
-      a:hover{
-        text-decoration: underline;
-      }
-      
-      .search-results{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 100%;
-        align-items: center;
-      
-        .time-table{
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          overflow-x: scroll;
-          width: 88vw;
-          -ms-overflow-style: none;  
-          scrollbar-width: none;
-        }
-      }
+  a {
+    font-size: 2rem;
+  }
+}
 
-      .time-table::-webkit-scrollbar {
-        display: none;
-      }
+.table {
+  height: 100%;
+  width: 60%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 20px;
+  overflow: hidden;
 
-      .table-caption{
-        display: flex;
-        justify-content: center;
-        font-weight: "lighter";
-        .dept{
-          font-size: 2rem;
-        }
-        .space{
-          margin: 0 8px;
-        }
-        a{
-          font-size: 2rem;
-        }
-      }
+  td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
 
-      .table{
-          height: 100%;
-          width: 60%;
-          border-collapse: collapse;
-          margin: 0 auto;
-          margin-top: 20px;
-          overflow: hidden;
-      
-          td{
-            padding: 8px;
-            border: 1px solid #ddd;
-            text-align: center;
-          }
-          th{
-            padding: 8px;
-            border: 1px solid #ddd;
-            text-align: center;
-            background-color:#E0E5DA;
-          }
-          tbody tr:nth-child(odd) {
-            background-color: #F1F5ED; 
-          }
-          tbody tr:nth-child(even) {
-            background-color:#FFFFFF; 
-          }
-      }
-  
-  
-  
+  th {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #E0E5DA;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: #F1F5ED;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #FFFFFF;
+  }
+}
