@@ -37,10 +37,10 @@ class Inaccuracy(TypedDict):
 
     This is a list since `TYPO` and `MULTINAME` together is theoretically possible.
     """
+    context_course: CourseTimetable
+    """The course that that has this inaccuracy."""
     context_profs: list[ProfData]
-    """List of other professors that may be related to this inaccuracy."""
-    context_courses: list[CourseTimetable]
-    """List of courses that have this inaccuracy."""
+    """List of professors that may be related to this inaccuracy (e.g, the names of the professors matching the fuzzy search or the list of professors with the same name)."""
 
 
 def build_prof_course_timetable(course_tt: CourseTimetable) -> ProfCourseTimetable:
