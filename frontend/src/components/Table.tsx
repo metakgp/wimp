@@ -62,12 +62,15 @@ function Table() {
                         const timeslotInfo = getTimeSlotInfo(selectedProfessor, [dayIndex, hourIndex])
 
                         return (
-                          <td key={`${dayIndex}-${hourIndex}`}>
-                            {
-                              timeslotInfo.occupied ? (
-                                timeslotInfo.rooms.length > 0 ? timeslotInfo.rooms.join(",") : timeslotInfo.course_code
-                               ) : ""
-                            }
+                          <td key={`${dayIndex}-${hourIndex}`} className="tt-cell">
+                            <div className="tt-cell-content">
+                              {
+                                timeslotInfo.occupied && <>
+                                  <p className="room">{timeslotInfo.rooms.length > 0 ? timeslotInfo.rooms.join(",") : 'N/A'}</p>
+                                  <p className="course-code">({timeslotInfo.course_code})</p>
+                                </>
+                              }
+                            </div>
                           </td>
                         )
                       })

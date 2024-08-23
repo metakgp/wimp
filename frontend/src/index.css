@@ -167,20 +167,19 @@ a:hover {
 
 .table {
   height: 100%;
-  width: 60%;
+  width: 90%;
   border-collapse: collapse;
   margin: 0 auto;
   margin-top: 20px;
   overflow: hidden;
 
   td {
-    padding: 8px;
+    padding: 8px 2px;
     border: 1px solid #ddd;
     text-align: center;
   }
 
   th {
-    padding: 8px;
     border: 1px solid #ddd;
     text-align: center;
     background-color: #E0E5DA;
@@ -192,5 +191,20 @@ a:hover {
 
   tbody tr:nth-child(even) {
     background-color: #FFFFFF;
+  }
+
+  .tt-cell-content {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    .room {
+      font-weight: bold;
+    }
+
+    .course-code {
+      font-size: 0.65rem;
+    }
   }
 }
