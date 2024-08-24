@@ -171,12 +171,20 @@ a:hover {
   border-collapse: collapse;
   margin: 0 auto;
   margin-top: 20px;
-  overflow: hidden;
+  overflow-x: auto;
+  /*table-layout: fixed;*/
+
 
   td {
     padding: 8px 2px;
     border: 1px solid #ddd;
     text-align: center;
+    /*overflow-wrap: break-word;
+    word-wrap: break-word; 
+    word-break: normal;*/
+    word-wrap: break-word;
+    min-width: 6.56em;
+    max-width: 10.93em;
   }
 
   th {
