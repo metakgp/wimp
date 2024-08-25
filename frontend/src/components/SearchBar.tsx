@@ -37,6 +37,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSelectProfessor }) => {
               type="text"
               placeholder="Who are you looking for?"
               value={searchName}
+              autoFocus={true}
               onChange={(e) => handleChange(e.target.value)}
             />
           </div>
