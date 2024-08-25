@@ -1,69 +1,122 @@
-![Compatibility](https://img.shields.io/badge/compatible%20with-python3.6.x-blue.svg)
-# WIMP - Where Is My Prof?
+<div id="top"></div>
 
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-![Screenshot](https://raw.githubusercontent.com/metakgp/wimp/master/static/screenshot.png)
+<!-- PROJECT SHIELDS -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links-->
+<div align="center">
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![Wiki][wiki-shield]][wiki-url]
+
+</div>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/metakgp/wimp">
+     <img width="140" alt="image" src="https://raw.githubusercontent.com/metakgp/design/main/logos/logo.jpg">
+  </a>
+
+  <h3 align="center">Where Is My Prof?</h3>
+
+  <p align="center">
+    <i></i>
+    <br />
+    <a href="https://wimp.metakgp.org">Website</a>
+    ·
+    <a href="https://github.com/proffapt/wimp/issues">Request Feature / Report Bug</a>
+  </p>
+</div>
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+<summary>Table of Contents</summary>
+
+- [About The Project](#about-the-project)
+- [Getting Started](#getting-started)
+- [Contact](#contact)
+  - [Maintainer(s)](#maintainers)
+  - [creators(s)](#creators)
+- [Additional documentation](#additional-documentation)
+
+</details>
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<div align="center">
+  <a href="https://github.com/metakgp/wimp">
+    <img width="80%" alt="image" src="./static/screenshot.png">
+  </a>
+</div>
 
 Alwin is a wimpy kid. What? Is he lazy? Not at all! He always asks me, 'Where is my Prof?'. He is in search of his project and sick of waiting for hours in front of his Prof's office. Boom! He got an idea. He started to search the Prof's timetable and decided to meet him after his class. He went to ERP. Wow! What a beautiful place it is! He found the Prof's department and checked department time table, found out his slots, compared his slots with time and finally, he met him. But, alas! He was late. The Prof gave his project to another stud. Alwin asked him, 'Bro, how did you find him earlier?'. He replied, 'Use WIMP kid!'.
 
-## Development
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Getting Valid JSESSIONID
-1. Login to the ERP
-2. Go to Academic -> Timetable -> Subject List with Timetable Slots
-3. Open the browser console. Switch to the Network tab
-4. Choose any department and wait for the time table to load
-5. After the time table is loaded, check the Network tab for the `POST
-   timetable_track.js ...` request. Select this request; switch to the Cookies
-   tab and copy the `JSESSIONID` cookie value to your `.env` file
-6. You can also add it using the following command for the current terminal session
-    ```bash
-    export JSESSIONID="[JSESSIONID FROM ERP]"
-    ```
-The JSESSIONID is only used to update the data using main.py and not for running the app.py.
+## Getting Started
 
-### Host machine
+To set up a local instance of the application, follow the steps below.
+[WIP]
 
-```sh
-git clone https://github.com/metakgp/wimp.git
-cd wimp
-sudo pip install pipenv
-pipenv install && pipenv shell # loads .env file variables, install dependencies
-python main.py # To populate data
-python app.py # Locate your browser to the local address
-```
+## Contact
 
-### Docker container
+<p>
+📫 Metakgp -
+<a href="https://slack.metakgp.org">
+  <img align="center" alt="Metakgp's slack invite" width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/slack.svg" />
+</a>
+<a href="mailto:metakgp@gmail.com">
+  <img align="center" alt="Metakgp's email " width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/gmail.svg" />
+</a>
+<a href="https://www.facebook.com/metakgp">
+  <img align="center" alt="metakgp's Facebook" width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/facebook.svg" />
+</a>
+<a href="https://www.linkedin.com/company/metakgp-org/">
+  <img align="center" alt="metakgp's LinkedIn" width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/linkedin.svg" />
+</a>
+<a href="https://twitter.com/metakgp">
+  <img align="center" alt="metakgp's Twitter " width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/twitter.svg" />
+</a>
+<a href="https://www.instagram.com/metakgp_/">
+  <img align="center" alt="metakgp's Instagram" width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/instagram.svg" />
+</a>
+</p>
 
-```sh
-git clone https://github.com/themousepotato/wimp.git
-cd wimp
-docker build -t wimp .
-docker run -p 5000:5000 wimp
-```
+### Maintainer(s)
 
-### Pretty printing `data.json`
+The currently active maintainer(s) of this project.
 
-You can use any JSON utility that is installed on your computer.
-[`jq`](https://stedolan.github.io/jq/) is recommended.
+- [Harsh Khandeparkar](https://github.com/harshkhandeparkar)
+- [Rohan Barsagade](https://github.com/rohan-b-84)
 
-```sh
-$ jq '' data/data.json > data/data2.json
-$ mv data/data2.json data/data.json
-```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Wiki
-We've a list of FAQ [here](https://github.com/metakgp/wimp/wiki/FAQ). If you've any queries, find the answer from there. If your question is not there, add it by yourself. We would love to answer.
+## Additional documentation
 
-## Contributions
+  - [License](/LICENSE)
+  - [Code of Conduct](/.github/CODE_OF_CONDUCT.md)
+  - [Security Policy](/.github/SECURITY.md)
+  - [Contribution Guidelines](/.github/CONTRIBUTING.md)
 
-PRs are most welcome!
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+<!-- MARKDOWN LINKS & IMAGES -->
 
-
-## Maintainer
-
-[Navaneeth Suresh](https://github.com/themousepotato) (@themousepotato on [metakgp Slack](https://slack.metakgp.org).)
-
+[contributors-shield]: https://img.shields.io/github/contributors/metakgp/wimp.svg?style=for-the-badge
+[contributors-url]: https://github.com/metakgp/wimp/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/metakgp/wimp.svg?style=for-the-badge
+[forks-url]: https://github.com/metakgp/wimp/network/members
+[stars-shield]: https://img.shields.io/github/stars/metakgp/wimp.svg?style=for-the-badge
+[stars-url]: https://github.com/metakgp/wimp/stargazers
+[issues-shield]: https://img.shields.io/github/issues/metakgp/wimp.svg?style=for-the-badge
+[issues-url]: https://github.com/metakgp/wimp/issues
+[license-shield]: https://img.shields.io/github/license/metakgp/wimp.svg?style=for-the-badge
+[license-url]: https://github.com/metakgp/wimp/blob/master/LICENSE
+[wiki-shield]: https://custom-icon-badges.demolab.com/badge/metakgp_wiki-grey?logo=metakgp_logo&style=for-the-badge
+[wiki-url]: https://wiki.metakgp.org
+[slack-url]: https://slack.metakgp.org
