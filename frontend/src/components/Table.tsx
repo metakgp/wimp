@@ -66,7 +66,7 @@ function Table() {
                             <div className="tt-cell-content"  title={timeslotInfo.occupied ? timeslotInfo.course_name : undefined}>
                               {
                                 timeslotInfo.occupied && <>
-                                  <p className="room">{timeslotInfo.rooms.length > 0 ? timeslotInfo.rooms.join(",") : 'N/A'}</p>
+                                  <p className="room">{timeslotInfo.rooms.length > 0 ? timeslotInfo.rooms.join(", ") : 'N/A'}</p>
                                   <p className="course-code">({timeslotInfo.course_code})</p>
                                 </>
                               }
