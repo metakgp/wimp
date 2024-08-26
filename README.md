@@ -40,7 +40,6 @@
 - [Getting Started](#getting-started)
 - [Contact](#contact)
   - [Maintainer(s)](#maintainers)
-  - [creators(s)](#creators)
 - [Additional documentation](#additional-documentation)
 
 </details>
@@ -62,6 +61,8 @@ Alwin is a wimpy kid. What? Is he lazy? Not at all! He always asks me, 'Where is
 
 To set up a local instance of the application, follow the steps below.
 [WIP]
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contact
 
