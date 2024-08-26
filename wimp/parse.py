@@ -106,7 +106,8 @@ def parse_department_timetable(
                     "rooms": list(
                         set(
                             [
-                                room.strip()
+                                # Removing `.`s because CIC LAB is mentioned twice as `CIC. LAB.` and `CIC LAB.` and both look bad. I sincerely apologize to anyone after whom a location has been named and their abbreviated name looks less cool.
+                                room.strip().replace(".", "")
                                 for room in columns[6].split(",")
                                 if room.strip() != ""
                             ]
