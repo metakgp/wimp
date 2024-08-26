@@ -1,0 +1,28 @@
+name: Update data
+
+on:
+    workflow_dispatch:
+
+jobs:
+    config:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v2
+
+            - name: Configure python
+              uses: actions/setup-python@v3
+              with:
+                  python-version: "3.11"
+
+            - name: Install Requirements
+              run: pip install --no-cache-dir -r requirements
+
+            - name: Configure ERP creds
+              env:
+                  ERPCREDS: ${{ secrets.ERPCREDS }}
+              run: echo "$ERPCREDS" > erpcreds.py
+
+            - name: Run the script
+              run: python main.py
