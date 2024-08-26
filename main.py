@@ -1,10 +1,16 @@
+import sys
 import wimp
 import json
-import erpcreds
 from multiprocessing.pool import ThreadPool
 
 if __name__ == "__main__":
-    session = wimp.get_session(erpcreds)
+    # Generate session
+    if sys.argv[1] == 'auto':
+        import erpcreds
+        session = wimp.get_session(erpcreds)
+    elif sys.argv[1] == 'manual':
+        session = wimp.get_session()
+
     profs = wimp.get_profs(session)
 
     # Concurrently fetch all department timetables

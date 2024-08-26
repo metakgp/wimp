@@ -25,4 +25,4 @@ jobs:
               run: echo "$ERPCREDS" > erpcreds.py
 
             - name: Run the script
-              run: python main.py
+              run: python main.py auto
