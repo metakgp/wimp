@@ -4,7 +4,8 @@ on:
     workflow_dispatch:
 
 jobs:
-    config:
+    main:
+        name: Generate and push latest data
         runs-on: ubuntu-latest
 
         steps:
@@ -17,7 +18,7 @@ jobs:
                   python-version: "3.12"
 
             - name: Install Requirements
-              run: pip install --no-cache-dir -r requirements
+              run: pip install --no-cache-dir -r requirements.txt
 
             - name: Configure Credentials
               env:
@@ -30,5 +31,32 @@ jobs:
             - name: Run the script
               run: python main.py auto
 
-            - name: Check status (TEMP)
-              run: git diff
+            - name: Configure SSH key
+              env:
+                  SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+                  SSH_PUBLIC_KEY: ${{ secrets.SSH_PUBLIC_KEY }}
+              run: |
+                  mkdir -p ~/.ssh
+                  echo "$SSH_PRIVATE_KEY" > ~/.ssh/metakgp-service
+                  echo "$SSH_PUBLIC_KEY" > ~/.ssh/metakgp-service.pub
+                  chmod 600 ~/.ssh/metakgp-service
+                  chmod 600 ~/.ssh/metakgp-service.pub
+
+            - name: Configure git
+              run: |
+                  git config user.email "metakgp@gmail.com"
+                  git config user.name "metakgp-service"
+                  git config gpg.format ssh
+                  git config user.signingkey ~/.ssh/metakgp-service.pub
+
+            - name: Commit & push changes
+              env:
+                  SSH_KEY_PASSPHRASE: ${{ secrets.SSH_PRIVATE_KEY_PASSPHRASE }}
+              run: |
+                  if [ -n "$(git status --porcelain data/)" ]; then
+                    git add data/
+                    git commit -S -m "chore(data): updated data files" <<< "$SSH_KEY_PASSPHRASE"
+                    git push origin $(git rev-parse --abbrev-ref HEAD)
+                  else
+                    echo "No changes in data/"
+                  fi
