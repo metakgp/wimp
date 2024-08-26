@@ -109,3 +109,4 @@ venv.bak/
 
 # .session file
 .session
+erpcreds.py
