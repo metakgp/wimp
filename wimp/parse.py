@@ -84,21 +84,34 @@ def parse_department_timetable(
                 {
                     "code": columns[0].strip(),
                     "course_name": columns[1].strip(),
-                    "professors": [
-                        sanitize_name(name)
-                        for name in columns[2].split(",")
-                        if name.strip() != ""
-                    ],
-                    "slots": [
-                        slot.strip()
-                        for slot in columns[5].split(",")
-                        if slot.strip() != ""
-                    ],
-                    "rooms": [
-                        room.strip()
-                        for room in columns[6].split(",")
-                        if room.strip() != ""
-                    ],
+                    "professors": list(
+                        set(
+                            [
+                                sanitize_name(name)
+                                for name in columns[2].split(",")
+                                if name.strip() != ""
+                            ]
+                        )
+                    ),
+                    "slots": list(
+                        set(
+                            [
+                                slot.strip()
+                                for slot in columns[5].split(",")
+                                if slot.strip() != ""
+                            ]
+                        )
+                    ),
+                    # Keeping only unique rooms because, yes, ERP does repeat rooms. Sometimes they are repeated with typos, can't do anything for that.
+                    "rooms": list(
+                        set(
+                            [
+                                room.strip()
+                                for room in columns[6].split(",")
+                                if room.strip() != ""
+                            ]
+                        )
+                    ),
                 }
             )
 
