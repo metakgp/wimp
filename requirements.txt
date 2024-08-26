@@ -1,5 +1,0 @@
-beautifulsoup4
-lxml
-requests
-iitkgp_erp_login
-python-Levenshtein
