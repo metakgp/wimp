@@ -8,7 +8,7 @@ if __name__ == "__main__":
     if sys.argv[1] == 'auto':
         import erpcreds
         session = wimp.get_session(erpcreds)
-    elif sys.argv[1] == 'manual':
+    else:
         session = wimp.get_session()
 
     profs = wimp.get_profs(session)
