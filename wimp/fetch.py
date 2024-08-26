@@ -7,7 +7,7 @@ import iitkgp_erp_login.erp as erp
 from .parse import parse_prof_raw_data, ProfData, parse_department_timetable
 
 
-def get_session(creds: Optional[erp.ErpCreds] = None) -> requests.Session:
+def get_session(creds: Optional[erp.ErpCreds] = None, otp_check_interval: int = None) -> requests.Session:
     """Logs into ERP and returns a session"""
     session = requests.Session()
     erp.login(
@@ -16,6 +16,7 @@ def get_session(creds: Optional[erp.ErpCreds] = None) -> requests.Session:
         LOGGING=True,
         SESSION_STORAGE_FILE=".session",
         ERPCREDS=creds,
+        OTP_CHECK_INTERVAL=otp_check_interval
     )
 
     return session

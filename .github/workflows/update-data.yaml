@@ -14,15 +14,21 @@ jobs:
             - name: Configure python
               uses: actions/setup-python@v3
               with:
-                  python-version: "3.11"
+                  python-version: "3.12"
 
             - name: Install Requirements
               run: pip install --no-cache-dir -r requirements
 
-            - name: Configure ERP creds
+            - name: Configure Credentials
               env:
                   ERPCREDS: ${{ secrets.ERPCREDS }}
-              run: echo "$ERPCREDS" > erpcreds.py
+                  GMAIL_TOKEN: ${{ secrets.GMAIL_TOKEN }}
+              run: |
+                  echo "$ERPCREDS" > erpcreds.py
+                  echo "$GMAIL_TOKEN" > wimp/token.json
 
             - name: Run the script
               run: python main.py auto
+
+            - name: Check status (TEMP)
+              run: git diff

@@ -7,7 +7,7 @@ if __name__ == "__main__":
     # Generate session
     if sys.argv[1] == 'auto':
         import erpcreds
-        session = wimp.get_session(erpcreds)
+        session = wimp.get_session(erpcreds, 2)
     else:
         session = wimp.get_session()
 
