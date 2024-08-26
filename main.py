@@ -1,9 +1,10 @@
 import wimp
 import json
+import erpcreds
 from multiprocessing.pool import ThreadPool
 
 if __name__ == "__main__":
-    session = wimp.get_session()
+    session = wimp.get_session(erpcreds)
     profs = wimp.get_profs(session)
 
     # Concurrently fetch all department timetables
