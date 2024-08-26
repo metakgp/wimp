@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { FormEvent, useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import { findProf } from "../util/data";
 import "../index.css";
@@ -26,37 +26,46 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSelectProfessor }) => {
     setdropdownVisibility(false);
   };
 
+  const onSubmitForm = (e: FormEvent<HTMLFormElement>) => {
+    // Select the top option in the list if enter is pressed
+    e.preventDefault();
+
+    if (displayedProfs.length > 0) {
+      setSearchName(displayedProfs[0].prof.name);
+      onSelectProfessor(displayedProfs[0]);
+      setdropdownVisibility(false);
+    }
+  }
+
   return (
-    <>
-      <div className="search-bar-container">
-        <div className="input-wrapper">
-          <div>
-            <FaSearch id="search-icon" />
-            <input
-              className="input"
-              type="text"
-              placeholder="Who are you looking for?"
-              value={searchName}
-              autoFocus={true}
-              onChange={(e) => handleChange(e.target.value)}
-            />
-          </div>
+    <form className="search-bar-container" onSubmit={onSubmitForm}>
+      <div className="input-wrapper">
+        <div>
+          <FaSearch id="search-icon" />
+          <input
+            className="input"
+            type="text"
+            placeholder="Who are you looking for?"
+            value={searchName}
+            autoFocus={true}
+            onChange={(e) => handleChange(e.target.value)}
+          />
         </div>
-        {dropdownVisibility && (
-          <div className="dropdown">
-            {displayedProfs.map((timetable) => (
-              <div
-                onClick={() => onSelect(timetable)}
-                className="dropdown-row"
-                key={timetable.prof.profile_url}
-              >
-                {timetable.prof.name} | {timetable.prof.dept_code}
-              </div>
-            ))}
-          </div>
-        )}
       </div>
-    </>
+      {dropdownVisibility && (
+        <div className="dropdown">
+          {displayedProfs.map((timetable) => (
+            <div
+              onClick={() => onSelect(timetable)}
+              className="dropdown-row"
+              key={timetable.prof.profile_url}
+            >
+              {timetable.prof.name} | {timetable.prof.dept_code}
+            </div>
+          ))}
+        </div>
+      )}
+    </form>
   );
 };
 
