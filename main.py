@@ -5,7 +5,7 @@ from multiprocessing.pool import ThreadPool
 
 if __name__ == "__main__":
     # Generate session
-    if sys.argv[1] == 'auto':
+    if len(sys.argv) > 1 and sys.argv[1] == 'auto':
         import erpcreds
         session = wimp.get_session(erpcreds, 2)
     else:
