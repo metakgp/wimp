@@ -1,5 +1,5 @@
-KGP_WEBSITE_URL = "http://www.iitkgp.ac.in/"
-DEPT_FETCH_URL = "https://www.iitkgp.ac.in/Departments/fetchAllFacListByDept"
+KGP_WEBSITE_URL = "http://iitkgp.ac.in"
+DEPT_FETCH_URL = f"{KGP_WEBSITE_URL}/Departments/fetchAllFacListByDept"
 TIMETABLE_FETCH_URL = (
     "https://erp.iitkgp.ac.in/Acad/timetable_track.jsp?action=second&dept=%s"
 )
