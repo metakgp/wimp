@@ -22,7 +22,7 @@ def get_session(creds: Optional[erp.ErpCreds] = None, otp_check_interval: int = 
     return session
 
 
-def get_profs(session: requests.Session) -> list[ProfData]:
+def get_profs() -> list[ProfData]:
     """Fetches a list of department-wise professors from the IITKGP Website.
     Returns a list of `ProfData` dicts.
     """
@@ -56,8 +56,8 @@ def get_profs(session: requests.Session) -> list[ProfData]:
             "lang": "en",
         }
 
-        prof_resp = session.post(
-            DEPT_FETCH_URL,
+        prof_resp = requests.post(
+            url=DEPT_FETCH_URL,
             headers=DEFAULT_REQUEST_HEADERS,
             data=payload,
         )

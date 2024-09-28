@@ -2,6 +2,14 @@ name: Update data
 
 on:
     workflow_dispatch:
+    push:
+        branches: 
+            - 'master'
+        paths:
+            - ".github/workflows/update-data.yaml"
+            - "wimp/**"
+            - "main.py"
+            - "requirements.txt"
 
 jobs:
     main:
