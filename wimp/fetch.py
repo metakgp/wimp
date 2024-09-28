@@ -57,7 +57,7 @@ def get_profs() -> list[ProfData]:
         }
 
         prof_resp = requests.post(
-            DEPT_FETCH_URL,
+            url=DEPT_FETCH_URL,
             headers=DEFAULT_REQUEST_HEADERS,
             data=payload,
         )
