@@ -65,7 +65,7 @@ function Table() {
                           key={`${dayIndex}-${hourIndex}`}
                           className="tt-cell"
                         >
-                          {timeslotInfo.courses.map((course, index) => (
+                          {timeslotInfo.courses.map((course) => (
                             <div
                               key={course.course_code}
                               className="tt-cell-content"
