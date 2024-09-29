@@ -7,12 +7,12 @@
       "code": "BS10003",
       "course_name": "SCIENCE OF LIVING SYSTEMS",
       "professors": [
-        "Dibyendu Samanta",
-        "Abhijit Das"
+        "Abhijit Das",
+        "Dibyendu Samanta"
       ],
       "slots": [
-        "V22",
-        "V21"
+        "V21",
+        "V22"
       ],
       "rooms": []
     },
@@ -46,8 +46,8 @@
       ],
       "slots": [
         "A31",
-        "A33",
-        "A32"
+        "A32",
+        "A33"
       ],
       "rooms": []
     },
@@ -80,9 +80,9 @@
         "Abhijit Das"
       ],
       "slots": [
-        "D42",
         "D44",
         "D43",
+        "D42",
         "D41"
       ],
       "rooms": []
@@ -151,8 +151,8 @@
       ],
       "slots": [
         "B33",
-        "B32",
-        "B31"
+        "B31",
+        "B32"
       ],
       "rooms": []
     },
@@ -223,9 +223,9 @@
         "M Amarnatha Reddy"
       ],
       "slots": [
-        "E31",
         "E32",
-        "E33"
+        "E33",
+        "E31"
       ],
       "rooms": [
         "NR113"
@@ -288,8 +288,8 @@
       ],
       "slots": [
         "A31",
-        "A33",
-        "A32"
+        "A32",
+        "A33"
       ],
       "rooms": [
         "NC443",
@@ -360,8 +360,8 @@
       ],
       "slots": [
         "C32",
-        "C31",
-        "C33"
+        "C33",
+        "C31"
       ],
       "rooms": [
         "NC322"
@@ -425,6 +425,42 @@
       "MULTINAME"
     ],
     "context_course": {
+      "code": "GG50009",
+      "course_name": "GROUNDWATER & ENGINEERING GEOLOGY",
+      "professors": [
+        "Arindam Basu",
+        "Abhijit Mukherjee"
+      ],
+      "slots": [
+        "C32",
+        "C33",
+        "C31"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      {
+        "name": "Arindam Basu",
+        "department": "Rajiv Gandhi School of Intellectual Property Law",
+        "dept_code": "IP",
+        "profile_url": "https://www.iitkgp.ac.in/department/IP/faculty/ip-arindam"
+      },
+      {
+        "name": "Arindam Basu",
+        "department": "Geology and Geophysics",
+        "dept_code": "GG",
+        "profile_url": "https://www.iitkgp.ac.in/department/GG/faculty/gg-abasu"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
       "code": "GG52020",
       "course_name": "ENGINEERING GEOLOGY",
       "professors": [
@@ -432,12 +468,46 @@
       ],
       "slots": [
         "C32",
-        "C31",
-        "C33"
+        "C33",
+        "C31"
       ],
       "rooms": [
         "NC322"
       ]
+    },
+    "context_profs": [
+      {
+        "name": "Arindam Basu",
+        "department": "Rajiv Gandhi School of Intellectual Property Law",
+        "dept_code": "IP",
+        "profile_url": "https://www.iitkgp.ac.in/department/IP/faculty/ip-arindam"
+      },
+      {
+        "name": "Arindam Basu",
+        "department": "Geology and Geophysics",
+        "dept_code": "GG",
+        "profile_url": "https://www.iitkgp.ac.in/department/GG/faculty/gg-abasu"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "GG59009",
+      "course_name": "GROUNDWATER & ENGINEERING GEOLOGY LAB.",
+      "professors": [
+        "Arindam Basu",
+        "Abhijit Mukherjee"
+      ],
+      "slots": [
+        "N"
+      ],
+      "rooms": []
     },
     "context_profs": [
       {
@@ -469,8 +539,8 @@
       ],
       "slots": [
         "C32",
-        "C31",
-        "C33"
+        "C33",
+        "C31"
       ],
       "rooms": []
     },
@@ -497,23 +567,51 @@
       "TYPO"
     ],
     "context_course": {
+      "code": "MI60239",
+      "course_name": "BULK MATERIAL HANDLING",
+      "professors": [
+        "Ketan Arora",
+        "Khanindra Pathak"
+      ],
+      "slots": [
+        "C32",
+        "C33",
+        "C31"
+      ],
+      "rooms": [
+        "NC443"
+      ]
+    },
+    "context_profs": [
+      "Ketan Arora"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
       "code": "PH19003",
       "course_name": "PHYSICS LABORATORY",
       "professors": [
         "Pranabendu Gangopadhyay",
-        "Anushree Roy",
         "Somnath Bharadwaj",
-        "Sayan Kar",
+        "Anushree Roy",
+        "Amar Nath Gupta",
         "Sitikantha Dhurjati Das",
-        "Amar Nath Gupta"
+        "Sayan Kar"
       ],
       "slots": [
         "R",
-        "L",
+        "M",
+        "X",
         "J",
         "N",
-        "X",
-        "M"
+        "L"
       ],
       "rooms": [
         "JC Bose LabComplex"
@@ -539,9 +637,9 @@
         "Santanu Chattopadhyay"
       ],
       "slots": [
-        "D42",
         "D44",
         "D43",
+        "D42",
         "D41"
       ],
       "rooms": []
@@ -579,8 +677,8 @@
       "slots": [
         "F44",
         "F41",
-        "F42",
-        "F43"
+        "F43",
+        "F42"
       ],
       "rooms": []
     },

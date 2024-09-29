@@ -29,35 +29,50 @@ export function findProf(name: string, limit: number = 5): IProfTimetable[] {
 		includeScore: true,
 		threshold: 0.2,
 		isCaseSensitive: false,
-		keys: ["prof.name"]
-	})
+		keys: ["prof.name"],
+	});
 
 	const matches = fuse.search(name).slice(0, limit + 1);
 
-	return matches.sort((a, b) => a.score! - b.score!).map((record) => record.item);
+	return matches
+		.sort((a, b) => a.score! - b.score!)
+		.map((record) => record.item);
 }
 
 export type SlotInfo = { occupied: false } | {
-	occupied: true;
-	rooms: string[];
-	course_code: string;
-	course_name: string;
-}
-export function getTimeSlotInfo(timetable: IProfTimetable, searchSlot: [number, number]): SlotInfo {
-	const slotCourse = timetable.timetable.find((course) => {
-		return course.slots.some((course_slot) => course_slot.every((value, index) => value === searchSlot[index]));
+  occupied: true;
+  courses: {
+    course_code: string;
+    course_name: string;
+    rooms: string[];
+  }[];
+};
+export function getTimeSlotInfo(
+	timetable: IProfTimetable,
+	searchSlot: [number, number]
+): SlotInfo {
+	const slotCourses = timetable.timetable.filter((course) => {
+		return course.slots.some((course_slot) =>
+			course_slot.every(
+				(value, index) => value === searchSlot[index]
+			)
+		);
 	});
 
-	if (slotCourse !== undefined) {
+	if (slotCourses.length > 0) {
 		return {
 			occupied: true,
-			course_code: slotCourse.course_code,
-			course_name: slotCourse.course_name,
-			rooms: slotCourse.rooms
-		}
+			courses: slotCourses.map((course) => {
+				return {
+					course_code: course.course_code,
+					course_name: course.course_name,
+					rooms: course.rooms,
+				};
+			}),
+		};
 	} else {
 		return {
-			occupied: false
-		}
+			occupied: false,
+		};
 	}
 }

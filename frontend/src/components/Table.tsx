@@ -2,10 +2,11 @@ import { useState } from "react";
 import SearchBar from "./SearchBar";
 import "../index.css";
 
-import { getTimeSlotInfo, IProfTimetable } from '../util/data';
+import { getTimeSlotInfo, IProfTimetable } from "../util/data";
 
 function Table() {
-  const [selectedProfessor, setSelectedProfessor] = useState<IProfTimetable | null>(null);
+  const [selectedProfessor, setSelectedProfessor] =
+    useState<IProfTimetable | null>(null);
   const hours = [
     "8am",
     "9am",
@@ -32,16 +33,12 @@ function Table() {
         <div className="table-container">
           <div className="table-caption">
             <span>
-              <a
-                href={`${selectedProfessor.prof.profile_url}`}
-                target="_blank"
-              >
+              <a href={`${selectedProfessor.prof.profile_url}`} target="_blank">
                 {selectedProfessor.prof.name}
               </a>
             </span>
             <span className="dept space">|</span>
-            <span className="dept">{selectedProfessor.prof.dept_code}
-            </span>
+            <span className="dept">{selectedProfessor.prof.dept_code}</span>
           </div>
           <div className="time-table">
             <table className="table">
@@ -57,24 +54,43 @@ function Table() {
                 {days.map((day, dayIndex) => (
                   <tr key={dayIndex}>
                     <td>{day}</td>
-                    {
-                      hours.map((_, hourIndex) => {
-                        const timeslotInfo = getTimeSlotInfo(selectedProfessor, [dayIndex, hourIndex])
+                    {hours.map((_, hourIndex) => {
+                      const timeslotInfo = getTimeSlotInfo(selectedProfessor, [
+                        dayIndex,
+                        hourIndex,
+                      ]);
 
-                        return (
-                          <td key={`${dayIndex}-${hourIndex}`} className="tt-cell">
-                            <div className="tt-cell-content"  title={timeslotInfo.occupied ? timeslotInfo.course_name : undefined}>
-                              {
-                                timeslotInfo.occupied && <>
-                                  <p className="room">{timeslotInfo.rooms.length > 0 ? timeslotInfo.rooms.join(", ") : 'N/A'}</p>
-                                  <p className="course-code">({timeslotInfo.course_code})</p>
-                                </>
-                              }
+                      return timeslotInfo.occupied ? (
+                        <td
+                          key={`${dayIndex}-${hourIndex}`}
+                          className="tt-cell"
+                        >
+                          {timeslotInfo.courses.map((course) => (
+                            <div
+                              key={course.course_code}
+                              className="tt-cell-content"
+                              title={course.course_name}
+                            >
+                              <p className="room">
+                                {course.rooms.length > 0
+                                  ? course.rooms.join(", ")
+                                  : "N/A"}
+                              </p>
+                              <p className="course-code">
+                                ({course.course_code})
+                              </p>
                             </div>
-                          </td>
-                        )
-                      })
-                    }
+                          ))}
+                        </td>
+                      ) : (
+                        <td
+                          key={`${dayIndex}-${hourIndex}`}
+                          className="tt-cell"
+                        >
+                          <div className="tt-cell-content"></div>
+                        </td>
+                      );
+                    })}
                   </tr>
                 ))}
               </tbody>

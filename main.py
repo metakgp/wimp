@@ -11,7 +11,7 @@ if __name__ == "__main__":
 
     # Generate session
     print("[~]", "Generating ERP session")
-    if sys.argv[1] == 'auto':
+    if len(sys.argv) > 1 and sys.argv[1] == 'auto':
         import erpcreds
         session = wimp.get_session(erpcreds, 2)
     else:

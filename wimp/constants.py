@@ -102,7 +102,7 @@ SLOTS_COORDINATE_MAP = {
     "V2": [(3, 6), (3, 7)],
     "V3": [(3, 6), (3, 7), (4, 6)],
     "V4": [(3, 6), (3, 7), (4, 5), (4, 6)],
-    "X": [(2, 5), (2, 6), (2, 7), (2, 8)],
+    "X": [(2, 5), (2, 6), (2, 7)],
     "X4": [(2, 5), (2, 6), (2, 7), (2, 8)],
 }
 """This is a map of timetable slot names to time slot coordinates on the central timetable.
