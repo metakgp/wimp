@@ -82,12 +82,7 @@ input:focus {
 }
 
 #search-icon {
-  position: absolute;
-  top: 50%;
-  left: 13px;
-  transform: translateY(-50%);
   color: royalblue;
-  margin-right: 10px;
 }
 
 .dropdown {
