@@ -69,9 +69,7 @@ h1 {
 
 .input-wrapper input {
   background-color: transparent;
-  height: 100%;
   font-size: 1.25rem;
-  width: 500px;
   border: none;
   margin-left: 10px;
   padding-left: 15px;
