@@ -30,9 +30,7 @@
 }
 
 p {
-  margin: 0 auto !important;
-  text-align: center !important;
-  width: 70% !important;
+  margin: 5vh;
 }
 
 * {
