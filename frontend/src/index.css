@@ -45,7 +45,6 @@ h1 {
 
 .input-wrapper {
   position: relative;
-  color: black;
   width: 100%;
   height: 2.5rem;
   border: none;
@@ -69,7 +68,6 @@ h1 {
 }
 
 .input-wrapper input {
-  color: black;
   background-color: transparent;
   height: 100%;
   font-size: 1.25rem;
