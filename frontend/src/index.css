@@ -57,14 +57,11 @@ h1 {
 }
 
 .search-bar-container {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  margin: 0 auto;
-  width: 45%;
-  margin-top: 20px;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  width: fit-content;
+  max-width: 90%;
+  padding: 10px;
+  min-width: 40%;
 }
 
 .input-wrapper input {
