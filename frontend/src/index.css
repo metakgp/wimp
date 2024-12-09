@@ -40,6 +40,7 @@ p {
 h1 {
   font-size: 60px;
   font-weight: 200;
+  margin: 0;
 }
 
 .input-wrapper {
