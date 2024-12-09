@@ -82,7 +82,7 @@ input:focus {
 .dropdown {
   width: 100%;
   background-color: white;
-  max-height: 250px;
+  margin-top: 10px;
 }
 
 .dropdown-row {
