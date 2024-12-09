@@ -88,7 +88,6 @@ input:focus {
 .dropdown-row {
   padding: 10px;
   cursor: pointer;
-  color: black;
   outline: none;
 }
 
