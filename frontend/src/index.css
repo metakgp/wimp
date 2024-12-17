@@ -127,21 +127,30 @@ a:hover {
 
 .table-caption {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: "lighter";
-  /* max-width: 80%; */
-
   .dept {
     font-size: 2rem;
+    display: inline;
+    
   }
 
   .space {
     margin: 0 8px;
+    display: inline;
   }
+  /* .space {
+    ;
+  } */
 
   a {
     font-size: 2rem;
+  }
+  @media screen and (max-width: 700px) {
+    a {
+      max-width: 300px;
+      overflow-x: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
   }
 }
 

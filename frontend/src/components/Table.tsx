@@ -32,11 +32,12 @@ function Table() {
       {selectedProfessor && (
         <div className="table-container">
           <div className="table-caption">
-            <span>
+            <span className="space"></span>
+            {/* <span> */}
               <a href={`${selectedProfessor.prof.profile_url}`} target="_blank">
                 {selectedProfessor.prof.name}
               </a>
-            </span>
+            {/* </span> */}
             <span className="dept space">|</span>
             <span className="dept">{selectedProfessor.prof.dept_code}</span>
           </div>
