@@ -40,17 +40,15 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSelectProfessor }) => {
   return (
     <form className="search-bar-container" onSubmit={onSubmitForm}>
       <div className="input-wrapper">
-        <div>
-          <FaSearch id="search-icon" />
-          <input
-            className="input"
-            type="text"
-            placeholder="Who are you looking for?"
-            value={searchName}
-            autoFocus={true}
-            onChange={(e) => handleChange(e.target.value)}
-          />
-        </div>
+        <FaSearch id="search-icon" />
+        <input
+          className="input"
+          type="text"
+          placeholder="Who are you looking for?"
+          value={searchName}
+          autoFocus={true}
+          onChange={(e) => handleChange(e.target.value)}
+        />
       </div>
       {dropdownVisibility && (
         <div className="dropdown">
