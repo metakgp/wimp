@@ -11,23 +11,23 @@
         "Dibyendu Samanta"
       ],
       "slots": [
-        "V21",
-        "V22"
+        "H21",
+        "H22"
       ],
       "rooms": []
     },
     "context_profs": [
       {
         "name": "Abhijit Das",
-        "department": "Bioscience and Biotechnology",
-        "dept_code": "BT",
-        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
-      },
-      {
-        "name": "Abhijit Das",
         "department": "Computer Science and Engineering",
         "dept_code": "CS",
         "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
+      },
+      {
+        "name": "Abhijit Das",
+        "department": "Bioscience and Biotechnology",
+        "dept_code": "BT",
+        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
       }
     ],
     "solutions": [
@@ -39,30 +39,32 @@
       "MULTINAME"
     ],
     "context_course": {
-      "code": "BS40003",
-      "course_name": "NUCLEIC ACIDS: STRUCTURE AND FUNCTION",
+      "code": "BS40002",
+      "course_name": "MOLECULAR MICROBIOLOGY",
       "professors": [
-        "Abhijit Das"
+        "Nihar Ranjan Jana",
+        "Abhijit Das",
+        "Arindam Mondal"
       ],
       "slots": [
-        "A31",
-        "A32",
-        "A33"
+        "F33",
+        "F32",
+        "F31"
       ],
       "rooms": []
     },
     "context_profs": [
       {
         "name": "Abhijit Das",
-        "department": "Bioscience and Biotechnology",
-        "dept_code": "BT",
-        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
-      },
-      {
-        "name": "Abhijit Das",
         "department": "Computer Science and Engineering",
         "dept_code": "CS",
         "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
+      },
+      {
+        "name": "Abhijit Das",
+        "department": "Bioscience and Biotechnology",
+        "dept_code": "BT",
+        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
       }
     ],
     "solutions": [
@@ -74,46 +76,13 @@
       "MULTINAME"
     ],
     "context_course": {
-      "code": "BS41001",
-      "course_name": "CELL AND DEVELOPMENTAL BIOLOGY",
+      "code": "BS49002",
+      "course_name": "CELL BIOLOGY LABORATORY",
       "professors": [
-        "Abhijit Das"
-      ],
-      "slots": [
-        "D44",
-        "D43",
-        "D42",
-        "D41"
-      ],
-      "rooms": []
-    },
-    "context_profs": [
-      {
-        "name": "Abhijit Das",
-        "department": "Bioscience and Biotechnology",
-        "dept_code": "BT",
-        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
-      },
-      {
-        "name": "Abhijit Das",
-        "department": "Computer Science and Engineering",
-        "dept_code": "CS",
-        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "BS49001",
-      "course_name": "CHEMICAL BIOLOGY LABORATORY",
-      "professors": [
-        "Abhijit Das"
+        "Mainak Bose",
+        "Nihar Ranjan Jana",
+        "Abhijit Das",
+        "Ritobrata Goswami"
       ],
       "slots": [
         "J"
@@ -123,15 +92,15 @@
     "context_profs": [
       {
         "name": "Abhijit Das",
-        "department": "Bioscience and Biotechnology",
-        "dept_code": "BT",
-        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
-      },
-      {
-        "name": "Abhijit Das",
         "department": "Computer Science and Engineering",
         "dept_code": "CS",
         "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
+      },
+      {
+        "name": "Abhijit Das",
+        "department": "Bioscience and Biotechnology",
+        "dept_code": "BT",
+        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
       }
     ],
     "solutions": [
@@ -143,31 +112,69 @@
       "MULTINAME"
     ],
     "context_course": {
-      "code": "BS60005",
-      "course_name": "EPIGENETICS AND EPIGENOMICS",
+      "code": "BS50004",
+      "course_name": "BIOLOGICAL IMAGING: IN VIVO AND IN VITRO",
       "professors": [
-        "Riddhiman Dhar",
-        "Abhijit Das"
+        "Abhijit Das",
+        "Ritobrata Goswami"
+      ],
+      "slots": [
+        "S33",
+        "S32",
+        "S31"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      {
+        "name": "Abhijit Das",
+        "department": "Computer Science and Engineering",
+        "dept_code": "CS",
+        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
+      },
+      {
+        "name": "Abhijit Das",
+        "department": "Bioscience and Biotechnology",
+        "dept_code": "BT",
+        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "BT20204",
+      "course_name": "CELL AND MOLECULAR BIOLOGY",
+      "professors": [
+        "Abhijit Das",
+        "Dibyendu Samanta"
       ],
       "slots": [
         "B33",
         "B31",
         "B32"
       ],
-      "rooms": []
+      "rooms": [
+        "NC321"
+      ]
     },
     "context_profs": [
-      {
-        "name": "Abhijit Das",
-        "department": "Bioscience and Biotechnology",
-        "dept_code": "BT",
-        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
-      },
       {
         "name": "Abhijit Das",
         "department": "Computer Science and Engineering",
         "dept_code": "CS",
         "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
+      },
+      {
+        "name": "Abhijit Das",
+        "department": "Bioscience and Biotechnology",
+        "dept_code": "BT",
+        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
       }
     ],
     "solutions": [
@@ -179,151 +186,13 @@
       "MULTINAME"
     ],
     "context_course": {
-      "code": "BT10001",
-      "course_name": "SCIENCE OF LIVING SYSTEM",
+      "code": "BT29204",
+      "course_name": "CELL AND MOLECULAR BIOLOGY LABORATORY",
       "professors": [
+        "Nihar Ranjan Jana",
         "Abhijit Das",
-        "Dibyendu Samanta"
-      ],
-      "slots": [
-        "V32",
-        "V31",
-        "V33"
-      ],
-      "rooms": [
-        "NC112"
-      ]
-    },
-    "context_profs": [
-      {
-        "name": "Abhijit Das",
-        "department": "Bioscience and Biotechnology",
-        "dept_code": "BT",
-        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
-      },
-      {
-        "name": "Abhijit Das",
-        "department": "Computer Science and Engineering",
-        "dept_code": "CS",
-        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "TYPO"
-    ],
-    "context_course": {
-      "code": "CE60217",
-      "course_name": "AIRPORT PLANNING AND DESIGN",
-      "professors": [
-        "M Amarnatha Reddy"
-      ],
-      "slots": [
-        "E32",
-        "E33",
-        "E31"
-      ],
-      "rooms": [
-        "NR113"
-      ]
-    },
-    "context_profs": [
-      "M Amarnatha Reddy",
-      {
-        "name": "M Amaranatha Reddy",
-        "department": "Civil Engineering",
-        "dept_code": "CE",
-        "profile_url": "https://www.iitkgp.ac.in/department/CE/faculty/ce-manreddy"
-      }
-    ],
-    "solutions": [
-      "FUZZY_SEARCH"
-    ]
-  },
-  {
-    "reasons": [
-      "TYPO"
-    ],
-    "context_course": {
-      "code": "CE69007",
-      "course_name": "TRANSPORTATION ENGINEERING LAB I",
-      "professors": [
-        "Kusam Sudhakar Reddy",
-        "M Amarnatha Reddy"
-      ],
-      "slots": [
-        "X"
-      ],
-      "rooms": [
-        "TRE LAB"
-      ]
-    },
-    "context_profs": [
-      "M Amarnatha Reddy",
-      {
-        "name": "M Amaranatha Reddy",
-        "department": "Civil Engineering",
-        "dept_code": "CE",
-        "profile_url": "https://www.iitkgp.ac.in/department/CE/faculty/ce-manreddy"
-      }
-    ],
-    "solutions": [
-      "FUZZY_SEARCH"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "CS31003",
-      "course_name": "COMPILERS",
-      "professors": [
-        "Bivas Mitra",
-        "Abhijit Das"
-      ],
-      "slots": [
-        "A31",
-        "A32",
-        "A33"
-      ],
-      "rooms": [
-        "NC443",
-        "NC442"
-      ]
-    },
-    "context_profs": [
-      {
-        "name": "Abhijit Das",
-        "department": "Bioscience and Biotechnology",
-        "dept_code": "BT",
-        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
-      },
-      {
-        "name": "Abhijit Das",
-        "department": "Computer Science and Engineering",
-        "dept_code": "CS",
-        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "CS39003",
-      "course_name": "COMPILERS LABORATORY",
-      "professors": [
-        "Bivas Mitra",
-        "Abhijit Das"
+        "Mainak Bose",
+        "Ritobrata Goswami"
       ],
       "slots": [
         "J"
@@ -333,15 +202,60 @@
     "context_profs": [
       {
         "name": "Abhijit Das",
+        "department": "Computer Science and Engineering",
+        "dept_code": "CS",
+        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
+      },
+      {
+        "name": "Abhijit Das",
         "department": "Bioscience and Biotechnology",
         "dept_code": "BT",
         "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
-      },
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "CS10003",
+      "course_name": "PROGRAMMING AND DATA STRUCTURES",
+      "professors": [
+        "Sudeshna Kolay",
+        "Sudip Misra",
+        "Aritra Hazra",
+        "Abhijit Das",
+        "Ayan Chaudhury"
+      ],
+      "slots": [
+        "U44",
+        "U43",
+        "U42",
+        "U41"
+      ],
+      "rooms": [
+        "NR112",
+        "NR211",
+        "NR212",
+        "NR111"
+      ]
+    },
+    "context_profs": [
       {
         "name": "Abhijit Das",
         "department": "Computer Science and Engineering",
         "dept_code": "CS",
         "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
+      },
+      {
+        "name": "Abhijit Das",
+        "department": "Bioscience and Biotechnology",
+        "dept_code": "BT",
+        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
       }
     ],
     "solutions": [
@@ -353,32 +267,35 @@
       "MULTINAME"
     ],
     "context_course": {
-      "code": "GG30217",
-      "course_name": "ENGINEERING GEOLOGY",
+      "code": "CS31202",
+      "course_name": "OPERATING SYSTEMS",
       "professors": [
-        "Arindam Basu"
+        "Abhijit Das",
+        "Bivas Mitra"
       ],
       "slots": [
-        "C32",
-        "C33",
-        "C31"
+        "E44",
+        "E41",
+        "E42",
+        "E43"
       ],
       "rooms": [
-        "NC322"
+        "NC244",
+        "NC243"
       ]
     },
     "context_profs": [
       {
-        "name": "Arindam Basu",
-        "department": "Rajiv Gandhi School of Intellectual Property Law",
-        "dept_code": "IP",
-        "profile_url": "https://www.iitkgp.ac.in/department/IP/faculty/ip-arindam"
+        "name": "Abhijit Das",
+        "department": "Computer Science and Engineering",
+        "dept_code": "CS",
+        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
       },
       {
-        "name": "Arindam Basu",
-        "department": "Geology and Geophysics",
-        "dept_code": "GG",
-        "profile_url": "https://www.iitkgp.ac.in/department/GG/faculty/gg-abasu"
+        "name": "Abhijit Das",
+        "department": "Bioscience and Biotechnology",
+        "dept_code": "BT",
+        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
       }
     ],
     "solutions": [
@@ -390,172 +307,31 @@
       "MULTINAME"
     ],
     "context_course": {
-      "code": "GG39211",
-      "course_name": "ENGINEERING GEOLOGY LAB.",
+      "code": "CS39002",
+      "course_name": "OPERATING SYSTEMS LABORATORY",
       "professors": [
-        "Arindam Basu"
+        "Abhijit Das",
+        "Bivas Mitra"
       ],
       "slots": [
-        "N"
+        "X"
       ],
       "rooms": [
-        "Engineering Geol Lab"
+        "CSE-Software-Lab"
       ]
     },
     "context_profs": [
       {
-        "name": "Arindam Basu",
-        "department": "Rajiv Gandhi School of Intellectual Property Law",
-        "dept_code": "IP",
-        "profile_url": "https://www.iitkgp.ac.in/department/IP/faculty/ip-arindam"
+        "name": "Abhijit Das",
+        "department": "Computer Science and Engineering",
+        "dept_code": "CS",
+        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
       },
       {
-        "name": "Arindam Basu",
-        "department": "Geology and Geophysics",
-        "dept_code": "GG",
-        "profile_url": "https://www.iitkgp.ac.in/department/GG/faculty/gg-abasu"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "GG50009",
-      "course_name": "GROUNDWATER & ENGINEERING GEOLOGY",
-      "professors": [
-        "Arindam Basu",
-        "Abhijit Mukherjee"
-      ],
-      "slots": [
-        "C32",
-        "C33",
-        "C31"
-      ],
-      "rooms": []
-    },
-    "context_profs": [
-      {
-        "name": "Arindam Basu",
-        "department": "Rajiv Gandhi School of Intellectual Property Law",
-        "dept_code": "IP",
-        "profile_url": "https://www.iitkgp.ac.in/department/IP/faculty/ip-arindam"
-      },
-      {
-        "name": "Arindam Basu",
-        "department": "Geology and Geophysics",
-        "dept_code": "GG",
-        "profile_url": "https://www.iitkgp.ac.in/department/GG/faculty/gg-abasu"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "GG52020",
-      "course_name": "ENGINEERING GEOLOGY",
-      "professors": [
-        "Arindam Basu"
-      ],
-      "slots": [
-        "C32",
-        "C33",
-        "C31"
-      ],
-      "rooms": [
-        "NC322"
-      ]
-    },
-    "context_profs": [
-      {
-        "name": "Arindam Basu",
-        "department": "Rajiv Gandhi School of Intellectual Property Law",
-        "dept_code": "IP",
-        "profile_url": "https://www.iitkgp.ac.in/department/IP/faculty/ip-arindam"
-      },
-      {
-        "name": "Arindam Basu",
-        "department": "Geology and Geophysics",
-        "dept_code": "GG",
-        "profile_url": "https://www.iitkgp.ac.in/department/GG/faculty/gg-abasu"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "GG59009",
-      "course_name": "GROUNDWATER & ENGINEERING GEOLOGY LAB.",
-      "professors": [
-        "Arindam Basu",
-        "Abhijit Mukherjee"
-      ],
-      "slots": [
-        "N"
-      ],
-      "rooms": []
-    },
-    "context_profs": [
-      {
-        "name": "Arindam Basu",
-        "department": "Rajiv Gandhi School of Intellectual Property Law",
-        "dept_code": "IP",
-        "profile_url": "https://www.iitkgp.ac.in/department/IP/faculty/ip-arindam"
-      },
-      {
-        "name": "Arindam Basu",
-        "department": "Geology and Geophysics",
-        "dept_code": "GG",
-        "profile_url": "https://www.iitkgp.ac.in/department/GG/faculty/gg-abasu"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "GG60207",
-      "course_name": "ENGINEERING BEHAVIOR OF ROCKS AND SOILS",
-      "professors": [
-        "Arindam Basu"
-      ],
-      "slots": [
-        "C32",
-        "C33",
-        "C31"
-      ],
-      "rooms": []
-    },
-    "context_profs": [
-      {
-        "name": "Arindam Basu",
-        "department": "Rajiv Gandhi School of Intellectual Property Law",
-        "dept_code": "IP",
-        "profile_url": "https://www.iitkgp.ac.in/department/IP/faculty/ip-arindam"
-      },
-      {
-        "name": "Arindam Basu",
-        "department": "Geology and Geophysics",
-        "dept_code": "GG",
-        "profile_url": "https://www.iitkgp.ac.in/department/GG/faculty/gg-abasu"
+        "name": "Abhijit Das",
+        "department": "Bioscience and Biotechnology",
+        "dept_code": "BT",
+        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
       }
     ],
     "solutions": [
@@ -567,54 +343,42 @@
       "TYPO"
     ],
     "context_course": {
-      "code": "MI60239",
-      "course_name": "BULK MATERIAL HANDLING",
+      "code": "EC21201",
+      "course_name": "BASIC ELECTRONICS",
       "professors": [
-        "Ketan Arora",
-        "Khanindra Pathak"
+        "Prasanta Kumar Guha",
+        "Basudev Lahiri",
+        "Syamsundar De",
+        "Prasun Mishra",
+        "Aniket Singha",
+        "Shyamal Kumar Das Mandal",
+        "Debanjan Das",
+        "Pradip Mandal",
+        "Shailendra Kumar Varshney",
+        "Pranabendu Gangopadhyay"
       ],
       "slots": [
-        "C32",
-        "C33",
-        "C31"
+        "V42",
+        "V44",
+        "C43",
+        "U42",
+        "C42",
+        "V43",
+        "C44",
+        "U41",
+        "U44",
+        "V41",
+        "C41",
+        "U43"
       ],
       "rooms": [
-        "NC443"
-      ]
-    },
-    "context_profs": [
-      "Ketan Arora"
-    ],
-    "solutions": [
-      "FUZZY_SEARCH",
-      "SKIP"
-    ]
-  },
-  {
-    "reasons": [
-      "TYPO"
-    ],
-    "context_course": {
-      "code": "PH19003",
-      "course_name": "PHYSICS LABORATORY",
-      "professors": [
-        "Pranabendu Gangopadhyay",
-        "Somnath Bharadwaj",
-        "Anushree Roy",
-        "Amar Nath Gupta",
-        "Sitikantha Dhurjati Das",
-        "Sayan Kar"
-      ],
-      "slots": [
-        "R",
-        "M",
-        "X",
-        "J",
-        "N",
-        "L"
-      ],
-      "rooms": [
-        "JC Bose LabComplex"
+        "NR311",
+        "NR121",
+        "NR211",
+        "NR111",
+        "NR112",
+        "NR221",
+        "NR222"
       ]
     },
     "context_profs": [
@@ -630,17 +394,55 @@
       "MULTINAME"
     ],
     "context_course": {
-      "code": "RT60003",
-      "course_name": "RUBBERS COMPOUNDING AND REINFORCING MATERIALS",
+      "code": "GG60214",
+      "course_name": "ENGINEERING PROPERTIES OF ROCKS AND SOILS",
       "professors": [
-        "Narayan Chandra Das",
+        "Arindam Basu"
+      ],
+      "slots": [
+        "E32",
+        "E31",
+        "E33"
+      ],
+      "rooms": [
+        "S-127"
+      ]
+    },
+    "context_profs": [
+      {
+        "name": "Arindam Basu",
+        "department": "Rajiv Gandhi School of Intellectual Property Law",
+        "dept_code": "IP",
+        "profile_url": "https://www.iitkgp.ac.in/department/IP/faculty/ip-arindam"
+      },
+      {
+        "name": "Arindam Basu",
+        "department": "Geology and Geophysics",
+        "dept_code": "GG",
+        "profile_url": "https://www.iitkgp.ac.in/department/GG/faculty/gg-abasu"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "RT60016",
+      "course_name": "ENGINEERING DESIGN WITH RUBBER",
+      "professors": [
+        "Kinsuk Naskar",
+        "Mythravaruni Pullela",
         "Santanu Chattopadhyay"
       ],
       "slots": [
-        "D44",
-        "D43",
-        "D42",
-        "D41"
+        "F43",
+        "F42",
+        "F41",
+        "F44"
       ],
       "rooms": []
     },
@@ -667,18 +469,16 @@
       "MULTINAME"
     ],
     "context_course": {
-      "code": "RT60015",
-      "course_name": "RHEOLOGY AND PROCESSING OF RUBBERS",
+      "code": "RT60020",
+      "course_name": "CHARACTERIZATION OF RUBBER AND RUBBER LIKE MATERIALS",
       "professors": [
-        "Narayan Chandra Das",
-        "Mythravaruni Pullela",
+        "Nikhil Kumar Singha",
         "Santanu Chattopadhyay"
       ],
       "slots": [
-        "F44",
-        "F41",
-        "F43",
-        "F42"
+        "B33",
+        "B31",
+        "B32"
       ],
       "rooms": []
     },
