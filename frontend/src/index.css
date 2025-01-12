@@ -47,7 +47,7 @@ h1 {
 	align-items: center;
 	border: none;
 	border-radius: 10px;
-	padding: 7px;
+	padding: 0 0 0 10px;
 	box-shadow: 0px 0px 8px #ddd;
 	background-color: white;
 }
@@ -61,11 +61,11 @@ h1 {
 }
 
 .input-wrapper input {
+	width: 100%;
 	background-color: transparent;
 	font-size: 1.25rem;
 	border: none;
-	margin-left: 10px;
-	padding-left: 15px;
+	padding: 10px 10px;
 }
 
 input:focus {
