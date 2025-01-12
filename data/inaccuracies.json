@@ -42,9 +42,9 @@
       "code": "BS40002",
       "course_name": "MOLECULAR MICROBIOLOGY",
       "professors": [
-        "Nihar Ranjan Jana",
         "Abhijit Das",
-        "Arindam Mondal"
+        "Arindam Mondal",
+        "Nihar Ranjan Jana"
       ],
       "slots": [
         "F33",
@@ -79,10 +79,10 @@
       "code": "BS49002",
       "course_name": "CELL BIOLOGY LABORATORY",
       "professors": [
-        "Mainak Bose",
-        "Nihar Ranjan Jana",
         "Abhijit Das",
-        "Ritobrata Goswami"
+        "Ritobrata Goswami",
+        "Mainak Bose",
+        "Nihar Ranjan Jana"
       ],
       "slots": [
         "J"
@@ -119,9 +119,9 @@
         "Ritobrata Goswami"
       ],
       "slots": [
-        "S33",
         "S32",
-        "S31"
+        "S31",
+        "S33"
       ],
       "rooms": []
     },
@@ -155,8 +155,8 @@
         "Dibyendu Samanta"
       ],
       "slots": [
-        "B33",
         "B31",
+        "B33",
         "B32"
       ],
       "rooms": [
@@ -189,10 +189,10 @@
       "code": "BT29204",
       "course_name": "CELL AND MOLECULAR BIOLOGY LABORATORY",
       "professors": [
-        "Nihar Ranjan Jana",
         "Abhijit Das",
+        "Ritobrata Goswami",
         "Mainak Bose",
-        "Ritobrata Goswami"
+        "Nihar Ranjan Jana"
       ],
       "slots": [
         "J"
@@ -225,23 +225,23 @@
       "code": "CS10003",
       "course_name": "PROGRAMMING AND DATA STRUCTURES",
       "professors": [
-        "Sudeshna Kolay",
         "Sudip Misra",
-        "Aritra Hazra",
+        "Sudeshna Kolay",
         "Abhijit Das",
+        "Aritra Hazra",
         "Ayan Chaudhury"
       ],
       "slots": [
-        "U44",
         "U43",
-        "U42",
-        "U41"
+        "U44",
+        "U41",
+        "U42"
       ],
       "rooms": [
-        "NR112",
         "NR211",
-        "NR212",
-        "NR111"
+        "NR112",
+        "NR111",
+        "NR212"
       ]
     },
     "context_profs": [
@@ -275,13 +275,13 @@
       ],
       "slots": [
         "E44",
-        "E41",
+        "E43",
         "E42",
-        "E43"
+        "E41"
       ],
       "rooms": [
-        "NC244",
-        "NC243"
+        "NC243",
+        "NC244"
       ]
     },
     "context_profs": [
@@ -347,38 +347,38 @@
       "course_name": "BASIC ELECTRONICS",
       "professors": [
         "Prasanta Kumar Guha",
+        "Pradip Mandal",
+        "Pranabendu Gangopadhyay",
+        "Aniket Singha",
+        "Prasun Mishra",
         "Basudev Lahiri",
         "Syamsundar De",
-        "Prasun Mishra",
-        "Aniket Singha",
-        "Shyamal Kumar Das Mandal",
         "Debanjan Das",
-        "Pradip Mandal",
-        "Shailendra Kumar Varshney",
-        "Pranabendu Gangopadhyay"
+        "Shyamal Kumar Das Mandal",
+        "Shailendra Kumar Varshney"
       ],
       "slots": [
-        "V42",
-        "V44",
-        "C43",
-        "U42",
-        "C42",
         "V43",
-        "C44",
         "U41",
-        "U44",
         "V41",
+        "U44",
+        "V42",
+        "U42",
         "C41",
-        "U43"
+        "V44",
+        "C44",
+        "C43",
+        "U43",
+        "C42"
       ],
       "rooms": [
-        "NR311",
-        "NR121",
+        "NR221",
+        "NR222",
         "NR211",
         "NR111",
-        "NR112",
-        "NR221",
-        "NR222"
+        "NR311",
+        "NR121",
+        "NR112"
       ]
     },
     "context_profs": [
@@ -400,8 +400,8 @@
         "Arindam Basu"
       ],
       "slots": [
-        "E32",
         "E31",
+        "E32",
         "E33"
       ],
       "rooms": [
@@ -435,29 +435,29 @@
       "course_name": "ENGINEERING DESIGN WITH RUBBER",
       "professors": [
         "Kinsuk Naskar",
-        "Mythravaruni Pullela",
-        "Santanu Chattopadhyay"
+        "Santanu Chattopadhyay",
+        "Mythravaruni Pullela"
       ],
       "slots": [
-        "F43",
-        "F42",
         "F41",
-        "F44"
+        "F44",
+        "F42",
+        "F43"
       ],
       "rooms": []
     },
     "context_profs": [
       {
         "name": "Santanu Chattopadhyay",
-        "department": "Electronics and Electrical Communication Engg.",
-        "dept_code": "EC",
-        "profile_url": "https://www.iitkgp.ac.in/department/EC/faculty/ec-santanu"
-      },
-      {
-        "name": "Santanu Chattopadhyay",
         "department": "Rubber Technology",
         "dept_code": "RT",
         "profile_url": "https://www.iitkgp.ac.in/department/RT/faculty/rt-santanu"
+      },
+      {
+        "name": "Santanu Chattopadhyay",
+        "department": "Electronics and Electrical Communication Engg.",
+        "dept_code": "EC",
+        "profile_url": "https://www.iitkgp.ac.in/department/EC/faculty/ec-santanu"
       }
     ],
     "solutions": [
@@ -472,12 +472,12 @@
       "code": "RT60020",
       "course_name": "CHARACTERIZATION OF RUBBER AND RUBBER LIKE MATERIALS",
       "professors": [
-        "Nikhil Kumar Singha",
-        "Santanu Chattopadhyay"
+        "Santanu Chattopadhyay",
+        "Nikhil Kumar Singha"
       ],
       "slots": [
-        "B33",
         "B31",
+        "B33",
         "B32"
       ],
       "rooms": []
@@ -485,15 +485,15 @@
     "context_profs": [
       {
         "name": "Santanu Chattopadhyay",
-        "department": "Electronics and Electrical Communication Engg.",
-        "dept_code": "EC",
-        "profile_url": "https://www.iitkgp.ac.in/department/EC/faculty/ec-santanu"
-      },
-      {
-        "name": "Santanu Chattopadhyay",
         "department": "Rubber Technology",
         "dept_code": "RT",
         "profile_url": "https://www.iitkgp.ac.in/department/RT/faculty/rt-santanu"
+      },
+      {
+        "name": "Santanu Chattopadhyay",
+        "department": "Electronics and Electrical Communication Engg.",
+        "dept_code": "EC",
+        "profile_url": "https://www.iitkgp.ac.in/department/EC/faculty/ec-santanu"
       }
     ],
     "solutions": [
