@@ -1,5 +1,5 @@
 import React from "react";
-import doodleImage from "../assets/doodle.png";
+import doodleImage from "../assets/doodle-optimized.jpg";
 import logo from "../assets/logo.png";
 import "../index.css";
 const Body: React.FC = () => {
