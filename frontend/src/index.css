@@ -165,7 +165,7 @@ a:hover {
     padding: 8px 2px;
     border: 1px solid #ddd;
     text-align: center;
-    /*overflow-wrap: break-word;
+    /*overflow-wrap: break-wor2px 1pxd;
     word-wrap: break-word; 
     word-break: normal;*/
     word-wrap: break-word;
@@ -200,5 +200,14 @@ a:hover {
     .course-code {
       font-size: 0.65rem;
     }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .room {
+    margin: 10px 0px;
+  }
+  .course-code {
+    margin: 0px;
   }
 }
