@@ -92,10 +92,12 @@ To set up a local instance of the application, follow the steps below.
 
 The currently active maintainer(s) of this project.
 
-- [Harsh Khandeparkar](https://github.com/harshkhandeparkar)
 - [Rohan Barsagade](https://github.com/rohan-b-84)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+### Past Maintainers
+- [Harsh Khandeparkar](https://github.com/harshkhandeparkar)
 
 ## Additional documentation
 
