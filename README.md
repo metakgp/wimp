@@ -92,6 +92,7 @@ To set up a local instance of the application, follow the steps below.
 
 The currently active maintainer(s) of this project.
 
+- [Uday Kalyan S](https://github.com/uday-kalyan-s)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
