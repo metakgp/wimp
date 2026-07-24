@@ -4,30 +4,31 @@
       "MULTINAME"
     ],
     "context_course": {
-      "code": "AR20205",
-      "course_name": "BUILDING CONSTRUCTION",
+      "code": "AR23301",
+      "course_name": "ARCHITECTURAL DESIGN I",
       "professors": [
         "Priyanka Dey"
       ],
       "slots": [
-        "B33",
-        "B32",
-        "B31"
+        "X43",
+        "X41",
+        "X42",
+        "O"
       ],
       "rooms": []
     },
     "context_profs": [
       {
         "name": "Priyanka Dey",
-        "department": "Architecture and Regional Planning",
-        "dept_code": "AR",
-        "profile_url": "https://www.iitkgp.ac.in/department/AR/faculty/ar-priyanka"
-      },
-      {
-        "name": "Priyanka Dey",
         "department": "Materials Science Centre",
         "dept_code": "MS",
         "profile_url": "https://www.iitkgp.ac.in/department/MS/staff"
+      },
+      {
+        "name": "Priyanka Dey",
+        "department": "Architecture and Regional Planning",
+        "dept_code": "AR",
+        "profile_url": "https://www.iitkgp.ac.in/department/AR/faculty/ar-priyanka"
       }
     ],
     "solutions": [
@@ -39,43 +40,158 @@
       "MULTINAME"
     ],
     "context_course": {
-      "code": "AR29204",
-      "course_name": "BUILDING CONSTRUCTION SESSIONAL II",
+      "code": "AR29201",
+      "course_name": "BUILDING CONSTRUCTION SESSIONAL I",
       "professors": [
         "Priyanka Dey"
       ],
       "slots": [
+        "N"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      {
+        "name": "Priyanka Dey",
+        "department": "Materials Science Centre",
+        "dept_code": "MS",
+        "profile_url": "https://www.iitkgp.ac.in/department/MS/staff"
+      },
+      {
+        "name": "Priyanka Dey",
+        "department": "Architecture and Regional Planning",
+        "dept_code": "AR",
+        "profile_url": "https://www.iitkgp.ac.in/department/AR/faculty/ar-priyanka"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "AR34201",
+      "course_name": "ARCHITECTURAL DESIGN III",
+      "professors": [
+        "Arjun Mukerji",
+        "Ushnata Datta"
+      ],
+      "slots": [
+        "N",
+        "J",
+        "P"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Ushnata Datta"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "AR40207",
+      "course_name": "MODULAR COORDINATION AND PARAMETRIC DESIGN",
+      "professors": [
+        "Shreyas Pramod Bharule",
+        "Priyanka Dey"
+      ],
+      "slots": [
+        "D32",
+        "D33",
+        "D31"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      {
+        "name": "Priyanka Dey",
+        "department": "Materials Science Centre",
+        "dept_code": "MS",
+        "profile_url": "https://www.iitkgp.ac.in/department/MS/staff"
+      },
+      {
+        "name": "Priyanka Dey",
+        "department": "Architecture and Regional Planning",
+        "dept_code": "AR",
+        "profile_url": "https://www.iitkgp.ac.in/department/AR/faculty/ar-priyanka"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "AR52001",
+      "course_name": "CONSTRUCTION PROJECT MANAGEMENT",
+      "professors": [
+        "Dr Madhavan Rajan",
+        "Shankha Pratim Bhattacharya"
+      ],
+      "slots": [
+        "C31",
+        "C32",
+        "C33"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Dr Madhavan Rajan"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "AR57101",
+      "course_name": "PROJECT - I(THESIS)",
+      "professors": [
+        "Joy Sen",
+        "Ushnata Datta",
+        "Haimanti Banerji"
+      ],
+      "slots": [
+        "P",
         "L"
       ],
       "rooms": []
     },
     "context_profs": [
-      {
-        "name": "Priyanka Dey",
-        "department": "Architecture and Regional Planning",
-        "dept_code": "AR",
-        "profile_url": "https://www.iitkgp.ac.in/department/AR/faculty/ar-priyanka"
-      },
-      {
-        "name": "Priyanka Dey",
-        "department": "Materials Science Centre",
-        "dept_code": "MS",
-        "profile_url": "https://www.iitkgp.ac.in/department/MS/staff"
-      }
+      "Ushnata Datta"
     ],
     "solutions": [
-      "DEP_PRIORITY"
+      "FUZZY_SEARCH",
+      "SKIP"
     ]
   },
   {
     "reasons": [
-      "MULTINAME"
+      "TYPO"
     ],
     "context_course": {
-      "code": "AR30203",
-      "course_name": "SPECIFICATION, ESTIMATION AND COSTING",
+      "code": "AR60221",
+      "course_name": "SUSTAINABLE BUILT ENVIRONMENT DESIGN PRINCIPLES",
       "professors": [
-        "Priyanka Dey"
+        "Shankha Pratim Bhattacharya",
+        "Ushnata Datta"
       ],
       "slots": [
         "E32",
@@ -85,132 +201,11 @@
       "rooms": []
     },
     "context_profs": [
-      {
-        "name": "Priyanka Dey",
-        "department": "Architecture and Regional Planning",
-        "dept_code": "AR",
-        "profile_url": "https://www.iitkgp.ac.in/department/AR/faculty/ar-priyanka"
-      },
-      {
-        "name": "Priyanka Dey",
-        "department": "Materials Science Centre",
-        "dept_code": "MS",
-        "profile_url": "https://www.iitkgp.ac.in/department/MS/staff"
-      }
+      "Ushnata Datta"
     ],
     "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "AR51004",
-      "course_name": "DISASTER RESISTANT BUILDING & MANAGEMENT",
-      "professors": [
-        "Priyanka Dey"
-      ],
-      "slots": [
-        "C31",
-        "C33",
-        "C32"
-      ],
-      "rooms": []
-    },
-    "context_profs": [
-      {
-        "name": "Priyanka Dey",
-        "department": "Architecture and Regional Planning",
-        "dept_code": "AR",
-        "profile_url": "https://www.iitkgp.ac.in/department/AR/faculty/ar-priyanka"
-      },
-      {
-        "name": "Priyanka Dey",
-        "department": "Materials Science Centre",
-        "dept_code": "MS",
-        "profile_url": "https://www.iitkgp.ac.in/department/MS/staff"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "AR60202",
-      "course_name": "THESIS-II",
-      "professors": [
-        "Subrata Chattopadhyay",
-        "Haimanti Banerji",
-        "Sumana Gupta",
-        "Saikat Kumar Paul",
-        "Debapratim Pandit",
-        "Priyanka Dey"
-      ],
-      "slots": [
-        "X41",
-        "X42",
-        "X44",
-        "X43"
-      ],
-      "rooms": []
-    },
-    "context_profs": [
-      {
-        "name": "Priyanka Dey",
-        "department": "Architecture and Regional Planning",
-        "dept_code": "AR",
-        "profile_url": "https://www.iitkgp.ac.in/department/AR/faculty/ar-priyanka"
-      },
-      {
-        "name": "Priyanka Dey",
-        "department": "Materials Science Centre",
-        "dept_code": "MS",
-        "profile_url": "https://www.iitkgp.ac.in/department/MS/staff"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "AR60208",
-      "course_name": "DYNAMICS OF SETTLEMENT SYSTEMS",
-      "professors": [
-        "Priyanka Dey"
-      ],
-      "slots": [
-        "F31",
-        "F32",
-        "F33"
-      ],
-      "rooms": []
-    },
-    "context_profs": [
-      {
-        "name": "Priyanka Dey",
-        "department": "Architecture and Regional Planning",
-        "dept_code": "AR",
-        "profile_url": "https://www.iitkgp.ac.in/department/AR/faculty/ar-priyanka"
-      },
-      {
-        "name": "Priyanka Dey",
-        "department": "Materials Science Centre",
-        "dept_code": "MS",
-        "profile_url": "https://www.iitkgp.ac.in/department/MS/staff"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
+      "FUZZY_SEARCH",
+      "SKIP"
     ]
   },
   {
@@ -221,194 +216,13 @@
       "code": "BS10003",
       "course_name": "SCIENCE OF LIVING SYSTEMS",
       "professors": [
-        "Abhijit Das",
-        "Dibyendu Samanta"
-      ],
-      "slots": [
-        "H21",
-        "H22"
-      ],
-      "rooms": []
-    },
-    "context_profs": [
-      {
-        "name": "Abhijit Das",
-        "department": "Bioscience and Biotechnology",
-        "dept_code": "BT",
-        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
-      },
-      {
-        "name": "Abhijit Das",
-        "department": "Computer Science and Engineering",
-        "dept_code": "CS",
-        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "BS40002",
-      "course_name": "MOLECULAR MICROBIOLOGY",
-      "professors": [
-        "Nihar Ranjan Jana",
-        "Arindam Mondal",
-        "Abhijit Das"
-      ],
-      "slots": [
-        "F31",
-        "F32",
-        "F33"
-      ],
-      "rooms": []
-    },
-    "context_profs": [
-      {
-        "name": "Abhijit Das",
-        "department": "Bioscience and Biotechnology",
-        "dept_code": "BT",
-        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
-      },
-      {
-        "name": "Abhijit Das",
-        "department": "Computer Science and Engineering",
-        "dept_code": "CS",
-        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "BS49002",
-      "course_name": "CELL BIOLOGY LABORATORY",
-      "professors": [
-        "Nihar Ranjan Jana",
-        "Mainak Bose",
-        "Ritobrata Goswami",
-        "Abhijit Das"
-      ],
-      "slots": [
-        "X"
-      ],
-      "rooms": []
-    },
-    "context_profs": [
-      {
-        "name": "Abhijit Das",
-        "department": "Bioscience and Biotechnology",
-        "dept_code": "BT",
-        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
-      },
-      {
-        "name": "Abhijit Das",
-        "department": "Computer Science and Engineering",
-        "dept_code": "CS",
-        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "BS50004",
-      "course_name": "BIOLOGICAL IMAGING: IN VIVO AND IN VITRO",
-      "professors": [
-        "Ritobrata Goswami",
-        "Abhijit Das"
-      ],
-      "slots": [
-        "V32",
-        "V33",
-        "V31"
-      ],
-      "rooms": []
-    },
-    "context_profs": [
-      {
-        "name": "Abhijit Das",
-        "department": "Bioscience and Biotechnology",
-        "dept_code": "BT",
-        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
-      },
-      {
-        "name": "Abhijit Das",
-        "department": "Computer Science and Engineering",
-        "dept_code": "CS",
-        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "BS57002",
-      "course_name": "PROJECT",
-      "professors": [
-        "Ritobrata Goswami",
-        "Abhijit Das"
-      ],
-      "slots": [
-        "R"
-      ],
-      "rooms": []
-    },
-    "context_profs": [
-      {
-        "name": "Abhijit Das",
-        "department": "Bioscience and Biotechnology",
-        "dept_code": "BT",
-        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
-      },
-      {
-        "name": "Abhijit Das",
-        "department": "Computer Science and Engineering",
-        "dept_code": "CS",
-        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "BS58002",
-      "course_name": "VIVA VOCE",
-      "professors": [
-        "Ritobrata Goswami",
-        "Abhijit Das",
         "Dibyendu Samanta",
-        "Soumya De",
-        "Nihar Ranjan Jana",
-        "Arindam Mondal",
-        "Mainak Bose"
+        "Abhijit Das",
+        "Soumya De"
       ],
       "slots": [
-        "O"
+        "B22",
+        "B21"
       ],
       "rooms": []
     },
@@ -435,110 +249,510 @@
       "MULTINAME"
     ],
     "context_course": {
-      "code": "BT20204",
-      "course_name": "CELL AND MOLECULAR BIOLOGY",
+      "code": "BS60005",
+      "course_name": "EPIGENETICS AND EPIGENOMICS",
       "professors": [
-        "Dibyendu Samanta",
+        "Riddhiman Dhar",
         "Abhijit Das"
       ],
       "slots": [
-        "C31",
-        "C33",
-        "C32"
-      ],
-      "rooms": []
-    },
-    "context_profs": [
-      {
-        "name": "Abhijit Das",
-        "department": "Bioscience and Biotechnology",
-        "dept_code": "BT",
-        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
-      },
-      {
-        "name": "Abhijit Das",
-        "department": "Computer Science and Engineering",
-        "dept_code": "CS",
-        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "BT21202",
-      "course_name": "CELL AND MOLECULAR BIOLOGY",
-      "professors": [
-        "Abhijit Das",
-        "Dibyendu Samanta"
-      ],
-      "slots": [
-        "C41",
-        "C42",
-        "C44",
-        "C43"
+        "B31",
+        "B33",
+        "B32"
       ],
       "rooms": [
+        "NC324"
+      ]
+    },
+    "context_profs": [
+      {
+        "name": "Abhijit Das",
+        "department": "Bioscience and Biotechnology",
+        "dept_code": "BT",
+        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
+      },
+      {
+        "name": "Abhijit Das",
+        "department": "Computer Science and Engineering",
+        "dept_code": "CS",
+        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "BT10001",
+      "course_name": "SCIENCE OF LIVING SYSTEM",
+      "professors": [
+        "Dibyendu Samanta",
+        "Abhijit Das",
+        "Soumya De"
+      ],
+      "slots": [
+        "B22",
+        "B21",
+        "G31"
+      ],
+      "rooms": [
+        "NR313"
+      ]
+    },
+    "context_profs": [
+      {
+        "name": "Abhijit Das",
+        "department": "Bioscience and Biotechnology",
+        "dept_code": "BT",
+        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
+      },
+      {
+        "name": "Abhijit Das",
+        "department": "Computer Science and Engineering",
+        "dept_code": "CS",
+        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "BT60209",
+      "course_name": "DRUG DESIGN AND DELIVERY",
+      "professors": [
+        "Abhijit Das",
+        "Ritobrata Goswami"
+      ],
+      "slots": [
+        "S31",
+        "S33",
+        "S32"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      {
+        "name": "Abhijit Das",
+        "department": "Bioscience and Biotechnology",
+        "dept_code": "BT",
+        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
+      },
+      {
+        "name": "Abhijit Das",
+        "department": "Computer Science and Engineering",
+        "dept_code": "CS",
+        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CD61002",
+      "course_name": "HIGH PERFORMANCE SCIENTIFIC COMPUTING",
+      "professors": [
+        "Somnath Roy",
+        "Prosanjit Das"
+      ],
+      "slots": [
+        "U44",
+        "U43",
+        "U42",
+        "U41"
+      ],
+      "rooms": [
+        "NR311"
+      ]
+    },
+    "context_profs": [
+      "Prosanjit Das",
+      {
+        "name": "Prosenjit Das",
+        "department": "Electrical Engineering",
+        "dept_code": "EE",
+        "profile_url": "https://www.iitkgp.ac.in/department/EE/staff"
+      }
+    ],
+    "solutions": [
+      "FUZZY_SEARCH"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CD61004",
+      "course_name": "HIGH PERFORMANCE COMPUTING AND ITS APPLICATIONS IN COMPLEX PHYSICAL SYSTEMS",
+      "professors": [
+        "Palash Jyoti Boruah",
+        "Sandeep Kumar Reddy"
+      ],
+      "slots": [
+        "F41",
+        "F44",
+        "F43",
+        "F42"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Palash Jyoti Boruah"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH21202",
+      "course_name": "MASS TRANSFER I",
+      "professors": [
+        "Narayan Chandra Pradhan",
+        "Fetcia Jackulin C",
+        "Swati Neogi",
+        "Nikita Dewangan",
+        "Arnab Dutta",
+        "Swambabu Varanasi"
+      ],
+      "slots": [
+        "C43",
+        "C41",
+        "C44",
+        "C42"
+      ],
+      "rooms": [
+        "NR123",
+        "NR124"
+      ]
+    },
+    "context_profs": [
+      "Fetcia Jackulin C"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH21202",
+      "course_name": "MASS TRANSFER I",
+      "professors": [
+        "Narayan Chandra Pradhan",
+        "Fetcia Jackulin C",
+        "Swati Neogi",
+        "Nikita Dewangan",
+        "Arnab Dutta",
+        "Swambabu Varanasi"
+      ],
+      "slots": [
+        "C43",
+        "C41",
+        "C44",
+        "C42"
+      ],
+      "rooms": [
+        "NR123",
+        "NR124"
+      ]
+    },
+    "context_profs": [
+      "Arnab Dutta",
+      {
+        "name": "Arnab Atta",
+        "department": "Chemical Engineering",
+        "dept_code": "CH",
+        "profile_url": "https://www.iitkgp.ac.in/department/CH/faculty/ch-arnab"
+      }
+    ],
+    "solutions": [
+      "FUZZY_SEARCH"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH21203",
+      "course_name": "CHEMICAL PROCESS CALCULATIONS",
+      "professors": [
+        "Anita Zade",
+        "Premful Kumar",
+        "Soumya Sundar Parui",
+        "Rajesh Kumar",
+        "Suverna Trivedi",
+        "Arnab Atta",
+        "Rahul Ranjan",
+        "Rabibrata Mukherjee"
+      ],
+      "slots": [
+        "D44",
+        "D41",
+        "D43",
+        "D42"
+      ],
+      "rooms": [
+        "NC334",
+        "NC141"
+      ]
+    },
+    "context_profs": [
+      "Anita Zade"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH21203",
+      "course_name": "CHEMICAL PROCESS CALCULATIONS",
+      "professors": [
+        "Anita Zade",
+        "Premful Kumar",
+        "Soumya Sundar Parui",
+        "Rajesh Kumar",
+        "Suverna Trivedi",
+        "Arnab Atta",
+        "Rahul Ranjan",
+        "Rabibrata Mukherjee"
+      ],
+      "slots": [
+        "D44",
+        "D41",
+        "D43",
+        "D42"
+      ],
+      "rooms": [
+        "NC334",
+        "NC141"
+      ]
+    },
+    "context_profs": [
+      "Premful Kumar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH21203",
+      "course_name": "CHEMICAL PROCESS CALCULATIONS",
+      "professors": [
+        "Anita Zade",
+        "Premful Kumar",
+        "Soumya Sundar Parui",
+        "Rajesh Kumar",
+        "Suverna Trivedi",
+        "Arnab Atta",
+        "Rahul Ranjan",
+        "Rabibrata Mukherjee"
+      ],
+      "slots": [
+        "D44",
+        "D41",
+        "D43",
+        "D42"
+      ],
+      "rooms": [
+        "NC334",
+        "NC141"
+      ]
+    },
+    "context_profs": [
+      "Soumya Sundar Parui"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH21205",
+      "course_name": "MECHANICAL OPERATIONS",
+      "professors": [
+        "Amandeep Jindal",
+        "Sadhak Khanna",
+        "Nikita Saxena",
+        "Namrata Deepakrao Gaikwad",
+        "Santanu Dey",
+        "Ummiya Qamar",
+        "Ananta Kumar Sarkar"
+      ],
+      "slots": [
+        "D44",
+        "D41",
+        "D43",
+        "D42"
+      ],
+      "rooms": [
+        "NR123",
+        "NC314"
+      ]
+    },
+    "context_profs": [
+      "Sadhak Khanna"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO",
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "CH21205",
+      "course_name": "MECHANICAL OPERATIONS",
+      "professors": [
+        "Amandeep Jindal",
+        "Sadhak Khanna",
+        "Nikita Saxena",
+        "Namrata Deepakrao Gaikwad",
+        "Santanu Dey",
+        "Ummiya Qamar",
+        "Ananta Kumar Sarkar"
+      ],
+      "slots": [
+        "D44",
+        "D41",
+        "D43",
+        "D42"
+      ],
+      "rooms": [
+        "NR123",
+        "NC314"
+      ]
+    },
+    "context_profs": [
+      "Santanu Dey",
+      {
+        "name": "Santanu Das",
+        "department": "CWISS",
+        "dept_code": "CW",
+        "profile_url": "https://www.iitkgp.ac.in/department/CW/staff"
+      },
+      {
+        "name": "Santanu Das",
+        "department": "SRIC",
+        "dept_code": "SR",
+        "profile_url": "https://www.iitkgp.ac.in/department/SR/staff"
+      }
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH21205",
+      "course_name": "MECHANICAL OPERATIONS",
+      "professors": [
+        "Amandeep Jindal",
+        "Sadhak Khanna",
+        "Nikita Saxena",
+        "Namrata Deepakrao Gaikwad",
+        "Santanu Dey",
+        "Ummiya Qamar",
+        "Ananta Kumar Sarkar"
+      ],
+      "slots": [
+        "D44",
+        "D41",
+        "D43",
+        "D42"
+      ],
+      "rooms": [
+        "NR123",
+        "NC314"
+      ]
+    },
+    "context_profs": [
+      "Ummiya Qamar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH21206",
+      "course_name": "REACTION ENGINEERING",
+      "professors": [
+        "Koustuv Ray",
+        "Bhaskar Bhaduri",
+        "Sayantan Sarkar",
+        "Rhithuparna D",
+        "Linkon Bharali",
+        "Suverna Trivedi",
+        "Ajay Kumar",
+        "Sarathkumar Sankar",
+        "Jitendra Kumar Prabhakar",
+        "Sonali Sengupta"
+      ],
+      "slots": [
+        "C43",
+        "C41",
+        "C44",
+        "C42"
+      ],
+      "rooms": [
+        "NR224",
         "NC423"
       ]
     },
     "context_profs": [
-      {
-        "name": "Abhijit Das",
-        "department": "Bioscience and Biotechnology",
-        "dept_code": "BT",
-        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
-      },
-      {
-        "name": "Abhijit Das",
-        "department": "Computer Science and Engineering",
-        "dept_code": "CS",
-        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
-      }
+      "Sayantan Sarkar"
     ],
     "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "BT29204",
-      "course_name": "CELL AND MOLECULAR BIOLOGY LABORATORY",
-      "professors": [
-        "Nihar Ranjan Jana",
-        "Mainak Bose",
-        "Ritobrata Goswami",
-        "Abhijit Das"
-      ],
-      "slots": [
-        "X"
-      ],
-      "rooms": []
-    },
-    "context_profs": [
-      {
-        "name": "Abhijit Das",
-        "department": "Bioscience and Biotechnology",
-        "dept_code": "BT",
-        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
-      },
-      {
-        "name": "Abhijit Das",
-        "department": "Computer Science and Engineering",
-        "dept_code": "CS",
-        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
+      "FUZZY_SEARCH",
+      "SKIP"
     ]
   },
   {
@@ -546,106 +760,37 @@
       "TYPO"
     ],
     "context_course": {
-      "code": "CE13006",
-      "course_name": "INTERNET OF THINGS IN CIVIL ENGINEERING SYSTEMS",
+      "code": "CH21206",
+      "course_name": "REACTION ENGINEERING",
       "professors": [
-        "Debasis Roy",
-        "Amit Passi",
-        "Aritra Chatterjee",
-        "Dhrubajyoti Sen",
-        "Nadan Maiti",
-        "Shubha Verma"
-      ],
-      "slots": [
-        "J",
-        "S31"
-      ],
-      "rooms": [
-        "S32"
-      ]
-    },
-    "context_profs": [
-      "Nadan Maiti",
-      {
-        "name": "Nandan Maiti",
-        "department": "Civil Engineering",
-        "dept_code": "CE",
-        "profile_url": "https://www.iitkgp.ac.in/department/CE/faculty/ce-M0JPcFNxdXJEcGVTTUdQNkplOVQ5UT09"
-      }
-    ],
-    "solutions": [
-      "FUZZY_SEARCH"
-    ]
-  },
-  {
-    "reasons": [
-      "TYPO"
-    ],
-    "context_course": {
-      "code": "CE29208",
-      "course_name": "AI/ML APPLICATIONS IN CIVIL ENGINEERING",
-      "professors": [
-        "Nirjhar Dhang",
-        "Nadan Maiti"
-      ],
-      "slots": [
-        "X"
-      ],
-      "rooms": []
-    },
-    "context_profs": [
-      "Nadan Maiti",
-      {
-        "name": "Nandan Maiti",
-        "department": "Civil Engineering",
-        "dept_code": "CE",
-        "profile_url": "https://www.iitkgp.ac.in/department/CE/faculty/ce-M0JPcFNxdXJEcGVTTUdQNkplOVQ5UT09"
-      }
-    ],
-    "solutions": [
-      "FUZZY_SEARCH"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "CH31010",
-      "course_name": "MASS TRANSFER II",
-      "professors": [
-        "Swambabu Varanasi",
-        "Rabibrata Mukherjee",
         "Koustuv Ray",
-        "Sourav Mondal"
+        "Bhaskar Bhaduri",
+        "Sayantan Sarkar",
+        "Rhithuparna D",
+        "Linkon Bharali",
+        "Suverna Trivedi",
+        "Ajay Kumar",
+        "Sarathkumar Sankar",
+        "Jitendra Kumar Prabhakar",
+        "Sonali Sengupta"
       ],
       "slots": [
-        "E41",
-        "E44",
-        "E43",
-        "E42"
+        "C43",
+        "C41",
+        "C44",
+        "C42"
       ],
       "rooms": [
-        "NC221",
-        "NC122"
+        "NR224",
+        "NC423"
       ]
     },
     "context_profs": [
-      {
-        "name": "Sourav Mondal",
-        "department": "Chemical Engineering",
-        "dept_code": "CH",
-        "profile_url": "https://www.iitkgp.ac.in/department/CH/faculty/ch-smondal"
-      },
-      {
-        "name": "Sourav Mondal",
-        "department": "Stores and Purchase",
-        "dept_code": "SP",
-        "profile_url": "https://www.iitkgp.ac.in/department/SP/staff"
-      }
+      "Rhithuparna D"
     ],
     "solutions": [
-      "DEP_PRIORITY"
+      "FUZZY_SEARCH",
+      "SKIP"
     ]
   },
   {
@@ -653,19 +798,413 @@
       "TYPO"
     ],
     "context_course": {
-      "code": "CH39202",
-      "course_name": "PROCESS EQUIPMENT DESIGN-II",
+      "code": "CH21206",
+      "course_name": "REACTION ENGINEERING",
       "professors": [
-        "Arnab Dutta",
-        "Swambabu Varanasi",
-        "Abhishek Kumar Gupta",
-        "Sourav Mondal",
-        "Namrata Deepakrao Gaikwad",
-        "Amandeep Jindal",
-        "Joydip Chaudhuri"
+        "Koustuv Ray",
+        "Bhaskar Bhaduri",
+        "Sayantan Sarkar",
+        "Rhithuparna D",
+        "Linkon Bharali",
+        "Suverna Trivedi",
+        "Ajay Kumar",
+        "Sarathkumar Sankar",
+        "Jitendra Kumar Prabhakar",
+        "Sonali Sengupta"
       ],
       "slots": [
-        "L",
+        "C43",
+        "C41",
+        "C44",
+        "C42"
+      ],
+      "rooms": [
+        "NR224",
+        "NC423"
+      ]
+    },
+    "context_profs": [
+      "Linkon Bharali"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH21206",
+      "course_name": "REACTION ENGINEERING",
+      "professors": [
+        "Koustuv Ray",
+        "Bhaskar Bhaduri",
+        "Sayantan Sarkar",
+        "Rhithuparna D",
+        "Linkon Bharali",
+        "Suverna Trivedi",
+        "Ajay Kumar",
+        "Sarathkumar Sankar",
+        "Jitendra Kumar Prabhakar",
+        "Sonali Sengupta"
+      ],
+      "slots": [
+        "C43",
+        "C41",
+        "C44",
+        "C42"
+      ],
+      "rooms": [
+        "NR224",
+        "NC423"
+      ]
+    },
+    "context_profs": [
+      "Ajay Kumar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH21206",
+      "course_name": "REACTION ENGINEERING",
+      "professors": [
+        "Koustuv Ray",
+        "Bhaskar Bhaduri",
+        "Sayantan Sarkar",
+        "Rhithuparna D",
+        "Linkon Bharali",
+        "Suverna Trivedi",
+        "Ajay Kumar",
+        "Sarathkumar Sankar",
+        "Jitendra Kumar Prabhakar",
+        "Sonali Sengupta"
+      ],
+      "slots": [
+        "C43",
+        "C41",
+        "C44",
+        "C42"
+      ],
+      "rooms": [
+        "NR224",
+        "NC423"
+      ]
+    },
+    "context_profs": [
+      "Sarathkumar Sankar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH21206",
+      "course_name": "REACTION ENGINEERING",
+      "professors": [
+        "Koustuv Ray",
+        "Bhaskar Bhaduri",
+        "Sayantan Sarkar",
+        "Rhithuparna D",
+        "Linkon Bharali",
+        "Suverna Trivedi",
+        "Ajay Kumar",
+        "Sarathkumar Sankar",
+        "Jitendra Kumar Prabhakar",
+        "Sonali Sengupta"
+      ],
+      "slots": [
+        "C43",
+        "C41",
+        "C44",
+        "C42"
+      ],
+      "rooms": [
+        "NR224",
+        "NC423"
+      ]
+    },
+    "context_profs": [
+      "Jitendra Kumar Prabhakar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH21207",
+      "course_name": "FLUID MECHANICS",
+      "professors": [
+        "Bogeshwaran Karunanithi",
+        "Monojit Chakraborty",
+        "Sunando Dasgupta",
+        "Jayanta Chakraborty",
+        "Arnab Atta",
+        "Rakesh Kumar",
+        "Sanket Kumar"
+      ],
+      "slots": [
+        "E43",
+        "E42",
+        "E44",
+        "E41"
+      ],
+      "rooms": [
+        "NR123",
+        "NC314"
+      ]
+    },
+    "context_profs": [
+      "Bogeshwaran Karunanithi"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH21207",
+      "course_name": "FLUID MECHANICS",
+      "professors": [
+        "Bogeshwaran Karunanithi",
+        "Monojit Chakraborty",
+        "Sunando Dasgupta",
+        "Jayanta Chakraborty",
+        "Arnab Atta",
+        "Rakesh Kumar",
+        "Sanket Kumar"
+      ],
+      "slots": [
+        "E43",
+        "E42",
+        "E44",
+        "E41"
+      ],
+      "rooms": [
+        "NR123",
+        "NC314"
+      ]
+    },
+    "context_profs": [
+      "Sanket Kumar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH21208",
+      "course_name": "INSTRUMENTATION AND PROCESS CONTROL",
+      "professors": [
+        "Kaniska Murmu",
+        "Abhishek Kumar Gupta",
+        "Somenath Ganguly",
+        "Nikita Dewangan",
+        "Mamleshwar Kumar",
+        "Gidituri Harinadha"
+      ],
+      "slots": [
+        "D44",
+        "D41",
+        "D43",
+        "D42"
+      ],
+      "rooms": [
+        "NR224",
+        "NC423"
+      ]
+    },
+    "context_profs": [
+      "Kaniska Murmu"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH21208",
+      "course_name": "INSTRUMENTATION AND PROCESS CONTROL",
+      "professors": [
+        "Kaniska Murmu",
+        "Abhishek Kumar Gupta",
+        "Somenath Ganguly",
+        "Nikita Dewangan",
+        "Mamleshwar Kumar",
+        "Gidituri Harinadha"
+      ],
+      "slots": [
+        "D44",
+        "D41",
+        "D43",
+        "D42"
+      ],
+      "rooms": [
+        "NR224",
+        "NC423"
+      ]
+    },
+    "context_profs": [
+      "Mamleshwar Kumar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH31203",
+      "course_name": "COMPUTER AIDED PROCESS ENGINEERING",
+      "professors": [
+        "Amiya Kumar Jana",
+        "Niran Daimary",
+        "Sudip Das",
+        "Pothukuchi Naga Venkata Rajesh Pavan",
+        "Namrata Deepakrao Gaikwad",
+        "Srutee Rout"
+      ],
+      "slots": [
+        "E43",
+        "E42",
+        "E44",
+        "E41"
+      ],
+      "rooms": [
+        "NR124",
+        "NC423"
+      ]
+    },
+    "context_profs": [
+      "Niran Daimary"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH31203",
+      "course_name": "COMPUTER AIDED PROCESS ENGINEERING",
+      "professors": [
+        "Amiya Kumar Jana",
+        "Niran Daimary",
+        "Sudip Das",
+        "Pothukuchi Naga Venkata Rajesh Pavan",
+        "Namrata Deepakrao Gaikwad",
+        "Srutee Rout"
+      ],
+      "slots": [
+        "E43",
+        "E42",
+        "E44",
+        "E41"
+      ],
+      "rooms": [
+        "NR124",
+        "NC423"
+      ]
+    },
+    "context_profs": [
+      "Srutee Rout"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH39006",
+      "course_name": "MASS TRANSFER LABORATORY",
+      "professors": [
+        "Narayan Chandra Pradhan",
+        "Soumya Sundar Parui",
+        "Nikita Dewangan",
+        "Arnab Dutta",
+        "Santanu Dey",
+        "Swambabu Varanasi",
+        "Pothukuchi Naga Venkata Rajesh Pavan",
+        "Harikrishnan G",
+        "Gidituri Harinadha",
+        "Rahul Ranjan"
+      ],
+      "slots": [
+        "N",
+        "J"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Soumya Sundar Parui"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH39006",
+      "course_name": "MASS TRANSFER LABORATORY",
+      "professors": [
+        "Narayan Chandra Pradhan",
+        "Soumya Sundar Parui",
+        "Nikita Dewangan",
+        "Arnab Dutta",
+        "Santanu Dey",
+        "Swambabu Varanasi",
+        "Pothukuchi Naga Venkata Rajesh Pavan",
+        "Harikrishnan G",
+        "Gidituri Harinadha",
+        "Rahul Ranjan"
+      ],
+      "slots": [
+        "N",
         "J"
       ],
       "rooms": []
@@ -685,42 +1224,48 @@
   },
   {
     "reasons": [
+      "TYPO",
       "MULTINAME"
     ],
     "context_course": {
-      "code": "CH39202",
-      "course_name": "PROCESS EQUIPMENT DESIGN-II",
+      "code": "CH39006",
+      "course_name": "MASS TRANSFER LABORATORY",
       "professors": [
+        "Narayan Chandra Pradhan",
+        "Soumya Sundar Parui",
+        "Nikita Dewangan",
         "Arnab Dutta",
+        "Santanu Dey",
         "Swambabu Varanasi",
-        "Abhishek Kumar Gupta",
-        "Sourav Mondal",
-        "Namrata Deepakrao Gaikwad",
-        "Amandeep Jindal",
-        "Joydip Chaudhuri"
+        "Pothukuchi Naga Venkata Rajesh Pavan",
+        "Harikrishnan G",
+        "Gidituri Harinadha",
+        "Rahul Ranjan"
       ],
       "slots": [
-        "L",
+        "N",
         "J"
       ],
       "rooms": []
     },
     "context_profs": [
+      "Santanu Dey",
       {
-        "name": "Sourav Mondal",
-        "department": "Chemical Engineering",
-        "dept_code": "CH",
-        "profile_url": "https://www.iitkgp.ac.in/department/CH/faculty/ch-smondal"
+        "name": "Santanu Das",
+        "department": "CWISS",
+        "dept_code": "CW",
+        "profile_url": "https://www.iitkgp.ac.in/department/CW/staff"
       },
       {
-        "name": "Sourav Mondal",
-        "department": "Stores and Purchase",
-        "dept_code": "SP",
-        "profile_url": "https://www.iitkgp.ac.in/department/SP/staff"
+        "name": "Santanu Das",
+        "department": "SRIC",
+        "dept_code": "SR",
+        "profile_url": "https://www.iitkgp.ac.in/department/SR/staff"
       }
     ],
     "solutions": [
-      "DEP_PRIORITY"
+      "FUZZY_SEARCH",
+      "SKIP"
     ]
   },
   {
@@ -728,141 +1273,2563 @@
       "TYPO"
     ],
     "context_course": {
-      "code": "CH69202",
-      "course_name": "M-TECH LABORATORY",
+      "code": "CH39015",
+      "course_name": "MECHANICAL OPERATIONS & HEAT TRANSFER LABORATORY",
       "professors": [
-        "Arnab Dutta",
         "Monojit Chakraborty",
+        "Amandeep Jindal",
+        "Fetcia Jackulin C",
+        "Swati Neogi",
         "Manish Kaushal",
-        "Koustuv Ray",
-        "Suverna Trivedi",
-        "Bhaskar Bhaduri",
-        "Rahul Ranjan",
-        "Sourav Mondal",
-        "Madhusudan Sau",
-        "Joydip Chaudhuri"
-      ],
-      "slots": [
-        "X"
-      ],
-      "rooms": [
-        "NC222"
-      ]
-    },
-    "context_profs": [
-      "Arnab Dutta",
-      {
-        "name": "Arnab Atta",
-        "department": "Chemical Engineering",
-        "dept_code": "CH",
-        "profile_url": "https://www.iitkgp.ac.in/department/CH/faculty/ch-arnab"
-      }
-    ],
-    "solutions": [
-      "FUZZY_SEARCH"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "CH69202",
-      "course_name": "M-TECH LABORATORY",
-      "professors": [
-        "Arnab Dutta",
-        "Monojit Chakraborty",
-        "Manish Kaushal",
-        "Koustuv Ray",
-        "Suverna Trivedi",
-        "Bhaskar Bhaduri",
-        "Rahul Ranjan",
-        "Sourav Mondal",
-        "Madhusudan Sau",
-        "Joydip Chaudhuri"
-      ],
-      "slots": [
-        "X"
-      ],
-      "rooms": [
-        "NC222"
-      ]
-    },
-    "context_profs": [
-      {
-        "name": "Sourav Mondal",
-        "department": "Chemical Engineering",
-        "dept_code": "CH",
-        "profile_url": "https://www.iitkgp.ac.in/department/CH/faculty/ch-smondal"
-      },
-      {
-        "name": "Sourav Mondal",
-        "department": "Stores and Purchase",
-        "dept_code": "SP",
-        "profile_url": "https://www.iitkgp.ac.in/department/SP/staff"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "CS31202",
-      "course_name": "OPERATING SYSTEMS",
-      "professors": [
-        "Bivas Mitra",
-        "Abhijit Das"
-      ],
-      "slots": [
-        "E41",
-        "E44",
-        "E43",
-        "E42"
-      ],
-      "rooms": [
-        "NC344",
-        "NC343"
-      ]
-    },
-    "context_profs": [
-      {
-        "name": "Abhijit Das",
-        "department": "Bioscience and Biotechnology",
-        "dept_code": "BT",
-        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
-      },
-      {
-        "name": "Abhijit Das",
-        "department": "Computer Science and Engineering",
-        "dept_code": "CS",
-        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "CS39002",
-      "course_name": "OPERATING SYSTEMS LABORATORY",
-      "professors": [
-        "Bivas Mitra",
-        "Abhijit Das"
+        "Nikita Saxena",
+        "Namrata Deepakrao Gaikwad",
+        "Fatima Saeed",
+        "Adhir Majumder"
       ],
       "slots": [
         "P"
       ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Fetcia Jackulin C"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH39015",
+      "course_name": "MECHANICAL OPERATIONS & HEAT TRANSFER LABORATORY",
+      "professors": [
+        "Monojit Chakraborty",
+        "Amandeep Jindal",
+        "Fetcia Jackulin C",
+        "Swati Neogi",
+        "Manish Kaushal",
+        "Nikita Saxena",
+        "Namrata Deepakrao Gaikwad",
+        "Fatima Saeed",
+        "Adhir Majumder"
+      ],
+      "slots": [
+        "P"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Fatima Saeed"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH39015",
+      "course_name": "MECHANICAL OPERATIONS & HEAT TRANSFER LABORATORY",
+      "professors": [
+        "Monojit Chakraborty",
+        "Amandeep Jindal",
+        "Fetcia Jackulin C",
+        "Swati Neogi",
+        "Manish Kaushal",
+        "Nikita Saxena",
+        "Namrata Deepakrao Gaikwad",
+        "Fatima Saeed",
+        "Adhir Majumder"
+      ],
+      "slots": [
+        "P"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Adhir Majumder"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH39023",
+      "course_name": "PROCESS EQUIPMENT DESIGN-I",
+      "professors": [
+        "Anomitra Chakraborty",
+        "Saikat Biswas",
+        "Niran Daimary",
+        "Nikita Saxena",
+        "Sudip Das",
+        "Swambabu Varanasi",
+        "Surjendu Maity",
+        "Gidituri Harinadha",
+        "R Kumar",
+        "Rahul Ranjan",
+        "Ananta Kumar Sarkar"
+      ],
+      "slots": [
+        "L"
+      ],
       "rooms": [
-        "CSE-Software-Lab"
+        "NC334",
+        "NC431"
       ]
+    },
+    "context_profs": [
+      "Anomitra Chakraborty"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH39023",
+      "course_name": "PROCESS EQUIPMENT DESIGN-I",
+      "professors": [
+        "Anomitra Chakraborty",
+        "Saikat Biswas",
+        "Niran Daimary",
+        "Nikita Saxena",
+        "Sudip Das",
+        "Swambabu Varanasi",
+        "Surjendu Maity",
+        "Gidituri Harinadha",
+        "R Kumar",
+        "Rahul Ranjan",
+        "Ananta Kumar Sarkar"
+      ],
+      "slots": [
+        "L"
+      ],
+      "rooms": [
+        "NC334",
+        "NC431"
+      ]
+    },
+    "context_profs": [
+      "Saikat Biswas"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH39023",
+      "course_name": "PROCESS EQUIPMENT DESIGN-I",
+      "professors": [
+        "Anomitra Chakraborty",
+        "Saikat Biswas",
+        "Niran Daimary",
+        "Nikita Saxena",
+        "Sudip Das",
+        "Swambabu Varanasi",
+        "Surjendu Maity",
+        "Gidituri Harinadha",
+        "R Kumar",
+        "Rahul Ranjan",
+        "Ananta Kumar Sarkar"
+      ],
+      "slots": [
+        "L"
+      ],
+      "rooms": [
+        "NC334",
+        "NC431"
+      ]
+    },
+    "context_profs": [
+      "Niran Daimary"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH39023",
+      "course_name": "PROCESS EQUIPMENT DESIGN-I",
+      "professors": [
+        "Anomitra Chakraborty",
+        "Saikat Biswas",
+        "Niran Daimary",
+        "Nikita Saxena",
+        "Sudip Das",
+        "Swambabu Varanasi",
+        "Surjendu Maity",
+        "Gidituri Harinadha",
+        "R Kumar",
+        "Rahul Ranjan",
+        "Ananta Kumar Sarkar"
+      ],
+      "slots": [
+        "L"
+      ],
+      "rooms": [
+        "NC334",
+        "NC431"
+      ]
+    },
+    "context_profs": [
+      "R Kumar",
+      {
+        "name": "Raj Kumar",
+        "department": "CWISS",
+        "dept_code": "CW",
+        "profile_url": "https://www.iitkgp.ac.in/department/CW/staff"
+      }
+    ],
+    "solutions": [
+      "FUZZY_SEARCH"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH49201",
+      "course_name": "M.TECH SEMINAR",
+      "professors": [
+        "Abir Lal Bose",
+        "Manish Kaushal",
+        "Suverna Trivedi",
+        "Debasis Sarkar",
+        "Adhir Majumder",
+        "Madhusudan Sau"
+      ],
+      "slots": [
+        "J",
+        "L"
+      ],
+      "rooms": [
+        "NC222",
+        "NC422",
+        "NC421",
+        "NC221"
+      ]
+    },
+    "context_profs": [
+      "Abir Lal Bose"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH49201",
+      "course_name": "M.TECH SEMINAR",
+      "professors": [
+        "Abir Lal Bose",
+        "Manish Kaushal",
+        "Suverna Trivedi",
+        "Debasis Sarkar",
+        "Adhir Majumder",
+        "Madhusudan Sau"
+      ],
+      "slots": [
+        "J",
+        "L"
+      ],
+      "rooms": [
+        "NC222",
+        "NC422",
+        "NC421",
+        "NC221"
+      ]
+    },
+    "context_profs": [
+      "Adhir Majumder"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH61015",
+      "course_name": "ADVANCED MATHEMATICAL TECHNIQUES IN CHEMICAL ENGINEERING",
+      "professors": [
+        "Pintu Pratihar",
+        "Nethravathi",
+        "Jayanta Chakraborty",
+        "Saikat Biswas",
+        "Sirshendu De",
+        "Subhrajit Roy"
+      ],
+      "slots": [
+        "D44",
+        "D41",
+        "D43",
+        "D42"
+      ],
+      "rooms": [
+        "NR121"
+      ]
+    },
+    "context_profs": [
+      "Pintu Pratihar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH61015",
+      "course_name": "ADVANCED MATHEMATICAL TECHNIQUES IN CHEMICAL ENGINEERING",
+      "professors": [
+        "Pintu Pratihar",
+        "Nethravathi",
+        "Jayanta Chakraborty",
+        "Saikat Biswas",
+        "Sirshendu De",
+        "Subhrajit Roy"
+      ],
+      "slots": [
+        "D44",
+        "D41",
+        "D43",
+        "D42"
+      ],
+      "rooms": [
+        "NR121"
+      ]
+    },
+    "context_profs": [
+      "Nethravathi"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH61015",
+      "course_name": "ADVANCED MATHEMATICAL TECHNIQUES IN CHEMICAL ENGINEERING",
+      "professors": [
+        "Pintu Pratihar",
+        "Nethravathi",
+        "Jayanta Chakraborty",
+        "Saikat Biswas",
+        "Sirshendu De",
+        "Subhrajit Roy"
+      ],
+      "slots": [
+        "D44",
+        "D41",
+        "D43",
+        "D42"
+      ],
+      "rooms": [
+        "NR121"
+      ]
+    },
+    "context_profs": [
+      "Saikat Biswas"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH61015",
+      "course_name": "ADVANCED MATHEMATICAL TECHNIQUES IN CHEMICAL ENGINEERING",
+      "professors": [
+        "Pintu Pratihar",
+        "Nethravathi",
+        "Jayanta Chakraborty",
+        "Saikat Biswas",
+        "Sirshendu De",
+        "Subhrajit Roy"
+      ],
+      "slots": [
+        "D44",
+        "D41",
+        "D43",
+        "D42"
+      ],
+      "rooms": [
+        "NR121"
+      ]
+    },
+    "context_profs": [
+      "Subhrajit Roy"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62001",
+      "course_name": "OPTIMIZATION TECHNIQUES IN PROCESS DESIGN",
+      "professors": [
+        "Amandeep Jindal",
+        "Debasis Sarkar",
+        "Ummiya Qamar",
+        "Gaurav Nath"
+      ],
+      "slots": [
+        "C43",
+        "C41",
+        "C44",
+        "C42"
+      ],
+      "rooms": [
+        "NR423"
+      ]
+    },
+    "context_profs": [
+      "Ummiya Qamar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62001",
+      "course_name": "OPTIMIZATION TECHNIQUES IN PROCESS DESIGN",
+      "professors": [
+        "Amandeep Jindal",
+        "Debasis Sarkar",
+        "Ummiya Qamar",
+        "Gaurav Nath"
+      ],
+      "slots": [
+        "C43",
+        "C41",
+        "C44",
+        "C42"
+      ],
+      "rooms": [
+        "NR423"
+      ]
+    },
+    "context_profs": [
+      "Gaurav Nath"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "CH62003",
+      "course_name": "PROCESS MODELLING AND SIMULATION",
+      "professors": [
+        "Abhishek Kumar Gupta",
+        "Sourav Mondal",
+        "Mamleshwar Kumar"
+      ],
+      "slots": [
+        "C43",
+        "C41",
+        "C44",
+        "C42"
+      ],
+      "rooms": [
+        "NC322"
+      ]
+    },
+    "context_profs": [
+      {
+        "name": "Sourav Mondal",
+        "department": "Chemical Engineering",
+        "dept_code": "CH",
+        "profile_url": "https://www.iitkgp.ac.in/department/CH/faculty/ch-smondal"
+      },
+      {
+        "name": "Sourav Mondal",
+        "department": "Stores and Purchase",
+        "dept_code": "SP",
+        "profile_url": "https://www.iitkgp.ac.in/department/SP/staff"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62003",
+      "course_name": "PROCESS MODELLING AND SIMULATION",
+      "professors": [
+        "Abhishek Kumar Gupta",
+        "Sourav Mondal",
+        "Mamleshwar Kumar"
+      ],
+      "slots": [
+        "C43",
+        "C41",
+        "C44",
+        "C42"
+      ],
+      "rooms": [
+        "NC322"
+      ]
+    },
+    "context_profs": [
+      "Mamleshwar Kumar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62007",
+      "course_name": "INDUSTRIAL  POLLUTION  CONTROL",
+      "professors": [
+        "Nabanita Ghosh",
+        "Bhim Charan Meikap",
+        "Rwiddhi Sarkhel",
+        "Sonal Rajoria"
+      ],
+      "slots": [
+        "B31",
+        "B33",
+        "B32"
+      ],
+      "rooms": [
+        "NR121"
+      ]
+    },
+    "context_profs": [
+      "Nabanita Ghosh"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62007",
+      "course_name": "INDUSTRIAL  POLLUTION  CONTROL",
+      "professors": [
+        "Nabanita Ghosh",
+        "Bhim Charan Meikap",
+        "Rwiddhi Sarkhel",
+        "Sonal Rajoria"
+      ],
+      "slots": [
+        "B31",
+        "B33",
+        "B32"
+      ],
+      "rooms": [
+        "NR121"
+      ]
+    },
+    "context_profs": [
+      "Rwiddhi Sarkhel"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62007",
+      "course_name": "INDUSTRIAL  POLLUTION  CONTROL",
+      "professors": [
+        "Nabanita Ghosh",
+        "Bhim Charan Meikap",
+        "Rwiddhi Sarkhel",
+        "Sonal Rajoria"
+      ],
+      "slots": [
+        "B31",
+        "B33",
+        "B32"
+      ],
+      "rooms": [
+        "NR121"
+      ]
+    },
+    "context_profs": [
+      "Sonal Rajoria"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62009",
+      "course_name": "PETROLEUM REFINERY ENGINEERING",
+      "professors": [
+        "Koustuv Ray",
+        "Linkon Bharali",
+        "Jitendra Kumar Prabhakar",
+        "Supongsenla Ao",
+        "Sonali Sengupta"
+      ],
+      "slots": [
+        "G32",
+        "G33",
+        "G31"
+      ],
+      "rooms": [
+        "NC243"
+      ]
+    },
+    "context_profs": [
+      "Linkon Bharali"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62009",
+      "course_name": "PETROLEUM REFINERY ENGINEERING",
+      "professors": [
+        "Koustuv Ray",
+        "Linkon Bharali",
+        "Jitendra Kumar Prabhakar",
+        "Supongsenla Ao",
+        "Sonali Sengupta"
+      ],
+      "slots": [
+        "G32",
+        "G33",
+        "G31"
+      ],
+      "rooms": [
+        "NC243"
+      ]
+    },
+    "context_profs": [
+      "Jitendra Kumar Prabhakar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62009",
+      "course_name": "PETROLEUM REFINERY ENGINEERING",
+      "professors": [
+        "Koustuv Ray",
+        "Linkon Bharali",
+        "Jitendra Kumar Prabhakar",
+        "Supongsenla Ao",
+        "Sonali Sengupta"
+      ],
+      "slots": [
+        "G32",
+        "G33",
+        "G31"
+      ],
+      "rooms": [
+        "NC243"
+      ]
+    },
+    "context_profs": [
+      "Supongsenla Ao"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62016",
+      "course_name": "CHEMICAL REACTOR ANALYSIS",
+      "professors": [
+        "Bhaskar Bhaduri",
+        "Abir Lal Bose",
+        "Abhishek Bansal",
+        "Sarathkumar Sankar",
+        "Golam Rosul Khan",
+        "Madhusudan Sau"
+      ],
+      "slots": [
+        "F41",
+        "F44",
+        "F43",
+        "F42"
+      ],
+      "rooms": [
+        "NC342"
+      ]
+    },
+    "context_profs": [
+      "Abir Lal Bose"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62016",
+      "course_name": "CHEMICAL REACTOR ANALYSIS",
+      "professors": [
+        "Bhaskar Bhaduri",
+        "Abir Lal Bose",
+        "Abhishek Bansal",
+        "Sarathkumar Sankar",
+        "Golam Rosul Khan",
+        "Madhusudan Sau"
+      ],
+      "slots": [
+        "F41",
+        "F44",
+        "F43",
+        "F42"
+      ],
+      "rooms": [
+        "NC342"
+      ]
+    },
+    "context_profs": [
+      "Abhishek Bansal"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62016",
+      "course_name": "CHEMICAL REACTOR ANALYSIS",
+      "professors": [
+        "Bhaskar Bhaduri",
+        "Abir Lal Bose",
+        "Abhishek Bansal",
+        "Sarathkumar Sankar",
+        "Golam Rosul Khan",
+        "Madhusudan Sau"
+      ],
+      "slots": [
+        "F41",
+        "F44",
+        "F43",
+        "F42"
+      ],
+      "rooms": [
+        "NC342"
+      ]
+    },
+    "context_profs": [
+      "Sarathkumar Sankar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62016",
+      "course_name": "CHEMICAL REACTOR ANALYSIS",
+      "professors": [
+        "Bhaskar Bhaduri",
+        "Abir Lal Bose",
+        "Abhishek Bansal",
+        "Sarathkumar Sankar",
+        "Golam Rosul Khan",
+        "Madhusudan Sau"
+      ],
+      "slots": [
+        "F41",
+        "F44",
+        "F43",
+        "F42"
+      ],
+      "rooms": [
+        "NC342"
+      ]
+    },
+    "context_profs": [
+      "Golam Rosul Khan"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62021",
+      "course_name": "MULTIPHASE FLOW",
+      "professors": [
+        "Gargi Das",
+        "Anomitra Chakraborty",
+        "Joydip Chaudhuri"
+      ],
+      "slots": [
+        "F41",
+        "F44",
+        "F43",
+        "F42"
+      ],
+      "rooms": [
+        "NC221"
+      ]
+    },
+    "context_profs": [
+      "Anomitra Chakraborty"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62047",
+      "course_name": "CFD APPLICATIONS IN CHEMICAL PROCESSING",
+      "professors": [
+        "Sudipto Chakraborty",
+        "Anita Zade",
+        "Avik Saha"
+      ],
+      "slots": [
+        "F41",
+        "F44",
+        "F43",
+        "F42"
+      ],
+      "rooms": [
+        "NC422"
+      ]
+    },
+    "context_profs": [
+      "Anita Zade"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62047",
+      "course_name": "CFD APPLICATIONS IN CHEMICAL PROCESSING",
+      "professors": [
+        "Sudipto Chakraborty",
+        "Anita Zade",
+        "Avik Saha"
+      ],
+      "slots": [
+        "F41",
+        "F44",
+        "F43",
+        "F42"
+      ],
+      "rooms": [
+        "NC422"
+      ]
+    },
+    "context_profs": [
+      "Avik Saha",
+      {
+        "name": "Amit Saha",
+        "department": "Gymkhana",
+        "dept_code": "GY",
+        "profile_url": "https://www.iitkgp.ac.in/department/GY/staff"
+      }
+    ],
+    "solutions": [
+      "FUZZY_SEARCH"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62049",
+      "course_name": "MICROSCALE TRANSPORT PROCESSES",
+      "professors": [
+        "Sunando Dasgupta",
+        "Somenath Ganguly",
+        "Sultan Ahmed",
+        "Writtick Pakhira"
+      ],
+      "slots": [
+        "B31",
+        "B33",
+        "B32"
+      ],
+      "rooms": [
+        "NC141"
+      ]
+    },
+    "context_profs": [
+      "Sultan Ahmed",
+      {
+        "name": "Tutan Ahmed",
+        "department": "Vinod Gupta School of Management",
+        "dept_code": "BM",
+        "profile_url": "https://www.iitkgp.ac.in/department/BM/faculty/bm-tutan"
+      }
+    ],
+    "solutions": [
+      "FUZZY_SEARCH"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH62049",
+      "course_name": "MICROSCALE TRANSPORT PROCESSES",
+      "professors": [
+        "Sunando Dasgupta",
+        "Somenath Ganguly",
+        "Sultan Ahmed",
+        "Writtick Pakhira"
+      ],
+      "slots": [
+        "B31",
+        "B33",
+        "B32"
+      ],
+      "rooms": [
+        "NC141"
+      ]
+    },
+    "context_profs": [
+      "Writtick Pakhira"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69002",
+      "course_name": "SEMINAR-II",
+      "professors": [
+        "Sunandini Swain",
+        "Monojit Chakraborty",
+        "Abhishek Kumar Gupta",
+        "Sadhak Khanna",
+        "Sudip Das",
+        "Swathi Thottathil",
+        "Madhusudan Sau"
+      ],
+      "slots": [
+        "J",
+        "L"
+      ],
+      "rooms": [
+        "NR123"
+      ]
+    },
+    "context_profs": [
+      "Sunandini Swain"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69002",
+      "course_name": "SEMINAR-II",
+      "professors": [
+        "Sunandini Swain",
+        "Monojit Chakraborty",
+        "Abhishek Kumar Gupta",
+        "Sadhak Khanna",
+        "Sudip Das",
+        "Swathi Thottathil",
+        "Madhusudan Sau"
+      ],
+      "slots": [
+        "J",
+        "L"
+      ],
+      "rooms": [
+        "NR123"
+      ]
+    },
+    "context_profs": [
+      "Sadhak Khanna"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69002",
+      "course_name": "SEMINAR-II",
+      "professors": [
+        "Sunandini Swain",
+        "Monojit Chakraborty",
+        "Abhishek Kumar Gupta",
+        "Sadhak Khanna",
+        "Sudip Das",
+        "Swathi Thottathil",
+        "Madhusudan Sau"
+      ],
+      "slots": [
+        "J",
+        "L"
+      ],
+      "rooms": [
+        "NR123"
+      ]
+    },
+    "context_profs": [
+      "Swathi Thottathil"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69003",
+      "course_name": "DESIGN /PROJECT",
+      "professors": [
+        "Amiya Kumar Jana",
+        "Bogeshwaran Karunanithi",
+        "Nethravathi",
+        "Sourav Mondal",
+        "Gaurav Nath",
+        "Sirshendu De",
+        "Subhrajit Roy",
+        "Harikrishnan G",
+        "Bidesh Kumar Hembram"
+      ],
+      "slots": [
+        "J",
+        "L"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Bogeshwaran Karunanithi"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69003",
+      "course_name": "DESIGN /PROJECT",
+      "professors": [
+        "Amiya Kumar Jana",
+        "Bogeshwaran Karunanithi",
+        "Nethravathi",
+        "Sourav Mondal",
+        "Gaurav Nath",
+        "Sirshendu De",
+        "Subhrajit Roy",
+        "Harikrishnan G",
+        "Bidesh Kumar Hembram"
+      ],
+      "slots": [
+        "J",
+        "L"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Nethravathi"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "CH69003",
+      "course_name": "DESIGN /PROJECT",
+      "professors": [
+        "Amiya Kumar Jana",
+        "Bogeshwaran Karunanithi",
+        "Nethravathi",
+        "Sourav Mondal",
+        "Gaurav Nath",
+        "Sirshendu De",
+        "Subhrajit Roy",
+        "Harikrishnan G",
+        "Bidesh Kumar Hembram"
+      ],
+      "slots": [
+        "J",
+        "L"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      {
+        "name": "Sourav Mondal",
+        "department": "Chemical Engineering",
+        "dept_code": "CH",
+        "profile_url": "https://www.iitkgp.ac.in/department/CH/faculty/ch-smondal"
+      },
+      {
+        "name": "Sourav Mondal",
+        "department": "Stores and Purchase",
+        "dept_code": "SP",
+        "profile_url": "https://www.iitkgp.ac.in/department/SP/staff"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69003",
+      "course_name": "DESIGN /PROJECT",
+      "professors": [
+        "Amiya Kumar Jana",
+        "Bogeshwaran Karunanithi",
+        "Nethravathi",
+        "Sourav Mondal",
+        "Gaurav Nath",
+        "Sirshendu De",
+        "Subhrajit Roy",
+        "Harikrishnan G",
+        "Bidesh Kumar Hembram"
+      ],
+      "slots": [
+        "J",
+        "L"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Gaurav Nath"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69003",
+      "course_name": "DESIGN /PROJECT",
+      "professors": [
+        "Amiya Kumar Jana",
+        "Bogeshwaran Karunanithi",
+        "Nethravathi",
+        "Sourav Mondal",
+        "Gaurav Nath",
+        "Sirshendu De",
+        "Subhrajit Roy",
+        "Harikrishnan G",
+        "Bidesh Kumar Hembram"
+      ],
+      "slots": [
+        "J",
+        "L"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Subhrajit Roy"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69003",
+      "course_name": "DESIGN /PROJECT",
+      "professors": [
+        "Amiya Kumar Jana",
+        "Bogeshwaran Karunanithi",
+        "Nethravathi",
+        "Sourav Mondal",
+        "Gaurav Nath",
+        "Sirshendu De",
+        "Subhrajit Roy",
+        "Harikrishnan G",
+        "Bidesh Kumar Hembram"
+      ],
+      "slots": [
+        "J",
+        "L"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Bidesh Kumar Hembram"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Indrajit Das",
+      {
+        "name": "Indrasis Das",
+        "department": "School of Water Resources",
+        "dept_code": "WM",
+        "profile_url": "https://www.iitkgp.ac.in/department/WM/faculty/wm-indrasisdas"
+      }
+    ],
+    "solutions": [
+      "FUZZY_SEARCH"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      {
+        "name": "Sourav Mondal",
+        "department": "Chemical Engineering",
+        "dept_code": "CH",
+        "profile_url": "https://www.iitkgp.ac.in/department/CH/faculty/ch-smondal"
+      },
+      {
+        "name": "Sourav Mondal",
+        "department": "Stores and Purchase",
+        "dept_code": "SP",
+        "profile_url": "https://www.iitkgp.ac.in/department/SP/staff"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Kaniska Murmu"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Neetu Bora"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Aatrayee Das"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Abhishek Kumar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Ajay Kumar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Pranay Rajendra Chandewar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Bidesh Kumar Hembram"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Sonal Rajoria"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Prateekshya Suman Sahu"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Sayantan Sarkar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Abhishek Bansal"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Manash Pratim Nath"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Md Jahiruddin Gazi"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Aman Singh Rajpoot"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Jitendra Kumar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CH69005",
+      "course_name": "LABORATORY",
+      "professors": [
+        "Indrajit Das",
+        "Amiya Kumar Jana",
+        "Jayanta Chakraborty",
+        "Sourav Mondal",
+        "Kaniska Murmu",
+        "Neetu Bora",
+        "Debasis Sarkar",
+        "Bhim Charan Meikap",
+        "Aatrayee Das",
+        "Abhishek Kumar",
+        "Ajay Kumar",
+        "Pranay Rajendra Chandewar",
+        "Bidesh Kumar Hembram",
+        "Sonal Rajoria",
+        "Bhaskar Bhaduri",
+        "Prateekshya Suman Sahu",
+        "Sayantan Sarkar",
+        "Abhishek Bansal",
+        "Ananta Kumar Sarkar",
+        "Manash Pratim Nath",
+        "Joydip Chaudhuri",
+        "Md Jahiruddin Gazi",
+        "Aman Singh Rajpoot",
+        "Sirshendu De",
+        "Jitendra Kumar",
+        "Anil Kumar",
+        "Eswararao Yalla"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Eswararao Yalla"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CS19003",
+      "course_name": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+      "professors": [
+        "Soumya Kanti Ghosh",
+        "Soumyajit Dey",
+        "Bidisha Dhara",
+        "Sushree Padhan",
+        "Ayan Chaudhury",
+        "Argha Sen",
+        "Saptarshi Ghosh",
+        "Shamik Sural",
+        "Pralay Mitra",
+        "Monosij Maitra",
+        "Utsa Roy",
+        "Ritesh Sarkhel",
+        "Jayanta Mukhopadhyay",
+        "Partha Pratim Chakrabarti",
+        "Chittaranjan Mandal",
+        "Satyabrat Rath"
+      ],
+      "slots": [
+        "N",
+        "K",
+        "J",
+        "X",
+        "P",
+        "L"
+      ],
+      "rooms": [
+        "In PC Lab",
+        "In the PC Labs"
+      ]
+    },
+    "context_profs": [
+      "Bidisha Dhara"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CS19003",
+      "course_name": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+      "professors": [
+        "Soumya Kanti Ghosh",
+        "Soumyajit Dey",
+        "Bidisha Dhara",
+        "Sushree Padhan",
+        "Ayan Chaudhury",
+        "Argha Sen",
+        "Saptarshi Ghosh",
+        "Shamik Sural",
+        "Pralay Mitra",
+        "Monosij Maitra",
+        "Utsa Roy",
+        "Ritesh Sarkhel",
+        "Jayanta Mukhopadhyay",
+        "Partha Pratim Chakrabarti",
+        "Chittaranjan Mandal",
+        "Satyabrat Rath"
+      ],
+      "slots": [
+        "N",
+        "K",
+        "J",
+        "X",
+        "P",
+        "L"
+      ],
+      "rooms": [
+        "In PC Lab",
+        "In the PC Labs"
+      ]
+    },
+    "context_profs": [
+      "Sushree Padhan"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CS19003",
+      "course_name": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+      "professors": [
+        "Soumya Kanti Ghosh",
+        "Soumyajit Dey",
+        "Bidisha Dhara",
+        "Sushree Padhan",
+        "Ayan Chaudhury",
+        "Argha Sen",
+        "Saptarshi Ghosh",
+        "Shamik Sural",
+        "Pralay Mitra",
+        "Monosij Maitra",
+        "Utsa Roy",
+        "Ritesh Sarkhel",
+        "Jayanta Mukhopadhyay",
+        "Partha Pratim Chakrabarti",
+        "Chittaranjan Mandal",
+        "Satyabrat Rath"
+      ],
+      "slots": [
+        "N",
+        "K",
+        "J",
+        "X",
+        "P",
+        "L"
+      ],
+      "rooms": [
+        "In PC Lab",
+        "In the PC Labs"
+      ]
+    },
+    "context_profs": [
+      "Argha Sen"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CS19003",
+      "course_name": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+      "professors": [
+        "Soumya Kanti Ghosh",
+        "Soumyajit Dey",
+        "Bidisha Dhara",
+        "Sushree Padhan",
+        "Ayan Chaudhury",
+        "Argha Sen",
+        "Saptarshi Ghosh",
+        "Shamik Sural",
+        "Pralay Mitra",
+        "Monosij Maitra",
+        "Utsa Roy",
+        "Ritesh Sarkhel",
+        "Jayanta Mukhopadhyay",
+        "Partha Pratim Chakrabarti",
+        "Chittaranjan Mandal",
+        "Satyabrat Rath"
+      ],
+      "slots": [
+        "N",
+        "K",
+        "J",
+        "X",
+        "P",
+        "L"
+      ],
+      "rooms": [
+        "In PC Lab",
+        "In the PC Labs"
+      ]
+    },
+    "context_profs": [
+      "Utsa Roy",
+      {
+        "name": "Lisa Roy",
+        "department": "Education",
+        "dept_code": "SD",
+        "profile_url": "https://www.iitkgp.ac.in/department/SD/faculty/sd-l.roy"
+      }
+    ],
+    "solutions": [
+      "FUZZY_SEARCH"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CS19003",
+      "course_name": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+      "professors": [
+        "Soumya Kanti Ghosh",
+        "Soumyajit Dey",
+        "Bidisha Dhara",
+        "Sushree Padhan",
+        "Ayan Chaudhury",
+        "Argha Sen",
+        "Saptarshi Ghosh",
+        "Shamik Sural",
+        "Pralay Mitra",
+        "Monosij Maitra",
+        "Utsa Roy",
+        "Ritesh Sarkhel",
+        "Jayanta Mukhopadhyay",
+        "Partha Pratim Chakrabarti",
+        "Chittaranjan Mandal",
+        "Satyabrat Rath"
+      ],
+      "slots": [
+        "N",
+        "K",
+        "J",
+        "X",
+        "P",
+        "L"
+      ],
+      "rooms": [
+        "In PC Lab",
+        "In the PC Labs"
+      ]
+    },
+    "context_profs": [
+      "Satyabrat Rath"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "CS31003",
+      "course_name": "COMPILERS",
+      "professors": [
+        "Aritra Hazra",
+        "Abhijit Das"
+      ],
+      "slots": [
+        "D32",
+        "D33",
+        "D31"
+      ],
+      "rooms": [
+        "NC242",
+        "NC241"
+      ]
+    },
+    "context_profs": [
+      {
+        "name": "Abhijit Das",
+        "department": "Bioscience and Biotechnology",
+        "dept_code": "BT",
+        "profile_url": "https://www.iitkgp.ac.in/department/BT/faculty/bt-abhijit.das"
+      },
+      {
+        "name": "Abhijit Das",
+        "department": "Computer Science and Engineering",
+        "dept_code": "CS",
+        "profile_url": "https://www.iitkgp.ac.in/department/CS/faculty/cs-abhij"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "CS39001",
+      "course_name": "COMPUTER ORGANIZATION LABORATORY",
+      "professors": [
+        "Shuvodip Maitra",
+        "Debdeep Mukhopadhyay",
+        "Indranil Sengupta",
+        "Sarani Bhattacharya"
+      ],
+      "slots": [
+        "J",
+        "X41",
+        "X42",
+        "X43"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Shuvodip Maitra"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "CS39003",
+      "course_name": "COMPILERS LABORATORY",
+      "professors": [
+        "Aritra Hazra",
+        "Abhijit Das"
+      ],
+      "slots": [
+        "L"
+      ],
+      "rooms": []
     },
     "context_profs": [
       {
@@ -887,15 +3854,13 @@
       "MULTINAME"
     ],
     "context_course": {
-      "code": "EC29204",
-      "course_name": "COMMUNICATION-I LABORATORY",
+      "code": "EC39002",
+      "course_name": "DIGITAL COMMUNICATION LABORATORY",
       "professors": [
-        "Goutam Das",
-        "Amit Kumar Dutta",
-        "Debarati Sen"
+        "Amitalok Jayant Budkuley",
+        "Goutam Das"
       ],
       "slots": [
-        "P",
         "N"
       ],
       "rooms": []
@@ -929,19 +3894,99 @@
       "MULTINAME"
     ],
     "context_course": {
-      "code": "EC31203",
-      "course_name": "COMMUNICATION-I",
+      "code": "EC39203",
+      "course_name": "COMMUNICATION-II LABORATORY",
+      "professors": [
+        "Amitalok Jayant Budkuley",
+        "Goutam Das",
+        "Amit Kumar Dutta"
+      ],
+      "slots": [
+        "N",
+        "L"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      {
+        "name": "Goutam Das",
+        "department": "Electronics and Electrical Communication Engg.",
+        "dept_code": "EC",
+        "profile_url": "https://www.iitkgp.ac.in/department/EC/faculty/ec-gdas"
+      },
+      {
+        "name": "Goutam Das",
+        "department": "Deans Office",
+        "dept_code": "DN",
+        "profile_url": "https://www.iitkgp.ac.in/department/DN/staff"
+      },
+      {
+        "name": "Goutam Das",
+        "department": "Civil Construction and Maintenance",
+        "dept_code": "EV",
+        "profile_url": "https://www.iitkgp.ac.in/department/EV/staff"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "EC60069",
+      "course_name": "DIGITAL SYSTEM TESTING & TESTABLE DESIGN",
+      "professors": [
+        "Santanu Chattopadhyay"
+      ],
+      "slots": [
+        "S31",
+        "B31",
+        "B33",
+        "B32"
+      ],
+      "rooms": [
+        "NC322"
+      ]
+    },
+    "context_profs": [
+      {
+        "name": "Santanu Chattopadhyay",
+        "department": "Electronics and Electrical Communication Engg.",
+        "dept_code": "EC",
+        "profile_url": "https://www.iitkgp.ac.in/department/EC/faculty/ec-santanu"
+      },
+      {
+        "name": "Santanu Chattopadhyay",
+        "department": "Rubber Technology",
+        "dept_code": "RT",
+        "profile_url": "https://www.iitkgp.ac.in/department/RT/faculty/rt-santanu"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "EC61205",
+      "course_name": "COMMUNICATION NETWORKS",
       "professors": [
         "Goutam Das"
       ],
       "slots": [
-        "E41",
-        "E44",
-        "E43",
-        "E42"
+        "F41",
+        "F44",
+        "F43",
+        "F42"
       ],
       "rooms": [
-        "NR312"
+        "R32"
       ]
     },
     "context_profs": [
@@ -973,16 +4018,344 @@
       "MULTINAME"
     ],
     "context_course": {
-      "code": "EC39001",
-      "course_name": "ANALOG COMMUNICATIONS LAB.",
+      "code": "EC69207",
+      "course_name": "SEMINAR-I",
       "professors": [
+        "Ankush Bag",
+        "Santanu Chattopadhyay"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": [
+        "A12"
+      ]
+    },
+    "context_profs": [
+      {
+        "name": "Santanu Chattopadhyay",
+        "department": "Electronics and Electrical Communication Engg.",
+        "dept_code": "EC",
+        "profile_url": "https://www.iitkgp.ac.in/department/EC/faculty/ec-santanu"
+      },
+      {
+        "name": "Santanu Chattopadhyay",
+        "department": "Rubber Technology",
+        "dept_code": "RT",
+        "profile_url": "https://www.iitkgp.ac.in/department/RT/faculty/rt-santanu"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "ES60004",
+      "course_name": "ENERGY MATERIALS",
+      "professors": [
+        "Sreeraj Puravankara",
+        "Ritupurna Baishya"
+      ],
+      "slots": [
+        "U44",
+        "U43",
+        "U42",
+        "U41"
+      ],
+      "rooms": [
+        "NC244"
+      ]
+    },
+    "context_profs": [
+      "Ritupurna Baishya"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "ES60201",
+      "course_name": "THERMAL ENGINEERING FOR ENERGY TRANSITION",
+      "professors": [
+        "Vinay Arya",
+        "Chirodeep Bakli",
+        "Bikash Pattanayak"
+      ],
+      "slots": [
+        "F33",
+        "F32",
+        "F31"
+      ],
+      "rooms": [
+        "NC242"
+      ]
+    },
+    "context_profs": [
+      "Vinay Arya"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "ES60201",
+      "course_name": "THERMAL ENGINEERING FOR ENERGY TRANSITION",
+      "professors": [
+        "Vinay Arya",
+        "Chirodeep Bakli",
+        "Bikash Pattanayak"
+      ],
+      "slots": [
+        "F33",
+        "F32",
+        "F31"
+      ],
+      "rooms": [
+        "NC242"
+      ]
+    },
+    "context_profs": [
+      "Bikash Pattanayak"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "ES61207",
+      "course_name": "BATTERY STORAGE & FUEL CELLS",
+      "professors": [
+        "Sayan Majumder",
+        "Sreeraj Puravankara",
+        "Ritupurna Baishya",
+        "Mayur Prakash Bonkile"
+      ],
+      "slots": [
+        "E43",
+        "E42",
+        "E44",
+        "E41"
+      ],
+      "rooms": [
+        "NC242"
+      ]
+    },
+    "context_profs": [
+      "Sayan Majumder"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "ES61207",
+      "course_name": "BATTERY STORAGE & FUEL CELLS",
+      "professors": [
+        "Sayan Majumder",
+        "Sreeraj Puravankara",
+        "Ritupurna Baishya",
+        "Mayur Prakash Bonkile"
+      ],
+      "slots": [
+        "E43",
+        "E42",
+        "E44",
+        "E41"
+      ],
+      "rooms": [
+        "NC242"
+      ]
+    },
+    "context_profs": [
+      "Ritupurna Baishya"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "ES61209",
+      "course_name": "BIOENERGY RESOURCES AND TECHNOLOGIES",
+      "professors": [
+        "Amit Ghosh",
+        "G Rajeswari",
+        "Riddhiman Dhar"
+      ],
+      "slots": [
+        "C43",
+        "C41",
+        "C44",
+        "C42"
+      ],
+      "rooms": [
+        "NC222"
+      ]
+    },
+    "context_profs": [
+      "G Rajeswari"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "GG30217",
+      "course_name": "ENGINEERING GEOLOGY",
+      "professors": [
+        "Arindam Basu"
+      ],
+      "slots": [
+        "D32",
+        "D33",
+        "D31"
+      ],
+      "rooms": [
+        "NC322"
+      ]
+    },
+    "context_profs": [
+      {
+        "name": "Arindam Basu",
+        "department": "Geology and Geophysics",
+        "dept_code": "GG",
+        "profile_url": "https://www.iitkgp.ac.in/department/GG/faculty/gg-abasu"
+      },
+      {
+        "name": "Arindam Basu",
+        "department": "Rajiv Gandhi School of Intellectual Property Law",
+        "dept_code": "IP",
+        "profile_url": "https://www.iitkgp.ac.in/department/IP/faculty/ip-arindam"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "GG39211",
+      "course_name": "ENGINEERING GEOLOGY LAB.",
+      "professors": [
+        "Arindam Basu"
+      ],
+      "slots": [
+        "N"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      {
+        "name": "Arindam Basu",
+        "department": "Geology and Geophysics",
+        "dept_code": "GG",
+        "profile_url": "https://www.iitkgp.ac.in/department/GG/faculty/gg-abasu"
+      },
+      {
+        "name": "Arindam Basu",
+        "department": "Rajiv Gandhi School of Intellectual Property Law",
+        "dept_code": "IP",
+        "profile_url": "https://www.iitkgp.ac.in/department/IP/faculty/ip-arindam"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "GG52020",
+      "course_name": "ENGINEERING GEOLOGY",
+      "professors": [
+        "Arindam Basu"
+      ],
+      "slots": [
+        "D32",
+        "D33",
+        "D31"
+      ],
+      "rooms": [
+        "NC322"
+      ]
+    },
+    "context_profs": [
+      {
+        "name": "Arindam Basu",
+        "department": "Geology and Geophysics",
+        "dept_code": "GG",
+        "profile_url": "https://www.iitkgp.ac.in/department/GG/faculty/gg-abasu"
+      },
+      {
+        "name": "Arindam Basu",
+        "department": "Rajiv Gandhi School of Intellectual Property Law",
+        "dept_code": "IP",
+        "profile_url": "https://www.iitkgp.ac.in/department/IP/faculty/ip-arindam"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "GS67123",
+      "course_name": "PROJECT - 2",
+      "professors": [
+        "Debarati Sen",
+        "Aneek Adhya",
+        "Saswat Chakrabarti",
+        "Suvra Sekhar Das",
         "Goutam Das",
         "Amit Kumar Dutta"
       ],
       "slots": [
         "P"
       ],
-      "rooms": []
+      "rooms": [
+        "GSMSPL"
+      ]
     },
     "context_profs": [
       {
@@ -1005,164 +4378,185 @@
       }
     ],
     "solutions": [
-      "DEP_PRIORITY"
+      "SKIP"
     ]
   },
   {
     "reasons": [
-      "MULTINAME"
+      "TYPO"
     ],
     "context_course": {
-      "code": "GG60214",
-      "course_name": "ENGINEERING PROPERTIES OF ROCKS AND SOILS",
+      "code": "GS68121",
+      "course_name": "SUMMER INTERNSHIP",
       "professors": [
-        "Arindam Basu"
+        "Amit Sravan Bora",
+        "Rashmi .P"
       ],
       "slots": [
-        "E32",
-        "E33",
-        "E31"
+        "N"
       ],
       "rooms": [
-        "S-125"
+        "GSMSPL"
       ]
     },
     "context_profs": [
-      {
-        "name": "Arindam Basu",
-        "department": "Rajiv Gandhi School of Intellectual Property Law",
-        "dept_code": "IP",
-        "profile_url": "https://www.iitkgp.ac.in/department/IP/faculty/ip-arindam"
-      },
-      {
-        "name": "Arindam Basu",
-        "department": "Geology and Geophysics",
-        "dept_code": "GG",
-        "profile_url": "https://www.iitkgp.ac.in/department/GG/faculty/gg-abasu"
-      }
+      "Rashmi .P"
     ],
     "solutions": [
-      "DEP_PRIORITY"
+      "FUZZY_SEARCH",
+      "SKIP"
     ]
   },
   {
     "reasons": [
-      "MULTINAME"
+      "TYPO"
     ],
     "context_course": {
-      "code": "GS67122",
-      "course_name": "PROJECT - 1",
+      "code": "ID69045",
+      "course_name": "SEMINAR",
       "professors": [
-        "Saswat Chakrabarti",
-        "Aneek Adhya",
-        "Amit Kumar Dutta",
-        "Suvra Sekhar Das",
-        "Goutam Das",
-        "Debarati Sen"
+        "Deepanjan Majumdar",
+        "Sharma Gajanand Santoshkumar"
+      ],
+      "slots": [
+        "J"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Deepanjan Majumdar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "ID69201",
+      "course_name": "INFRASTRUCTURE PERFORMANCE AND MANAGEMENT WORKSHOP",
+      "professors": [
+        "Deepanjan Majumdar",
+        "Ankhi Banerjee"
+      ],
+      "slots": [
+        "L"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Deepanjan Majumdar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "MA30241",
+      "course_name": "COMPUTATIONAL LINEAR ALGEBRA",
+      "professors": [
+        "Sougata Mandal",
+        "Swanand Ravindra Khare"
+      ],
+      "slots": [
+        "G32",
+        "G33",
+        "G31"
+      ],
+      "rooms": [
+        "NR323"
+      ]
+    },
+    "context_profs": [
+      "Sougata Mandal"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "MA30247",
+      "course_name": "FINANCIAL MATHEMATICS",
+      "professors": [
+        "Nitin Gupta",
+        "Surojit Biswas"
+      ],
+      "slots": [
+        "F33",
+        "F32",
+        "F31"
+      ],
+      "rooms": [
+        "NR321"
+      ]
+    },
+    "context_profs": [
+      "Surojit Biswas"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "MA39209",
+      "course_name": "STATISTICS SOFTWARE LAB",
+      "professors": [
+        "Rakesh Jana",
+        "Arindam Banerjee"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": [
+        "New Lab"
+      ]
+    },
+    "context_profs": [
+      "Rakesh Jana"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "MA49207",
+      "course_name": "NONLINEAR PROGRAMMING LAB",
+      "professors": [
+        "Rakib Mondal",
+        "Debjani Chakraborty"
       ],
       "slots": [
         "J"
       ],
       "rooms": [
-        "GSMSPL"
+        "PC_Lab-IV"
       ]
     },
     "context_profs": [
-      {
-        "name": "Goutam Das",
-        "department": "Electronics and Electrical Communication Engg.",
-        "dept_code": "EC",
-        "profile_url": "https://www.iitkgp.ac.in/department/EC/faculty/ec-gdas"
-      },
-      {
-        "name": "Goutam Das",
-        "department": "Deans Office",
-        "dept_code": "DN",
-        "profile_url": "https://www.iitkgp.ac.in/department/DN/staff"
-      },
-      {
-        "name": "Goutam Das",
-        "department": "Civil Construction and Maintenance",
-        "dept_code": "EV",
-        "profile_url": "https://www.iitkgp.ac.in/department/EV/staff"
-      }
-    ],
-    "solutions": [
-      "SKIP"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "GS67124",
-      "course_name": "PROJECT - 3",
-      "professors": [
-        "Saswat Chakrabarti",
-        "Aneek Adhya",
-        "Amit Kumar Dutta",
-        "Suvra Sekhar Das",
-        "Goutam Das",
-        "Debarati Sen"
-      ],
-      "slots": [
-        "K"
-      ],
-      "rooms": [
-        "GSMSPL"
-      ]
-    },
-    "context_profs": [
-      {
-        "name": "Goutam Das",
-        "department": "Electronics and Electrical Communication Engg.",
-        "dept_code": "EC",
-        "profile_url": "https://www.iitkgp.ac.in/department/EC/faculty/ec-gdas"
-      },
-      {
-        "name": "Goutam Das",
-        "department": "Deans Office",
-        "dept_code": "DN",
-        "profile_url": "https://www.iitkgp.ac.in/department/DN/staff"
-      },
-      {
-        "name": "Goutam Das",
-        "department": "Civil Construction and Maintenance",
-        "dept_code": "EV",
-        "profile_url": "https://www.iitkgp.ac.in/department/EV/staff"
-      }
-    ],
-    "solutions": [
-      "SKIP"
-    ]
-  },
-  {
-    "reasons": [
-      "TYPO"
-    ],
-    "context_course": {
-      "code": "ME13002",
-      "course_name": "ENGINEERING AND MACHINE DRAWING",
-      "professors": [
-        "Aswani Kumar Singh",
-        "Pabitra Badhuk",
-        "Korak Sarkar",
-        "Sanjay Gupta"
-      ],
-      "slots": [
-        "L",
-        "H33",
-        "M",
-        "F32"
-      ],
-      "rooms": [
-        "S31",
-        "S32"
-      ]
-    },
-    "context_profs": [
-      "Aswani Kumar Singh"
+      "Rakib Mondal"
     ],
     "solutions": [
       "FUZZY_SEARCH",
@@ -1174,18 +4568,54 @@
       "TYPO"
     ],
     "context_course": {
-      "code": "ME29204",
-      "course_name": "WORKSHOP PRACTICE",
+      "code": "MA60277",
+      "course_name": "FINITE ELEMENT METHOD (FEM) AND APPLICATIONS",
       "professors": [
-        "Venkata Naga Vamsi Munagala",
-        "Sushanta Kumar Panda",
+        "Gnaneshwar Nelakanti",
+        "Dibyendu Adak"
+      ],
+      "slots": [
+        "V32",
+        "V31",
+        "V33"
+      ],
+      "rooms": [
+        "N322 Dept of Mathematics"
+      ]
+    },
+    "context_profs": [
+      "Dibyendu Adak"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "ME39201",
+      "course_name": "CASTING, FORMING AND WELDING LAB",
+      "professors": [
+        "Surjya Kanta Pal",
         "Siddharth Tamang",
+        "Ajay Muljibhai Sidpara",
+        "Sushanta Kumar Panda",
+        "Venkata Naga Vamsi Munagala",
         "Aswani Kumar Singh"
       ],
       "slots": [
-        "P"
+        "N",
+        "X41",
+        "X43",
+        "P",
+        "X42"
       ],
-      "rooms": []
+      "rooms": [
+        "ME39"
+      ]
     },
     "context_profs": [
       "Aswani Kumar Singh"
@@ -1200,20 +4630,53 @@
       "TYPO"
     ],
     "context_course": {
-      "code": "ME29206",
-      "course_name": "WORKSHOP PRACTICE",
+      "code": "ME60097",
+      "course_name": "MODERN MANUFACTURING PROCESSES",
       "professors": [
+        "Asimava Roy Choudhury",
+        "Poonam Sundriyal",
         "Aswani Kumar Singh",
-        "Sushanta Kumar Panda",
-        "Siddharth Tamang",
-        "Venkata Naga Vamsi Munagala"
+        "Partha Saha"
       ],
       "slots": [
-        "L",
-        "P",
-        "N"
+        "B31",
+        "B33",
+        "S33",
+        "B32"
       ],
-      "rooms": []
+      "rooms": [
+        "NC414"
+      ]
+    },
+    "context_profs": [
+      "Aswani Kumar Singh"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "ME60233",
+      "course_name": "MANUFACTURING TECHNIQUES IN MEMS",
+      "professors": [
+        "Ajay Muljibhai Sidpara",
+        "Aswani Kumar Singh",
+        "Poonam Sundriyal"
+      ],
+      "slots": [
+        "G32",
+        "G33",
+        "S32",
+        "G31"
+      ],
+      "rooms": [
+        "NR223"
+      ]
     },
     "context_profs": [
       "Aswani Kumar Singh"
@@ -1228,19 +4691,19 @@
       "MULTINAME"
     ],
     "context_course": {
-      "code": "ME60310",
-      "course_name": "MICROFLUIDICS",
+      "code": "ME61201",
+      "course_name": "FLUID DYNAMICS",
       "professors": [
         "Suman Chakraborty"
       ],
       "slots": [
-        "F43",
-        "F44",
-        "F41",
-        "F42"
+        "D44",
+        "D41",
+        "D43",
+        "D42"
       ],
       "rooms": [
-        "NC142"
+        "NR113"
       ]
     },
     "context_profs": [
@@ -1266,23 +4729,22 @@
       "TYPO"
     ],
     "context_course": {
-      "code": "ME69145",
-      "course_name": "SEMINAR",
+      "code": "MI60246",
+      "course_name": "GEOSTATISTICS FOR RESOURCE ASSESSMENT AND UNCERTAINTY ANALYSIS",
       "professors": [
-        "Aswani Kumar Singh",
-        "Partha Saha",
-        "Venkata Naga Vamsi Munagala"
+        "Krishna Dinda"
       ],
       "slots": [
-        "N"
+        "B31",
+        "B33",
+        "B32"
       ],
       "rooms": [
-        "NR124",
-        "NR123"
+        "NC334"
       ]
     },
     "context_profs": [
-      "Aswani Kumar Singh"
+      "Krishna Dinda"
     ],
     "solutions": [
       "FUZZY_SEARCH",
@@ -1294,11 +4756,550 @@
       "TYPO"
     ],
     "context_course": {
-      "code": "PH30210",
-      "course_name": "NUCLEAR PHYSICS",
+      "code": "MI69201",
+      "course_name": "DATA ANALYTICS AND MACHINE LEARNING LABORATORY",
       "professors": [
-        "Gholam Wahid Shaikh",
-        "Ajay Kumar Singh"
+        "Biswajit Samanta",
+        "Krishna Dinda",
+        "Debashish Chakravarty"
+      ],
+      "slots": [
+        "P"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Krishna Dinda"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "MM10001",
+      "course_name": "BASIC HUMAN ANATOMY & PHYSIOLOGY",
+      "professors": [
+        "Mahitosh Mandal",
+        "Kartik Chandra Guchhait",
+        "Nishant Chakravorty",
+        "Praphulla Chandra Shukla"
+      ],
+      "slots": [
+        "F33",
+        "F32",
+        "F31"
+      ],
+      "rooms": [
+        "NR113"
+      ]
+    },
+    "context_profs": [
+      "Kartik Chandra Guchhait"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "MM40201",
+      "course_name": "ANATOMY, PHYSIOLOGY, TUMOUR PATHOLOGY, AND GENETICS",
+      "professors": [
+        "Mahitosh Mandal",
+        "Kartik Chandra Guchhait",
+        "Nishant Chakravorty",
+        "Praphulla Chandra Shukla"
+      ],
+      "slots": [
+        "F41",
+        "F44",
+        "F43",
+        "F42"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Kartik Chandra Guchhait"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "MM41205",
+      "course_name": "HUMAN ANATOMY & PHYSIOLOGY FOR NUCLEAR MEDICINE",
+      "professors": [
+        "Mahitosh Mandal",
+        "Kartik Chandra Guchhait",
+        "Nishant Chakravorty",
+        "Praphulla Chandra Shukla"
+      ],
+      "slots": [
+        "F41",
+        "F44",
+        "F43",
+        "F42"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Kartik Chandra Guchhait"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "MM60003",
+      "course_name": "PROTEOMICS AND METABOLOMICS IN HEALTH AND DISEASE",
+      "professors": [
+        "Hemanth Vikram P R",
+        "Koel Chaudhury"
+      ],
+      "slots": [
+        "D32",
+        "D33",
+        "D31"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Hemanth Vikram P R"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "MM61313",
+      "course_name": "MEDICAL BIOTECHNOLOGY",
+      "professors": [
+        "Mahitosh Mandal",
+        "Shikha Thakur",
+        "Gayatri Mukherjee"
+      ],
+      "slots": [
+        "E43",
+        "E42",
+        "E44",
+        "E41"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Shikha Thakur"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "MM61501",
+      "course_name": "BASIC HUMAN ANATOMY, PHYSIOLOGY AND PATHOLOGY",
+      "professors": [
+        "Mahitosh Mandal",
+        "Kartik Chandra Guchhait",
+        "Nishant Chakravorty",
+        "Praphulla Chandra Shukla"
+      ],
+      "slots": [
+        "F41",
+        "F44",
+        "F43",
+        "F42"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Kartik Chandra Guchhait"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "MM61509",
+      "course_name": "MEMS AND BIOSENSORS",
+      "professors": [
+        "Bikramdeb Chakraborty",
+        "Gorachand Dutta",
+        "Soumen Das"
+      ],
+      "slots": [
+        "C43",
+        "C41",
+        "C44",
+        "C42"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Bikramdeb Chakraborty"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "MM69201",
+      "course_name": "MEDICAL BIOTECHNOLOGY LABORATORY",
+      "professors": [
+        "Mahitosh Mandal",
+        "Kartik Chandra Guchhait",
+        "Budhaditya Mukherjee",
+        "Gayatri Mukherjee"
+      ],
+      "slots": [
+        "X"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Kartik Chandra Guchhait"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "MM71315",
+      "course_name": "FUNDAMENTALS OF MEDICAL INSTRUMENTS",
+      "professors": [
+        "Bikramdeb Chakraborty",
+        "Koel Chaudhury"
+      ],
+      "slots": [
+        "V43",
+        "V42",
+        "V44",
+        "V41"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Bikramdeb Chakraborty"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "PH41207",
+      "course_name": "SOLID STATE PHYSICS AND RADIATION DETECTORS",
+      "professors": [
+        "Anushree Roy",
+        "Gholam Wahid Shaikh"
+      ],
+      "slots": [
+        "E43",
+        "E42",
+        "E44",
+        "E41"
+      ],
+      "rooms": [
+        "C226"
+      ]
+    },
+    "context_profs": [
+      "Gholam Wahid Shaikh"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "PH49205",
+      "course_name": "ELECTRONICS AND RADIATION INSTRUMENTATION LAB",
+      "professors": [
+        "Rickmoy Samanta",
+        "Gholam Wahid Shaikh"
+      ],
+      "slots": [
+        "N",
+        "X41",
+        "X42",
+        "X43"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      "Gholam Wahid Shaikh"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "RT60003",
+      "course_name": "RUBBERS COMPOUNDING AND REINFORCING MATERIALS",
+      "professors": [
+        "Santanu Chattopadhyay",
+        "Narayan Chandra Das"
+      ],
+      "slots": [
+        "D44",
+        "D41",
+        "D43",
+        "D42"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      {
+        "name": "Santanu Chattopadhyay",
+        "department": "Electronics and Electrical Communication Engg.",
+        "dept_code": "EC",
+        "profile_url": "https://www.iitkgp.ac.in/department/EC/faculty/ec-santanu"
+      },
+      {
+        "name": "Santanu Chattopadhyay",
+        "department": "Rubber Technology",
+        "dept_code": "RT",
+        "profile_url": "https://www.iitkgp.ac.in/department/RT/faculty/rt-santanu"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "RT60003",
+      "course_name": "RUBBERS COMPOUNDING AND REINFORCING MATERIALS",
+      "professors": [
+        "Santanu Chattopadhyay",
+        "Narayan Chandra Das"
+      ],
+      "slots": [
+        "D44",
+        "D41",
+        "D43",
+        "D42"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      {
+        "name": "Narayan Chandra Das",
+        "department": "Rubber Technology",
+        "dept_code": "RT",
+        "profile_url": "https://www.iitkgp.ac.in/department/RT/faculty/rt-ncdas"
+      },
+      {
+        "name": "Narayan Chandra Das",
+        "department": "Estate (Mechanical and Elect.)",
+        "dept_code": "EM",
+        "profile_url": "https://www.iitkgp.ac.in/department/EM/staff"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "RT60015",
+      "course_name": "RHEOLOGY AND PROCESSING OF RUBBERS",
+      "professors": [
+        "Santanu Chattopadhyay",
+        "Mythravaruni Pullela",
+        "Narayan Chandra Das"
+      ],
+      "slots": [
+        "S31",
+        "B31",
+        "B33",
+        "B32"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      {
+        "name": "Santanu Chattopadhyay",
+        "department": "Electronics and Electrical Communication Engg.",
+        "dept_code": "EC",
+        "profile_url": "https://www.iitkgp.ac.in/department/EC/faculty/ec-santanu"
+      },
+      {
+        "name": "Santanu Chattopadhyay",
+        "department": "Rubber Technology",
+        "dept_code": "RT",
+        "profile_url": "https://www.iitkgp.ac.in/department/RT/faculty/rt-santanu"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "MULTINAME"
+    ],
+    "context_course": {
+      "code": "RT60015",
+      "course_name": "RHEOLOGY AND PROCESSING OF RUBBERS",
+      "professors": [
+        "Santanu Chattopadhyay",
+        "Mythravaruni Pullela",
+        "Narayan Chandra Das"
+      ],
+      "slots": [
+        "S31",
+        "B31",
+        "B33",
+        "B32"
+      ],
+      "rooms": []
+    },
+    "context_profs": [
+      {
+        "name": "Narayan Chandra Das",
+        "department": "Rubber Technology",
+        "dept_code": "RT",
+        "profile_url": "https://www.iitkgp.ac.in/department/RT/faculty/rt-ncdas"
+      },
+      {
+        "name": "Narayan Chandra Das",
+        "department": "Estate (Mechanical and Elect.)",
+        "dept_code": "EM",
+        "profile_url": "https://www.iitkgp.ac.in/department/EM/staff"
+      }
+    ],
+    "solutions": [
+      "DEP_PRIORITY"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "SD20207",
+      "course_name": "GRAPH THEORY",
+      "professors": [
+        "M Ajithkumar",
+        "Swarup Kumar Panda"
+      ],
+      "slots": [
+        "F33",
+        "F32",
+        "F31"
+      ],
+      "rooms": [
+        "NR414"
+      ]
+    },
+    "context_profs": [
+      "M Ajithkumar"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "SD20213",
+      "course_name": "PROGRAMMING LANGUAGES AND DATA STRUCTURES",
+      "professors": [
+        "Sourav Mukhopadhyay",
+        "Chandan Goswami"
+      ],
+      "slots": [
+        "E32",
+        "E33",
+        "E31"
+      ],
+      "rooms": [
+        "NC414"
+      ]
+    },
+    "context_profs": [
+      "Chandan Goswami"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "SD20219",
+      "course_name": "REAL ANALYSIS",
+      "professors": [
+        "Nazia Urus",
+        "Bappaditya Bhowmik"
       ],
       "slots": [
         "A32",
@@ -1306,11 +5307,11 @@
         "A33"
       ],
       "rooms": [
-        "NR321"
+        "NR413"
       ]
     },
     "context_profs": [
-      "Gholam Wahid Shaikh"
+      "Nazia Urus"
     ],
     "solutions": [
       "FUZZY_SEARCH",
@@ -1322,24 +5323,23 @@
       "TYPO"
     ],
     "context_course": {
-      "code": "PH39204",
-      "course_name": "NUCLEAR PHYSICS LAB",
+      "code": "SD30211",
+      "course_name": "FUNCTIONAL ANALYSIS",
       "professors": [
-        "Sandipan Sengupta",
-        "Gholam Wahid Shaikh",
-        "Ajay Kumar Singh",
-        "Tirtha Sankar Ray"
+        "Deepak Gothwal",
+        "Chandal Nahak"
       ],
       "slots": [
-        "L",
-        "P",
-        "J",
-        "N"
+        "D32",
+        "D33",
+        "D31"
       ],
-      "rooms": []
+      "rooms": [
+        "NC122"
+      ]
     },
     "context_profs": [
-      "Gholam Wahid Shaikh"
+      "Deepak Gothwal"
     ],
     "solutions": [
       "FUZZY_SEARCH",
@@ -1348,189 +5348,145 @@
   },
   {
     "reasons": [
-      "MULTINAME"
+      "TYPO"
     ],
     "context_course": {
-      "code": "RT60002",
-      "course_name": "RUBBER PRODUCT MANUFACTURING TECHNOLOGY",
+      "code": "SD30213",
+      "course_name": "LINEAR AND NON-LINEAR PROGRAMMING",
       "professors": [
-        "Narayan Chandra Das",
-        "Soumyadip Choudhury",
-        "Titash Mondal"
+        "Adrijit Goswami",
+        "Sudipa Das"
       ],
       "slots": [
-        "E41",
-        "E44",
-        "E43",
-        "E42"
+        "V32",
+        "V31",
+        "V33"
       ],
-      "rooms": []
+      "rooms": [
+        "NR424"
+      ]
     },
     "context_profs": [
+      "Sudipa Das",
       {
-        "name": "Narayan Chandra Das",
-        "department": "Rubber Technology",
-        "dept_code": "RT",
-        "profile_url": "https://www.iitkgp.ac.in/department/RT/faculty/rt-ncdas"
-      },
-      {
-        "name": "Narayan Chandra Das",
-        "department": "Estate (Mechanical and Elect.)",
-        "dept_code": "EM",
-        "profile_url": "https://www.iitkgp.ac.in/department/EM/staff"
+        "name": "Sudip Das",
+        "department": "Chemical Engineering",
+        "dept_code": "CH",
+        "profile_url": "https://www.iitkgp.ac.in/department/CH/faculty/ch-b0JraXdzbjhhM08wdXI3bHg3ZTR4dz09"
       }
     ],
     "solutions": [
-      "DEP_PRIORITY"
+      "FUZZY_SEARCH"
     ]
   },
   {
     "reasons": [
-      "MULTINAME"
+      "TYPO"
     ],
     "context_course": {
-      "code": "RT60016",
-      "course_name": "ENGINEERING DESIGN WITH RUBBER",
+      "code": "SD30215",
+      "course_name": "THEORY OF PDE",
       "professors": [
-        "Mythravaruni Pullela",
-        "Santanu Chattopadhyay",
-        "Kinsuk Naskar"
+        "T Raja Sekhar",
+        "Shilpi Jain"
       ],
       "slots": [
-        "C41",
-        "C42",
-        "C44",
-        "C43"
-      ],
-      "rooms": []
-    },
-    "context_profs": [
-      {
-        "name": "Santanu Chattopadhyay",
-        "department": "Electronics and Electrical Communication Engg.",
-        "dept_code": "EC",
-        "profile_url": "https://www.iitkgp.ac.in/department/EC/faculty/ec-santanu"
-      },
-      {
-        "name": "Santanu Chattopadhyay",
-        "department": "Rubber Technology",
-        "dept_code": "RT",
-        "profile_url": "https://www.iitkgp.ac.in/department/RT/faculty/rt-santanu"
-      }
-    ],
-    "solutions": [
-      "DEP_PRIORITY"
-    ]
-  },
-  {
-    "reasons": [
-      "MULTINAME"
-    ],
-    "context_course": {
-      "code": "RT60020",
-      "course_name": "CHARACTERIZATION OF RUBBER AND RUBBER LIKE MATERIALS",
-      "professors": [
-        "Nikhil Kumar Singha",
-        "Santanu Chattopadhyay"
-      ],
-      "slots": [
+        "B31",
         "B33",
-        "B32",
-        "B31"
+        "B32"
       ],
-      "rooms": []
+      "rooms": [
+        "NR424"
+      ]
     },
     "context_profs": [
-      {
-        "name": "Santanu Chattopadhyay",
-        "department": "Electronics and Electrical Communication Engg.",
-        "dept_code": "EC",
-        "profile_url": "https://www.iitkgp.ac.in/department/EC/faculty/ec-santanu"
-      },
-      {
-        "name": "Santanu Chattopadhyay",
-        "department": "Rubber Technology",
-        "dept_code": "RT",
-        "profile_url": "https://www.iitkgp.ac.in/department/RT/faculty/rt-santanu"
-      }
+      "Shilpi Jain"
     ],
     "solutions": [
-      "DEP_PRIORITY"
+      "FUZZY_SEARCH",
+      "SKIP"
     ]
   },
   {
     "reasons": [
-      "MULTINAME"
+      "TYPO"
     ],
     "context_course": {
-      "code": "RT60022",
-      "course_name": "TYRE TECHNOLOGY",
+      "code": "SD30217",
+      "course_name": "TOPOLOGY",
       "professors": [
-        "Mythravaruni Pullela",
-        "Narayan Chandra Das"
+        "Sourayan Banerjee",
+        "Debapriya Biswas"
       ],
       "slots": [
-        "D31",
-        "D32",
-        "D33"
+        "A32",
+        "A31",
+        "A33"
       ],
-      "rooms": []
+      "rooms": [
+        "NR423"
+      ]
     },
     "context_profs": [
-      {
-        "name": "Narayan Chandra Das",
-        "department": "Rubber Technology",
-        "dept_code": "RT",
-        "profile_url": "https://www.iitkgp.ac.in/department/RT/faculty/rt-ncdas"
-      },
-      {
-        "name": "Narayan Chandra Das",
-        "department": "Estate (Mechanical and Elect.)",
-        "dept_code": "EM",
-        "profile_url": "https://www.iitkgp.ac.in/department/EM/staff"
-      }
+      "Sourayan Banerjee"
     ],
     "solutions": [
-      "DEP_PRIORITY"
+      "FUZZY_SEARCH",
+      "SKIP"
     ]
   },
   {
     "reasons": [
-      "MULTINAME"
+      "TYPO"
     ],
     "context_course": {
-      "code": "RT69004",
-      "course_name": "RUBBER LABORATORY-II",
+      "code": "SD31213",
+      "course_name": "MECHANICS AND RELATIVITY",
       "professors": [
-        "Mythravaruni Pullela",
-        "Narayan Chandra Das",
-        "Titash Mondal"
+        "Raj Kumar Sadhu",
+        "Debabrata Ghorai"
       ],
       "slots": [
-        "X42",
-        "X43",
-        "X41",
-        "N",
-        "X44"
+        "V43",
+        "V42",
+        "V44",
+        "V41"
+      ],
+      "rooms": [
+        "NR213"
+      ]
+    },
+    "context_profs": [
+      "Debabrata Ghorai"
+    ],
+    "solutions": [
+      "FUZZY_SEARCH",
+      "SKIP"
+    ]
+  },
+  {
+    "reasons": [
+      "TYPO"
+    ],
+    "context_course": {
+      "code": "WM69005",
+      "course_name": "GEO INFORMATICS LABORATORY",
+      "professors": [
+        "Arnab Das",
+        "Gurjeet Singh",
+        "Bhabagrahi Sahoo"
+      ],
+      "slots": [
+        "N"
       ],
       "rooms": []
     },
     "context_profs": [
-      {
-        "name": "Narayan Chandra Das",
-        "department": "Rubber Technology",
-        "dept_code": "RT",
-        "profile_url": "https://www.iitkgp.ac.in/department/RT/faculty/rt-ncdas"
-      },
-      {
-        "name": "Narayan Chandra Das",
-        "department": "Estate (Mechanical and Elect.)",
-        "dept_code": "EM",
-        "profile_url": "https://www.iitkgp.ac.in/department/EM/staff"
-      }
+      "Arnab Das"
     ],
     "solutions": [
-      "DEP_PRIORITY"
+      "FUZZY_SEARCH",
+      "SKIP"
     ]
   }
 ]
